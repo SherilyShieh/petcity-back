@@ -1,0 +1,188 @@
+2020-12-23 02:00:42,746 INFO 63424 [egg-logrotator] agent logger reload: got log-reload message
+2020-12-23 11:33:35,253 ERROR 63424 nodejs.ClusterClientNoResponseError: client no response in 34332478ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 63424
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-05 10:37:48,751 INFO 77168 [egg:logger] init all loggers with options: {"dir":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/logs/petcity-back","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"petcity-back-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-01-05 10:37:48,760 INFO 77168 [egg:core] dump config after load, 6ms
+2021-01-05 10:37:48,796 INFO 77168 [egg-watcher] Start watching: ["/Users/sherily/Desktop/Petcity/Repo/petcity-back/app","/Users/sherily/Desktop/Petcity/Repo/petcity-back/config","/Users/sherily/Desktop/Petcity/Repo/petcity-back/mocks","/Users/sherily/Desktop/Petcity/Repo/petcity-back/mocks_proxy","/Users/sherily/Desktop/Petcity/Repo/petcity-back/app.js"]
+2021-01-05 10:37:48,796 INFO 77168 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/app"
+2021-01-05 10:37:48,796 INFO 77168 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/config"
+2021-01-05 10:37:48,796 INFO 77168 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/mocks"
+2021-01-05 10:37:48,796 INFO 77168 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/mocks_proxy"
+2021-01-05 10:37:48,796 INFO 77168 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/app.js"
+2021-01-05 10:37:48,796 INFO 77168 [egg-watcher:agent] watcher start success
+2021-01-05 10:37:48,808 INFO 77168 [egg:core] dump config after ready, 4ms
+2021-01-05 10:39:06,030 INFO 77218 [egg:logger] init all loggers with options: {"dir":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/logs/petcity-back","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"petcity-back-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-01-05 10:39:06,036 INFO 77218 [egg:core] dump config after load, 3ms
+2021-01-05 10:39:06,064 INFO 77218 [egg-watcher] Start watching: ["/Users/sherily/Desktop/Petcity/Repo/petcity-back/app","/Users/sherily/Desktop/Petcity/Repo/petcity-back/config","/Users/sherily/Desktop/Petcity/Repo/petcity-back/mocks","/Users/sherily/Desktop/Petcity/Repo/petcity-back/mocks_proxy","/Users/sherily/Desktop/Petcity/Repo/petcity-back/app.js"]
+2021-01-05 10:39:06,064 INFO 77218 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/app"
+2021-01-05 10:39:06,064 INFO 77218 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/config"
+2021-01-05 10:39:06,064 INFO 77218 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/mocks"
+2021-01-05 10:39:06,064 INFO 77218 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/mocks_proxy"
+2021-01-05 10:39:06,064 INFO 77218 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/app.js"
+2021-01-05 10:39:06,065 INFO 77218 [egg-watcher:agent] watcher start success
+2021-01-05 10:39:06,076 INFO 77218 [egg:core] dump config after ready, 4ms
+2021-01-05 10:40:13,182 INFO 77258 [egg:logger] init all loggers with options: {"dir":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/logs/petcity-back","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"petcity-back-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-01-05 10:40:13,187 INFO 77258 [egg:core] dump config after load, 2ms
+2021-01-05 10:40:13,208 INFO 77258 [egg-watcher] Start watching: ["/Users/sherily/Desktop/Petcity/Repo/petcity-back/app","/Users/sherily/Desktop/Petcity/Repo/petcity-back/config","/Users/sherily/Desktop/Petcity/Repo/petcity-back/mocks","/Users/sherily/Desktop/Petcity/Repo/petcity-back/mocks_proxy","/Users/sherily/Desktop/Petcity/Repo/petcity-back/app.js"]
+2021-01-05 10:40:13,208 INFO 77258 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/app"
+2021-01-05 10:40:13,208 INFO 77258 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/config"
+2021-01-05 10:40:13,208 INFO 77258 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/mocks"
+2021-01-05 10:40:13,208 INFO 77258 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/mocks_proxy"
+2021-01-05 10:40:13,208 INFO 77258 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/app.js"
+2021-01-05 10:40:13,209 INFO 77258 [egg-watcher:agent] watcher start success
+2021-01-05 10:40:13,220 INFO 77258 [egg:core] dump config after ready, 4ms
+2021-01-05 10:41:18,293 INFO 77310 [egg:logger] init all loggers with options: {"dir":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/logs/petcity-back","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"petcity-back-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-01-05 10:41:18,297 INFO 77310 [egg:core] dump config after load, 2ms
+2021-01-05 10:41:18,319 INFO 77310 [egg-watcher] Start watching: ["/Users/sherily/Desktop/Petcity/Repo/petcity-back/app","/Users/sherily/Desktop/Petcity/Repo/petcity-back/config","/Users/sherily/Desktop/Petcity/Repo/petcity-back/mocks","/Users/sherily/Desktop/Petcity/Repo/petcity-back/mocks_proxy","/Users/sherily/Desktop/Petcity/Repo/petcity-back/app.js"]
+2021-01-05 10:41:18,319 INFO 77310 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/app"
+2021-01-05 10:41:18,319 INFO 77310 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/config"
+2021-01-05 10:41:18,319 INFO 77310 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/mocks"
+2021-01-05 10:41:18,319 INFO 77310 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/mocks_proxy"
+2021-01-05 10:41:18,319 INFO 77310 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/app.js"
+2021-01-05 10:41:18,319 INFO 77310 [egg-watcher:agent] watcher start success
+2021-01-05 10:41:18,330 INFO 77310 [egg:core] dump config after ready, 3ms
+2021-01-05 10:56:10,182 ERROR 77310 nodejs.ClusterClientNoResponseError: client no response in 70429ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 77310
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-05 11:08:15,297 WARN 78372 Sequelize Error: connect ECONNREFUSED 127.0.0.1:3306, sleep 1 seconds to retry...
+2021-01-05 11:08:14,973 INFO 78372 [egg:logger] init all loggers with options: {"dir":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/logs/petcity-back","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"petcity-back-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-01-05 11:08:15,213 INFO 78372 [egg:core] dump config after load, 4ms
+2021-01-05 11:08:15,293 INFO 78372 [egg-watcher] Start watching: ["/Users/sherily/Desktop/Petcity/Repo/petcity-back/app","/Users/sherily/Desktop/Petcity/Repo/petcity-back/config","/Users/sherily/Desktop/Petcity/Repo/petcity-back/mocks","/Users/sherily/Desktop/Petcity/Repo/petcity-back/mocks_proxy","/Users/sherily/Desktop/Petcity/Repo/petcity-back/app.js"]
+2021-01-05 11:08:15,293 INFO 78372 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/app"
+2021-01-05 11:08:15,294 INFO 78372 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/config"
+2021-01-05 11:08:15,294 INFO 78372 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/mocks"
+2021-01-05 11:08:15,294 INFO 78372 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/mocks_proxy"
+2021-01-05 11:08:15,294 INFO 78372 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/app.js"
+2021-01-05 11:08:15,294 INFO 78372 [egg-watcher:agent] watcher start success
+2021-01-05 11:08:16,302 WARN 78372 Sequelize Error: connect ECONNREFUSED 127.0.0.1:3306, sleep 1 seconds to retry...
+2021-01-05 11:08:17,307 WARN 78372 Sequelize Error: connect ECONNREFUSED 127.0.0.1:3306, sleep 1 seconds to retry...
+2021-01-05 11:08:18,316 ERROR 78372 nodejs.SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:3306
+    at ConnectionManager.connect (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:116:17)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async ConnectionManager._connect (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:318:24)
+    at async /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:250:32
+    at async ConnectionManager.getConnection (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:280:7)
+    at async /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/sequelize/lib/sequelize.js:613:26
+    at async Sequelize.authenticate (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/sequelize/lib/sequelize.js:867:5)
+    at async authenticate (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/lib/loader.js:134:7)
+    at async authenticate (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/lib/loader.js:142:7)
+    at async authenticate (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/lib/loader.js:142:7)
+name: "SequelizeConnectionRefusedError"
+parent: {"errno":-61,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}
+original: {"errno":-61,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}
+pid: 78372
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-05 11:08:18,323 INFO 78372 [egg:core] dump config after ready, 6ms
+2021-01-05 11:19:55,635 WARN 78773 Sequelize Error: connect ECONNREFUSED 127.0.0.1:3306, sleep 1 seconds to retry...
+2021-01-05 11:19:55,294 INFO 78773 [egg:logger] init all loggers with options: {"dir":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/logs/petcity-back","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"petcity-back-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-01-05 11:19:55,553 INFO 78773 [egg:core] dump config after load, 3ms
+2021-01-05 11:19:55,627 INFO 78773 [egg-watcher] Start watching: ["/Users/sherily/Desktop/Petcity/Repo/petcity-back/app","/Users/sherily/Desktop/Petcity/Repo/petcity-back/config","/Users/sherily/Desktop/Petcity/Repo/petcity-back/mocks","/Users/sherily/Desktop/Petcity/Repo/petcity-back/mocks_proxy","/Users/sherily/Desktop/Petcity/Repo/petcity-back/app.js"]
+2021-01-05 11:19:55,627 INFO 78773 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/app"
+2021-01-05 11:19:55,627 INFO 78773 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/config"
+2021-01-05 11:19:55,627 INFO 78773 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/mocks"
+2021-01-05 11:19:55,627 INFO 78773 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/mocks_proxy"
+2021-01-05 11:19:55,627 INFO 78773 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/app.js"
+2021-01-05 11:19:55,627 INFO 78773 [egg-watcher:agent] watcher start success
+2021-01-05 11:19:56,639 WARN 78773 Sequelize Error: connect ECONNREFUSED 127.0.0.1:3306, sleep 1 seconds to retry...
+2021-01-05 11:19:57,646 WARN 78773 Sequelize Error: connect ECONNREFUSED 127.0.0.1:3306, sleep 1 seconds to retry...
+2021-01-05 11:19:58,657 ERROR 78773 nodejs.SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:3306
+    at ConnectionManager.connect (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:116:17)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async ConnectionManager._connect (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:318:24)
+    at async /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:250:32
+    at async ConnectionManager.getConnection (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:280:7)
+    at async /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/sequelize/lib/sequelize.js:613:26
+    at async Sequelize.authenticate (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/sequelize/lib/sequelize.js:867:5)
+    at async authenticate (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/lib/loader.js:134:7)
+    at async authenticate (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/lib/loader.js:142:7)
+    at async authenticate (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/lib/loader.js:142:7)
+name: "SequelizeConnectionRefusedError"
+parent: {"errno":-61,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}
+original: {"errno":-61,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}
+pid: 78773
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-05 11:19:58,664 INFO 78773 [egg:core] dump config after ready, 6ms
+2021-01-05 14:04:01,194 WARN 3998 Sequelize Error: Access denied for user 'root'@'localhost' (using password: NO), sleep 1 seconds to retry...
+2021-01-05 14:04:00,845 INFO 3998 [egg:logger] init all loggers with options: {"dir":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/logs/petcity-back","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"petcity-back-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-01-05 14:04:01,098 INFO 3998 [egg:core] dump config after load, 3ms
+2021-01-05 14:04:01,172 INFO 3998 [egg-watcher] Start watching: ["/Users/sherily/Desktop/Petcity/Repo/petcity-back/app","/Users/sherily/Desktop/Petcity/Repo/petcity-back/config","/Users/sherily/Desktop/Petcity/Repo/petcity-back/mocks","/Users/sherily/Desktop/Petcity/Repo/petcity-back/mocks_proxy","/Users/sherily/Desktop/Petcity/Repo/petcity-back/app.js"]
+2021-01-05 14:04:01,172 INFO 3998 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/app"
+2021-01-05 14:04:01,172 INFO 3998 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/config"
+2021-01-05 14:04:01,173 INFO 3998 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/mocks"
+2021-01-05 14:04:01,173 INFO 3998 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/mocks_proxy"
+2021-01-05 14:04:01,173 INFO 3998 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/app.js"
+2021-01-05 14:04:01,173 INFO 3998 [egg-watcher:agent] watcher start success
+2021-01-05 14:04:02,200 WARN 3998 Sequelize Error: Access denied for user 'root'@'localhost' (using password: NO), sleep 1 seconds to retry...
+2021-01-05 14:04:03,205 WARN 3998 Sequelize Error: Access denied for user 'root'@'localhost' (using password: NO), sleep 1 seconds to retry...
+2021-01-05 14:04:04,211 ERROR 3998 nodejs.SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: NO)
+    at ConnectionManager.connect (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:118:17)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async ConnectionManager._connect (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:318:24)
+    at async /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:250:32
+    at async ConnectionManager.getConnection (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:280:7)
+    at async /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/sequelize/lib/sequelize.js:613:26
+    at async Sequelize.authenticate (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/sequelize/lib/sequelize.js:867:5)
+    at async authenticate (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/lib/loader.js:134:7)
+    at async authenticate (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/lib/loader.js:142:7)
+    at async authenticate (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/lib/loader.js:142:7)
+name: "SequelizeAccessDeniedError"
+parent: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+original: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+pid: 3998
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-05 14:04:04,217 INFO 3998 [egg:core] dump config after ready, 5ms
+2021-01-05 14:06:42,965 WARN 4078 Sequelize Error: Access denied for user 'root'@'localhost' (using password: NO), sleep 1 seconds to retry...
+2021-01-05 14:06:42,656 INFO 4078 [egg:logger] init all loggers with options: {"dir":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/logs/petcity-back","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"petcity-back-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-01-05 14:06:42,874 INFO 4078 [egg:core] dump config after load, 3ms
+2021-01-05 14:06:42,946 INFO 4078 [egg-watcher] Start watching: ["/Users/sherily/Desktop/Petcity/Repo/petcity-back/app","/Users/sherily/Desktop/Petcity/Repo/petcity-back/config","/Users/sherily/Desktop/Petcity/Repo/petcity-back/mocks","/Users/sherily/Desktop/Petcity/Repo/petcity-back/mocks_proxy","/Users/sherily/Desktop/Petcity/Repo/petcity-back/app.js"]
+2021-01-05 14:06:42,946 INFO 4078 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/app"
+2021-01-05 14:06:42,947 INFO 4078 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/config"
+2021-01-05 14:06:42,947 INFO 4078 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/mocks"
+2021-01-05 14:06:42,947 INFO 4078 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/mocks_proxy"
+2021-01-05 14:06:42,947 INFO 4078 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/app.js"
+2021-01-05 14:06:42,947 INFO 4078 [egg-watcher:agent] watcher start success
+2021-01-05 14:06:43,968 WARN 4078 Sequelize Error: Access denied for user 'root'@'localhost' (using password: NO), sleep 1 seconds to retry...
+2021-01-05 14:06:44,976 WARN 4078 Sequelize Error: Access denied for user 'root'@'localhost' (using password: NO), sleep 1 seconds to retry...
+2021-01-05 14:06:45,985 ERROR 4078 nodejs.SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: NO)
+    at ConnectionManager.connect (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:118:17)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async ConnectionManager._connect (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:318:24)
+    at async /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:250:32
+    at async ConnectionManager.getConnection (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:280:7)
+    at async /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/sequelize/lib/sequelize.js:613:26
+    at async Sequelize.authenticate (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/sequelize/lib/sequelize.js:867:5)
+    at async authenticate (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/lib/loader.js:134:7)
+    at async authenticate (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/lib/loader.js:142:7)
+    at async authenticate (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/lib/loader.js:142:7)
+name: "SequelizeAccessDeniedError"
+parent: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+original: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+pid: 4078
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-05 14:06:45,991 INFO 4078 [egg:core] dump config after ready, 5ms
+2021-01-05 14:09:20,500 INFO 4198 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-01-05 14:09:20,170 INFO 4198 [egg:logger] init all loggers with options: {"dir":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/logs/petcity-back","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"petcity-back-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-01-05 14:09:20,397 INFO 4198 [egg:core] dump config after load, 3ms
+2021-01-05 14:09:20,472 INFO 4198 [egg-watcher] Start watching: ["/Users/sherily/Desktop/Petcity/Repo/petcity-back/app","/Users/sherily/Desktop/Petcity/Repo/petcity-back/config","/Users/sherily/Desktop/Petcity/Repo/petcity-back/mocks","/Users/sherily/Desktop/Petcity/Repo/petcity-back/mocks_proxy","/Users/sherily/Desktop/Petcity/Repo/petcity-back/app.js"]
+2021-01-05 14:09:20,472 INFO 4198 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/app"
+2021-01-05 14:09:20,472 INFO 4198 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/config"
+2021-01-05 14:09:20,472 INFO 4198 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/mocks"
+2021-01-05 14:09:20,472 INFO 4198 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/mocks_proxy"
+2021-01-05 14:09:20,472 INFO 4198 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/app.js"
+2021-01-05 14:09:20,472 INFO 4198 [egg-watcher:agent] watcher start success
+2021-01-05 14:09:20,509 INFO 4198 [egg:core] dump config after ready, 8ms

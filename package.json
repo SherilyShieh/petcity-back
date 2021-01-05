@@ -1,0 +1,36 @@
+{
+    "name": "petcity-back",
+    "version": "1.0.0",
+    "description": "The back-end of PetCity",
+    "main": "index.js",
+    "scripts": {
+        "test": "npm run dev",
+        "dev": "egg-bin dev",
+        "dbload": "egg-sequelize-auto -o ./app/model -h localhost -p 3306 -d petcity -u root -x root123456"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/SherilyShieh/petcity-back.git"
+    },
+    "keywords": [
+        "sherily1200@GA"
+    ],
+    "author": "SherilyShieh",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/SherilyShieh/petcity-back/issues"
+    },
+    "homepage": "https://github.com/SherilyShieh/petcity-back#readme",
+    "dependencies": {
+        "egg": "^2.29.1",
+        "egg-sequelize": "^6.0.0",
+        "egg-sequelize-auto": "^0.1.1",
+        "egg-swagger-doc": "^2.3.2",
+        "egg-view-nunjucks": "^2.2.0",
+        "moment": "^2.29.1",
+        "mysql2": "^2.2.5"
+    },
+    "devDependencies": {
+        "egg-bin": "^4.2.0"
+    }
+}

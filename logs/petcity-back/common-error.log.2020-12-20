@@ -1,0 +1,207 @@
+2020-12-20 20:20:46,909 ERROR 36327 [-/127.0.0.1/-/4ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-security/app/extend/context.js:91:35)
+    at Object.ensureCsrfSecret (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-security/app/extend/context.js:104:13)
+    at csrf (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 36327
+hostname: xiejialis-MacBook-Pro.local
+
+2020-12-20 20:26:46,574 ERROR 36524 [-/127.0.0.1/-/4ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-security/app/extend/context.js:91:35)
+    at Object.ensureCsrfSecret (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-security/app/extend/context.js:104:13)
+    at csrf (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 36524
+hostname: xiejialis-MacBook-Pro.local
+
+2020-12-20 20:28:27,230 ERROR 36524 [-/127.0.0.1/-/1ms GET /home] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-security/app/extend/context.js:91:35)
+    at Object.ensureCsrfSecret (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-security/app/extend/context.js:104:13)
+    at csrf (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 36524
+hostname: xiejialis-MacBook-Pro.local
+
+2020-12-20 20:29:00,159 ERROR 36524 [-/127.0.0.1/-/0ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-security/app/extend/context.js:91:35)
+    at Object.ensureCsrfSecret (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-security/app/extend/context.js:104:13)
+    at csrf (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 36524
+hostname: xiejialis-MacBook-Pro.local
+
+2020-12-20 20:30:31,560 ERROR 36728 [-/127.0.0.1/-/2ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-security/app/extend/context.js:91:35)
+    at Object.ensureCsrfSecret (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-security/app/extend/context.js:104:13)
+    at csrf (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 36728
+hostname: xiejialis-MacBook-Pro.local
+
+2020-12-20 20:30:33,356 ERROR 36728 [-/127.0.0.1/-/0ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-security/app/extend/context.js:91:35)
+    at Object.ensureCsrfSecret (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-security/app/extend/context.js:104:13)
+    at csrf (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 36728
+hostname: xiejialis-MacBook-Pro.local
+
+2020-12-20 20:31:59,016 ERROR 36780 [-/127.0.0.1/-/5ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-security/app/extend/context.js:91:35)
+    at Object.ensureCsrfSecret (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-security/app/extend/context.js:104:13)
+    at csrf (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 36780
+hostname: xiejialis-MacBook-Pro.local
+
+2020-12-20 20:32:46,899 ERROR 36832 [-/127.0.0.1/-/3ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-security/app/extend/context.js:91:35)
+    at Object.ensureCsrfSecret (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-security/app/extend/context.js:104:13)
+    at csrf (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 36832
+hostname: xiejialis-MacBook-Pro.local
+
+2020-12-20 20:32:48,781 ERROR 36832 [-/127.0.0.1/-/0ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-security/app/extend/context.js:91:35)
+    at Object.ensureCsrfSecret (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-security/app/extend/context.js:104:13)
+    at csrf (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 36832
+hostname: xiejialis-MacBook-Pro.local
+
+2020-12-20 21:03:52,137 ERROR 37329 nodejs.ClusterClientNoResponseError: client no response in 307513ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 37329
+hostname: xiejialis-MacBook-Pro.local
+
+2020-12-20 21:12:06,005 ERROR 37329 nodejs.ClusterClientNoResponseError: client no response in 453746ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 37329
+hostname: xiejialis-MacBook-Pro.local
+
+2020-12-20 21:46:32,193 ERROR 37329 nodejs.ClusterClientNoResponseError: client no response in 885895ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 37329
+hostname: xiejialis-MacBook-Pro.local
+
+2020-12-20 22:02:43,637 ERROR 37329 nodejs.ClusterClientNoResponseError: client no response in 929943ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 37329
+hostname: xiejialis-MacBook-Pro.local
+
+2020-12-20 22:43:02,309 ERROR 37329 nodejs.ClusterClientNoResponseError: client no response in 2377417ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 37329
+hostname: xiejialis-MacBook-Pro.local
+
+2020-12-20 22:59:57,725 ERROR 37329 nodejs.ClusterClientNoResponseError: client no response in 974644ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 37329
+hostname: xiejialis-MacBook-Pro.local
+
+2020-12-20 23:08:05,022 ERROR 37329 nodejs.ClusterClientNoResponseError: client no response in 382022ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 37329
+hostname: xiejialis-MacBook-Pro.local
+
+2020-12-20 23:15:02,176 ERROR 37329 nodejs.ClusterClientNoResponseError: client no response in 377123ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 37329
+hostname: xiejialis-MacBook-Pro.local
+
+2020-12-20 23:27:56,722 ERROR 37329 nodejs.ClusterClientNoResponseError: client no response in 733697ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 37329
+hostname: xiejialis-MacBook-Pro.local
+

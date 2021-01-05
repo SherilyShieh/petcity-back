@@ -1,0 +1,36 @@
+2020-12-23 02:00:42,747 INFO 63426 [egg-logrotator] app logger reload: got log-reload message
+2020-12-23 11:33:35,241 WARN 63426 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-12-23 11:33:35,243 WARN 63426 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-12-23 11:33:35,310 INFO 63426 [-/127.0.0.1/-/54ms SCHEDULE /__schedule?path=/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "/var/folders/b2/9fqg4v5124qbm7_2jdzd7_rm0000gn/T/egg-multipart-tmp/petcity-back"
+2020-12-23 11:33:35,866 INFO 63426 [-/127.0.0.1/-/612ms SCHEDULE /__schedule?path=/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] end
+2021-01-05 10:41:18,670 INFO 77311 [egg:logger] init all loggers with options: {"dir":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/logs/petcity-back","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"petcity-back-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-05 10:41:18,689 INFO 77311 [egg-multipart] stream mode enable
+2021-01-05 10:41:18,786 INFO 77311 [egg-static] starting static serve /public/ -> /Users/sherily/Desktop/Petcity/Repo/petcity-back/app/public
+2021-01-05 10:41:18,789 INFO 77311 [egg-security] use csrf middleware
+2021-01-05 10:41:18,789 INFO 77311 [egg-security] use methodnoallow middleware
+2021-01-05 10:41:18,790 INFO 77311 [egg-security] use noopen middleware
+2021-01-05 10:41:18,792 INFO 77311 [egg-security] use nosniff middleware
+2021-01-05 10:41:18,793 INFO 77311 [egg-security] use xssProtection middleware
+2021-01-05 10:41:18,794 INFO 77311 [egg-security] use xframe middleware
+2021-01-05 10:41:18,795 INFO 77311 [egg-security] use dta middleware
+2021-01-05 10:41:18,795 INFO 77311 [egg-security] compose 7 middlewares into one security middleware
+2021-01-05 10:41:18,803 INFO 77311 [egg:core] dump config after load, 5ms
+2021-01-05 10:41:18,812 INFO 77311 [egg-watcher:application] watcher start success
+2021-01-05 10:41:18,818 INFO 77311 [egg:core] dump config after ready, 4ms
+2021-01-05 10:41:37,076 INFO 77311 [egg-view-nunjucks] loading templates from ["/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/view"]
+2021-01-05 10:56:10,176 WARN 77311 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-05 10:56:10,178 WARN 77311 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-05 14:09:20,917 INFO 4200 [egg:logger] init all loggers with options: {"dir":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/logs/petcity-back","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"petcity-back-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-05 14:09:20,935 INFO 4200 [egg-multipart] stream mode enable
+2021-01-05 14:09:21,124 INFO 4200 [egg-static] starting static serve /public/ -> /Users/sherily/Desktop/Petcity/Repo/petcity-back/app/public
+2021-01-05 14:09:21,126 INFO 4200 [egg-security] use csrf middleware
+2021-01-05 14:09:21,127 INFO 4200 [egg-security] use methodnoallow middleware
+2021-01-05 14:09:21,127 INFO 4200 [egg-security] use noopen middleware
+2021-01-05 14:09:21,128 INFO 4200 [egg-security] use nosniff middleware
+2021-01-05 14:09:21,129 INFO 4200 [egg-security] use xssProtection middleware
+2021-01-05 14:09:21,129 INFO 4200 [egg-security] use xframe middleware
+2021-01-05 14:09:21,130 INFO 4200 [egg-security] use dta middleware
+2021-01-05 14:09:21,130 INFO 4200 [egg-security] compose 7 middlewares into one security middleware
+2021-01-05 14:09:21,139 INFO 4200 [egg:core] dump config after load, 5ms
+2021-01-05 14:09:21,184 INFO 4200 [egg-watcher:application] watcher start success
+2021-01-05 14:09:21,200 INFO 4200 [egg:core] dump config after ready, 3ms

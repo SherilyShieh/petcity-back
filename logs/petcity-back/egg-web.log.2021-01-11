@@ -1,0 +1,174 @@
+2021-01-11 00:45:50,961 INFO 49736 [egg-logrotator] app logger reload: got log-reload message
+2021-01-11 01:51:09,701 WARN 49736 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-11 01:51:09,701 WARN 49736 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-11 03:51:21,655 WARN 49736 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-11 03:51:21,700 WARN 49736 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-11 05:52:12,407 WARN 49736 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-11 05:52:12,434 WARN 49736 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-11 05:52:12,487 INFO 49736 [-/127.0.0.1/-/23ms SCHEDULE /__schedule?path=/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "/var/folders/b2/9fqg4v5124qbm7_2jdzd7_rm0000gn/T/egg-multipart-tmp/petcity-back"
+2021-01-11 05:52:12,505 INFO 49736 [-/127.0.0.1/-/48ms SCHEDULE /__schedule?path=/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] end
+2021-01-11 07:40:26,039 WARN 49736 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-11 07:40:26,049 WARN 49736 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-11 07:59:27,778 WARN 49736 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-11 07:59:27,783 WARN 49736 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-11 08:49:25,527 WARN 49736 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-11 08:49:25,568 WARN 49736 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-11 09:20:09,541 WARN 49736 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-11 09:20:09,682 WARN 49736 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-11 09:26:14,736 WARN 49736 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-11 09:26:14,770 WARN 49736 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-11 09:35:59,048 INFO 75092 [egg:logger] init all loggers with options: {"dir":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/logs/petcity-back","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"petcity-back-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-11 09:35:59,067 INFO 75092 [egg-multipart] stream mode enable
+2021-01-11 09:35:59,274 INFO 75092 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2021-01-11 09:35:59,347 INFO 75092 [egg-static] starting static serve /public/ -> /Users/sherily/Desktop/Petcity/Repo/petcity-back/app/public
+2021-01-11 09:35:59,348 INFO 75092 [egg-security] use methodnoallow middleware
+2021-01-11 09:35:59,349 INFO 75092 [egg-security] use noopen middleware
+2021-01-11 09:35:59,350 INFO 75092 [egg-security] use nosniff middleware
+2021-01-11 09:35:59,351 INFO 75092 [egg-security] use xssProtection middleware
+2021-01-11 09:35:59,351 INFO 75092 [egg-security] use xframe middleware
+2021-01-11 09:35:59,352 INFO 75092 [egg-security] use dta middleware
+2021-01-11 09:35:59,352 INFO 75092 [egg-security] compose 6 middlewares into one security middleware
+2021-01-11 09:35:59,364 INFO 75092 [egg:core] dump config after load, 6ms
+2021-01-11 09:35:59,427 INFO 75092 [egg-redis] client connect success
+2021-01-11 09:35:59,437 INFO 75092 [egg-redis] instance[0] status OK, client ready
+2021-01-11 09:35:59,438 INFO 75092 [egg-watcher:application] watcher start success
+2021-01-11 09:35:59,468 INFO 75092 [egg:core] dump config after ready, 3ms
+2021-01-11 09:38:41,036 INFO 75203 [egg:logger] init all loggers with options: {"dir":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/logs/petcity-back","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"petcity-back-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-11 09:38:41,054 INFO 75203 [egg-multipart] stream mode enable
+2021-01-11 09:38:41,226 INFO 75203 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2021-01-11 09:38:41,263 INFO 75203 [egg-static] starting static serve /public/ -> /Users/sherily/Desktop/Petcity/Repo/petcity-back/app/public
+2021-01-11 09:38:41,265 INFO 75203 [egg-security] use methodnoallow middleware
+2021-01-11 09:38:41,265 INFO 75203 [egg-security] use noopen middleware
+2021-01-11 09:38:41,266 INFO 75203 [egg-security] use nosniff middleware
+2021-01-11 09:38:41,266 INFO 75203 [egg-security] use xssProtection middleware
+2021-01-11 09:38:41,266 INFO 75203 [egg-security] use xframe middleware
+2021-01-11 09:38:41,267 INFO 75203 [egg-security] use dta middleware
+2021-01-11 09:38:41,267 INFO 75203 [egg-security] compose 6 middlewares into one security middleware
+2021-01-11 09:38:41,274 INFO 75203 [egg:core] dump config after load, 3ms
+2021-01-11 09:38:41,326 INFO 75203 [egg-redis] client connect success
+2021-01-11 09:38:41,335 INFO 75203 [egg-redis] instance[0] status OK, client ready
+2021-01-11 09:38:41,336 INFO 75203 [egg-watcher:application] watcher start success
+2021-01-11 09:38:41,356 INFO 75203 [egg:core] dump config after ready, 4ms
+2021-01-11 12:02:06,870 INFO 4717 [egg:logger] init all loggers with options: {"dir":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/logs/petcity-back","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"petcity-back-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-11 12:02:06,892 INFO 4717 [egg-multipart] stream mode enable
+2021-01-11 12:02:07,095 INFO 4717 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2021-01-11 12:02:07,169 INFO 4717 [egg-static] starting static serve /public/ -> /Users/sherily/Desktop/Petcity/Repo/petcity-back/app/public
+2021-01-11 12:02:07,171 INFO 4717 [egg-security] use methodnoallow middleware
+2021-01-11 12:02:07,171 INFO 4717 [egg-security] use noopen middleware
+2021-01-11 12:02:07,172 INFO 4717 [egg-security] use nosniff middleware
+2021-01-11 12:02:07,173 INFO 4717 [egg-security] use xssProtection middleware
+2021-01-11 12:02:07,173 INFO 4717 [egg-security] use xframe middleware
+2021-01-11 12:02:07,174 INFO 4717 [egg-security] use dta middleware
+2021-01-11 12:02:07,174 INFO 4717 [egg-security] compose 6 middlewares into one security middleware
+2021-01-11 12:02:07,184 INFO 4717 [egg:core] dump config after load, 5ms
+2021-01-11 12:02:07,248 ERROR 4717 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1138:16) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379
+}
+2021-01-11 12:02:07,248 ERROR 4717 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1138:16)
+errno: -61
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 4717
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-11 12:02:07,260 INFO 4717 [egg:core] dump config after ready, 4ms
+2021-01-11 12:02:07,270 INFO 4717 [egg-watcher:application] watcher start success
+2021-01-11 12:04:50,456 INFO 4873 [egg:logger] init all loggers with options: {"dir":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/logs/petcity-back","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"petcity-back-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-11 12:04:50,476 INFO 4873 [egg-multipart] stream mode enable
+2021-01-11 12:04:50,652 INFO 4873 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2021-01-11 12:04:50,731 INFO 4873 [egg-static] starting static serve /public/ -> /Users/sherily/Desktop/Petcity/Repo/petcity-back/app/public
+2021-01-11 12:04:50,733 INFO 4873 [egg-security] use methodnoallow middleware
+2021-01-11 12:04:50,733 INFO 4873 [egg-security] use noopen middleware
+2021-01-11 12:04:50,734 INFO 4873 [egg-security] use nosniff middleware
+2021-01-11 12:04:50,735 INFO 4873 [egg-security] use xssProtection middleware
+2021-01-11 12:04:50,735 INFO 4873 [egg-security] use xframe middleware
+2021-01-11 12:04:50,736 INFO 4873 [egg-security] use dta middleware
+2021-01-11 12:04:50,736 INFO 4873 [egg-security] compose 6 middlewares into one security middleware
+2021-01-11 12:04:50,745 INFO 4873 [egg:core] dump config after load, 4ms
+2021-01-11 12:04:50,804 INFO 4873 [egg-redis] client connect success
+2021-01-11 12:04:50,813 INFO 4873 [egg-redis] instance[0] status OK, client ready
+2021-01-11 12:04:50,814 INFO 4873 [egg-watcher:application] watcher start success
+2021-01-11 12:04:50,827 INFO 4873 [egg:core] dump config after ready, 3ms
+2021-01-11 12:25:29,053 WARN 4873 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-11 12:25:29,053 WARN 4873 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-11 12:29:12,267 WARN 4873 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-11 12:29:12,268 WARN 4873 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-11 13:15:47,798 INFO 7256 [egg:logger] init all loggers with options: {"dir":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/logs/petcity-back","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"petcity-back-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-11 13:15:47,827 INFO 7256 [egg-multipart] stream mode enable
+2021-01-11 13:15:48,196 INFO 7256 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2021-01-11 13:15:48,282 INFO 7256 [egg-static] starting static serve /public/ -> /Users/sherily/Desktop/Petcity/Repo/petcity-back/app/public
+2021-01-11 13:15:48,284 INFO 7256 [egg-security] use methodnoallow middleware
+2021-01-11 13:15:48,284 INFO 7256 [egg-security] use noopen middleware
+2021-01-11 13:15:48,285 INFO 7256 [egg-security] use nosniff middleware
+2021-01-11 13:15:48,286 INFO 7256 [egg-security] use xssProtection middleware
+2021-01-11 13:15:48,287 INFO 7256 [egg-security] use xframe middleware
+2021-01-11 13:15:48,287 INFO 7256 [egg-security] use dta middleware
+2021-01-11 13:15:48,287 INFO 7256 [egg-security] compose 6 middlewares into one security middleware
+2021-01-11 13:15:48,298 INFO 7256 [egg:core] dump config after load, 4ms
+2021-01-11 13:15:48,368 INFO 7256 [egg-redis] client connect success
+2021-01-11 13:15:48,370 INFO 7256 [egg-redis] instance[0] status OK, client ready
+2021-01-11 13:15:48,384 INFO 7256 [egg-watcher:application] watcher start success
+2021-01-11 13:15:48,435 INFO 7256 [egg:core] dump config after ready, 31ms
+2021-01-11 14:54:38,382 INFO 11067 [egg:logger] init all loggers with options: {"dir":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/logs/petcity-back","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"petcity-back-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-11 14:54:38,409 INFO 11067 [egg-multipart] stream mode enable
+2021-01-11 14:54:38,759 INFO 11067 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2021-01-11 14:54:38,833 INFO 11067 [egg-static] starting static serve /public/ -> /Users/sherily/Desktop/Petcity/Repo/petcity-back/app/public
+2021-01-11 14:54:38,835 INFO 11067 [egg-security] use methodnoallow middleware
+2021-01-11 14:54:38,836 INFO 11067 [egg-security] use noopen middleware
+2021-01-11 14:54:38,837 INFO 11067 [egg-security] use nosniff middleware
+2021-01-11 14:54:38,838 INFO 11067 [egg-security] use xssProtection middleware
+2021-01-11 14:54:38,839 INFO 11067 [egg-security] use xframe middleware
+2021-01-11 14:54:38,840 INFO 11067 [egg-security] use dta middleware
+2021-01-11 14:54:38,840 INFO 11067 [egg-security] compose 6 middlewares into one security middleware
+2021-01-11 14:54:38,853 INFO 11067 [egg:core] dump config after load, 6ms
+2021-01-11 14:54:38,915 INFO 11067 [egg-redis] client connect success
+2021-01-11 14:54:38,933 INFO 11067 [egg-redis] instance[0] status OK, client ready
+2021-01-11 14:54:38,934 INFO 11067 [egg-watcher:application] watcher start success
+2021-01-11 14:54:38,956 INFO 11067 [egg:core] dump config after ready, 5ms
+2021-01-11 16:56:01,982 WARN 11067 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-11 16:56:01,993 WARN 11067 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-11 17:11:04,568 WARN 11067 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-11 17:11:04,571 WARN 11067 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-11 17:26:05,827 WARN 11067 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-11 17:26:05,827 WARN 11067 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-11 17:41:07,832 WARN 11067 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-11 17:41:07,832 WARN 11067 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-11 17:48:45,612 WARN 11067 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-11 17:48:45,613 WARN 11067 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-11 18:03:47,826 WARN 11067 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-11 18:03:47,826 WARN 11067 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-11 18:18:49,828 WARN 11067 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-11 18:18:49,828 WARN 11067 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-11 18:33:51,829 WARN 11067 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-11 18:33:51,829 WARN 11067 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-11 18:48:53,843 WARN 11067 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-11 18:48:53,844 WARN 11067 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-11 19:03:55,829 WARN 11067 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-11 19:03:55,833 WARN 11067 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-11 22:03:55,838 WARN 11067 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-11 22:03:55,845 WARN 11067 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-11 22:43:04,900 WARN 11067 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-11 22:47:44,801 WARN 11067 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-11 22:47:44,801 WARN 11067 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-11 23:02:46,498 WARN 11067 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-11 23:02:46,498 WARN 11067 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-11 23:17:48,501 WARN 11067 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-11 23:17:48,502 WARN 11067 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-11 23:20:15,319 WARN 11067 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-11 23:20:15,320 WARN 11067 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-11 23:36:06,473 WARN 11067 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-11 23:36:06,474 WARN 11067 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-12 00:31:45,266 WARN 11067 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-12 00:31:45,266 WARN 11067 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-12 00:31:45,449 INFO 11067 [egg-logrotator] clean all log before 31 days
+2021-01-12 00:31:45,573 INFO 11067 [egg-logrotator] broadcast log-reload
+2021-01-12 00:31:45,573 INFO 11067 [egg-logrotator] rotate files success by DayRotator, files ["/Users/sherily/Desktop/Petcity/Repo/petcity-back/logs/petcity-back/common-error.log -> /Users/sherily/Desktop/Petcity/Repo/petcity-back/logs/petcity-back/common-error.log.2021-01-11","/Users/sherily/Desktop/Petcity/Repo/petcity-back/logs/petcity-back/petcity-back-web.log -> /Users/sherily/Desktop/Petcity/Repo/petcity-back/logs/petcity-back/petcity-back-web.log.2021-01-11","/Users/sherily/Desktop/Petcity/Repo/petcity-back/logs/petcity-back/egg-web.log -> /Users/sherily/Desktop/Petcity/Repo/petcity-back/logs/petcity-back/egg-web.log.2021-01-11","/Users/sherily/Desktop/Petcity/Repo/petcity-back/logs/petcity-back/egg-schedule.log -> /Users/sherily/Desktop/Petcity/Repo/petcity-back/logs/petcity-back/egg-schedule.log.2021-01-11","/Users/sherily/Desktop/Petcity/Repo/petcity-back/logs/petcity-back/egg-agent.log -> /Users/sherily/Desktop/Petcity/Repo/petcity-back/logs/petcity-back/egg-agent.log.2021-01-11"]

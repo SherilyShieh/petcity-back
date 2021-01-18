@@ -1,0 +1,138 @@
+2021-01-12 00:31:45,580 INFO 4871 [egg-logrotator] agent logger reload: got log-reload message
+2021-01-12 00:50:03,175 ERROR 4871 nodejs.ClusterClientNoResponseError: client no response in 134955ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 4871
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-12 01:05:45,667 ERROR 4871 nodejs.ClusterClientNoResponseError: client no response in 902344ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 4871
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-12 02:50:41,682 ERROR 4871 nodejs.ClusterClientNoResponseError: client no response in 6254842ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 4871
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-12 09:10:38,573 ERROR 4871 nodejs.ClusterClientNoResponseError: client no response in 22796766ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 4871
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-12 09:15:05,633 ERROR 4871 nodejs.ClusterClientNoResponseError: client no response in 206012ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 4871
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-12 09:30:07,671 ERROR 4871 nodejs.ClusterClientNoResponseError: client no response in 901168ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 4871
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-12 09:45:08,925 ERROR 4871 nodejs.ClusterClientNoResponseError: client no response in 861221ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 4871
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-12 09:52:47,279 ERROR 4871 nodejs.ClusterClientNoResponseError: client no response in 417567ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 4871
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-12 10:01:08,246 ERROR 4871 nodejs.ClusterClientNoResponseError: client no response in 396007ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 4871
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-12 17:05:57,337 ERROR 4871 nodejs.ClusterClientNoResponseError: client no response in 144617ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 4871
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-12 17:07:55,124 ERROR 4871 nodejs.ClusterClientNoResponseError: client no response in 77743ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 4871
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-12 18:05:10,021 ERROR 4871 nodejs.ClusterClientNoResponseError: client no response in 233657ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 4871
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-12 20:25:38,299 WARN 4871 [agent:development] reload worker because /Users/sherily/Desktop/Petcity/Repo/petcity-back/app/model/User.js rename
+2021-01-12 20:25:38,081 INFO 4871 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/model/User.js","remove":true,"isDirectory":false,"isFile":false}
+2021-01-12 20:25:43,994 WARN 4871 [agent:development] reload worker because /Users/sherily/Desktop/Petcity/Repo/petcity-back/config/plugin.js change
+2021-01-12 20:25:43,744 INFO 4871 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/config/plugin.js","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":23327178,"size":582,"blocks":8,"atimeMs":1610107891989.689,"mtimeMs":1610436343731.0205,"ctimeMs":1610436343731.0205,"birthtimeMs":1608449965918.5935,"atime":"2021-01-08T12:11:31.990Z","mtime":"2021-01-12T07:25:43.731Z","ctime":"2021-01-12T07:25:43.731Z","birthtime":"2020-12-20T07:39:25.919Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-01-12 20:25:43,792 INFO 4871 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/config/plugin.js","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":23327178,"size":582,"blocks":8,"atimeMs":1610107891989.689,"mtimeMs":1610436343731.0205,"ctimeMs":1610436343731.0205,"birthtimeMs":1608449965918.5935,"atime":"2021-01-08T12:11:31.990Z","mtime":"2021-01-12T07:25:43.731Z","ctime":"2021-01-12T07:25:43.731Z","birthtime":"2020-12-20T07:39:25.919Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-01-16 23:44:31,034 INFO 13617 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2021-01-16 23:44:30,499 INFO 13617 [egg:logger] init all loggers with options: {"dir":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/logs/petcity-back","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"petcity-back-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-01-16 23:44:30,883 INFO 13617 [egg-alinode] alinode agentx started, node versions: {"node":"15.4.0","v8":"8.6.395.17-node.22","uv":"1.40.0","zlib":"1.2.11","brotli":"1.0.9","ares":"1.16.1","modules":"88","nghttp2":"1.41.0","napi":"7","llhttp":"2.1.3","openssl":"1.1.1g","cldr":"38.0","icu":"68.1","tz":"2020b","unicode":"13.0"}, update /Users/sherily/.nodepath with "/usr/local/bin", config: {"server":"wss://agentserver.node.aliyun.com:8080","appid":"87325"}
+2021-01-16 23:44:30,890 INFO 13617 [egg:core] dump config after load, 6ms
+2021-01-16 23:44:30,975 INFO 13617 [egg-watcher] Start watching: ["/Users/sherily/Desktop/Petcity/Repo/petcity-back/app","/Users/sherily/Desktop/Petcity/Repo/petcity-back/config","/Users/sherily/Desktop/Petcity/Repo/petcity-back/mocks","/Users/sherily/Desktop/Petcity/Repo/petcity-back/mocks_proxy","/Users/sherily/Desktop/Petcity/Repo/petcity-back/app.js"]
+2021-01-16 23:44:30,975 INFO 13617 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/app"
+2021-01-16 23:44:30,976 INFO 13617 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/config"
+2021-01-16 23:44:30,976 INFO 13617 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/mocks"
+2021-01-16 23:44:30,976 INFO 13617 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/mocks_proxy"
+2021-01-16 23:44:30,976 INFO 13617 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/app.js"
+2021-01-16 23:44:30,976 INFO 13617 [egg-watcher:agent] watcher start success
+2021-01-16 23:44:31,041 INFO 13617 [egg:core] dump config after ready, 5ms
+2021-01-16 23:44:47,322 INFO 13662 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-01-16 23:44:47,081 INFO 13662 [egg:logger] init all loggers with options: {"dir":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/logs/petcity-back","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"petcity-back-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-01-16 23:44:47,259 INFO 13662 [egg-alinode] alinode agentx started, node versions: {"node":"15.4.0","v8":"8.6.395.17-node.22","uv":"1.40.0","zlib":"1.2.11","brotli":"1.0.9","ares":"1.16.1","modules":"88","nghttp2":"1.41.0","napi":"7","llhttp":"2.1.3","openssl":"1.1.1g","cldr":"38.0","icu":"68.1","tz":"2020b","unicode":"13.0"}, update /Users/sherily/.nodepath with "/usr/local/bin", config: {"server":"wss://agentserver.node.aliyun.com:8080","appid":"87325"}
+2021-01-16 23:44:47,263 INFO 13662 [egg:core] dump config after load, 4ms
+2021-01-16 23:44:47,300 INFO 13662 [egg-watcher] Start watching: ["/Users/sherily/Desktop/Petcity/Repo/petcity-back/app","/Users/sherily/Desktop/Petcity/Repo/petcity-back/config","/Users/sherily/Desktop/Petcity/Repo/petcity-back/mocks","/Users/sherily/Desktop/Petcity/Repo/petcity-back/mocks_proxy","/Users/sherily/Desktop/Petcity/Repo/petcity-back/app.js"]
+2021-01-16 23:44:47,300 INFO 13662 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/app"
+2021-01-16 23:44:47,301 INFO 13662 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/config"
+2021-01-16 23:44:47,301 INFO 13662 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/mocks"
+2021-01-16 23:44:47,301 INFO 13662 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/mocks_proxy"
+2021-01-16 23:44:47,301 INFO 13662 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/app.js"
+2021-01-16 23:44:47,301 INFO 13662 [egg-watcher:agent] watcher start success
+2021-01-16 23:44:47,328 INFO 13662 [egg:core] dump config after ready, 4ms
+2021-01-16 23:45:32,491 INFO 13711 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-01-16 23:45:32,255 INFO 13711 [egg:logger] init all loggers with options: {"dir":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/logs/petcity-back","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"petcity-back-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-01-16 23:45:32,428 INFO 13711 [egg-alinode] alinode agentx started, node versions: {"node":"15.4.0","v8":"8.6.395.17-node.22","uv":"1.40.0","zlib":"1.2.11","brotli":"1.0.9","ares":"1.16.1","modules":"88","nghttp2":"1.41.0","napi":"7","llhttp":"2.1.3","openssl":"1.1.1g","cldr":"38.0","icu":"68.1","tz":"2020b","unicode":"13.0"}, update /Users/sherily/.nodepath with "/usr/local/bin", config: {"server":"wss://agentserver.node.aliyun.com:8080","appid":"87325"}
+2021-01-16 23:45:32,432 INFO 13711 [egg:core] dump config after load, 3ms
+2021-01-16 23:45:32,468 INFO 13711 [egg-watcher] Start watching: ["/Users/sherily/Desktop/Petcity/Repo/petcity-back/app","/Users/sherily/Desktop/Petcity/Repo/petcity-back/config","/Users/sherily/Desktop/Petcity/Repo/petcity-back/mocks","/Users/sherily/Desktop/Petcity/Repo/petcity-back/mocks_proxy","/Users/sherily/Desktop/Petcity/Repo/petcity-back/app.js"]
+2021-01-16 23:45:32,468 INFO 13711 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/app"
+2021-01-16 23:45:32,469 INFO 13711 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/config"
+2021-01-16 23:45:32,469 INFO 13711 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/mocks"
+2021-01-16 23:45:32,469 INFO 13711 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/mocks_proxy"
+2021-01-16 23:45:32,469 INFO 13711 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/app.js"
+2021-01-16 23:45:32,469 INFO 13711 [egg-watcher:agent] watcher start success
+2021-01-16 23:45:32,497 INFO 13711 [egg:core] dump config after ready, 4ms

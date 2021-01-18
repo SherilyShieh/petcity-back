@@ -1,0 +1,339 @@
+2021-01-09 00:04:43,516 ERROR 24692 [-/127.0.0.1/-/0ms GET /] nodejs.Error: [egg-swagger-doc] error at put:/api/v1/registerWithThird ,the type of request parameter does not exit
+    at generateParameters (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:408:15)
+    at generateRequest (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:331:23)
+    at getTag_Path (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:137:36)
+    at buildDocument (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:50:14)
+    at documentInit (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:497:7)
+    at module.exports.swaggerInit (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/index.js:10:3)
+    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/app.js:8:5
+    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (node:internal/process/task_queues:75:11)
+
+pid: 24692
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-09 01:12:20,289 ERROR 30700 [-/127.0.0.1/-/17ms PUT /api/v1/registerWithThird] nodejs.ReferenceError: body is not defined
+    at UserController.registerWithThird (/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/controller/user.js:29:65)
+    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:45:18)
+    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:44:32)
+    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 30700
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-09 01:14:02,180 ERROR 30854 [-/127.0.0.1/-/14ms PUT /api/v1/registerWithThird] nodejs.ReferenceError: uid is not defined
+    at UserService.registerWithThird (/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/service/user.js:6:9)
+    at UserController.registerWithThird (/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/controller/user.js:29:47)
+    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:45:18)
+    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:44:32)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 30854
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-09 01:15:36,019 ERROR 30942 [-/127.0.0.1/-/15ms PUT /api/v1/registerWithThird] nodejs.TypeError: ctx.log is not a function
+    at UserController.registerWithThird (/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/controller/user.js:29:13)
+    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:45:18)
+    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:44:32)
+    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 30942
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-09 01:17:03,871 ERROR 31039 [-/127.0.0.1/-/13ms PUT /api/v1/registerWithThird] nodejs.ReferenceError: uid is not defined
+    at UserService.registerWithThird (/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/service/user.js:6:9)
+    at UserController.registerWithThird (/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/controller/user.js:30:47)
+    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:45:18)
+    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:44:32)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 31039
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-09 01:20:21,470 ERROR 31280 [-/127.0.0.1/-/19ms PUT /api/v1/registerWithThird] nodejs.ReferenceError: uid is not defined
+    at UserService.registerWithThird (/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/service/user.js:23:21)
+    at UserController.registerWithThird (/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/controller/user.js:30:47)
+    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:45:18)
+    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:44:32)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 31280
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-09 01:20:21,502 ERROR 31280 nodejs.SequelizeDatabaseError: Unknown column 'created_at' in 'field list'
+    at Query.formatError (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/node_modules/sequelize/lib/dialects/mysql/query.js:239:16)
+    at Query.run (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/node_modules/sequelize/lib/sequelize.js:619:16
+    at async MySQLQueryInterface.select (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/node_modules/sequelize/lib/dialects/abstract/query-interface.js:938:12)
+    at async Function.findAll (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/node_modules/sequelize/lib/model.js:1753:21)
+    at async UserService.isUidExist (/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/service/user.js:60:23)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'created_at' in 'field list'","sql":"SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `User` AS `User` WHERE `User`.`uid` = 'string';"}
+original: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'created_at' in 'field list'","sql":"SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `User` AS `User` WHERE `User`.`uid` = 'string';"}
+sql: "SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `User` AS `User` WHERE `User`.`uid` = 'string';"
+parameters: undefined
+pid: 31280
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-09 01:24:16,879 ERROR 31526 [-/127.0.0.1/-/21ms PUT /api/v1/registerWithThird] nodejs.ReferenceError: uid is not defined
+    at UserService.registerWithThird (/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/service/user.js:23:21)
+    at UserController.registerWithThird (/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/controller/user.js:30:47)
+    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:45:18)
+    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:44:32)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 31526
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-09 01:24:16,888 ERROR 31526 nodejs.SequelizeDatabaseError: Unknown column 'created_at' in 'field list'
+    at Query.formatError (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/node_modules/sequelize/lib/dialects/mysql/query.js:239:16)
+    at Query.run (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/node_modules/sequelize/lib/sequelize.js:619:16
+    at async MySQLQueryInterface.select (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/node_modules/sequelize/lib/dialects/abstract/query-interface.js:938:12)
+    at async Function.findAll (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/node_modules/sequelize/lib/model.js:1753:21)
+    at async UserService.isUidExist (/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/service/user.js:60:23)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'created_at' in 'field list'","sql":"SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `User` AS `User` WHERE `User`.`uid` = 'string';"}
+original: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'created_at' in 'field list'","sql":"SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `User` AS `User` WHERE `User`.`uid` = 'string';"}
+sql: "SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `User` AS `User` WHERE `User`.`uid` = 'string';"
+parameters: undefined
+pid: 31526
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-09 01:27:37,496 ERROR 31737 [-/127.0.0.1/-/24ms PUT /api/v1/registerWithThird] nodejs.ReferenceError: uid is not defined
+    at UserService.registerWithThird (/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/service/user.js:23:21)
+    at UserController.registerWithThird (/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/controller/user.js:30:47)
+    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:45:18)
+    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:44:32)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 31737
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-09 02:03:12,735 ERROR 33206 [-/127.0.0.1/-/38ms PUT /api/v1/registerWithThird] nodejs.ReferenceError: now is not defined
+    at UserService.registerWithThird (/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/service/user.js:35:31)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async UserController.registerWithThird (/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/controller/user.js:30:24)
+    at async /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-static-cache/index.js:39:63
+    at async robotMiddleware (/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/middleware/robot.js:10:13)
+    at async /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 33206
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-09 02:04:18,914 ERROR 33253 [-/127.0.0.1/-/31ms PUT /api/v1/registerWithThird] nodejs.SequelizeValidationError: notNull Violation: User.user_id cannot be null
+    at InstanceValidator._validate (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/node_modules/sequelize/lib/instance-validator.js:78:13)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async InstanceValidator._validateAndRunHooks (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/node_modules/sequelize/lib/instance-validator.js:111:7)
+    at async InstanceValidator.validate (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/node_modules/sequelize/lib/instance-validator.js:93:12)
+    at async model.save (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/node_modules/sequelize/lib/model.js:3877:7)
+    at async Function.create (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/node_modules/sequelize/lib/model.js:2207:12)
+    at async UserService.registerWithThird (/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/service/user.js:31:26)
+    at async UserController.registerWithThird (/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/controller/user.js:30:24)
+    at async /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-static-cache/index.js:39:63
+    at async robotMiddleware (/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/middleware/robot.js:10:13)
+name: "SequelizeValidationError"
+errors: [{"message":"User.user_id cannot be null","type":"notNull Violation","path":"user_id","value":null,"origin":"CORE","instance":{"user_id":null,"uid":"string1200","first_name":"string","last_name":"string","email":"string","created_time":1610111058000},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]}]
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 33253
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-09 02:07:01,003 ERROR 33390 [-/127.0.0.1/-/52ms PUT /api/v1/registerWithThird] nodejs.SequelizeDatabaseError: Incorrect datetime value: '1610111220000' for column 'created_time' at row 1
+    at Query.formatError (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/node_modules/sequelize/lib/dialects/mysql/query.js:239:16)
+    at Query.run (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/node_modules/sequelize/lib/sequelize.js:619:16
+    at async MySQLQueryInterface.insert (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/node_modules/sequelize/lib/dialects/abstract/query-interface.js:734:21)
+    at async model.save (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/node_modules/sequelize/lib/model.js:3954:35)
+    at async Function.create (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/node_modules/sequelize/lib/model.js:2207:12)
+    at async UserService.registerWithThird (/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/service/user.js:31:26)
+    at async UserController.registerWithThird (/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/controller/user.js:30:24)
+    at async /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-static-cache/index.js:39:63
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_TRUNCATED_WRONG_VALUE","errno":1292,"sqlState":"22007","sqlMessage":"Incorrect datetime value: '1610111220000' for column 'created_time' at row 1","sql":"INSERT INTO `User` (`user_id`,`uid`,`first_name`,`last_name`,`email`,`created_time`) VALUES (DEFAULT,?,?,?,?,?);","parameters":["string1200","string","string","string",1610111220000]}
+original: {"code":"ER_TRUNCATED_WRONG_VALUE","errno":1292,"sqlState":"22007","sqlMessage":"Incorrect datetime value: '1610111220000' for column 'created_time' at row 1","sql":"INSERT INTO `User` (`user_id`,`uid`,`first_name`,`last_name`,`email`,`created_time`) VALUES (DEFAULT,?,?,?,?,?);","parameters":["string1200","string","string","string",1610111220000]}
+sql: "INSERT INTO `User` (`user_id`,`uid`,`first_name`,`last_name`,`email`,`created_time`) VALUES (DEFAULT,?,?,?,?,?);"
+parameters: ["string1200","string","string","string",1610111220000]
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 33390
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-09 02:14:28,182 ERROR 33738 [-/127.0.0.1/-/37ms PUT /api/v1/registerWithThird] nodejs.SequelizeDatabaseError: Incorrect datetime value: '1610111668000' for column 'created_time' at row 1
+    at Query.formatError (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/node_modules/sequelize/lib/dialects/mysql/query.js:239:16)
+    at Query.run (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/node_modules/sequelize/lib/sequelize.js:619:16
+    at async MySQLQueryInterface.insert (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/node_modules/sequelize/lib/dialects/abstract/query-interface.js:734:21)
+    at async model.save (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/node_modules/sequelize/lib/model.js:3954:35)
+    at async Function.create (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/node_modules/sequelize/lib/model.js:2207:12)
+    at async UserService.registerWithThird (/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/service/user.js:31:26)
+    at async UserController.registerWithThird (/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/controller/user.js:30:24)
+    at async /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-static-cache/index.js:39:63
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_TRUNCATED_WRONG_VALUE","errno":1292,"sqlState":"22007","sqlMessage":"Incorrect datetime value: '1610111668000' for column 'created_time' at row 1","sql":"INSERT INTO `User` (`user_id`,`uid`,`first_name`,`last_name`,`email`,`created_time`) VALUES (DEFAULT,?,?,?,?,?);","parameters":["string12","string","string","",1610111668000]}
+original: {"code":"ER_TRUNCATED_WRONG_VALUE","errno":1292,"sqlState":"22007","sqlMessage":"Incorrect datetime value: '1610111668000' for column 'created_time' at row 1","sql":"INSERT INTO `User` (`user_id`,`uid`,`first_name`,`last_name`,`email`,`created_time`) VALUES (DEFAULT,?,?,?,?,?);","parameters":["string12","string","string","",1610111668000]}
+sql: "INSERT INTO `User` (`user_id`,`uid`,`first_name`,`last_name`,`email`,`created_time`) VALUES (DEFAULT,?,?,?,?,?);"
+parameters: ["string12","string","string","",1610111668000]
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 33738
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-09 02:22:03,413 ERROR 34090 [-/127.0.0.1/-/49ms PUT /api/v1/registerWithThird] nodejs.SequelizeUniqueConstraintError: Validation error
+    at Query.formatError (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/node_modules/sequelize/lib/dialects/mysql/query.js:218:16)
+    at Query.run (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/node_modules/sequelize/lib/sequelize.js:619:16
+    at async MySQLQueryInterface.insert (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/node_modules/sequelize/lib/dialects/abstract/query-interface.js:734:21)
+    at async model.save (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/node_modules/sequelize/lib/model.js:3954:35)
+    at async Function.create (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/node_modules/sequelize/lib/model.js:2207:12)
+    at async UserService.registerWithThird (/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/service/user.js:31:26)
+    at async UserController.registerWithThird (/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/controller/user.js:30:24)
+    at async /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-static-cache/index.js:39:63
+name: "SequelizeUniqueConstraintError"
+errors: [{"message":"user.email must be unique","type":"unique violation","path":"user.email","value":"","origin":"DB","instance":{"user_id":null,"uid":"string11","first_name":"string11","last_name":"string11","email":"","created_time":"2021-01-08T13:22:03.397Z"},"validatorKey":"not_unique","validatorName":null,"validatorArgs":[]}]
+fields: {"user.email":""}
+parent: {"code":"ER_DUP_ENTRY","errno":1062,"sqlState":"23000","sqlMessage":"Duplicate entry '' for key 'user.email'","sql":"INSERT INTO `User` (`user_id`,`uid`,`first_name`,`last_name`,`email`,`created_time`) VALUES (DEFAULT,?,?,?,?,?);","parameters":["string11","string11","string11","","2021-01-08T13:22:03.397Z"]}
+original: {"code":"ER_DUP_ENTRY","errno":1062,"sqlState":"23000","sqlMessage":"Duplicate entry '' for key 'user.email'","sql":"INSERT INTO `User` (`user_id`,`uid`,`first_name`,`last_name`,`email`,`created_time`) VALUES (DEFAULT,?,?,?,?,?);","parameters":["string11","string11","string11","","2021-01-08T13:22:03.397Z"]}
+sql: "INSERT INTO `User` (`user_id`,`uid`,`first_name`,`last_name`,`email`,`created_time`) VALUES (DEFAULT,?,?,?,?,?);"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 34090
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-09 04:25:02,445 ERROR 30699 nodejs.ClusterClientNoResponseError: client no response in 7196050ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 30699
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-09 06:25:24,514 ERROR 30699 nodejs.ClusterClientNoResponseError: client no response in 7221148ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 30699
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-09 08:26:14,492 ERROR 30699 nodejs.ClusterClientNoResponseError: client no response in 7209370ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 30699
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-09 10:27:05,505 ERROR 30699 nodejs.ClusterClientNoResponseError: client no response in 7210412ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 30699
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-09 10:54:17,080 ERROR 30699 nodejs.ClusterClientNoResponseError: client no response in 1590811ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 30699
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-09 11:22:22,371 ERROR 35408 [-/127.0.0.1/-/0ms GET /] nodejs.Error: [egg-swagger-doc] error at put:/api/v1/registerWithEmail ,the type of request parameter does not exit
+    at generateParameters (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:408:15)
+    at generateRequest (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:331:23)
+    at getTag_Path (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:137:36)
+    at buildDocument (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:50:14)
+    at documentInit (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:497:7)
+    at module.exports.swaggerInit (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/index.js:10:3)
+    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/app.js:8:5
+    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (node:internal/process/task_queues:75:11)
+
+pid: 35408
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-09 12:23:23,145 ERROR 37596 [-/127.0.0.1/-/0ms GET /] nodejs.Error: [egg-swagger-doc] error at put:/api/v1/update ,the type of request parameter does not exit
+    at generateParameters (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:408:15)
+    at generateRequest (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:331:23)
+    at getTag_Path (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:137:36)
+    at buildDocument (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:50:14)
+    at documentInit (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:497:7)
+    at module.exports.swaggerInit (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/index.js:10:3)
+    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/app.js:8:5
+    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (node:internal/process/task_queues:75:11)
+
+pid: 37596
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-09 12:54:03,396 ERROR 37765 nodejs.ClusterClientNoResponseError: client no response in 874975ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 37765
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-09 15:42:17,691 ERROR 37765 nodejs.ClusterClientNoResponseError: client no response in 7208758ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 37765
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-09 16:58:55,229 ERROR 37765 nodejs.ClusterClientNoResponseError: client no response in 4596760ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 37765
+hostname: xiejialis-MacBook-Pro.local
+

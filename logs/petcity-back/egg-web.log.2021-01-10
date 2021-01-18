@@ -1,0 +1,33 @@
+2021-01-10 00:00:01,794 INFO 49736 [egg-logrotator] app logger reload: got log-reload message
+2021-01-10 02:34:38,155 WARN 49736 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-10 02:34:38,183 WARN 49736 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-10 04:35:26,051 WARN 49736 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-10 04:35:26,051 WARN 49736 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-10 04:35:26,207 INFO 49736 [-/127.0.0.1/-/73ms SCHEDULE /__schedule?path=/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "/var/folders/b2/9fqg4v5124qbm7_2jdzd7_rm0000gn/T/egg-multipart-tmp/petcity-back"
+2021-01-10 04:35:26,238 INFO 49736 [-/127.0.0.1/-/117ms SCHEDULE /__schedule?path=/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] end
+2021-01-10 06:37:05,377 WARN 49736 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-10 06:37:05,378 WARN 49736 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-10 08:37:25,368 WARN 49736 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-10 08:37:25,369 WARN 49736 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-10 10:32:49,494 WARN 49736 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-10 10:32:49,495 WARN 49736 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-10 10:34:30,819 WARN 49736 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-10 10:34:30,819 WARN 49736 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-10 14:18:14,763 WARN 49736 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-10 14:18:14,771 WARN 49736 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-10 14:48:26,840 WARN 49736 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-10 14:48:26,848 WARN 49736 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-10 15:36:31,924 WARN 49736 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-10 15:36:31,929 WARN 49736 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-10 17:37:20,011 WARN 49736 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-10 17:37:20,011 WARN 49736 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-10 19:38:07,199 WARN 49736 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-10 19:38:07,199 WARN 49736 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-10 21:38:55,276 WARN 49736 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-10 21:38:55,281 WARN 49736 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-10 21:58:06,265 WARN 49736 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-11 00:45:50,797 WARN 49736 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-11 00:45:50,807 WARN 49736 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-11 00:45:50,939 INFO 49736 [egg-logrotator] clean all log before 31 days
+2021-01-11 00:45:50,947 INFO 49736 [egg-logrotator] broadcast log-reload
+2021-01-11 00:45:50,948 INFO 49736 [egg-logrotator] rotate files success by DayRotator, files ["/Users/sherily/Desktop/Petcity/Repo/petcity-back/logs/petcity-back/common-error.log -> /Users/sherily/Desktop/Petcity/Repo/petcity-back/logs/petcity-back/common-error.log.2021-01-10","/Users/sherily/Desktop/Petcity/Repo/petcity-back/logs/petcity-back/petcity-back-web.log -> /Users/sherily/Desktop/Petcity/Repo/petcity-back/logs/petcity-back/petcity-back-web.log.2021-01-10","/Users/sherily/Desktop/Petcity/Repo/petcity-back/logs/petcity-back/egg-web.log -> /Users/sherily/Desktop/Petcity/Repo/petcity-back/logs/petcity-back/egg-web.log.2021-01-10","/Users/sherily/Desktop/Petcity/Repo/petcity-back/logs/petcity-back/egg-schedule.log -> /Users/sherily/Desktop/Petcity/Repo/petcity-back/logs/petcity-back/egg-schedule.log.2021-01-10","/Users/sherily/Desktop/Petcity/Repo/petcity-back/logs/petcity-back/egg-agent.log -> /Users/sherily/Desktop/Petcity/Repo/petcity-back/logs/petcity-back/egg-agent.log.2021-01-10"]

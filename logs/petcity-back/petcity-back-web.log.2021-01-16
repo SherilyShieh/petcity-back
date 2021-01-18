@@ -1,0 +1,92 @@
+2021-01-12 20:25:39,886 INFO 58335 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-12 20:25:39,920 INFO 58335 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-12 20:25:39,921 INFO 58335 [egg-swagger-doc] register router: get /api/v1/test for controller-test-test 
+2021-01-12 20:25:39,922 INFO 58335 [egg-swagger-doc] register router: put /api/v1/signinWithThird for controller-user-signinWithThird 
+2021-01-12 20:25:40,005 INFO 58335 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2021-01-12 20:25:44,731 INFO 58356 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-12 20:25:44,753 INFO 58356 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-12 20:25:44,754 INFO 58356 [egg-swagger-doc] register router: get /api/v1/test for controller-test-test 
+2021-01-12 20:25:44,754 INFO 58356 [egg-swagger-doc] register router: put /api/v1/signinWithThird for controller-user-signinWithThird 
+2021-01-12 20:25:44,795 INFO 58356 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2021-01-16 23:44:31,871 INFO 13619 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-16 23:44:31,902 INFO 13619 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-16 23:44:31,902 INFO 13619 [egg-swagger-doc] register router: get /api/v1/test for controller-test-test 
+2021-01-16 23:44:31,903 INFO 13619 [egg-swagger-doc] register router: put /api/v1/signUp for controller-user-signUp 
+2021-01-16 23:44:31,903 INFO 13619 [egg-swagger-doc] register router: put /api/v1/signUp for controller-user-register 
+2021-01-16 23:44:31,913 ERROR 13619 [-/127.0.0.1/-/0ms GET /] nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1138:16)
+errno: -61
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 13619
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-16 23:44:47,937 INFO 13664 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-16 23:44:47,956 INFO 13664 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-16 23:44:47,956 INFO 13664 [egg-swagger-doc] register router: get /api/v1/test for controller-test-test 
+2021-01-16 23:44:47,957 INFO 13664 [egg-swagger-doc] register router: put /api/v1/signUp for controller-user-signUp 
+2021-01-16 23:44:47,957 INFO 13664 [egg-swagger-doc] register router: put /api/v1/register for controller-user-register 
+2021-01-16 23:44:47,965 ERROR 13664 [-/127.0.0.1/-/1ms GET /] nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1138:16)
+errno: -61
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 13664
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-16 23:45:33,096 INFO 13713 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-16 23:45:33,116 INFO 13713 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-16 23:45:33,117 INFO 13713 [egg-swagger-doc] register router: get /api/v1/test for controller-test-test 
+2021-01-16 23:45:33,117 INFO 13713 [egg-swagger-doc] register router: put /api/v1/signUp for controller-user-signUp 
+2021-01-16 23:45:33,117 INFO 13713 [egg-swagger-doc] register router: put /api/v1/register for controller-user-register 
+2021-01-16 23:45:33,144 INFO 13713 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-01-16 23:46:21,145 INFO 13713 [egg-sequelize](63ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = 'test01' LIMIT 1;
+2021-01-16 23:46:21,179 INFO 13713 [egg-sequelize](25ms) Executed (default): INSERT INTO `User` (`user_id`,`uid`,`first_name`,`last_name`,`email`,`channel`,`created_time`,`updated_time`) VALUES (DEFAULT,?,?,?,?,?,?,?);
+2021-01-16 23:46:50,274 WARN 13713 [-/127.0.0.1/-/3ms PUT /api/v1/register] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa/lib/context.js:97:11)
+    at Object.validate (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-validate/app/extend/context.js:14:17)
+    at UserController.register (/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/controller/user.js:44:13)
+    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:45:18)
+    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/router.js:190:18
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":"should not be empty","code":"invalid","field":"uid"},{"message":"should not be empty","code":"invalid","field":"channel"},{"message":"should not be empty","code":"invalid","field":"email"},{"message":"should not be empty","code":"invalid","field":"password"}]
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 13713
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-16 23:47:18,556 WARN 13713 [-/127.0.0.1/-/1ms PUT /api/v1/register] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa/lib/context.js:97:11)
+    at Object.validate (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-validate/app/extend/context.js:14:17)
+    at UserController.register (/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/controller/user.js:44:13)
+    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:45:18)
+    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/router.js:190:18
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":"should not be empty","code":"invalid","field":"email"},{"message":"should not be empty","code":"invalid","field":"password"}]
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 13713
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-16 23:47:42,649 INFO 13713 [egg-sequelize](3ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = 'test2' LIMIT 1;
+2021-01-16 23:47:42,664 INFO 13713 [egg-sequelize](11ms) Executed (default): INSERT INTO `User` (`user_id`,`uid`,`first_name`,`last_name`,`email`,`password`,`channel`,`created_time`,`updated_time`) VALUES (DEFAULT,?,?,?,?,?,?,?,?);
+2021-01-16 23:52:21,820 INFO 13713 [egg-sequelize](1ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = 'QSQDaTBhmmNt4uUFeRa2MqBXjk42' LIMIT 1;
+2021-01-16 23:52:21,823 INFO 13713 [egg-sequelize](2ms) Executed (default): INSERT INTO `User` (`user_id`,`uid`,`first_name`,`last_name`,`channel`,`created_time`,`updated_time`) VALUES (DEFAULT,?,?,?,?,?,?);
+2021-01-16 23:56:11,924 INFO 13713 [egg-sequelize](4ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = 'm13KBu0dOrQrkqIhHWPQrbnY5Pi1' LIMIT 1;
+2021-01-16 23:56:11,929 INFO 13713 [egg-sequelize](3ms) Executed (default): INSERT INTO `User` (`user_id`,`uid`,`first_name`,`last_name`,`email`,`channel`,`created_time`,`updated_time`) VALUES (DEFAULT,?,?,?,?,?,?,?);

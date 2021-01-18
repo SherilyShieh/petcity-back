@@ -1,0 +1,198 @@
+2021-01-17 03:16:23,083 ERROR 13711 nodejs.ClusterClientNoResponseError: client no response in 7208999ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 13711
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-17 05:17:11,977 ERROR 13711 nodejs.ClusterClientNoResponseError: client no response in 7207208ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 13711
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-17 07:17:59,288 ERROR 13711 nodejs.ClusterClientNoResponseError: client no response in 7207222ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 13711
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-17 09:18:46,385 ERROR 13711 nodejs.ClusterClientNoResponseError: client no response in 7206236ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 13711
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-17 10:31:32,891 ERROR 13711 nodejs.ClusterClientNoResponseError: client no response in 4325554ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 13711
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-17 12:32:19,607 ERROR 13711 nodejs.ClusterClientNoResponseError: client no response in 7206622ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 13711
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-17 13:07:41,213 ERROR 13711 nodejs.ClusterClientNoResponseError: client no response in 2081441ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 13711
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-17 13:24:38,977 ERROR 19128 [-/127.0.0.1/-/7ms GET /api/v1/getUser?uid=QSQDaTBhmmNt4uUFeRa2MqBXjk42] nodejs.ReferenceError: params is not defined
+    at UserController.getUser (/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/controller/user.js:62:21)
+    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:45:18)
+    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:44:32)
+    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:36:12
+
+pid: 19128
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-17 13:26:49,550 ERROR 19193 [-/127.0.0.1/-/2ms GET /api/v1/getUser?uid=QSQDaTBhmmNt4uUFeRa2MqBXjk42] nodejs.ReferenceError: params is not defined
+    at UserController.getUser (/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/controller/user.js:62:21)
+    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:45:18)
+    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:44:32)
+    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:36:12
+
+pid: 19193
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-17 14:21:57,673 ERROR 21534 [-/127.0.0.1/-/15ms GET /api/v1/getUser?uid=900EZVqOHGSsDH5KFX5897tbiNu1] nodejs.ReferenceError: user is not defined
+    at UserService.getUser (/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/service/user.js:172:19)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async UserController.getUser (/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/controller/user.js:62:24)
+    at async /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-static-cache/index.js:53:36
+    at async robotMiddleware (/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/middleware/robot.js:10:13)
+    at async /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+
+pid: 21534
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-17 14:22:20,531 ERROR 21534 [-/127.0.0.1/-/3ms GET /api/v1/getUser?uid=900EZVqOHGSsDH5KFX5897tbiNu1] nodejs.ReferenceError: user is not defined
+    at UserService.getUser (/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/service/user.js:172:19)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async UserController.getUser (/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/controller/user.js:62:24)
+    at async /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-static-cache/index.js:53:36
+    at async robotMiddleware (/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/middleware/robot.js:10:13)
+    at async /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+
+pid: 21534
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-17 18:25:06,868 ERROR 13711 nodejs.ClusterClientNoResponseError: client no response in 180758ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 13711
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-17 19:19:25,264 ERROR 33817 [-/127.0.0.1/-/0ms GET /] nodejs.SyntaxError: Unexpected identifier
+        detail_address: { type: 'string', required: false }
+        ^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected identifier
+    at wrapSafe (node:internal/modules/cjs/loader:1024:16)
+    at Module._compile (node:internal/modules/cjs/loader:1072:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)
+    at Module.load (node:internal/modules/cjs/loader:973:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:813:14)
+    at Module.require (node:internal/modules/cjs/loader:997:19)
+    at require (node:internal/modules/cjs/helpers:92:18)
+    at contractLoader (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/contract/index.js:51:17)
+    at contractLoader (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/contract/index.js:46:7)
+    at generateContract (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/contract/index.js:25:3)
+
+pid: 33817
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-17 19:27:09,384 ERROR 34166 [-/127.0.0.1/-/5ms POST /api/v1/updateProfile] nodejs.TypeError: Cannot read property 'appGroup' of undefined
+    at UserService.updateProfile (/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/service/user.js:260:47)
+    at UserController.updateProfile (/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/controller/user.js:96:47)
+    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:45:18)
+    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:44:32)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 34166
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-17 20:55:15,326 ERROR 13711 nodejs.ClusterClientNoResponseError: client no response in 258997ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 13711
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-17 21:00:27,826 ERROR 13711 nodejs.ClusterClientNoResponseError: client no response in 272473ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 13711
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-17 21:19:26,372 ERROR 13711 nodejs.ClusterClientNoResponseError: client no response in 1037006ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 13711
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-17 21:35:18,636 ERROR 13711 nodejs.ClusterClientNoResponseError: client no response in 912249ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 13711
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-17 22:00:48,974 ERROR 13711 nodejs.ClusterClientNoResponseError: client no response in 1489515ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 13711
+hostname: xiejialis-MacBook-Pro.local
+

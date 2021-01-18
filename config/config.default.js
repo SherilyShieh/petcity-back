@@ -1,4 +1,4 @@
-module.exports = appIbnfo => {
+module.exports = appInfo => {
     const config = exports = {};
 
     config.keys = keys = '_1595046215730_9281';
@@ -37,6 +37,37 @@ module.exports = appIbnfo => {
         database: 'petcity',
         username: 'root',
         password: 'root123456',
+        define: {
+            timestamps: false
+        },
+        timezone: '+08:00'
+    };
+
+    config.security = {
+        csrf: {
+            enable: false,
+        },
+        domainWhiteList: ['*'],
+    };
+
+    config.cors = {
+        origin: '*',
+        allowMethods: 'GET,HEAD,PUT,POST,DELETE,PATCH,OPTIONS',
+    };
+
+    config.cluster = {
+        listen: {
+            port: 7701,
+        },
+    };
+
+    config.redis = {
+        client: {
+            port: 6379, // Redis port
+            host: '127.0.0.1', // Redis host
+            password: '',
+            db: 0,
+        },
     };
 
     config.swaggerdoc = {
@@ -47,8 +78,8 @@ module.exports = appIbnfo => {
             version: '1.0.0',
         },
         schemes: ['http', 'https'],
-        consumes: ['application/json'],
-        produces: ['application/json'],
+        consumes: ['application/json', 'multipart/form-data'],
+        produces: ['application/json', 'multipart/form-data'],
         securityDefinitions: {
             // apikey: {
             //   type: 'apiKey',
@@ -71,6 +102,23 @@ module.exports = appIbnfo => {
         enable: true,
     };
 
+    // config.joi = {
+    //     options: {},
+    //     locale: {
+    //         'zh-cn': {}
+    //     },
+    //     throw: true,
+    //     throwHandle: (error) => { return error; },
+    //     errorHandle: (error) => { return error; },
+    //     resultHandle: (result) => { return result; }
+    // };
+
+    exports.alinode = {
+        server: 'wss://agentserver.node.aliyun.com:8080',
+        appid: '87325',
+        secret: '7301857eed610585cac5c828dc93c2d717d9ccb8',
+        logdir: '/tmp/'
+    };
 
     return config;
 

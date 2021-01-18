@@ -1,36 +1,271 @@
-2020-12-23 02:00:42,747 INFO 63426 [egg-logrotator] app logger reload: got log-reload message
-2020-12-23 11:33:35,241 WARN 63426 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
-2020-12-23 11:33:35,243 WARN 63426 [ClusterClient:Watcher] follower closed, and try to init it again
-2020-12-23 11:33:35,310 INFO 63426 [-/127.0.0.1/-/54ms SCHEDULE /__schedule?path=/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "/var/folders/b2/9fqg4v5124qbm7_2jdzd7_rm0000gn/T/egg-multipart-tmp/petcity-back"
-2020-12-23 11:33:35,866 INFO 63426 [-/127.0.0.1/-/612ms SCHEDULE /__schedule?path=/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] end
-2021-01-05 10:41:18,670 INFO 77311 [egg:logger] init all loggers with options: {"dir":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/logs/petcity-back","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"petcity-back-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2021-01-05 10:41:18,689 INFO 77311 [egg-multipart] stream mode enable
-2021-01-05 10:41:18,786 INFO 77311 [egg-static] starting static serve /public/ -> /Users/sherily/Desktop/Petcity/Repo/petcity-back/app/public
-2021-01-05 10:41:18,789 INFO 77311 [egg-security] use csrf middleware
-2021-01-05 10:41:18,789 INFO 77311 [egg-security] use methodnoallow middleware
-2021-01-05 10:41:18,790 INFO 77311 [egg-security] use noopen middleware
-2021-01-05 10:41:18,792 INFO 77311 [egg-security] use nosniff middleware
-2021-01-05 10:41:18,793 INFO 77311 [egg-security] use xssProtection middleware
-2021-01-05 10:41:18,794 INFO 77311 [egg-security] use xframe middleware
-2021-01-05 10:41:18,795 INFO 77311 [egg-security] use dta middleware
-2021-01-05 10:41:18,795 INFO 77311 [egg-security] compose 7 middlewares into one security middleware
-2021-01-05 10:41:18,803 INFO 77311 [egg:core] dump config after load, 5ms
-2021-01-05 10:41:18,812 INFO 77311 [egg-watcher:application] watcher start success
-2021-01-05 10:41:18,818 INFO 77311 [egg:core] dump config after ready, 4ms
-2021-01-05 10:41:37,076 INFO 77311 [egg-view-nunjucks] loading templates from ["/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/view"]
-2021-01-05 10:56:10,176 WARN 77311 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
-2021-01-05 10:56:10,178 WARN 77311 [ClusterClient:Watcher] follower closed, and try to init it again
-2021-01-05 14:09:20,917 INFO 4200 [egg:logger] init all loggers with options: {"dir":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/logs/petcity-back","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"petcity-back-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2021-01-05 14:09:20,935 INFO 4200 [egg-multipart] stream mode enable
-2021-01-05 14:09:21,124 INFO 4200 [egg-static] starting static serve /public/ -> /Users/sherily/Desktop/Petcity/Repo/petcity-back/app/public
-2021-01-05 14:09:21,126 INFO 4200 [egg-security] use csrf middleware
-2021-01-05 14:09:21,127 INFO 4200 [egg-security] use methodnoallow middleware
-2021-01-05 14:09:21,127 INFO 4200 [egg-security] use noopen middleware
-2021-01-05 14:09:21,128 INFO 4200 [egg-security] use nosniff middleware
-2021-01-05 14:09:21,129 INFO 4200 [egg-security] use xssProtection middleware
-2021-01-05 14:09:21,129 INFO 4200 [egg-security] use xframe middleware
-2021-01-05 14:09:21,130 INFO 4200 [egg-security] use dta middleware
-2021-01-05 14:09:21,130 INFO 4200 [egg-security] compose 7 middlewares into one security middleware
-2021-01-05 14:09:21,139 INFO 4200 [egg:core] dump config after load, 5ms
-2021-01-05 14:09:21,184 INFO 4200 [egg-watcher:application] watcher start success
-2021-01-05 14:09:21,200 INFO 4200 [egg:core] dump config after ready, 3ms
+2021-01-18 00:00:02,927 INFO 34295 [egg-logrotator] app logger reload: got log-reload message
+2021-01-18 04:29:17,775 WARN 34295 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-18 04:29:17,783 WARN 34295 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-18 04:30:02,422 INFO 34295 [-/127.0.0.1/-/80ms SCHEDULE /__schedule?path=/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "/var/folders/b2/9fqg4v5124qbm7_2jdzd7_rm0000gn/T/egg-multipart-tmp/petcity-back"
+2021-01-18 04:30:02,496 INFO 34295 [-/127.0.0.1/-/172ms SCHEDULE /__schedule?path=/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] end
+2021-01-18 05:25:10,653 WARN 34295 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-18 05:25:10,814 WARN 34295 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-18 07:26:00,040 WARN 34295 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-18 07:26:00,079 WARN 34295 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-18 08:35:53,985 WARN 34295 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-18 08:35:53,991 WARN 34295 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-18 08:49:24,099 WARN 34295 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-18 08:49:24,122 WARN 34295 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-18 10:10:59,602 INFO 72958 [egg:logger] init all loggers with options: {"dir":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/logs/petcity-back","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"petcity-back-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-18 10:10:59,621 INFO 72958 [egg-multipart] stream mode enable
+2021-01-18 10:10:59,824 INFO 72958 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2021-01-18 10:10:59,900 INFO 72958 [egg-static] starting static serve /public/ -> /Users/sherily/Desktop/Petcity/Repo/petcity-back/app/public
+2021-01-18 10:10:59,902 INFO 72958 [egg-security] use methodnoallow middleware
+2021-01-18 10:10:59,903 INFO 72958 [egg-security] use noopen middleware
+2021-01-18 10:10:59,904 INFO 72958 [egg-security] use nosniff middleware
+2021-01-18 10:10:59,905 INFO 72958 [egg-security] use xssProtection middleware
+2021-01-18 10:10:59,906 INFO 72958 [egg-security] use xframe middleware
+2021-01-18 10:10:59,907 INFO 72958 [egg-security] use dta middleware
+2021-01-18 10:10:59,907 INFO 72958 [egg-security] compose 6 middlewares into one security middleware
+2021-01-18 10:10:59,921 INFO 72958 [egg:core] dump config after load, 5ms
+2021-01-18 10:10:59,982 INFO 72958 [egg-redis] client connect success
+2021-01-18 10:10:59,999 INFO 72958 [egg-redis] instance[0] status OK, client ready
+2021-01-18 10:11:00,000 INFO 72958 [egg-watcher:application] watcher start success
+2021-01-18 10:11:00,016 INFO 72958 [egg:core] dump config after ready, 5ms
+2021-01-18 10:54:26,787 INFO 76952 [egg:logger] init all loggers with options: {"dir":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/logs/petcity-back","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"petcity-back-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-18 10:54:26,814 INFO 76952 [egg-multipart] stream mode enable
+2021-01-18 10:54:27,027 INFO 76952 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2021-01-18 10:54:27,104 INFO 76952 [egg-static] starting static serve /public/ -> /Users/sherily/Desktop/Petcity/Repo/petcity-back/app/public
+2021-01-18 10:54:27,107 INFO 76952 [egg-security] use methodnoallow middleware
+2021-01-18 10:54:27,107 INFO 76952 [egg-security] use noopen middleware
+2021-01-18 10:54:27,108 INFO 76952 [egg-security] use nosniff middleware
+2021-01-18 10:54:27,109 INFO 76952 [egg-security] use xssProtection middleware
+2021-01-18 10:54:27,110 INFO 76952 [egg-security] use xframe middleware
+2021-01-18 10:54:27,110 INFO 76952 [egg-security] use dta middleware
+2021-01-18 10:54:27,110 INFO 76952 [egg-security] compose 6 middlewares into one security middleware
+2021-01-18 10:54:27,122 INFO 76952 [egg:core] dump config after load, 5ms
+2021-01-18 10:54:27,264 INFO 76952 [egg-redis] client connect success
+2021-01-18 10:54:27,276 INFO 76952 [egg-redis] instance[0] status OK, client ready
+2021-01-18 10:54:27,277 INFO 76952 [egg-watcher:application] watcher start success
+2021-01-18 10:54:27,296 INFO 76952 [egg:core] dump config after ready, 5ms
+2021-01-18 10:54:41,830 INFO 76989 [egg:logger] init all loggers with options: {"dir":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/logs/petcity-back","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"petcity-back-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-18 10:54:41,855 INFO 76989 [egg-multipart] stream mode enable
+2021-01-18 10:54:42,246 INFO 76989 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2021-01-18 10:54:42,335 INFO 76989 [egg-static] starting static serve /public/ -> /Users/sherily/Desktop/Petcity/Repo/petcity-back/app/public
+2021-01-18 10:54:42,337 INFO 76989 [egg-security] use methodnoallow middleware
+2021-01-18 10:54:42,337 INFO 76989 [egg-security] use noopen middleware
+2021-01-18 10:54:42,338 INFO 76989 [egg-security] use nosniff middleware
+2021-01-18 10:54:42,339 INFO 76989 [egg-security] use xssProtection middleware
+2021-01-18 10:54:42,340 INFO 76989 [egg-security] use xframe middleware
+2021-01-18 10:54:42,340 INFO 76989 [egg-security] use dta middleware
+2021-01-18 10:54:42,340 INFO 76989 [egg-security] compose 6 middlewares into one security middleware
+2021-01-18 10:54:42,351 INFO 76989 [egg:core] dump config after load, 5ms
+2021-01-18 10:54:42,410 INFO 76989 [egg-redis] client connect success
+2021-01-18 10:54:42,413 INFO 76989 [egg-redis] instance[0] status OK, client ready
+2021-01-18 10:54:42,426 INFO 76989 [egg-watcher:application] watcher start success
+2021-01-18 10:54:42,442 INFO 76989 [egg:core] dump config after ready, 5ms
+2021-01-18 10:54:43,001 INFO 76995 [egg:logger] init all loggers with options: {"dir":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/logs/petcity-back","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"petcity-back-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-18 10:54:43,030 INFO 76995 [egg-multipart] stream mode enable
+2021-01-18 10:54:43,325 INFO 76995 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2021-01-18 10:54:43,369 INFO 76995 [egg-static] starting static serve /public/ -> /Users/sherily/Desktop/Petcity/Repo/petcity-back/app/public
+2021-01-18 10:54:43,370 INFO 76995 [egg-security] use methodnoallow middleware
+2021-01-18 10:54:43,370 INFO 76995 [egg-security] use noopen middleware
+2021-01-18 10:54:43,371 INFO 76995 [egg-security] use nosniff middleware
+2021-01-18 10:54:43,371 INFO 76995 [egg-security] use xssProtection middleware
+2021-01-18 10:54:43,372 INFO 76995 [egg-security] use xframe middleware
+2021-01-18 10:54:43,372 INFO 76995 [egg-security] use dta middleware
+2021-01-18 10:54:43,372 INFO 76995 [egg-security] compose 6 middlewares into one security middleware
+2021-01-18 10:54:43,384 INFO 76995 [egg:core] dump config after load, 6ms
+2021-01-18 10:54:43,440 INFO 76995 [egg-redis] client connect success
+2021-01-18 10:54:43,443 INFO 76995 [egg-redis] instance[0] status OK, client ready
+2021-01-18 10:54:43,452 INFO 76995 [egg-watcher:application] watcher start success
+2021-01-18 10:54:43,473 INFO 76995 [egg:core] dump config after ready, 5ms
+2021-01-18 10:54:44,057 INFO 77009 [egg:logger] init all loggers with options: {"dir":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/logs/petcity-back","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"petcity-back-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-18 10:54:44,084 INFO 77009 [egg-multipart] stream mode enable
+2021-01-18 10:54:44,298 INFO 77009 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2021-01-18 10:54:44,346 INFO 77009 [egg-static] starting static serve /public/ -> /Users/sherily/Desktop/Petcity/Repo/petcity-back/app/public
+2021-01-18 10:54:44,348 INFO 77009 [egg-security] use methodnoallow middleware
+2021-01-18 10:54:44,349 INFO 77009 [egg-security] use noopen middleware
+2021-01-18 10:54:44,349 INFO 77009 [egg-security] use nosniff middleware
+2021-01-18 10:54:44,350 INFO 77009 [egg-security] use xssProtection middleware
+2021-01-18 10:54:44,350 INFO 77009 [egg-security] use xframe middleware
+2021-01-18 10:54:44,350 INFO 77009 [egg-security] use dta middleware
+2021-01-18 10:54:44,350 INFO 77009 [egg-security] compose 6 middlewares into one security middleware
+2021-01-18 10:54:44,363 INFO 77009 [egg:core] dump config after load, 5ms
+2021-01-18 10:54:44,423 INFO 77009 [egg-redis] client connect success
+2021-01-18 10:54:44,436 INFO 77009 [egg-watcher:application] watcher start success
+2021-01-18 10:54:44,438 INFO 77009 [egg-redis] instance[0] status OK, client ready
+2021-01-18 10:54:44,488 INFO 77009 [egg:core] dump config after ready, 27ms
+2021-01-18 10:54:49,022 INFO 77037 [egg:logger] init all loggers with options: {"dir":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/logs/petcity-back","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"petcity-back-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-18 10:54:49,046 INFO 77037 [egg-multipart] stream mode enable
+2021-01-18 10:54:49,217 INFO 77037 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2021-01-18 10:54:49,255 INFO 77037 [egg-static] starting static serve /public/ -> /Users/sherily/Desktop/Petcity/Repo/petcity-back/app/public
+2021-01-18 10:54:49,257 INFO 77037 [egg-security] use methodnoallow middleware
+2021-01-18 10:54:49,257 INFO 77037 [egg-security] use noopen middleware
+2021-01-18 10:54:49,258 INFO 77037 [egg-security] use nosniff middleware
+2021-01-18 10:54:49,258 INFO 77037 [egg-security] use xssProtection middleware
+2021-01-18 10:54:49,258 INFO 77037 [egg-security] use xframe middleware
+2021-01-18 10:54:49,259 INFO 77037 [egg-security] use dta middleware
+2021-01-18 10:54:49,259 INFO 77037 [egg-security] compose 6 middlewares into one security middleware
+2021-01-18 10:54:49,291 INFO 77037 [egg:core] dump config after load, 29ms
+2021-01-18 10:54:49,347 INFO 77037 [egg-redis] client connect success
+2021-01-18 10:54:49,357 INFO 77037 [egg-redis] instance[0] status OK, client ready
+2021-01-18 10:54:49,359 INFO 77037 [egg-watcher:application] watcher start success
+2021-01-18 10:54:49,378 INFO 77037 [egg:core] dump config after ready, 6ms
+2021-01-18 10:54:49,829 INFO 77041 [egg:logger] init all loggers with options: {"dir":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/logs/petcity-back","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"petcity-back-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-18 10:54:49,850 INFO 77041 [egg-multipart] stream mode enable
+2021-01-18 10:54:50,044 INFO 77041 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2021-01-18 10:54:50,086 INFO 77041 [egg-static] starting static serve /public/ -> /Users/sherily/Desktop/Petcity/Repo/petcity-back/app/public
+2021-01-18 10:54:50,088 INFO 77041 [egg-security] use methodnoallow middleware
+2021-01-18 10:54:50,088 INFO 77041 [egg-security] use noopen middleware
+2021-01-18 10:54:50,089 INFO 77041 [egg-security] use nosniff middleware
+2021-01-18 10:54:50,090 INFO 77041 [egg-security] use xssProtection middleware
+2021-01-18 10:54:50,090 INFO 77041 [egg-security] use xframe middleware
+2021-01-18 10:54:50,090 INFO 77041 [egg-security] use dta middleware
+2021-01-18 10:54:50,090 INFO 77041 [egg-security] compose 6 middlewares into one security middleware
+2021-01-18 10:54:50,099 INFO 77041 [egg:core] dump config after load, 5ms
+2021-01-18 10:54:50,168 INFO 77041 [egg-redis] client connect success
+2021-01-18 10:54:50,182 INFO 77041 [egg-redis] instance[0] status OK, client ready
+2021-01-18 10:54:50,184 INFO 77041 [egg-watcher:application] watcher start success
+2021-01-18 10:54:49,980 INFO 77042 [egg:logger] init all loggers with options: {"dir":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/logs/petcity-back","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"petcity-back-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-18 10:54:50,003 INFO 77042 [egg-multipart] stream mode enable
+2021-01-18 10:54:50,218 INFO 77042 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2021-01-18 10:54:50,260 INFO 77042 [egg-static] starting static serve /public/ -> /Users/sherily/Desktop/Petcity/Repo/petcity-back/app/public
+2021-01-18 10:54:50,262 INFO 77042 [egg-security] use methodnoallow middleware
+2021-01-18 10:54:50,262 INFO 77042 [egg-security] use noopen middleware
+2021-01-18 10:54:50,263 INFO 77042 [egg-security] use nosniff middleware
+2021-01-18 10:54:50,263 INFO 77042 [egg-security] use xssProtection middleware
+2021-01-18 10:54:50,263 INFO 77042 [egg-security] use xframe middleware
+2021-01-18 10:54:50,263 INFO 77042 [egg-security] use dta middleware
+2021-01-18 10:54:50,264 INFO 77042 [egg-security] compose 6 middlewares into one security middleware
+2021-01-18 10:54:50,275 INFO 77042 [egg:core] dump config after load, 4ms
+2021-01-18 10:54:50,327 INFO 77042 [egg-redis] client connect success
+2021-01-18 10:54:50,332 INFO 77042 [egg-redis] instance[0] status OK, client ready
+2021-01-18 10:54:50,341 INFO 77042 [egg-watcher:application] watcher start success
+2021-01-18 10:54:50,362 INFO 77042 [egg:core] dump config after ready, 5ms
+2021-01-18 10:54:50,656 INFO 77043 [egg:logger] init all loggers with options: {"dir":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/logs/petcity-back","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"petcity-back-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-18 10:54:50,683 INFO 77043 [egg-multipart] stream mode enable
+2021-01-18 10:54:50,878 INFO 77043 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2021-01-18 10:54:50,922 INFO 77043 [egg-static] starting static serve /public/ -> /Users/sherily/Desktop/Petcity/Repo/petcity-back/app/public
+2021-01-18 10:54:50,924 INFO 77043 [egg-security] use methodnoallow middleware
+2021-01-18 10:54:50,924 INFO 77043 [egg-security] use noopen middleware
+2021-01-18 10:54:50,924 INFO 77043 [egg-security] use nosniff middleware
+2021-01-18 10:54:50,925 INFO 77043 [egg-security] use xssProtection middleware
+2021-01-18 10:54:50,925 INFO 77043 [egg-security] use xframe middleware
+2021-01-18 10:54:50,925 INFO 77043 [egg-security] use dta middleware
+2021-01-18 10:54:50,925 INFO 77043 [egg-security] compose 6 middlewares into one security middleware
+2021-01-18 10:54:50,961 INFO 77043 [egg:core] dump config after load, 25ms
+2021-01-18 10:54:51,013 INFO 77043 [egg-redis] client connect success
+2021-01-18 10:54:51,016 INFO 77043 [egg-redis] instance[0] status OK, client ready
+2021-01-18 10:54:51,025 INFO 77043 [egg-watcher:application] watcher start success
+2021-01-18 10:54:51,041 INFO 77043 [egg:core] dump config after ready, 4ms
+2021-01-18 10:57:19,867 INFO 77254 [egg:logger] init all loggers with options: {"dir":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/logs/petcity-back","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"petcity-back-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-18 10:57:19,901 INFO 77254 [egg-multipart] stream mode enable
+2021-01-18 10:57:20,196 INFO 77254 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2021-01-18 10:57:20,264 INFO 77254 [egg-static] starting static serve /public/ -> /Users/sherily/Desktop/Petcity/Repo/petcity-back/app/public
+2021-01-18 10:57:20,266 INFO 77254 [egg-security] use methodnoallow middleware
+2021-01-18 10:57:20,267 INFO 77254 [egg-security] use noopen middleware
+2021-01-18 10:57:20,268 INFO 77254 [egg-security] use nosniff middleware
+2021-01-18 10:57:20,269 INFO 77254 [egg-security] use xssProtection middleware
+2021-01-18 10:57:20,270 INFO 77254 [egg-security] use xframe middleware
+2021-01-18 10:57:20,270 INFO 77254 [egg-security] use dta middleware
+2021-01-18 10:57:20,270 INFO 77254 [egg-security] compose 6 middlewares into one security middleware
+2021-01-18 10:57:20,281 INFO 77254 [egg:core] dump config after load, 5ms
+2021-01-18 10:57:20,347 INFO 77254 [egg-redis] client connect success
+2021-01-18 10:57:20,350 INFO 77254 [egg-redis] instance[0] status OK, client ready
+2021-01-18 10:57:20,365 INFO 77254 [egg-watcher:application] watcher start success
+2021-01-18 10:57:20,383 INFO 77254 [egg:core] dump config after ready, 5ms
+2021-01-18 10:57:20,838 INFO 77255 [egg:logger] init all loggers with options: {"dir":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/logs/petcity-back","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"petcity-back-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-18 10:57:20,861 INFO 77255 [egg-multipart] stream mode enable
+2021-01-18 10:57:21,041 INFO 77255 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2021-01-18 10:57:21,082 INFO 77255 [egg-static] starting static serve /public/ -> /Users/sherily/Desktop/Petcity/Repo/petcity-back/app/public
+2021-01-18 10:57:21,084 INFO 77255 [egg-security] use methodnoallow middleware
+2021-01-18 10:57:21,084 INFO 77255 [egg-security] use noopen middleware
+2021-01-18 10:57:21,085 INFO 77255 [egg-security] use nosniff middleware
+2021-01-18 10:57:21,085 INFO 77255 [egg-security] use xssProtection middleware
+2021-01-18 10:57:21,085 INFO 77255 [egg-security] use xframe middleware
+2021-01-18 10:57:21,086 INFO 77255 [egg-security] use dta middleware
+2021-01-18 10:57:21,086 INFO 77255 [egg-security] compose 6 middlewares into one security middleware
+2021-01-18 10:57:21,094 INFO 77255 [egg:core] dump config after load, 5ms
+2021-01-18 10:57:21,147 INFO 77255 [egg-redis] client connect success
+2021-01-18 10:57:21,159 INFO 77255 [egg-redis] instance[0] status OK, client ready
+2021-01-18 10:57:21,161 INFO 77255 [egg-watcher:application] watcher start success
+2021-01-18 10:57:21,057 INFO 77256 [egg:logger] init all loggers with options: {"dir":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/logs/petcity-back","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"petcity-back-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-18 10:57:21,080 INFO 77256 [egg-multipart] stream mode enable
+2021-01-18 10:57:21,407 INFO 77256 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2021-01-18 10:57:21,460 INFO 77256 [egg-static] starting static serve /public/ -> /Users/sherily/Desktop/Petcity/Repo/petcity-back/app/public
+2021-01-18 10:57:21,462 INFO 77256 [egg-security] use methodnoallow middleware
+2021-01-18 10:57:21,462 INFO 77256 [egg-security] use noopen middleware
+2021-01-18 10:57:21,463 INFO 77256 [egg-security] use nosniff middleware
+2021-01-18 10:57:21,463 INFO 77256 [egg-security] use xssProtection middleware
+2021-01-18 10:57:21,463 INFO 77256 [egg-security] use xframe middleware
+2021-01-18 10:57:21,463 INFO 77256 [egg-security] use dta middleware
+2021-01-18 10:57:21,463 INFO 77256 [egg-security] compose 6 middlewares into one security middleware
+2021-01-18 10:57:21,470 INFO 77256 [egg:core] dump config after load, 3ms
+2021-01-18 10:57:21,517 INFO 77256 [egg-redis] client connect success
+2021-01-18 10:57:21,531 INFO 77256 [egg-redis] instance[0] status OK, client ready
+2021-01-18 10:57:21,534 INFO 77256 [egg-watcher:application] watcher start success
+2021-01-18 10:57:21,557 INFO 77256 [egg:core] dump config after ready, 7ms
+2021-01-18 11:23:21,896 INFO 1307 [egg:logger] init all loggers with options: {"dir":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/logs/petcity-back","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"petcity-back-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-18 11:23:21,934 INFO 1307 [egg-multipart] stream mode enable
+2021-01-18 11:23:22,222 INFO 1307 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2021-01-18 11:23:22,352 INFO 1307 [egg-static] starting static serve /public/ -> /Users/sherily/Desktop/Petcity/Repo/petcity-back/app/public
+2021-01-18 11:23:22,355 INFO 1307 [egg-security] use methodnoallow middleware
+2021-01-18 11:23:22,357 INFO 1307 [egg-security] use noopen middleware
+2021-01-18 11:23:22,360 INFO 1307 [egg-security] use nosniff middleware
+2021-01-18 11:23:22,361 INFO 1307 [egg-security] use xssProtection middleware
+2021-01-18 11:23:22,363 INFO 1307 [egg-security] use xframe middleware
+2021-01-18 11:23:22,364 INFO 1307 [egg-security] use dta middleware
+2021-01-18 11:23:22,364 INFO 1307 [egg-security] compose 6 middlewares into one security middleware
+2021-01-18 11:23:22,402 INFO 1307 [egg:core] dump config after load, 12ms
+2021-01-18 11:23:22,700 ERROR 1307 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1138:16) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379
+}
+2021-01-18 11:23:22,704 ERROR 1307 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1138:16)
+errno: -61
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 1307
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-18 11:23:22,723 INFO 1307 [egg:core] dump config after ready, 12ms
+2021-01-18 11:23:22,783 INFO 1307 [egg-watcher:application] watcher start success
+2021-01-18 11:23:22,784 ERROR 1307 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1138:16) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379
+}
+2021-01-18 11:23:22,784 ERROR 1307 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1138:16)
+errno: -61
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 1307
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-18 11:23:42,022 INFO 1400 [egg:logger] init all loggers with options: {"dir":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/logs/petcity-back","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"petcity-back-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-18 11:23:42,055 INFO 1400 [egg-multipart] stream mode enable
+2021-01-18 11:23:42,387 INFO 1400 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2021-01-18 11:23:42,532 INFO 1400 [egg-static] starting static serve /public/ -> /Users/sherily/Desktop/Petcity/Repo/petcity-back/app/public
+2021-01-18 11:23:42,535 INFO 1400 [egg-security] use methodnoallow middleware
+2021-01-18 11:23:42,535 INFO 1400 [egg-security] use noopen middleware
+2021-01-18 11:23:42,536 INFO 1400 [egg-security] use nosniff middleware
+2021-01-18 11:23:42,538 INFO 1400 [egg-security] use xssProtection middleware
+2021-01-18 11:23:42,539 INFO 1400 [egg-security] use xframe middleware
+2021-01-18 11:23:42,540 INFO 1400 [egg-security] use dta middleware
+2021-01-18 11:23:42,540 INFO 1400 [egg-security] compose 6 middlewares into one security middleware
+2021-01-18 11:23:42,553 INFO 1400 [egg:core] dump config after load, 6ms
+2021-01-18 11:23:42,627 INFO 1400 [egg-redis] client connect success
+2021-01-18 11:23:42,645 INFO 1400 [egg-redis] instance[0] status OK, client ready
+2021-01-18 11:23:42,647 INFO 1400 [egg-watcher:application] watcher start success
+2021-01-18 11:23:42,717 INFO 1400 [egg:core] dump config after ready, 21ms

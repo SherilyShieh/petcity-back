@@ -26,20 +26,15 @@
     "port": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/config/config.default.js",
     "database": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/config/config.default.js",
     "username": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/config/config.default.js",
-    "password": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/config/config.default.js"
-  },
-  "session": {
-    "maxAge": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-session/config/config.default.js",
-    "key": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-session/config/config.default.js",
-    "httpOnly": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-session/config/config.default.js",
-    "encrypt": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-session/config/config.default.js"
+    "password": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/config/config.default.js",
+    "define": {
+      "timestamps": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/config/config.default.js"
+    },
+    "timezone": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/config/config.default.js"
   },
   "security": {
-    "domainWhiteList": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-security/config/config.default.js",
-    "protocolWhiteList": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-security/config/config.default.js",
-    "defaultMiddleware": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-security/config/config.default.js",
     "csrf": {
-      "enable": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-security/config/config.default.js",
+      "enable": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/config/config.default.js",
       "type": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-security/config/config.default.js",
       "ignoreJSON": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-security/config/config.default.js",
       "useSession": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-security/config/config.default.js",
@@ -50,6 +45,9 @@
       "queryName": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-security/config/config.default.js",
       "refererWhiteList": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-security/config/config.default.js"
     },
+    "domainWhiteList": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/config/config.default.js",
+    "protocolWhiteList": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-security/config/config.default.js",
     "xframe": {
       "enable": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-security/config/config.default.js",
       "value": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-security/config/config.default.js"
@@ -87,6 +85,64 @@
       "ipBlackList": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-security/config/config.default.js",
       "checkAddress": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-security/config/config.default.js"
     }
+  },
+  "cors": {
+    "origin": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/config/config.default.js",
+    "allowMethods": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/config/config.default.js"
+  },
+  "cluster": {
+    "listen": {
+      "port": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/config/config.default.js",
+      "path": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg/config/config.default.js"
+    }
+  },
+  "redis": {
+    "client": {
+      "port": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/config/config.default.js",
+      "host": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/config/config.default.js",
+      "password": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/config/config.default.js",
+      "db": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/config/config.default.js"
+    },
+    "default": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-redis/config/config.default.js",
+    "app": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-redis/config/config.default.js",
+    "agent": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-redis/config/config.default.js",
+    "supportTimeCommand": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-redis/config/config.default.js"
+  },
+  "swaggerdoc": {
+    "dirScanner": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/config/config.default.js",
+    "apiInfo": {
+      "title": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/config/config.default.js",
+      "description": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/config/config.default.js",
+      "version": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/config/config.default.js"
+    },
+    "schemes": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/config/config.default.js",
+    "consumes": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/config/config.default.js",
+    "produces": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/config/config.default.js",
+    "securityDefinitions": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/config/config.default.js",
+    "enableSecurity": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/config/config.default.js",
+    "routerMap": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/config/config.default.js",
+    "enable": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/config/config.default.js",
+    "basePath": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/config/config.default.js"
+  },
+  "alinode": {
+    "server": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/config/config.default.js",
+    "appid": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/config/config.default.js",
+    "secret": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/config/config.default.js",
+    "logdir": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/config/config.default.js",
+    "enable": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-alinode/config/config.default.js",
+    "cmddir": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-alinode/config/config.default.js",
+    "error_log": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-alinode/config/config.default.js",
+    "packages": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-alinode/config/config.default.js",
+    "reconnectDelay": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-alinode/config/config.default.js",
+    "heartbeatInterval": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-alinode/config/config.default.js",
+    "reportInterval": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-alinode/config/config.default.js"
+  },
+  "session": {
+    "maxAge": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-session/config/config.default.js"
   },
   "helper": {
     "shtml": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-security/config/config.default.js"
@@ -173,6 +229,7 @@
     "lstripBlocks": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-view-nunjucks/config/config.default.js",
     "cache": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-view-nunjucks/config/config.local.js"
   },
+  "validate": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-validate/config/config.default.js",
   "env": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg/config/config.default.js",
   "name": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg/config/config.default.js",
   "cookies": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg/config/config.default.js",
@@ -189,7 +246,8 @@
     "main": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg/config/config.default.js",
     "scripts": {
       "test": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg/config/config.default.js",
-      "dev": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg/config/config.default.js"
+      "dev": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg/config/config.default.js",
+      "dbload": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg/config/config.default.js"
     },
     "repository": {
       "type": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg/config/config.default.js",
@@ -204,8 +262,18 @@
     "homepage": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg/config/config.default.js",
     "dependencies": {
       "egg": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg/config/config.default.js",
+      "egg-alinode": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg/config/config.default.js",
+      "egg-cors": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg/config/config.default.js",
+      "egg-joi": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg/config/config.default.js",
+      "egg-redis": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg/config/config.default.js",
+      "egg-scripts": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg/config/config.default.js",
+      "egg-sequelize": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg/config/config.default.js",
+      "egg-sequelize-auto": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg/config/config.default.js",
+      "egg-swagger-doc": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg/config/config.default.js",
+      "egg-validate": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg/config/config.default.js",
       "egg-view-nunjucks": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg/config/config.default.js",
-      "moment": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg/config/config.default.js"
+      "moment": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg/config/config.default.js",
+      "mysql2": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg/config/config.default.js"
     },
     "devDependencies": {
       "egg-bin": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg/config/config.default.js"
@@ -289,13 +357,6 @@
   "coreMiddleware": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg/config/config.default.js",
   "workerStartTimeout": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg/config/config.default.js",
   "serverTimeout": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg/config/config.default.js",
-  "cluster": {
-    "listen": {
-      "path": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg/config/config.default.js",
-      "port": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg/config/config.default.js",
-      "hostname": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg/config/config.default.js"
-    }
-  },
   "clusterClient": {
     "maxWaitTime": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg/config/config.default.js",
     "responseTimeout": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg/config/config.default.js"

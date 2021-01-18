@@ -1,0 +1,498 @@
+2021-01-05 14:09:21,194 INFO 4200 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-01-08 10:57:49,268 WARN 74762 [egg-swagger-doc] can not found contract in app`s directory
+2021-01-08 10:57:49,661 ERROR 74762 [-/127.0.0.1/-/0ms GET /] nodejs.ENOENTError: ENOENT: no such file or directory, scandir '/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/contract'
+    at Object.readdirSync (node:fs:1044:3)
+    at contractLoader (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/contract/index.js:39:20)
+    at generateContract (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/contract/index.js:25:3)
+    at Object.getDefinitions (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/contract/index.js:179:7)
+    at buildDocument (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:45:30)
+    at documentInit (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:497:7)
+    at module.exports.swaggerInit (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/index.js:10:3)
+    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/app.js:8:5
+    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/lifecycle.js:256:13
+errno: -2
+syscall: "scandir"
+code: "ENOENT"
+path: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/contract"
+name: "ENOENTError"
+pid: 74762
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-08 10:59:34,553 WARN 74874 [egg-swagger-doc] can not found contract in app`s directory
+2021-01-08 10:59:35,221 ERROR 74874 [-/127.0.0.1/-/0ms GET /] nodejs.ENOENTError: ENOENT: no such file or directory, scandir '/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/contract'
+    at Object.readdirSync (node:fs:1044:3)
+    at contractLoader (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/contract/index.js:39:20)
+    at generateContract (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/contract/index.js:25:3)
+    at Object.getDefinitions (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/contract/index.js:179:7)
+    at buildDocument (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:45:30)
+    at documentInit (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:497:7)
+    at module.exports.swaggerInit (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/index.js:10:3)
+    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/app.js:8:5
+    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/lifecycle.js:256:13
+errno: -2
+syscall: "scandir"
+code: "ENOENT"
+path: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/contract"
+name: "ENOENTError"
+pid: 74874
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-08 11:05:12,957 WARN 75190 [egg-swagger-doc] can not found contract in app`s directory
+2021-01-08 11:05:14,149 ERROR 75190 [-/127.0.0.1/-/0ms GET /] nodejs.ENOENTError: ENOENT: no such file or directory, scandir '/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/contract'
+    at Object.readdirSync (node:fs:1044:3)
+    at contractLoader (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/contract/index.js:39:20)
+    at generateContract (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/contract/index.js:25:3)
+    at Object.getDefinitions (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/contract/index.js:179:7)
+    at buildDocument (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:45:30)
+    at documentInit (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:497:7)
+    at module.exports.swaggerInit (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/index.js:10:3)
+    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/app.js:8:5
+    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/lifecycle.js:256:13
+errno: -2
+syscall: "scandir"
+code: "ENOENT"
+path: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/contract"
+name: "ENOENTError"
+pid: 75190
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-08 11:21:13,530 INFO 75857 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-08 11:21:13,556 INFO 75857 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-08 11:21:13,556 INFO 75857 [egg-swagger-doc] register router: get /api/v1/test for controller-test-test 
+2021-01-08 11:21:13,593 INFO 75857 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-01-08 11:22:07,664 INFO 75897 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-08 11:22:07,695 INFO 75897 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-08 11:22:07,696 INFO 75897 [egg-swagger-doc] register router: get /api/v1/test for controller-test-test 
+2021-01-08 11:22:07,733 INFO 75897 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-01-08 11:22:08,488 INFO 75899 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-08 11:22:08,507 INFO 75899 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-08 11:22:08,508 INFO 75899 [egg-swagger-doc] register router: get /api/v1/test for controller-test-test 
+2021-01-08 11:22:08,538 INFO 75899 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-01-08 11:25:37,989 INFO 76062 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-08 11:25:38,016 INFO 76062 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-08 11:25:38,016 INFO 76062 [egg-swagger-doc] register router: get /api/v1/test for controller-test-test 
+2021-01-08 11:25:38,050 INFO 76062 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-01-08 11:56:25,224 INFO 77294 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-08 11:56:25,248 INFO 77294 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-08 11:56:25,248 INFO 77294 [egg-swagger-doc] register router: get /api/v1/test for controller-test-test 
+2021-01-08 11:56:25,275 INFO 77294 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-01-08 11:59:51,218 INFO 77407 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-08 11:59:51,245 INFO 77407 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-08 11:59:51,246 INFO 77407 [egg-swagger-doc] register router: get /api/v1/test for controller-test-test 
+2021-01-08 11:59:51,279 INFO 77407 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-01-08 13:54:19,580 INFO 84234 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-08 13:54:19,610 INFO 84234 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-08 13:54:19,611 INFO 84234 [egg-swagger-doc] register router: get /api/v1/test for controller-test-test 
+2021-01-08 13:54:19,664 INFO 84234 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-01-08 13:54:31,115 INFO 84281 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-08 13:54:31,146 INFO 84281 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-08 13:54:31,147 INFO 84281 [egg-swagger-doc] register router: get /api/v1/test for controller-test-test 
+2021-01-08 13:54:31,176 INFO 84281 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-01-08 16:41:49,528 INFO 94338 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-08 16:41:49,555 INFO 94338 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-08 16:41:49,556 INFO 94338 [egg-swagger-doc] register router: get /api/v1/test for controller-test-test 
+2021-01-08 16:41:49,597 INFO 94338 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-01-08 16:47:06,273 INFO 94753 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-08 16:47:06,299 INFO 94753 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-08 16:47:06,300 INFO 94753 [egg-swagger-doc] register router: get /api/v1/test for controller-test-test 
+2021-01-08 16:47:06,336 INFO 94753 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2021-01-08 21:48:33,144 INFO 13334 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-08 21:48:33,170 INFO 13334 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-08 21:48:33,170 INFO 13334 [egg-swagger-doc] register router: get /api/v1/register for controller-User-register 
+2021-01-08 21:48:33,170 INFO 13334 [egg-swagger-doc] register router: get /api/v1/test for controller-test-test 
+2021-01-08 21:48:33,202 INFO 13334 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-01-08 22:02:03,643 INFO 14268 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-08 22:02:03,669 INFO 14268 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-08 22:02:03,670 INFO 14268 [egg-swagger-doc] register router: get /api/v1/register for controller-User-register 
+2021-01-08 22:02:03,670 INFO 14268 [egg-swagger-doc] register router: get /api/v1/test for controller-test-test 
+2021-01-08 22:02:03,705 INFO 14268 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-01-08 22:02:41,498 INFO 14326 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-08 22:02:41,519 INFO 14326 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-08 22:02:41,520 INFO 14326 [egg-swagger-doc] register router: get /api/v1/register for controller-User-register 
+2021-01-08 22:02:41,520 INFO 14326 [egg-swagger-doc] register router: get /api/v1/test for controller-test-test 
+2021-01-08 22:02:41,553 INFO 14326 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-01-08 22:02:57,693 INFO 14355 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-08 22:02:57,714 INFO 14355 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-08 22:02:57,714 INFO 14355 [egg-swagger-doc] register router: get /api/v1/register for controller-User-register 
+2021-01-08 22:02:57,714 INFO 14355 [egg-swagger-doc] register router: get /api/v1/test for controller-test-test 
+2021-01-08 22:02:57,750 INFO 14355 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-01-08 22:14:38,996 INFO 15070 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-08 22:14:39,022 INFO 15070 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-08 22:14:39,022 INFO 15070 [egg-swagger-doc] register router: get /api/v1/register for controller-User-register 
+2021-01-08 22:14:39,023 INFO 15070 [egg-swagger-doc] register router: get /api/v1/test for controller-test-test 
+2021-01-08 22:14:39,057 INFO 15070 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2021-01-08 22:14:44,649 INFO 15100 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-08 22:14:44,669 INFO 15100 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-08 22:14:44,669 INFO 15100 [egg-swagger-doc] register router: get /api/v1/register for controller-User-register 
+2021-01-08 22:14:44,669 INFO 15100 [egg-swagger-doc] register router: get /api/v1/test for controller-test-test 
+2021-01-08 22:14:44,704 INFO 15100 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2021-01-08 22:14:52,501 INFO 15116 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-08 22:14:52,522 INFO 15116 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-08 22:14:52,523 INFO 15116 [egg-swagger-doc] register router: get /api/v1/register for controller-User-register 
+2021-01-08 22:14:52,523 INFO 15116 [egg-swagger-doc] register router: get /api/v1/test for controller-test-test 
+2021-01-08 22:14:52,556 INFO 15116 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-01-08 22:50:55,129 INFO 17939 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-08 22:50:55,157 INFO 17939 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-08 22:50:55,158 INFO 17939 [egg-swagger-doc] register router: get /api/v1/register for controller-User-register 
+2021-01-08 22:50:55,158 INFO 17939 [egg-swagger-doc] register router: get /api/v1/test for controller-test-test 
+2021-01-08 22:50:55,193 INFO 17939 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-01-08 22:51:21,626 INFO 17993 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-08 22:51:21,652 INFO 17993 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-08 22:51:21,653 INFO 17993 [egg-swagger-doc] register router: get /api/v1/register for controller-User-register 
+2021-01-08 22:51:21,653 INFO 17993 [egg-swagger-doc] register router: get /api/v1/test for controller-test-test 
+2021-01-08 22:51:21,689 INFO 17993 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2021-01-08 22:51:34,657 INFO 18026 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-08 22:51:34,689 INFO 18026 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-08 22:51:34,690 INFO 18026 [egg-swagger-doc] register router: get /api/v1/register for controller-User-register 
+2021-01-08 22:51:34,690 INFO 18026 [egg-swagger-doc] register router: get /api/v1/test for controller-test-test 
+2021-01-08 22:51:34,723 INFO 18026 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-01-08 23:01:43,659 INFO 18883 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-08 23:01:43,685 INFO 18883 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-08 23:01:43,686 INFO 18883 [egg-swagger-doc] register router: get /api/v1/register for controller-User-register 
+2021-01-08 23:01:43,686 INFO 18883 [egg-swagger-doc] register router: get /api/v1/test for controller-test-test 
+2021-01-08 23:01:43,721 INFO 18883 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-01-08 23:02:10,378 INFO 18923 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-08 23:02:10,398 INFO 18923 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-08 23:02:10,399 INFO 18923 [egg-swagger-doc] register router: get /api/v1/register for controller-User-register 
+2021-01-08 23:02:10,399 INFO 18923 [egg-swagger-doc] register router: get /api/v1/test for controller-test-test 
+2021-01-08 23:02:10,431 INFO 18923 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-01-08 23:03:18,280 ERROR 19024 [-/127.0.0.1/-/0ms GET /] nodejs.Error: [egg-swagger-doc] error at get:/api/v1/register ,the type of response parameter does not exit
+    at generateResponse (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:370:17)
+    at getTag_Path (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:139:35)
+    at buildDocument (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:50:14)
+    at documentInit (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:497:7)
+    at module.exports.swaggerInit (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/index.js:10:3)
+    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/app.js:8:5
+    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (node:internal/process/task_queues:75:11)
+
+pid: 19024
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-08 23:06:38,469 ERROR 19293 [-/127.0.0.1/-/0ms GET /] nodejs.Error: [egg-swagger-doc] error at get:/api/v1/register ,the type of request parameter does not exit
+    at generateParameters (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:408:15)
+    at generateRequest (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:331:23)
+    at getTag_Path (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:137:36)
+    at buildDocument (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:50:14)
+    at documentInit (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:497:7)
+    at module.exports.swaggerInit (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/index.js:10:3)
+    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/app.js:8:5
+    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (node:internal/process/task_queues:75:11)
+
+pid: 19293
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-08 23:17:01,478 ERROR 20207 [-/127.0.0.1/-/0ms GET /] nodejs.Error: [egg-swagger-doc] error at get:/api/v1/register ,the type of request parameter does not exit
+    at generateParameters (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:408:15)
+    at generateRequest (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:331:23)
+    at getTag_Path (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:137:36)
+    at buildDocument (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:50:14)
+    at documentInit (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:497:7)
+    at module.exports.swaggerInit (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/index.js:10:3)
+    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/app.js:8:5
+    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (node:internal/process/task_queues:75:11)
+
+pid: 20207
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-08 23:17:02,259 ERROR 20211 [-/127.0.0.1/-/0ms GET /] nodejs.Error: [egg-swagger-doc] error at get:/api/v1/register ,the type of request parameter does not exit
+    at generateParameters (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:408:15)
+    at generateRequest (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:331:23)
+    at getTag_Path (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:137:36)
+    at buildDocument (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:50:14)
+    at documentInit (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:497:7)
+    at module.exports.swaggerInit (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/index.js:10:3)
+    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/app.js:8:5
+    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (node:internal/process/task_queues:75:11)
+
+pid: 20211
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-08 23:17:39,588 ERROR 20275 [-/127.0.0.1/-/0ms GET /] nodejs.Error: [egg-swagger-doc] error at get:/api/v1/register ,the type of request parameter does not exit
+    at generateParameters (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:408:15)
+    at generateRequest (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:331:23)
+    at getTag_Path (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:137:36)
+    at buildDocument (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:50:14)
+    at documentInit (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:497:7)
+    at module.exports.swaggerInit (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/index.js:10:3)
+    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/app.js:8:5
+    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (node:internal/process/task_queues:75:11)
+
+pid: 20275
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-08 23:18:14,227 ERROR 20348 [-/127.0.0.1/-/0ms GET /] nodejs.Error: [egg-swagger-doc] error at get:/api/v1/register ,the type of request parameter does not exit
+    at generateParameters (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:408:15)
+    at generateRequest (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:331:23)
+    at getTag_Path (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:137:36)
+    at buildDocument (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:50:14)
+    at documentInit (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:497:7)
+    at module.exports.swaggerInit (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/index.js:10:3)
+    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/app.js:8:5
+    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (node:internal/process/task_queues:75:11)
+
+pid: 20348
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-08 23:21:44,641 ERROR 20722 [-/127.0.0.1/-/0ms GET /] nodejs.Error: [egg-swagger-doc] error at get:/api/v1/registerWithThird ,the type of response parameter does not exit
+    at generateResponse (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:370:17)
+    at getTag_Path (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:139:35)
+    at buildDocument (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:50:14)
+    at documentInit (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:497:7)
+    at module.exports.swaggerInit (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/index.js:10:3)
+    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/app.js:8:5
+    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (node:internal/process/task_queues:75:11)
+
+pid: 20722
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-08 23:24:21,445 ERROR 20957 [-/127.0.0.1/-/0ms GET /] nodejs.Error: [egg-swagger-doc] error at get:/api/v1/registerWithThird ,the type of response parameter does not exit
+    at generateResponse (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:370:17)
+    at getTag_Path (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:139:35)
+    at buildDocument (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:50:14)
+    at documentInit (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:497:7)
+    at module.exports.swaggerInit (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/index.js:10:3)
+    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/app.js:8:5
+    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (node:internal/process/task_queues:75:11)
+
+pid: 20957
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-08 23:33:19,317 ERROR 21759 [-/127.0.0.1/-/0ms GET /] nodejs.Error: [egg-swagger-doc] error at get:/api/v1/registerWithThird ,the type of response parameter does not exit
+    at generateResponse (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:370:17)
+    at getTag_Path (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:139:35)
+    at buildDocument (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:50:14)
+    at documentInit (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:497:7)
+    at module.exports.swaggerInit (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/index.js:10:3)
+    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/app.js:8:5
+    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (node:internal/process/task_queues:75:11)
+
+pid: 21759
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-08 23:33:39,907 INFO 21813 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-08 23:33:39,933 INFO 21813 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-08 23:33:39,934 INFO 21813 [egg-swagger-doc] register router: get /api/v1/registerWithThird for controller-User-registerWithThird 
+2021-01-08 23:33:39,934 INFO 21813 [egg-swagger-doc] register router: get /api/v1/test for controller-test-test 
+2021-01-08 23:33:39,963 INFO 21813 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-01-08 23:34:46,848 INFO 21919 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-08 23:34:46,870 INFO 21919 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-08 23:34:46,871 INFO 21919 [egg-swagger-doc] register router: post /api/v1/registerWithThird for controller-User-registerWithThird 
+2021-01-08 23:34:46,871 INFO 21919 [egg-swagger-doc] register router: get /api/v1/test for controller-test-test 
+2021-01-08 23:34:46,900 INFO 21919 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-01-08 23:34:47,641 INFO 21920 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-08 23:34:47,661 INFO 21920 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-08 23:34:47,661 INFO 21920 [egg-swagger-doc] register router: post /api/v1/registerWithThird for controller-User-registerWithThird 
+2021-01-08 23:34:47,661 INFO 21920 [egg-swagger-doc] register router: get /api/v1/test for controller-test-test 
+2021-01-08 23:34:47,689 INFO 21920 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-01-08 23:34:48,440 INFO 21924 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-08 23:34:48,462 INFO 21924 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-08 23:34:48,463 INFO 21924 [egg-swagger-doc] register router: post /api/v1/registerWithThird for controller-User-registerWithThird 
+2021-01-08 23:34:48,463 INFO 21924 [egg-swagger-doc] register router: get /api/v1/test for controller-test-test 
+2021-01-08 23:34:48,500 INFO 21924 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-01-08 23:35:55,368 INFO 22019 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-08 23:35:55,387 INFO 22019 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-08 23:35:55,387 INFO 22019 [egg-swagger-doc] register router: put /api/v1/registerWithThird for controller-User-registerWithThird 
+2021-01-08 23:35:55,387 INFO 22019 [egg-swagger-doc] register router: get /api/v1/test for controller-test-test 
+2021-01-08 23:35:55,419 INFO 22019 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2021-01-08 23:35:56,217 INFO 22020 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-08 23:35:56,239 INFO 22020 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-08 23:35:56,241 INFO 22020 [egg-swagger-doc] register router: put /api/v1/registerWithThird for controller-User-registerWithThird 
+2021-01-08 23:35:56,241 INFO 22020 [egg-swagger-doc] register router: get /api/v1/test for controller-test-test 
+2021-01-08 23:35:56,277 INFO 22020 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-01-08 23:36:19,947 ERROR 22020 [-/127.0.0.1/-/14ms PUT /api/v1/registerWithThird] nodejs.TypeError: Cannot read property 'registerWithThird' of undefined
+    at UserController.registerWithThird (/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/controller/User.js:29:43)
+    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:45:18)
+    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:44:32)
+    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 22020
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-08 23:38:25,721 INFO 22223 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-08 23:38:25,745 INFO 22223 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-08 23:38:25,746 INFO 22223 [egg-swagger-doc] register router: put /api/v1/registerWithThird for controller-User-registerWithThird 
+2021-01-08 23:38:25,746 INFO 22223 [egg-swagger-doc] register router: get /api/v1/test for controller-test-test 
+2021-01-08 23:38:25,780 INFO 22223 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-01-08 23:38:26,545 INFO 22224 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-08 23:38:26,564 INFO 22224 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-08 23:38:26,565 INFO 22224 [egg-swagger-doc] register router: put /api/v1/registerWithThird for controller-User-registerWithThird 
+2021-01-08 23:38:26,565 INFO 22224 [egg-swagger-doc] register router: get /api/v1/test for controller-test-test 
+2021-01-08 23:38:26,908 INFO 22227 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-08 23:38:26,929 INFO 22227 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-08 23:38:26,930 INFO 22227 [egg-swagger-doc] register router: put /api/v1/registerWithThird for controller-User-registerWithThird 
+2021-01-08 23:38:26,930 INFO 22227 [egg-swagger-doc] register router: get /api/v1/test for controller-test-test 
+2021-01-08 23:38:26,960 INFO 22227 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-01-08 23:38:27,310 INFO 22233 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-08 23:38:27,330 INFO 22233 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-08 23:38:27,331 INFO 22233 [egg-swagger-doc] register router: put /api/v1/registerWithThird for controller-User-registerWithThird 
+2021-01-08 23:38:27,331 INFO 22233 [egg-swagger-doc] register router: get /api/v1/test for controller-test-test 
+2021-01-08 23:38:27,360 INFO 22233 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-01-08 23:38:50,865 ERROR 22233 [-/127.0.0.1/-/10ms PUT /api/v1/registerWithThird] nodejs.TypeError: Cannot read property 'registerWithThird' of undefined
+    at UserController.registerWithThird (/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/controller/User.js:29:43)
+    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:45:18)
+    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:44:32)
+    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 22233
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-08 23:39:34,896 INFO 22419 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-08 23:39:34,917 INFO 22419 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-08 23:39:34,917 INFO 22419 [egg-swagger-doc] register router: put /api/v1/registerWithThird for controller-User-registerWithThird 
+2021-01-08 23:39:34,917 INFO 22419 [egg-swagger-doc] register router: get /api/v1/test for controller-test-test 
+2021-01-08 23:39:34,947 INFO 22419 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-01-08 23:39:35,661 INFO 22420 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-08 23:39:35,682 INFO 22420 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-08 23:39:35,682 INFO 22420 [egg-swagger-doc] register router: put /api/v1/registerWithThird for controller-User-registerWithThird 
+2021-01-08 23:39:35,683 INFO 22420 [egg-swagger-doc] register router: get /api/v1/test for controller-test-test 
+2021-01-08 23:39:35,717 INFO 22420 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2021-01-08 23:44:05,493 INFO 22780 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-08 23:44:05,513 INFO 22780 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-08 23:44:05,514 INFO 22780 [egg-swagger-doc] register router: put /api/v1/registerWithThird for controller-User-registerWithThird 
+2021-01-08 23:44:05,514 INFO 22780 [egg-swagger-doc] register router: get /api/v1/test for controller-test-test 
+2021-01-08 23:44:05,546 INFO 22780 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2021-01-08 23:44:06,344 INFO 22781 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-08 23:44:06,365 INFO 22781 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-08 23:44:06,366 INFO 22781 [egg-swagger-doc] register router: put /api/v1/registerWithThird for controller-User-registerWithThird 
+2021-01-08 23:44:06,366 INFO 22781 [egg-swagger-doc] register router: get /api/v1/test for controller-test-test 
+2021-01-08 23:44:06,941 INFO 22785 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-08 23:44:06,964 INFO 22785 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-08 23:44:06,965 INFO 22785 [egg-swagger-doc] register router: put /api/v1/registerWithThird for controller-User-registerWithThird 
+2021-01-08 23:44:06,965 INFO 22785 [egg-swagger-doc] register router: get /api/v1/test for controller-test-test 
+2021-01-08 23:44:07,002 INFO 22785 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-01-08 23:44:52,404 ERROR 22785 [-/127.0.0.1/-/11ms PUT /api/v1/registerWithThird] nodejs.TypeError: Cannot read property 'registerWithThird' of undefined
+    at UserController.registerWithThird (/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/controller/User.js:29:47)
+    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:45:18)
+    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:44:32)
+    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 22785
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-08 23:46:19,759 INFO 22970 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-08 23:46:19,779 INFO 22970 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-08 23:46:19,780 INFO 22970 [egg-swagger-doc] register router: put /api/v1/registerWithThird for controller-User-registerWithThird 
+2021-01-08 23:46:19,780 INFO 22970 [egg-swagger-doc] register router: get /api/v1/test for controller-test-test 
+2021-01-08 23:46:19,812 INFO 22970 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-01-08 23:46:20,564 INFO 22971 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-08 23:46:20,584 INFO 22971 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-08 23:46:20,585 INFO 22971 [egg-swagger-doc] register router: put /api/v1/registerWithThird for controller-User-registerWithThird 
+2021-01-08 23:46:20,586 INFO 22971 [egg-swagger-doc] register router: get /api/v1/test for controller-test-test 
+2021-01-08 23:46:20,701 INFO 22972 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-08 23:46:20,722 INFO 22972 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-08 23:46:20,722 INFO 22972 [egg-swagger-doc] register router: put /api/v1/registerWithThird for controller-User-registerWithThird 
+2021-01-08 23:46:20,722 INFO 22972 [egg-swagger-doc] register router: get /api/v1/test for controller-test-test 
+2021-01-08 23:46:20,756 INFO 22972 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-01-08 23:46:21,465 INFO 22978 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-08 23:46:21,487 INFO 22978 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-08 23:46:21,488 INFO 22978 [egg-swagger-doc] register router: put /api/v1/registerWithThird for controller-User-registerWithThird 
+2021-01-08 23:46:21,488 INFO 22978 [egg-swagger-doc] register router: get /api/v1/test for controller-test-test 
+2021-01-08 23:46:21,524 INFO 22978 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2021-01-08 23:46:27,251 INFO 22997 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-08 23:46:27,272 INFO 22997 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-08 23:46:27,272 INFO 22997 [egg-swagger-doc] register router: put /api/v1/registerWithThird for controller-User-registerWithThird 
+2021-01-08 23:46:27,272 INFO 22997 [egg-swagger-doc] register router: get /api/v1/test for controller-test-test 
+2021-01-08 23:46:27,305 INFO 22997 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-01-08 23:46:28,070 INFO 22998 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-08 23:46:28,090 INFO 22998 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-08 23:46:28,091 INFO 22998 [egg-swagger-doc] register router: put /api/v1/registerWithThird for controller-User-registerWithThird 
+2021-01-08 23:46:28,091 INFO 22998 [egg-swagger-doc] register router: get /api/v1/test for controller-test-test 
+2021-01-08 23:46:28,100 INFO 22999 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-08 23:46:28,121 INFO 22999 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-08 23:46:28,122 INFO 22999 [egg-swagger-doc] register router: put /api/v1/registerWithThird for controller-User-registerWithThird 
+2021-01-08 23:46:28,122 INFO 22999 [egg-swagger-doc] register router: get /api/v1/test for controller-test-test 
+2021-01-08 23:46:28,156 INFO 22999 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-01-08 23:46:50,381 ERROR 22999 [-/127.0.0.1/-/11ms PUT /api/v1/registerWithThird] nodejs.TypeError: Cannot read property 'registerWithThird' of undefined
+    at UserController.registerWithThird (/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/controller/User.js:29:47)
+    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:45:18)
+    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:44:32)
+    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 22999
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-08 23:50:49,777 INFO 23384 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-08 23:50:49,812 INFO 23384 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-08 23:50:49,812 INFO 23384 [egg-swagger-doc] register router: put /api/v1/registerWithThird for controller-User-registerWithThird 
+2021-01-08 23:50:49,813 INFO 23384 [egg-swagger-doc] register router: get /api/v1/test for controller-test-test 
+2021-01-08 23:50:49,846 INFO 23384 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-01-08 23:53:55,283 INFO 23641 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-08 23:53:55,313 INFO 23641 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-08 23:53:55,314 INFO 23641 [egg-swagger-doc] register router: put /api/v1/registerWithThird for controller-User-registerWithThird 
+2021-01-08 23:53:55,314 INFO 23641 [egg-swagger-doc] register router: get /api/v1/test for controller-test-test 
+2021-01-08 23:53:55,351 INFO 23641 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2021-01-08 23:54:01,842 INFO 23674 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-08 23:54:01,872 INFO 23674 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-08 23:54:01,872 INFO 23674 [egg-swagger-doc] register router: put /api/v1/registerWithThird for controller-User-registerWithThird 
+2021-01-08 23:54:01,872 INFO 23674 [egg-swagger-doc] register router: get /api/v1/test for controller-test-test 
+2021-01-08 23:54:01,907 INFO 23674 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-01-08 23:54:02,649 INFO 23677 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-08 23:54:02,672 INFO 23677 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-08 23:54:02,673 INFO 23677 [egg-swagger-doc] register router: put /api/v1/registerWithThird for controller-User-registerWithThird 
+2021-01-08 23:54:02,673 INFO 23677 [egg-swagger-doc] register router: get /api/v1/test for controller-test-test 
+2021-01-08 23:54:02,705 INFO 23677 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-01-08 23:55:49,852 INFO 23821 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-08 23:55:49,882 INFO 23821 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-08 23:55:49,883 INFO 23821 [egg-swagger-doc] register router: put /api/v1/registerWithThird for controller-User-registerWithThird 
+2021-01-08 23:55:49,883 INFO 23821 [egg-swagger-doc] register router: get /api/v1/test for controller-test-test 
+2021-01-08 23:55:49,918 INFO 23821 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2021-01-08 23:55:50,654 INFO 23829 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-08 23:55:50,674 INFO 23829 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-08 23:55:50,674 INFO 23829 [egg-swagger-doc] register router: put /api/v1/registerWithThird for controller-User-registerWithThird 
+2021-01-08 23:55:50,675 INFO 23829 [egg-swagger-doc] register router: get /api/v1/test for controller-test-test 
+2021-01-08 23:55:50,706 INFO 23829 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-01-08 23:58:11,556 INFO 24030 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-08 23:58:11,589 INFO 24030 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-08 23:58:11,590 INFO 24030 [egg-swagger-doc] register router: put /api/v1/registerWithThird for controller-User-registerWithThird 
+2021-01-08 23:58:11,590 INFO 24030 [egg-swagger-doc] register router: get /api/v1/test for controller-test-test 
+2021-01-08 23:58:11,629 INFO 24030 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-01-08 23:58:12,378 INFO 24031 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-08 23:58:12,401 INFO 24031 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-08 23:58:12,401 INFO 24031 [egg-swagger-doc] register router: put /api/v1/registerWithThird for controller-User-registerWithThird 
+2021-01-08 23:58:12,402 INFO 24031 [egg-swagger-doc] register router: get /api/v1/test for controller-test-test 
+2021-01-08 23:58:12,432 INFO 24031 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result

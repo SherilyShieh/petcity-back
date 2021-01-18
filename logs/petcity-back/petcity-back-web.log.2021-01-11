@@ -1,0 +1,40 @@
+2021-01-11 09:35:59,390 INFO 75092 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-11 09:35:59,417 INFO 75092 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-11 09:35:59,418 INFO 75092 [egg-swagger-doc] register router: get /api/v1/test for controller-test-test 
+2021-01-11 09:35:59,418 INFO 75092 [egg-swagger-doc] register router: put /api/v1/signinWithThird for controller-user-signinWithThird 
+2021-01-11 09:35:59,462 INFO 75092 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2021-01-11 09:38:41,294 INFO 75203 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-11 09:38:41,314 INFO 75203 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-11 09:38:41,315 INFO 75203 [egg-swagger-doc] register router: get /api/v1/test for controller-test-test 
+2021-01-11 09:38:41,315 INFO 75203 [egg-swagger-doc] register router: put /api/v1/signinWithThird for controller-user-signinWithThird 
+2021-01-11 09:38:41,350 INFO 75203 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-01-11 12:02:07,206 INFO 4717 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-11 12:02:07,237 INFO 4717 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-11 12:02:07,238 INFO 4717 [egg-swagger-doc] register router: get /api/v1/test for controller-test-test 
+2021-01-11 12:02:07,238 INFO 4717 [egg-swagger-doc] register router: put /api/v1/signinWithThird for controller-user-signinWithThird 
+2021-01-11 12:02:07,254 ERROR 4717 [-/127.0.0.1/-/0ms GET /] nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1138:16)
+errno: -61
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 4717
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-11 12:04:50,767 INFO 4873 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-11 12:04:50,795 INFO 4873 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-11 12:04:50,796 INFO 4873 [egg-swagger-doc] register router: get /api/v1/test for controller-test-test 
+2021-01-11 12:04:50,796 INFO 4873 [egg-swagger-doc] register router: put /api/v1/signinWithThird for controller-user-signinWithThird 
+2021-01-11 12:04:50,821 INFO 4873 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2021-01-11 13:15:48,322 INFO 7256 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-11 13:15:48,355 INFO 7256 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-11 13:15:48,356 INFO 7256 [egg-swagger-doc] register router: get /api/v1/test for controller-test-test 
+2021-01-11 13:15:48,356 INFO 7256 [egg-swagger-doc] register router: put /api/v1/signinWithThird for controller-user-signinWithThird 
+2021-01-11 13:15:48,402 INFO 7256 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-01-11 14:54:38,873 INFO 11067 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-11 14:54:38,904 INFO 11067 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-11 14:54:38,904 INFO 11067 [egg-swagger-doc] register router: get /api/v1/test for controller-test-test 
+2021-01-11 14:54:38,905 INFO 11067 [egg-swagger-doc] register router: put /api/v1/signinWithThird for controller-user-signinWithThird 
+2021-01-11 14:54:38,949 INFO 11067 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result

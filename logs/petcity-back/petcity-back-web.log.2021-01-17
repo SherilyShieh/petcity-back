@@ -1,0 +1,507 @@
+2021-01-17 00:45:47,772 INFO 13713 [egg-sequelize](2ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = '900EZVqOHGSsDH5KFX5897tbiNu1' LIMIT 1;
+2021-01-17 00:45:47,780 INFO 13713 [egg-sequelize](6ms) Executed (default): INSERT INTO `User` (`user_id`,`uid`,`first_name`,`last_name`,`email`,`password`,`channel`,`created_time`,`updated_time`) VALUES (DEFAULT,?,?,?,?,?,?,?,?);
+2021-01-17 13:23:16,953 INFO 19063 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-17 13:23:16,986 INFO 19063 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-17 13:23:16,986 INFO 19063 [egg-swagger-doc] register router: get /api/v1/test for controller-test-test 
+2021-01-17 13:23:16,987 INFO 19063 [egg-swagger-doc] register router: put /api/v1/signUp for controller-user-signUp 
+2021-01-17 13:23:16,987 INFO 19063 [egg-swagger-doc] register router: put /api/v1/register for controller-user-register 
+2021-01-17 13:23:17,035 INFO 19063 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-01-17 13:23:59,773 INFO 19122 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-17 13:23:59,806 INFO 19122 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-17 13:23:59,806 INFO 19122 [egg-swagger-doc] register router: get /api/v1/test for controller-test-test 
+2021-01-17 13:23:59,806 INFO 19122 [egg-swagger-doc] register router: put /api/v1/signUp for controller-user-signUp 
+2021-01-17 13:23:59,807 INFO 19122 [egg-swagger-doc] register router: put /api/v1/register for controller-user-register 
+2021-01-17 13:23:59,807 INFO 19122 [egg-swagger-doc] register router: get /api/v1/getUser for controller-user-getUser 
+2021-01-17 13:23:59,838 INFO 19122 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-01-17 13:24:00,528 INFO 19123 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-17 13:24:00,554 INFO 19123 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-17 13:24:00,554 INFO 19123 [egg-swagger-doc] register router: get /api/v1/test for controller-test-test 
+2021-01-17 13:24:00,555 INFO 19123 [egg-swagger-doc] register router: put /api/v1/signUp for controller-user-signUp 
+2021-01-17 13:24:00,555 INFO 19123 [egg-swagger-doc] register router: put /api/v1/register for controller-user-register 
+2021-01-17 13:24:00,555 INFO 19123 [egg-swagger-doc] register router: get /api/v1/getUser for controller-user-getUser 
+2021-01-17 13:24:01,258 INFO 19127 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-17 13:24:01,277 INFO 19127 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-17 13:24:01,278 INFO 19127 [egg-swagger-doc] register router: get /api/v1/test for controller-test-test 
+2021-01-17 13:24:01,278 INFO 19127 [egg-swagger-doc] register router: put /api/v1/signUp for controller-user-signUp 
+2021-01-17 13:24:01,278 INFO 19127 [egg-swagger-doc] register router: put /api/v1/register for controller-user-register 
+2021-01-17 13:24:01,278 INFO 19127 [egg-swagger-doc] register router: get /api/v1/getUser for controller-user-getUser 
+2021-01-17 13:24:00,705 INFO 19124 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-17 13:24:00,724 INFO 19124 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-17 13:24:00,724 INFO 19124 [egg-swagger-doc] register router: get /api/v1/test for controller-test-test 
+2021-01-17 13:24:00,724 INFO 19124 [egg-swagger-doc] register router: put /api/v1/signUp for controller-user-signUp 
+2021-01-17 13:24:00,724 INFO 19124 [egg-swagger-doc] register router: put /api/v1/register for controller-user-register 
+2021-01-17 13:24:00,725 INFO 19124 [egg-swagger-doc] register router: get /api/v1/getUser for controller-user-getUser 
+2021-01-17 13:24:00,753 INFO 19124 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2021-01-17 13:24:01,516 INFO 19128 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-17 13:24:01,535 INFO 19128 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-17 13:24:01,536 INFO 19128 [egg-swagger-doc] register router: get /api/v1/test for controller-test-test 
+2021-01-17 13:24:01,536 INFO 19128 [egg-swagger-doc] register router: put /api/v1/signUp for controller-user-signUp 
+2021-01-17 13:24:01,536 INFO 19128 [egg-swagger-doc] register router: put /api/v1/register for controller-user-register 
+2021-01-17 13:24:01,536 INFO 19128 [egg-swagger-doc] register router: get /api/v1/getUser for controller-user-getUser 
+2021-01-17 13:24:01,563 INFO 19128 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-01-17 13:24:38,977 ERROR 19128 [-/127.0.0.1/-/7ms GET /api/v1/getUser?uid=QSQDaTBhmmNt4uUFeRa2MqBXjk42] nodejs.ReferenceError: params is not defined
+    at UserController.getUser (/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/controller/user.js:62:21)
+    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:45:18)
+    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:44:32)
+    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:36:12
+
+pid: 19128
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-17 13:25:28,726 INFO 19192 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-17 13:25:28,756 INFO 19192 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-17 13:25:28,756 INFO 19192 [egg-swagger-doc] register router: get /api/v1/test for controller-test-test 
+2021-01-17 13:25:28,757 INFO 19192 [egg-swagger-doc] register router: put /api/v1/signUp for controller-user-signUp 
+2021-01-17 13:25:28,757 INFO 19192 [egg-swagger-doc] register router: put /api/v1/register for controller-user-register 
+2021-01-17 13:25:28,757 INFO 19192 [egg-swagger-doc] register router: get /api/v1/getUser for controller-user-getUser 
+2021-01-17 13:25:28,789 INFO 19192 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-01-17 13:25:29,500 INFO 19193 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-17 13:25:29,519 INFO 19193 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-17 13:25:29,519 INFO 19193 [egg-swagger-doc] register router: get /api/v1/test for controller-test-test 
+2021-01-17 13:25:29,520 INFO 19193 [egg-swagger-doc] register router: put /api/v1/signUp for controller-user-signUp 
+2021-01-17 13:25:29,520 INFO 19193 [egg-swagger-doc] register router: put /api/v1/register for controller-user-register 
+2021-01-17 13:25:29,520 INFO 19193 [egg-swagger-doc] register router: get /api/v1/getUser for controller-user-getUser 
+2021-01-17 13:25:29,548 INFO 19193 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-01-17 13:26:49,550 ERROR 19193 [-/127.0.0.1/-/2ms GET /api/v1/getUser?uid=QSQDaTBhmmNt4uUFeRa2MqBXjk42] nodejs.ReferenceError: params is not defined
+    at UserController.getUser (/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/controller/user.js:62:21)
+    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:45:18)
+    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:44:32)
+    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:36:12
+
+pid: 19193
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-17 13:27:08,240 INFO 19312 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-17 13:27:08,270 INFO 19312 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-17 13:27:08,270 INFO 19312 [egg-swagger-doc] register router: get /api/v1/test for controller-test-test 
+2021-01-17 13:27:08,270 INFO 19312 [egg-swagger-doc] register router: put /api/v1/signUp for controller-user-signUp 
+2021-01-17 13:27:08,271 INFO 19312 [egg-swagger-doc] register router: put /api/v1/register for controller-user-register 
+2021-01-17 13:27:08,271 INFO 19312 [egg-swagger-doc] register router: get /api/v1/getUser for controller-user-getUser 
+2021-01-17 13:27:08,306 INFO 19312 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-01-17 13:27:09,012 INFO 19314 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-17 13:27:09,033 INFO 19314 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-17 13:27:09,034 INFO 19314 [egg-swagger-doc] register router: get /api/v1/test for controller-test-test 
+2021-01-17 13:27:09,034 INFO 19314 [egg-swagger-doc] register router: put /api/v1/signUp for controller-user-signUp 
+2021-01-17 13:27:09,034 INFO 19314 [egg-swagger-doc] register router: put /api/v1/register for controller-user-register 
+2021-01-17 13:27:09,035 INFO 19314 [egg-swagger-doc] register router: get /api/v1/getUser for controller-user-getUser 
+2021-01-17 13:27:09,063 INFO 19314 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-01-17 13:27:16,422 INFO 19314 [egg-sequelize](4ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = 'QSQDaTBhmmNt4uUFeRa2MqBXjk42' LIMIT 1;
+2021-01-17 14:07:21,858 INFO 19314 [egg-sequelize](3ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = '900EZVqOHGSsDH5KFX5897tbiNu1' LIMIT 1;
+2021-01-17 14:07:50,561 INFO 19314 [egg-sequelize](1ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = '900EZVqOHGSsDH5KFX5897tbiNu1' LIMIT 1;
+2021-01-17 14:10:31,930 INFO 19314 [egg-sequelize](1ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = '900EZVqOHGSsDH5KFX5897tbiNu1' LIMIT 1;
+2021-01-17 14:12:22,529 INFO 19314 [egg-sequelize](1ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = '900EZVqOHGSsDH5KFX5897tbiNu1' LIMIT 1;
+2021-01-17 14:14:09,455 INFO 19314 [egg-sequelize](2ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = '900EZVqOHGSsDH5KFX5897tbiNu1' LIMIT 1;
+2021-01-17 14:19:00,063 INFO 19314 [egg-sequelize](3ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = '900EZVqOHGSsDH5KFX5897tbiNu1' LIMIT 1;
+2021-01-17 14:19:19,749 INFO 19314 [egg-sequelize](1ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = '900EZVqOHGSsDH5KFX5897tbiNu1' LIMIT 1;
+2021-01-17 14:21:34,586 INFO 21497 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-17 14:21:34,613 INFO 21497 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-17 14:21:34,613 INFO 21497 [egg-swagger-doc] register router: get /api/v1/test for controller-test-test 
+2021-01-17 14:21:34,614 INFO 21497 [egg-swagger-doc] register router: put /api/v1/signUp for controller-user-signUp 
+2021-01-17 14:21:34,614 INFO 21497 [egg-swagger-doc] register router: put /api/v1/register for controller-user-register 
+2021-01-17 14:21:34,614 INFO 21497 [egg-swagger-doc] register router: get /api/v1/getUser for controller-user-getUser 
+2021-01-17 14:21:34,649 INFO 21497 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-01-17 14:21:47,801 INFO 21533 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-17 14:21:47,824 INFO 21533 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-17 14:21:47,824 INFO 21533 [egg-swagger-doc] register router: get /api/v1/test for controller-test-test 
+2021-01-17 14:21:47,825 INFO 21533 [egg-swagger-doc] register router: put /api/v1/signUp for controller-user-signUp 
+2021-01-17 14:21:47,825 INFO 21533 [egg-swagger-doc] register router: put /api/v1/register for controller-user-register 
+2021-01-17 14:21:47,825 INFO 21533 [egg-swagger-doc] register router: get /api/v1/getUser for controller-user-getUser 
+2021-01-17 14:21:47,855 INFO 21533 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-01-17 14:21:48,605 INFO 21534 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-17 14:21:48,635 INFO 21534 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-17 14:21:48,636 INFO 21534 [egg-swagger-doc] register router: get /api/v1/test for controller-test-test 
+2021-01-17 14:21:48,636 INFO 21534 [egg-swagger-doc] register router: put /api/v1/signUp for controller-user-signUp 
+2021-01-17 14:21:48,636 INFO 21534 [egg-swagger-doc] register router: put /api/v1/register for controller-user-register 
+2021-01-17 14:21:48,637 INFO 21534 [egg-swagger-doc] register router: get /api/v1/getUser for controller-user-getUser 
+2021-01-17 14:21:48,671 INFO 21534 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-01-17 14:21:57,671 INFO 21534 [egg-sequelize](3ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = '900EZVqOHGSsDH5KFX5897tbiNu1' LIMIT 1;
+2021-01-17 14:21:57,675 ERROR 21534 [-/127.0.0.1/-/15ms GET /api/v1/getUser?uid=900EZVqOHGSsDH5KFX5897tbiNu1] nodejs.ReferenceError: user is not defined
+    at UserService.getUser (/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/service/user.js:172:19)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async UserController.getUser (/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/controller/user.js:62:24)
+    at async /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-static-cache/index.js:53:36
+    at async robotMiddleware (/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/middleware/robot.js:10:13)
+    at async /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+
+pid: 21534
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-17 14:22:17,116 INFO 21534 [egg-sequelize](1ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = '00EZVqOHGSsDH5KFX5897tbiNu1' LIMIT 1;
+2021-01-17 14:22:20,530 INFO 21534 [egg-sequelize](1ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = '900EZVqOHGSsDH5KFX5897tbiNu1' LIMIT 1;
+2021-01-17 14:22:20,531 ERROR 21534 [-/127.0.0.1/-/3ms GET /api/v1/getUser?uid=900EZVqOHGSsDH5KFX5897tbiNu1] nodejs.ReferenceError: user is not defined
+    at UserService.getUser (/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/service/user.js:172:19)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async UserController.getUser (/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/controller/user.js:62:24)
+    at async /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-static-cache/index.js:53:36
+    at async robotMiddleware (/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/middleware/robot.js:10:13)
+    at async /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+
+pid: 21534
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-17 14:22:46,416 INFO 21587 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-17 14:22:46,445 INFO 21587 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-17 14:22:46,447 INFO 21587 [egg-swagger-doc] register router: get /api/v1/test for controller-test-test 
+2021-01-17 14:22:46,449 INFO 21587 [egg-swagger-doc] register router: put /api/v1/signUp for controller-user-signUp 
+2021-01-17 14:22:46,449 INFO 21587 [egg-swagger-doc] register router: put /api/v1/register for controller-user-register 
+2021-01-17 14:22:46,449 INFO 21587 [egg-swagger-doc] register router: get /api/v1/getUser for controller-user-getUser 
+2021-01-17 14:22:46,485 INFO 21587 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-01-17 14:22:47,196 INFO 21588 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-17 14:22:47,218 INFO 21588 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-17 14:22:47,218 INFO 21588 [egg-swagger-doc] register router: get /api/v1/test for controller-test-test 
+2021-01-17 14:22:47,219 INFO 21588 [egg-swagger-doc] register router: put /api/v1/signUp for controller-user-signUp 
+2021-01-17 14:22:47,219 INFO 21588 [egg-swagger-doc] register router: put /api/v1/register for controller-user-register 
+2021-01-17 14:22:47,219 INFO 21588 [egg-swagger-doc] register router: get /api/v1/getUser for controller-user-getUser 
+2021-01-17 14:22:47,250 INFO 21588 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2021-01-17 14:22:52,570 INFO 21588 [egg-sequelize](7ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = '900EZVqOHGSsDH5KFX5897tbiNu1' LIMIT 1;
+2021-01-17 14:23:22,106 INFO 21588 [egg-sequelize](2ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = '900EZVqOHGSsDH5KFX5897tbiNu1' LIMIT 1;
+2021-01-17 14:23:31,421 INFO 21588 [egg-sequelize](1ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = '900EZVqOHGSsDH5KFX5897tbiNu1' LIMIT 1;
+2021-01-17 14:24:29,200 INFO 21588 [egg-sequelize](1ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = '900EZVqOHGSsDH5KFX5897tbiNu1' LIMIT 1;
+2021-01-17 14:27:22,632 INFO 21588 [egg-sequelize](2ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = '900EZVqOHGSsDH5KFX5897tbiNu1' LIMIT 1;
+2021-01-17 14:27:43,124 INFO 21588 [egg-sequelize](2ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = '900EZVqOHGSsDH5KFX5897tbiNu1' LIMIT 1;
+2021-01-17 14:29:38,226 INFO 21588 [egg-sequelize](4ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = '900EZVqOHGSsDH5KFX5897tbiNu1' LIMIT 1;
+2021-01-17 14:30:12,109 INFO 21588 [egg-sequelize](2ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = '900EZVqOHGSsDH5KFX5897tbiNu1' LIMIT 1;
+2021-01-17 14:31:14,988 INFO 21588 [egg-sequelize](3ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = '900EZVqOHGSsDH5KFX5897tbiNu1' LIMIT 1;
+2021-01-17 14:41:32,616 INFO 21588 [egg-sequelize](8ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = '900EZVqOHGSsDH5KFX5897tbiNu1' LIMIT 1;
+2021-01-17 14:41:57,553 INFO 21588 [egg-sequelize](2ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = '900EZVqOHGSsDH5KFX5897tbiNu1' LIMIT 1;
+2021-01-17 14:43:37,493 INFO 21588 [egg-sequelize](2ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = '900EZVqOHGSsDH5KFX5897tbiNu1' LIMIT 1;
+2021-01-17 17:18:28,383 INFO 21588 [egg-sequelize](1ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = '900EZVqOHGSsDH5KFX5897tbiNu1' LIMIT 1;
+2021-01-17 17:19:29,961 INFO 21588 [egg-sequelize](2ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = '900EZVqOHGSsDH5KFX5897tbiNu1' LIMIT 1;
+2021-01-17 17:21:39,345 INFO 21588 [egg-sequelize](8ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = '900EZVqOHGSsDH5KFX5897tbiNu1' LIMIT 1;
+2021-01-17 17:22:28,145 INFO 21588 [egg-sequelize](2ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = '900EZVqOHGSsDH5KFX5897tbiNu1' LIMIT 1;
+2021-01-17 17:22:35,416 INFO 21588 [egg-sequelize](1ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = '900EZVqOHGSsDH5KFX5897tbiNu1' LIMIT 1;
+2021-01-17 17:23:17,954 INFO 21588 [egg-sequelize](3ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = '900EZVqOHGSsDH5KFX5897tbiNu1' LIMIT 1;
+2021-01-17 17:24:06,237 INFO 21588 [egg-sequelize](2ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = '900EZVqOHGSsDH5KFX5897tbiNu1' LIMIT 1;
+2021-01-17 17:24:22,011 INFO 21588 [egg-sequelize](1ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = '900EZVqOHGSsDH5KFX5897tbiNu1' LIMIT 1;
+2021-01-17 17:26:14,462 INFO 21588 [egg-sequelize](1ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = '900EZVqOHGSsDH5KFX5897tbiNu1' LIMIT 1;
+2021-01-17 17:26:49,179 INFO 21588 [egg-sequelize](3ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = '900EZVqOHGSsDH5KFX5897tbiNu1' LIMIT 1;
+2021-01-17 17:29:45,924 INFO 21588 [egg-sequelize](2ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = '900EZVqOHGSsDH5KFX5897tbiNu1' LIMIT 1;
+2021-01-17 17:29:55,062 INFO 21588 [egg-sequelize](4ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = '900EZVqOHGSsDH5KFX5897tbiNu1' LIMIT 1;
+2021-01-17 18:53:26,552 INFO 32738 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-17 18:53:26,582 INFO 32738 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-17 18:53:26,583 INFO 32738 [egg-swagger-doc] register router: get /api/v1/test for controller-test-test 
+2021-01-17 18:53:26,583 INFO 32738 [egg-swagger-doc] register router: put /api/v1/signUp for controller-user-signUp 
+2021-01-17 18:53:26,583 INFO 32738 [egg-swagger-doc] register router: put /api/v1/register for controller-user-register 
+2021-01-17 18:53:26,583 INFO 32738 [egg-swagger-doc] register router: get /api/v1/getUser for controller-user-getUser 
+2021-01-17 18:53:26,584 INFO 32738 [egg-swagger-doc] register router: get /api/v1/verifyEmail for controller-user-verifyEmail 
+2021-01-17 18:53:26,628 INFO 32738 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-01-17 18:53:27,455 INFO 32751 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-17 18:53:27,483 INFO 32751 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-17 18:53:27,483 INFO 32751 [egg-swagger-doc] register router: get /api/v1/test for controller-test-test 
+2021-01-17 18:53:27,484 INFO 32751 [egg-swagger-doc] register router: put /api/v1/signUp for controller-user-signUp 
+2021-01-17 18:53:27,484 INFO 32751 [egg-swagger-doc] register router: put /api/v1/register for controller-user-register 
+2021-01-17 18:53:27,484 INFO 32751 [egg-swagger-doc] register router: get /api/v1/getUser for controller-user-getUser 
+2021-01-17 18:53:27,484 INFO 32751 [egg-swagger-doc] register router: get /api/v1/verifyEmail for controller-user-verifyEmail 
+2021-01-17 18:53:28,175 INFO 32761 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-17 18:53:28,196 INFO 32761 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-17 18:53:28,196 INFO 32761 [egg-swagger-doc] register router: get /api/v1/test for controller-test-test 
+2021-01-17 18:53:28,196 INFO 32761 [egg-swagger-doc] register router: put /api/v1/signUp for controller-user-signUp 
+2021-01-17 18:53:28,196 INFO 32761 [egg-swagger-doc] register router: put /api/v1/register for controller-user-register 
+2021-01-17 18:53:28,197 INFO 32761 [egg-swagger-doc] register router: get /api/v1/getUser for controller-user-getUser 
+2021-01-17 18:53:28,197 INFO 32761 [egg-swagger-doc] register router: get /api/v1/verifyEmail for controller-user-verifyEmail 
+2021-01-17 18:53:27,607 INFO 32753 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-17 18:53:27,631 INFO 32753 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-17 18:53:27,631 INFO 32753 [egg-swagger-doc] register router: get /api/v1/test for controller-test-test 
+2021-01-17 18:53:27,632 INFO 32753 [egg-swagger-doc] register router: put /api/v1/signUp for controller-user-signUp 
+2021-01-17 18:53:27,632 INFO 32753 [egg-swagger-doc] register router: put /api/v1/register for controller-user-register 
+2021-01-17 18:53:27,632 INFO 32753 [egg-swagger-doc] register router: get /api/v1/getUser for controller-user-getUser 
+2021-01-17 18:53:27,632 INFO 32753 [egg-swagger-doc] register router: get /api/v1/verifyEmail for controller-user-verifyEmail 
+2021-01-17 18:53:27,666 INFO 32753 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-01-17 18:53:28,474 INFO 32762 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-17 18:53:28,494 INFO 32762 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-17 18:53:28,495 INFO 32762 [egg-swagger-doc] register router: get /api/v1/test for controller-test-test 
+2021-01-17 18:53:28,495 INFO 32762 [egg-swagger-doc] register router: put /api/v1/signUp for controller-user-signUp 
+2021-01-17 18:53:28,495 INFO 32762 [egg-swagger-doc] register router: put /api/v1/register for controller-user-register 
+2021-01-17 18:53:28,495 INFO 32762 [egg-swagger-doc] register router: get /api/v1/getUser for controller-user-getUser 
+2021-01-17 18:53:28,495 INFO 32762 [egg-swagger-doc] register router: get /api/v1/verifyEmail for controller-user-verifyEmail 
+2021-01-17 18:53:28,522 INFO 32762 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-01-17 18:53:31,577 INFO 32766 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-17 18:53:31,599 INFO 32766 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-17 18:53:31,599 INFO 32766 [egg-swagger-doc] register router: get /api/v1/test for controller-test-test 
+2021-01-17 18:53:31,599 INFO 32766 [egg-swagger-doc] register router: put /api/v1/signUp for controller-user-signUp 
+2021-01-17 18:53:31,599 INFO 32766 [egg-swagger-doc] register router: put /api/v1/register for controller-user-register 
+2021-01-17 18:53:31,600 INFO 32766 [egg-swagger-doc] register router: get /api/v1/getUser for controller-user-getUser 
+2021-01-17 18:53:31,600 INFO 32766 [egg-swagger-doc] register router: get /api/v1/verifyEmail for controller-user-verifyEmail 
+2021-01-17 18:53:31,637 INFO 32766 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2021-01-17 18:53:32,471 INFO 32775 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-17 18:53:32,497 INFO 32775 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-17 18:53:32,498 INFO 32775 [egg-swagger-doc] register router: get /api/v1/test for controller-test-test 
+2021-01-17 18:53:32,498 INFO 32775 [egg-swagger-doc] register router: put /api/v1/signUp for controller-user-signUp 
+2021-01-17 18:53:32,498 INFO 32775 [egg-swagger-doc] register router: put /api/v1/register for controller-user-register 
+2021-01-17 18:53:32,498 INFO 32775 [egg-swagger-doc] register router: get /api/v1/getUser for controller-user-getUser 
+2021-01-17 18:53:32,498 INFO 32775 [egg-swagger-doc] register router: get /api/v1/verifyEmail for controller-user-verifyEmail 
+2021-01-17 18:53:32,532 INFO 32775 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-01-17 18:53:49,175 INFO 32775 [egg-sequelize](4ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`email` = 'sherilyshieh@gmail.com' LIMIT 1;
+2021-01-17 18:54:19,726 INFO 32823 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-17 18:54:19,761 INFO 32823 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-17 18:54:19,763 INFO 32823 [egg-swagger-doc] register router: get /api/v1/test for controller-test-test 
+2021-01-17 18:54:19,764 INFO 32823 [egg-swagger-doc] register router: put /api/v1/signUp for controller-user-signUp 
+2021-01-17 18:54:19,764 INFO 32823 [egg-swagger-doc] register router: put /api/v1/register for controller-user-register 
+2021-01-17 18:54:19,764 INFO 32823 [egg-swagger-doc] register router: get /api/v1/getUser for controller-user-getUser 
+2021-01-17 18:54:19,764 INFO 32823 [egg-swagger-doc] register router: get /api/v1/verifyEmail for controller-user-verifyEmail 
+2021-01-17 18:54:19,804 INFO 32823 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-01-17 18:54:20,587 INFO 32824 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-17 18:54:20,606 INFO 32824 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-17 18:54:20,607 INFO 32824 [egg-swagger-doc] register router: get /api/v1/test for controller-test-test 
+2021-01-17 18:54:20,607 INFO 32824 [egg-swagger-doc] register router: put /api/v1/signUp for controller-user-signUp 
+2021-01-17 18:54:20,607 INFO 32824 [egg-swagger-doc] register router: put /api/v1/register for controller-user-register 
+2021-01-17 18:54:20,607 INFO 32824 [egg-swagger-doc] register router: get /api/v1/getUser for controller-user-getUser 
+2021-01-17 18:54:20,607 INFO 32824 [egg-swagger-doc] register router: get /api/v1/verifyEmail for controller-user-verifyEmail 
+2021-01-17 18:54:20,638 INFO 32824 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2021-01-17 18:54:25,172 INFO 32824 [egg-sequelize](4ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`email` = 'sherilyshieh@gmail.com' LIMIT 1;
+2021-01-17 19:17:18,537 INFO 33684 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-17 19:17:18,567 INFO 33684 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-17 19:17:18,567 INFO 33684 [egg-swagger-doc] register router: get /api/v1/test for controller-test-test 
+2021-01-17 19:17:18,567 INFO 33684 [egg-swagger-doc] register router: put /api/v1/signUp for controller-user-signUp 
+2021-01-17 19:17:18,567 INFO 33684 [egg-swagger-doc] register router: put /api/v1/register for controller-user-register 
+2021-01-17 19:17:18,568 INFO 33684 [egg-swagger-doc] register router: get /api/v1/getUser for controller-user-getUser 
+2021-01-17 19:17:18,568 INFO 33684 [egg-swagger-doc] register router: get /api/v1/verifyEmail for controller-user-verifyEmail 
+2021-01-17 19:17:18,604 INFO 33684 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-01-17 19:18:50,330 INFO 33755 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-17 19:18:50,361 INFO 33755 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-17 19:18:50,362 INFO 33755 [egg-swagger-doc] register router: get /api/v1/test for controller-test-test 
+2021-01-17 19:18:50,362 INFO 33755 [egg-swagger-doc] register router: put /api/v1/signUp for controller-user-signUp 
+2021-01-17 19:18:50,363 INFO 33755 [egg-swagger-doc] register router: put /api/v1/register for controller-user-register 
+2021-01-17 19:18:50,363 INFO 33755 [egg-swagger-doc] register router: get /api/v1/getUser for controller-user-getUser 
+2021-01-17 19:18:50,363 INFO 33755 [egg-swagger-doc] register router: get /api/v1/verifyEmail for controller-user-verifyEmail 
+2021-01-17 19:18:50,399 INFO 33755 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-01-17 19:19:06,484 INFO 33786 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-17 19:19:06,509 INFO 33786 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-17 19:19:06,510 INFO 33786 [egg-swagger-doc] register router: get /api/v1/test for controller-test-test 
+2021-01-17 19:19:06,510 INFO 33786 [egg-swagger-doc] register router: put /api/v1/signUp for controller-user-signUp 
+2021-01-17 19:19:06,510 INFO 33786 [egg-swagger-doc] register router: put /api/v1/register for controller-user-register 
+2021-01-17 19:19:06,510 INFO 33786 [egg-swagger-doc] register router: get /api/v1/getUser for controller-user-getUser 
+2021-01-17 19:19:06,511 INFO 33786 [egg-swagger-doc] register router: get /api/v1/verifyEmail for controller-user-verifyEmail 
+2021-01-17 19:19:06,550 INFO 33786 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-01-17 19:19:25,265 ERROR 33817 [-/127.0.0.1/-/0ms GET /] nodejs.SyntaxError: Unexpected identifier
+        detail_address: { type: 'string', required: false }
+        ^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected identifier
+    at wrapSafe (node:internal/modules/cjs/loader:1024:16)
+    at Module._compile (node:internal/modules/cjs/loader:1072:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)
+    at Module.load (node:internal/modules/cjs/loader:973:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:813:14)
+    at Module.require (node:internal/modules/cjs/loader:997:19)
+    at require (node:internal/modules/cjs/helpers:92:18)
+    at contractLoader (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/contract/index.js:51:17)
+    at contractLoader (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/contract/index.js:46:7)
+    at generateContract (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/contract/index.js:25:3)
+
+pid: 33817
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-17 19:19:29,463 INFO 33832 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-17 19:19:29,492 INFO 33832 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-17 19:19:29,492 INFO 33832 [egg-swagger-doc] register router: get /api/v1/test for controller-test-test 
+2021-01-17 19:19:29,492 INFO 33832 [egg-swagger-doc] register router: put /api/v1/signUp for controller-user-signUp 
+2021-01-17 19:19:29,493 INFO 33832 [egg-swagger-doc] register router: put /api/v1/register for controller-user-register 
+2021-01-17 19:19:29,493 INFO 33832 [egg-swagger-doc] register router: get /api/v1/getUser for controller-user-getUser 
+2021-01-17 19:19:29,493 INFO 33832 [egg-swagger-doc] register router: get /api/v1/verifyEmail for controller-user-verifyEmail 
+2021-01-17 19:19:29,530 INFO 33832 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-01-17 19:21:21,431 INFO 34007 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-17 19:21:21,466 INFO 34007 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-17 19:21:21,467 INFO 34007 [egg-swagger-doc] register router: get /api/v1/test for controller-test-test 
+2021-01-17 19:21:21,467 INFO 34007 [egg-swagger-doc] register router: put /api/v1/signUp for controller-user-signUp 
+2021-01-17 19:21:21,467 INFO 34007 [egg-swagger-doc] register router: put /api/v1/register for controller-user-register 
+2021-01-17 19:21:21,468 INFO 34007 [egg-swagger-doc] register router: get /api/v1/getUser for controller-user-getUser 
+2021-01-17 19:21:21,468 INFO 34007 [egg-swagger-doc] register router: get /api/v1/verifyEmail for controller-user-verifyEmail 
+2021-01-17 19:21:21,499 INFO 34007 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2021-01-17 19:21:51,265 INFO 34045 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-17 19:21:51,285 INFO 34045 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-17 19:21:51,285 INFO 34045 [egg-swagger-doc] register router: get /api/v1/test for controller-test-test 
+2021-01-17 19:21:51,286 INFO 34045 [egg-swagger-doc] register router: put /api/v1/signUp for controller-user-signUp 
+2021-01-17 19:21:51,286 INFO 34045 [egg-swagger-doc] register router: put /api/v1/register for controller-user-register 
+2021-01-17 19:21:51,286 INFO 34045 [egg-swagger-doc] register router: get /api/v1/getUser for controller-user-getUser 
+2021-01-17 19:21:51,286 INFO 34045 [egg-swagger-doc] register router: get /api/v1/verifyEmail for controller-user-verifyEmail 
+2021-01-17 19:21:51,315 INFO 34045 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-01-17 19:22:07,748 INFO 34065 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-17 19:22:07,816 INFO 34065 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-17 19:22:07,818 INFO 34065 [egg-swagger-doc] register router: get /api/v1/test for controller-test-test 
+2021-01-17 19:22:07,819 INFO 34065 [egg-swagger-doc] register router: put /api/v1/signUp for controller-user-signUp 
+2021-01-17 19:22:07,819 INFO 34065 [egg-swagger-doc] register router: put /api/v1/register for controller-user-register 
+2021-01-17 19:22:07,820 INFO 34065 [egg-swagger-doc] register router: get /api/v1/getUser for controller-user-getUser 
+2021-01-17 19:22:07,820 INFO 34065 [egg-swagger-doc] register router: get /api/v1/verifyEmail for controller-user-verifyEmail 
+2021-01-17 19:22:07,930 INFO 34065 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-01-17 19:24:02,353 INFO 34146 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-17 19:24:02,376 INFO 34146 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-17 19:24:02,377 INFO 34146 [egg-swagger-doc] register router: get /api/v1/test for controller-test-test 
+2021-01-17 19:24:02,377 INFO 34146 [egg-swagger-doc] register router: put /api/v1/signUp for controller-user-signUp 
+2021-01-17 19:24:02,377 INFO 34146 [egg-swagger-doc] register router: put /api/v1/register for controller-user-register 
+2021-01-17 19:24:02,377 INFO 34146 [egg-swagger-doc] register router: get /api/v1/getUser for controller-user-getUser 
+2021-01-17 19:24:02,378 INFO 34146 [egg-swagger-doc] register router: get /api/v1/verifyEmail for controller-user-verifyEmail 
+2021-01-17 19:24:02,378 INFO 34146 [egg-swagger-doc] register router: post /api/v1/updateProfile for controller-user-updateProfile 
+2021-01-17 19:24:02,414 INFO 34146 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-01-17 19:24:03,309 INFO 34147 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-17 19:24:03,333 INFO 34147 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-17 19:24:03,334 INFO 34147 [egg-swagger-doc] register router: get /api/v1/test for controller-test-test 
+2021-01-17 19:24:03,334 INFO 34147 [egg-swagger-doc] register router: put /api/v1/signUp for controller-user-signUp 
+2021-01-17 19:24:03,334 INFO 34147 [egg-swagger-doc] register router: put /api/v1/register for controller-user-register 
+2021-01-17 19:24:03,334 INFO 34147 [egg-swagger-doc] register router: get /api/v1/getUser for controller-user-getUser 
+2021-01-17 19:24:03,335 INFO 34147 [egg-swagger-doc] register router: get /api/v1/verifyEmail for controller-user-verifyEmail 
+2021-01-17 19:24:03,335 INFO 34147 [egg-swagger-doc] register router: post /api/v1/updateProfile for controller-user-updateProfile 
+2021-01-17 19:24:03,363 INFO 34147 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-01-17 19:24:04,151 INFO 34158 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-17 19:24:04,172 INFO 34158 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-17 19:24:04,173 INFO 34158 [egg-swagger-doc] register router: get /api/v1/test for controller-test-test 
+2021-01-17 19:24:04,173 INFO 34158 [egg-swagger-doc] register router: put /api/v1/signUp for controller-user-signUp 
+2021-01-17 19:24:04,173 INFO 34158 [egg-swagger-doc] register router: put /api/v1/register for controller-user-register 
+2021-01-17 19:24:04,173 INFO 34158 [egg-swagger-doc] register router: get /api/v1/getUser for controller-user-getUser 
+2021-01-17 19:24:04,173 INFO 34158 [egg-swagger-doc] register router: get /api/v1/verifyEmail for controller-user-verifyEmail 
+2021-01-17 19:24:04,174 INFO 34158 [egg-swagger-doc] register router: post /api/v1/updateProfile for controller-user-updateProfile 
+2021-01-17 19:24:04,203 INFO 34158 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-01-17 19:24:05,015 INFO 34159 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-17 19:24:05,043 INFO 34159 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-17 19:24:05,043 INFO 34159 [egg-swagger-doc] register router: get /api/v1/test for controller-test-test 
+2021-01-17 19:24:05,044 INFO 34159 [egg-swagger-doc] register router: put /api/v1/signUp for controller-user-signUp 
+2021-01-17 19:24:05,044 INFO 34159 [egg-swagger-doc] register router: put /api/v1/register for controller-user-register 
+2021-01-17 19:24:05,044 INFO 34159 [egg-swagger-doc] register router: get /api/v1/getUser for controller-user-getUser 
+2021-01-17 19:24:05,044 INFO 34159 [egg-swagger-doc] register router: get /api/v1/verifyEmail for controller-user-verifyEmail 
+2021-01-17 19:24:05,044 INFO 34159 [egg-swagger-doc] register router: post /api/v1/updateProfile for controller-user-updateProfile 
+2021-01-17 19:24:06,162 INFO 34165 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-17 19:24:06,186 INFO 34165 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-17 19:24:06,186 INFO 34165 [egg-swagger-doc] register router: get /api/v1/test for controller-test-test 
+2021-01-17 19:24:06,186 INFO 34165 [egg-swagger-doc] register router: put /api/v1/signUp for controller-user-signUp 
+2021-01-17 19:24:06,187 INFO 34165 [egg-swagger-doc] register router: put /api/v1/register for controller-user-register 
+2021-01-17 19:24:06,187 INFO 34165 [egg-swagger-doc] register router: get /api/v1/getUser for controller-user-getUser 
+2021-01-17 19:24:06,187 INFO 34165 [egg-swagger-doc] register router: get /api/v1/verifyEmail for controller-user-verifyEmail 
+2021-01-17 19:24:06,187 INFO 34165 [egg-swagger-doc] register router: post /api/v1/updateProfile for controller-user-updateProfile 
+2021-01-17 19:24:05,745 INFO 34164 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-17 19:24:05,767 INFO 34164 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-17 19:24:05,768 INFO 34164 [egg-swagger-doc] register router: get /api/v1/test for controller-test-test 
+2021-01-17 19:24:05,768 INFO 34164 [egg-swagger-doc] register router: put /api/v1/signUp for controller-user-signUp 
+2021-01-17 19:24:05,768 INFO 34164 [egg-swagger-doc] register router: put /api/v1/register for controller-user-register 
+2021-01-17 19:24:05,769 INFO 34164 [egg-swagger-doc] register router: get /api/v1/getUser for controller-user-getUser 
+2021-01-17 19:24:05,769 INFO 34164 [egg-swagger-doc] register router: get /api/v1/verifyEmail for controller-user-verifyEmail 
+2021-01-17 19:24:05,769 INFO 34164 [egg-swagger-doc] register router: post /api/v1/updateProfile for controller-user-updateProfile 
+2021-01-17 19:24:05,799 INFO 34164 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-01-17 19:24:06,565 INFO 34166 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-17 19:24:06,587 INFO 34166 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-17 19:24:06,588 INFO 34166 [egg-swagger-doc] register router: get /api/v1/test for controller-test-test 
+2021-01-17 19:24:06,588 INFO 34166 [egg-swagger-doc] register router: put /api/v1/signUp for controller-user-signUp 
+2021-01-17 19:24:06,588 INFO 34166 [egg-swagger-doc] register router: put /api/v1/register for controller-user-register 
+2021-01-17 19:24:06,588 INFO 34166 [egg-swagger-doc] register router: get /api/v1/getUser for controller-user-getUser 
+2021-01-17 19:24:06,589 INFO 34166 [egg-swagger-doc] register router: get /api/v1/verifyEmail for controller-user-verifyEmail 
+2021-01-17 19:24:06,589 INFO 34166 [egg-swagger-doc] register router: post /api/v1/updateProfile for controller-user-updateProfile 
+2021-01-17 19:24:06,619 INFO 34166 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-01-17 19:26:41,802 WARN 34166 [-/127.0.0.1/-/18ms POST /api/v1/updateProfile] nodejs.SyntaxError: Unexpected token } in JSON at position 96, check bodyParser config
+    at JSON.parse (<anonymous>)
+    at parse (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/co-body/lib/json.js:57:17)
+    at AsyncFunction.module.exports [as json] (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/co-body/lib/json.js:41:20)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async parseBody (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-bodyparser/index.js:100:14)
+    at async bodyParser (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-bodyparser/index.js:85:19)
+    at async /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-static-cache/index.js:39:63
+    at async notfound (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg/app/middleware/notfound.js:5:5)
+    at async meta (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg/app/middleware/meta.js:17:5)
+    at async cors (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@koa/cors/index.js:98:16)
+status: 400
+body: "{\n  \"uid\": \"900EZVqOHGSsDH5KFX5897tbiNu1\",\n  \"first_name\": \"Sherily\",\n  \"last_name\": \"Shieh\",\n\n\n}"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 34166
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-17 19:26:50,364 WARN 34166 [-/127.0.0.1/-/1ms POST /api/v1/updateProfile] nodejs.SyntaxError: Unexpected token } in JSON at position 96, check bodyParser config
+    at JSON.parse (<anonymous>)
+    at parse (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/co-body/lib/json.js:57:17)
+    at AsyncFunction.module.exports [as json] (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/co-body/lib/json.js:41:20)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async parseBody (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-bodyparser/index.js:100:14)
+    at async bodyParser (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-bodyparser/index.js:85:19)
+    at async /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-static-cache/index.js:39:63
+    at async notfound (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg/app/middleware/notfound.js:5:5)
+    at async meta (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg/app/middleware/meta.js:17:5)
+    at async cors (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@koa/cors/index.js:98:16)
+status: 400
+body: "{\n  \"uid\": \"900EZVqOHGSsDH5KFX5897tbiNu1\",\n  \"first_name\": \"Sherily\",\n  \"last_name\": \"Shieh\",\n\n\n}"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 34166
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-17 19:27:09,384 ERROR 34166 [-/127.0.0.1/-/5ms POST /api/v1/updateProfile] nodejs.TypeError: Cannot read property 'appGroup' of undefined
+    at UserService.updateProfile (/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/service/user.js:260:47)
+    at UserController.updateProfile (/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/controller/user.js:96:47)
+    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:45:18)
+    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:44:32)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 34166
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-17 19:27:47,513 INFO 34294 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-17 19:27:47,541 INFO 34294 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-17 19:27:47,542 INFO 34294 [egg-swagger-doc] register router: get /api/v1/test for controller-test-test 
+2021-01-17 19:27:47,542 INFO 34294 [egg-swagger-doc] register router: put /api/v1/signUp for controller-user-signUp 
+2021-01-17 19:27:47,542 INFO 34294 [egg-swagger-doc] register router: put /api/v1/register for controller-user-register 
+2021-01-17 19:27:47,543 INFO 34294 [egg-swagger-doc] register router: get /api/v1/getUser for controller-user-getUser 
+2021-01-17 19:27:47,543 INFO 34294 [egg-swagger-doc] register router: get /api/v1/verifyEmail for controller-user-verifyEmail 
+2021-01-17 19:27:47,543 INFO 34294 [egg-swagger-doc] register router: post /api/v1/updateProfile for controller-user-updateProfile 
+2021-01-17 19:27:47,586 INFO 34294 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-01-17 19:27:48,417 INFO 34295 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-17 19:27:48,439 INFO 34295 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-17 19:27:48,440 INFO 34295 [egg-swagger-doc] register router: get /api/v1/test for controller-test-test 
+2021-01-17 19:27:48,440 INFO 34295 [egg-swagger-doc] register router: put /api/v1/signUp for controller-user-signUp 
+2021-01-17 19:27:48,440 INFO 34295 [egg-swagger-doc] register router: put /api/v1/register for controller-user-register 
+2021-01-17 19:27:48,440 INFO 34295 [egg-swagger-doc] register router: get /api/v1/getUser for controller-user-getUser 
+2021-01-17 19:27:48,441 INFO 34295 [egg-swagger-doc] register router: get /api/v1/verifyEmail for controller-user-verifyEmail 
+2021-01-17 19:27:48,441 INFO 34295 [egg-swagger-doc] register router: post /api/v1/updateProfile for controller-user-updateProfile 
+2021-01-17 19:27:48,474 INFO 34295 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-01-17 19:27:54,883 INFO 34295 [egg-sequelize](15ms) Executed (default): UPDATE `User` SET `first_name`=?,`last_name`=? WHERE `uid` = ?
+2021-01-17 19:27:54,893 INFO 34295 [egg-sequelize](4ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = '900EZVqOHGSsDH5KFX5897tbiNu1' LIMIT 1;
+2021-01-17 20:19:19,427 INFO 34295 [egg-sequelize](3ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`email` = 'sherilyshieh@gmail.com' LIMIT 1;
+2021-01-17 22:31:09,797 INFO 34295 [egg-sequelize](7ms) Executed (default): UPDATE `User` SET `password`=? WHERE `uid` = ?
+2021-01-17 22:31:09,800 INFO 34295 [egg-sequelize](1ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = '900EZVqOHGSsDH5KFX5897tbiNu1' LIMIT 1;
+2021-01-17 22:31:10,393 INFO 34295 [egg-sequelize](2ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = '900EZVqOHGSsDH5KFX5897tbiNu1' LIMIT 1;
+2021-01-17 22:31:57,567 INFO 34295 [egg-sequelize](1ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = 'QSQDaTBhmmNt4uUFeRa2MqBXjk42' LIMIT 1;
+2021-01-17 22:31:57,964 INFO 34295 [egg-sequelize](2ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = 'QSQDaTBhmmNt4uUFeRa2MqBXjk42' LIMIT 1;
+2021-01-17 22:34:24,636 INFO 34295 [egg-sequelize](4ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = 'QSQDaTBhmmNt4uUFeRa2MqBXjk42' LIMIT 1;
+2021-01-17 22:50:52,865 INFO 34295 [egg-sequelize](2ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = 'QSQDaTBhmmNt4uUFeRa2MqBXjk42' LIMIT 1;
+2021-01-17 22:52:21,293 INFO 34295 [egg-sequelize](1ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = 'QSQDaTBhmmNt4uUFeRa2MqBXjk42' LIMIT 1;
+2021-01-17 22:52:55,392 INFO 34295 [egg-sequelize](3ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = 'QSQDaTBhmmNt4uUFeRa2MqBXjk42' LIMIT 1;
+2021-01-17 23:01:00,471 INFO 34295 [egg-sequelize](3ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = 'QSQDaTBhmmNt4uUFeRa2MqBXjk42' LIMIT 1;
+2021-01-17 23:02:43,992 INFO 34295 [egg-sequelize](2ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = '900EZVqOHGSsDH5KFX5897tbiNu1' LIMIT 1;
+2021-01-17 23:21:56,918 INFO 34295 [egg-sequelize](2ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = 'QSQDaTBhmmNt4uUFeRa2MqBXjk42' LIMIT 1;
+2021-01-17 23:22:24,370 INFO 34295 [egg-sequelize](3ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = '900EZVqOHGSsDH5KFX5897tbiNu1' LIMIT 1;
+2021-01-17 23:35:26,277 INFO 34295 [egg-sequelize](3ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = '900EZVqOHGSsDH5KFX5897tbiNu1' LIMIT 1;
+2021-01-17 23:43:34,127 INFO 34295 [egg-sequelize](5ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = '900EZVqOHGSsDH5KFX5897tbiNu1' LIMIT 1;
+2021-01-17 23:43:50,257 INFO 34295 [egg-sequelize](1ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = '900EZVqOHGSsDH5KFX5897tbiNu1' LIMIT 1;
+2021-01-17 23:46:25,986 INFO 34295 [egg-sequelize](3ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = '900EZVqOHGSsDH5KFX5897tbiNu1' LIMIT 1;
+2021-01-17 23:47:01,237 INFO 34295 [egg-sequelize](2ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = '900EZVqOHGSsDH5KFX5897tbiNu1' LIMIT 1;
+2021-01-17 23:47:16,995 INFO 34295 [egg-sequelize](10ms) Executed (default): UPDATE `User` SET `region`=?,`district`=?,`detail_address`=? WHERE `uid` = ?
+2021-01-17 23:47:16,998 INFO 34295 [egg-sequelize](2ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = '900EZVqOHGSsDH5KFX5897tbiNu1' LIMIT 1;
+2021-01-17 23:50:28,726 INFO 34295 [egg-sequelize](3ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = '900EZVqOHGSsDH5KFX5897tbiNu1' LIMIT 1;
+2021-01-17 23:55:03,052 INFO 34295 [egg-sequelize](2ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = '900EZVqOHGSsDH5KFX5897tbiNu1' LIMIT 1;
+2021-01-17 23:55:58,839 INFO 34295 [egg-sequelize](2ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = '900EZVqOHGSsDH5KFX5897tbiNu1' LIMIT 1;
+2021-01-17 23:57:30,692 INFO 34295 [egg-sequelize](2ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = '900EZVqOHGSsDH5KFX5897tbiNu1' LIMIT 1;
+2021-01-17 23:58:17,901 INFO 34295 [egg-sequelize](4ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = '900EZVqOHGSsDH5KFX5897tbiNu1' LIMIT 1;
+2021-01-17 23:58:40,227 INFO 34295 [egg-sequelize](3ms) Executed (default): UPDATE `User` SET `region`=?,`district`=?,`detail_address`=? WHERE `uid` = ?
+2021-01-17 23:58:40,228 INFO 34295 [egg-sequelize](1ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = '900EZVqOHGSsDH5KFX5897tbiNu1' LIMIT 1;
+2021-01-17 23:58:57,611 INFO 34295 [egg-sequelize](4ms) Executed (default): UPDATE `User` SET `region`=?,`district`=?,`detail_address`=? WHERE `uid` = ?
+2021-01-17 23:58:57,612 INFO 34295 [egg-sequelize](1ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = '900EZVqOHGSsDH5KFX5897tbiNu1' LIMIT 1;
+2021-01-17 23:59:21,581 INFO 34295 [egg-sequelize](1ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = '900EZVqOHGSsDH5KFX5897tbiNu1' LIMIT 1;

@@ -1,188 +1,126 @@
-2020-12-23 02:00:42,746 INFO 63424 [egg-logrotator] agent logger reload: got log-reload message
-2020-12-23 11:33:35,253 ERROR 63424 nodejs.ClusterClientNoResponseError: client no response in 34332478ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+2021-01-18 00:00:02,929 INFO 13711 [egg-logrotator] agent logger reload: got log-reload message
+2021-01-18 04:29:17,815 ERROR 13711 nodejs.ClusterClientNoResponseError: client no response in 7204972ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
     at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
     at listOnTimeout (node:internal/timers:556:17)
     at processTimers (node:internal/timers:499:7)
 name: "ClusterClientNoResponseError"
-pid: 63424
+pid: 13711
 hostname: xiejialis-MacBook-Pro.local
 
-2021-01-05 10:37:48,751 INFO 77168 [egg:logger] init all loggers with options: {"dir":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/logs/petcity-back","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"petcity-back-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
-2021-01-05 10:37:48,760 INFO 77168 [egg:core] dump config after load, 6ms
-2021-01-05 10:37:48,796 INFO 77168 [egg-watcher] Start watching: ["/Users/sherily/Desktop/Petcity/Repo/petcity-back/app","/Users/sherily/Desktop/Petcity/Repo/petcity-back/config","/Users/sherily/Desktop/Petcity/Repo/petcity-back/mocks","/Users/sherily/Desktop/Petcity/Repo/petcity-back/mocks_proxy","/Users/sherily/Desktop/Petcity/Repo/petcity-back/app.js"]
-2021-01-05 10:37:48,796 INFO 77168 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/app"
-2021-01-05 10:37:48,796 INFO 77168 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/config"
-2021-01-05 10:37:48,796 INFO 77168 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/mocks"
-2021-01-05 10:37:48,796 INFO 77168 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/mocks_proxy"
-2021-01-05 10:37:48,796 INFO 77168 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/app.js"
-2021-01-05 10:37:48,796 INFO 77168 [egg-watcher:agent] watcher start success
-2021-01-05 10:37:48,808 INFO 77168 [egg:core] dump config after ready, 4ms
-2021-01-05 10:39:06,030 INFO 77218 [egg:logger] init all loggers with options: {"dir":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/logs/petcity-back","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"petcity-back-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
-2021-01-05 10:39:06,036 INFO 77218 [egg:core] dump config after load, 3ms
-2021-01-05 10:39:06,064 INFO 77218 [egg-watcher] Start watching: ["/Users/sherily/Desktop/Petcity/Repo/petcity-back/app","/Users/sherily/Desktop/Petcity/Repo/petcity-back/config","/Users/sherily/Desktop/Petcity/Repo/petcity-back/mocks","/Users/sherily/Desktop/Petcity/Repo/petcity-back/mocks_proxy","/Users/sherily/Desktop/Petcity/Repo/petcity-back/app.js"]
-2021-01-05 10:39:06,064 INFO 77218 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/app"
-2021-01-05 10:39:06,064 INFO 77218 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/config"
-2021-01-05 10:39:06,064 INFO 77218 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/mocks"
-2021-01-05 10:39:06,064 INFO 77218 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/mocks_proxy"
-2021-01-05 10:39:06,064 INFO 77218 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/app.js"
-2021-01-05 10:39:06,065 INFO 77218 [egg-watcher:agent] watcher start success
-2021-01-05 10:39:06,076 INFO 77218 [egg:core] dump config after ready, 4ms
-2021-01-05 10:40:13,182 INFO 77258 [egg:logger] init all loggers with options: {"dir":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/logs/petcity-back","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"petcity-back-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
-2021-01-05 10:40:13,187 INFO 77258 [egg:core] dump config after load, 2ms
-2021-01-05 10:40:13,208 INFO 77258 [egg-watcher] Start watching: ["/Users/sherily/Desktop/Petcity/Repo/petcity-back/app","/Users/sherily/Desktop/Petcity/Repo/petcity-back/config","/Users/sherily/Desktop/Petcity/Repo/petcity-back/mocks","/Users/sherily/Desktop/Petcity/Repo/petcity-back/mocks_proxy","/Users/sherily/Desktop/Petcity/Repo/petcity-back/app.js"]
-2021-01-05 10:40:13,208 INFO 77258 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/app"
-2021-01-05 10:40:13,208 INFO 77258 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/config"
-2021-01-05 10:40:13,208 INFO 77258 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/mocks"
-2021-01-05 10:40:13,208 INFO 77258 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/mocks_proxy"
-2021-01-05 10:40:13,208 INFO 77258 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/app.js"
-2021-01-05 10:40:13,209 INFO 77258 [egg-watcher:agent] watcher start success
-2021-01-05 10:40:13,220 INFO 77258 [egg:core] dump config after ready, 4ms
-2021-01-05 10:41:18,293 INFO 77310 [egg:logger] init all loggers with options: {"dir":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/logs/petcity-back","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"petcity-back-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
-2021-01-05 10:41:18,297 INFO 77310 [egg:core] dump config after load, 2ms
-2021-01-05 10:41:18,319 INFO 77310 [egg-watcher] Start watching: ["/Users/sherily/Desktop/Petcity/Repo/petcity-back/app","/Users/sherily/Desktop/Petcity/Repo/petcity-back/config","/Users/sherily/Desktop/Petcity/Repo/petcity-back/mocks","/Users/sherily/Desktop/Petcity/Repo/petcity-back/mocks_proxy","/Users/sherily/Desktop/Petcity/Repo/petcity-back/app.js"]
-2021-01-05 10:41:18,319 INFO 77310 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/app"
-2021-01-05 10:41:18,319 INFO 77310 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/config"
-2021-01-05 10:41:18,319 INFO 77310 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/mocks"
-2021-01-05 10:41:18,319 INFO 77310 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/mocks_proxy"
-2021-01-05 10:41:18,319 INFO 77310 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/app.js"
-2021-01-05 10:41:18,319 INFO 77310 [egg-watcher:agent] watcher start success
-2021-01-05 10:41:18,330 INFO 77310 [egg:core] dump config after ready, 3ms
-2021-01-05 10:56:10,182 ERROR 77310 nodejs.ClusterClientNoResponseError: client no response in 70429ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+2021-01-18 05:25:11,184 ERROR 13711 nodejs.ClusterClientNoResponseError: client no response in 3311995ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
     at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
     at listOnTimeout (node:internal/timers:556:17)
     at processTimers (node:internal/timers:499:7)
 name: "ClusterClientNoResponseError"
-pid: 77310
+pid: 13711
 hostname: xiejialis-MacBook-Pro.local
 
-2021-01-05 11:08:15,297 WARN 78372 Sequelize Error: connect ECONNREFUSED 127.0.0.1:3306, sleep 1 seconds to retry...
-2021-01-05 11:08:14,973 INFO 78372 [egg:logger] init all loggers with options: {"dir":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/logs/petcity-back","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"petcity-back-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
-2021-01-05 11:08:15,213 INFO 78372 [egg:core] dump config after load, 4ms
-2021-01-05 11:08:15,293 INFO 78372 [egg-watcher] Start watching: ["/Users/sherily/Desktop/Petcity/Repo/petcity-back/app","/Users/sherily/Desktop/Petcity/Repo/petcity-back/config","/Users/sherily/Desktop/Petcity/Repo/petcity-back/mocks","/Users/sherily/Desktop/Petcity/Repo/petcity-back/mocks_proxy","/Users/sherily/Desktop/Petcity/Repo/petcity-back/app.js"]
-2021-01-05 11:08:15,293 INFO 78372 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/app"
-2021-01-05 11:08:15,294 INFO 78372 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/config"
-2021-01-05 11:08:15,294 INFO 78372 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/mocks"
-2021-01-05 11:08:15,294 INFO 78372 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/mocks_proxy"
-2021-01-05 11:08:15,294 INFO 78372 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/app.js"
-2021-01-05 11:08:15,294 INFO 78372 [egg-watcher:agent] watcher start success
-2021-01-05 11:08:16,302 WARN 78372 Sequelize Error: connect ECONNREFUSED 127.0.0.1:3306, sleep 1 seconds to retry...
-2021-01-05 11:08:17,307 WARN 78372 Sequelize Error: connect ECONNREFUSED 127.0.0.1:3306, sleep 1 seconds to retry...
-2021-01-05 11:08:18,316 ERROR 78372 nodejs.SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:3306
-    at ConnectionManager.connect (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:116:17)
-    at processTicksAndRejections (node:internal/process/task_queues:93:5)
-    at async ConnectionManager._connect (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:318:24)
-    at async /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:250:32
-    at async ConnectionManager.getConnection (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:280:7)
-    at async /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/sequelize/lib/sequelize.js:613:26
-    at async Sequelize.authenticate (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/sequelize/lib/sequelize.js:867:5)
-    at async authenticate (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/lib/loader.js:134:7)
-    at async authenticate (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/lib/loader.js:142:7)
-    at async authenticate (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/lib/loader.js:142:7)
-name: "SequelizeConnectionRefusedError"
-parent: {"errno":-61,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}
-original: {"errno":-61,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}
-pid: 78372
+2021-01-18 07:26:01,672 ERROR 13711 nodejs.ClusterClientNoResponseError: client no response in 7208667ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 13711
 hostname: xiejialis-MacBook-Pro.local
 
-2021-01-05 11:08:18,323 INFO 78372 [egg:core] dump config after ready, 6ms
-2021-01-05 11:19:55,635 WARN 78773 Sequelize Error: connect ECONNREFUSED 127.0.0.1:3306, sleep 1 seconds to retry...
-2021-01-05 11:19:55,294 INFO 78773 [egg:logger] init all loggers with options: {"dir":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/logs/petcity-back","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"petcity-back-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
-2021-01-05 11:19:55,553 INFO 78773 [egg:core] dump config after load, 3ms
-2021-01-05 11:19:55,627 INFO 78773 [egg-watcher] Start watching: ["/Users/sherily/Desktop/Petcity/Repo/petcity-back/app","/Users/sherily/Desktop/Petcity/Repo/petcity-back/config","/Users/sherily/Desktop/Petcity/Repo/petcity-back/mocks","/Users/sherily/Desktop/Petcity/Repo/petcity-back/mocks_proxy","/Users/sherily/Desktop/Petcity/Repo/petcity-back/app.js"]
-2021-01-05 11:19:55,627 INFO 78773 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/app"
-2021-01-05 11:19:55,627 INFO 78773 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/config"
-2021-01-05 11:19:55,627 INFO 78773 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/mocks"
-2021-01-05 11:19:55,627 INFO 78773 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/mocks_proxy"
-2021-01-05 11:19:55,627 INFO 78773 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/app.js"
-2021-01-05 11:19:55,627 INFO 78773 [egg-watcher:agent] watcher start success
-2021-01-05 11:19:56,639 WARN 78773 Sequelize Error: connect ECONNREFUSED 127.0.0.1:3306, sleep 1 seconds to retry...
-2021-01-05 11:19:57,646 WARN 78773 Sequelize Error: connect ECONNREFUSED 127.0.0.1:3306, sleep 1 seconds to retry...
-2021-01-05 11:19:58,657 ERROR 78773 nodejs.SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:3306
-    at ConnectionManager.connect (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:116:17)
-    at processTicksAndRejections (node:internal/process/task_queues:93:5)
-    at async ConnectionManager._connect (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:318:24)
-    at async /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:250:32
-    at async ConnectionManager.getConnection (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:280:7)
-    at async /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/sequelize/lib/sequelize.js:613:26
-    at async Sequelize.authenticate (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/sequelize/lib/sequelize.js:867:5)
-    at async authenticate (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/lib/loader.js:134:7)
-    at async authenticate (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/lib/loader.js:142:7)
-    at async authenticate (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/lib/loader.js:142:7)
-name: "SequelizeConnectionRefusedError"
-parent: {"errno":-61,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}
-original: {"errno":-61,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}
-pid: 78773
+2021-01-18 08:35:55,927 ERROR 13711 nodejs.ClusterClientNoResponseError: client no response in 4152128ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 13711
 hostname: xiejialis-MacBook-Pro.local
 
-2021-01-05 11:19:58,664 INFO 78773 [egg:core] dump config after ready, 6ms
-2021-01-05 14:04:01,194 WARN 3998 Sequelize Error: Access denied for user 'root'@'localhost' (using password: NO), sleep 1 seconds to retry...
-2021-01-05 14:04:00,845 INFO 3998 [egg:logger] init all loggers with options: {"dir":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/logs/petcity-back","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"petcity-back-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
-2021-01-05 14:04:01,098 INFO 3998 [egg:core] dump config after load, 3ms
-2021-01-05 14:04:01,172 INFO 3998 [egg-watcher] Start watching: ["/Users/sherily/Desktop/Petcity/Repo/petcity-back/app","/Users/sherily/Desktop/Petcity/Repo/petcity-back/config","/Users/sherily/Desktop/Petcity/Repo/petcity-back/mocks","/Users/sherily/Desktop/Petcity/Repo/petcity-back/mocks_proxy","/Users/sherily/Desktop/Petcity/Repo/petcity-back/app.js"]
-2021-01-05 14:04:01,172 INFO 3998 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/app"
-2021-01-05 14:04:01,172 INFO 3998 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/config"
-2021-01-05 14:04:01,173 INFO 3998 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/mocks"
-2021-01-05 14:04:01,173 INFO 3998 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/mocks_proxy"
-2021-01-05 14:04:01,173 INFO 3998 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/app.js"
-2021-01-05 14:04:01,173 INFO 3998 [egg-watcher:agent] watcher start success
-2021-01-05 14:04:02,200 WARN 3998 Sequelize Error: Access denied for user 'root'@'localhost' (using password: NO), sleep 1 seconds to retry...
-2021-01-05 14:04:03,205 WARN 3998 Sequelize Error: Access denied for user 'root'@'localhost' (using password: NO), sleep 1 seconds to retry...
-2021-01-05 14:04:04,211 ERROR 3998 nodejs.SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: NO)
-    at ConnectionManager.connect (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:118:17)
-    at processTicksAndRejections (node:internal/process/task_queues:93:5)
-    at async ConnectionManager._connect (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:318:24)
-    at async /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:250:32
-    at async ConnectionManager.getConnection (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:280:7)
-    at async /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/sequelize/lib/sequelize.js:613:26
-    at async Sequelize.authenticate (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/sequelize/lib/sequelize.js:867:5)
-    at async authenticate (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/lib/loader.js:134:7)
-    at async authenticate (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/lib/loader.js:142:7)
-    at async authenticate (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/lib/loader.js:142:7)
-name: "SequelizeAccessDeniedError"
-parent: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
-original: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
-pid: 3998
+2021-01-18 08:49:25,409 ERROR 13711 nodejs.ClusterClientNoResponseError: client no response in 768066ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 13711
 hostname: xiejialis-MacBook-Pro.local
 
-2021-01-05 14:04:04,217 INFO 3998 [egg:core] dump config after ready, 5ms
-2021-01-05 14:06:42,965 WARN 4078 Sequelize Error: Access denied for user 'root'@'localhost' (using password: NO), sleep 1 seconds to retry...
-2021-01-05 14:06:42,656 INFO 4078 [egg:logger] init all loggers with options: {"dir":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/logs/petcity-back","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"petcity-back-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
-2021-01-05 14:06:42,874 INFO 4078 [egg:core] dump config after load, 3ms
-2021-01-05 14:06:42,946 INFO 4078 [egg-watcher] Start watching: ["/Users/sherily/Desktop/Petcity/Repo/petcity-back/app","/Users/sherily/Desktop/Petcity/Repo/petcity-back/config","/Users/sherily/Desktop/Petcity/Repo/petcity-back/mocks","/Users/sherily/Desktop/Petcity/Repo/petcity-back/mocks_proxy","/Users/sherily/Desktop/Petcity/Repo/petcity-back/app.js"]
-2021-01-05 14:06:42,946 INFO 4078 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/app"
-2021-01-05 14:06:42,947 INFO 4078 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/config"
-2021-01-05 14:06:42,947 INFO 4078 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/mocks"
-2021-01-05 14:06:42,947 INFO 4078 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/mocks_proxy"
-2021-01-05 14:06:42,947 INFO 4078 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/app.js"
-2021-01-05 14:06:42,947 INFO 4078 [egg-watcher:agent] watcher start success
-2021-01-05 14:06:43,968 WARN 4078 Sequelize Error: Access denied for user 'root'@'localhost' (using password: NO), sleep 1 seconds to retry...
-2021-01-05 14:06:44,976 WARN 4078 Sequelize Error: Access denied for user 'root'@'localhost' (using password: NO), sleep 1 seconds to retry...
-2021-01-05 14:06:45,985 ERROR 4078 nodejs.SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: NO)
-    at ConnectionManager.connect (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:118:17)
-    at processTicksAndRejections (node:internal/process/task_queues:93:5)
-    at async ConnectionManager._connect (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:318:24)
-    at async /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:250:32
-    at async ConnectionManager.getConnection (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:280:7)
-    at async /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/sequelize/lib/sequelize.js:613:26
-    at async Sequelize.authenticate (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/sequelize/lib/sequelize.js:867:5)
-    at async authenticate (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/lib/loader.js:134:7)
-    at async authenticate (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/lib/loader.js:142:7)
-    at async authenticate (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/lib/loader.js:142:7)
-name: "SequelizeAccessDeniedError"
-parent: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
-original: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
-pid: 4078
-hostname: xiejialis-MacBook-Pro.local
-
-2021-01-05 14:06:45,991 INFO 4078 [egg:core] dump config after ready, 5ms
-2021-01-05 14:09:20,500 INFO 4198 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
-2021-01-05 14:09:20,170 INFO 4198 [egg:logger] init all loggers with options: {"dir":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/logs/petcity-back","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"petcity-back-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
-2021-01-05 14:09:20,397 INFO 4198 [egg:core] dump config after load, 3ms
-2021-01-05 14:09:20,472 INFO 4198 [egg-watcher] Start watching: ["/Users/sherily/Desktop/Petcity/Repo/petcity-back/app","/Users/sherily/Desktop/Petcity/Repo/petcity-back/config","/Users/sherily/Desktop/Petcity/Repo/petcity-back/mocks","/Users/sherily/Desktop/Petcity/Repo/petcity-back/mocks_proxy","/Users/sherily/Desktop/Petcity/Repo/petcity-back/app.js"]
-2021-01-05 14:09:20,472 INFO 4198 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/app"
-2021-01-05 14:09:20,472 INFO 4198 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/config"
-2021-01-05 14:09:20,472 INFO 4198 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/mocks"
-2021-01-05 14:09:20,472 INFO 4198 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/mocks_proxy"
-2021-01-05 14:09:20,472 INFO 4198 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/app.js"
-2021-01-05 14:09:20,472 INFO 4198 [egg-watcher:agent] watcher start success
-2021-01-05 14:09:20,509 INFO 4198 [egg:core] dump config after ready, 8ms
+2021-01-18 10:10:59,116 INFO 72955 [egg-sequelize](8ms) Executed (default): SELECT 1+1 AS result
+2021-01-18 10:10:58,630 INFO 72955 [egg:logger] init all loggers with options: {"dir":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/logs/petcity-back","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"petcity-back-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-01-18 10:10:58,964 INFO 72955 [egg-alinode] alinode agentx started, node versions: {"node":"15.4.0","v8":"8.6.395.17-node.22","uv":"1.40.0","zlib":"1.2.11","brotli":"1.0.9","ares":"1.16.1","modules":"88","nghttp2":"1.41.0","napi":"7","llhttp":"2.1.3","openssl":"1.1.1g","cldr":"38.0","icu":"68.1","tz":"2020b","unicode":"13.0"}, update /Users/sherily/.nodepath with "/usr/local/bin", config: {"server":"wss://agentserver.node.aliyun.com:8080","appid":"87325"}
+2021-01-18 10:10:58,969 INFO 72955 [egg:core] dump config after load, 5ms
+2021-01-18 10:10:59,047 INFO 72955 [egg-watcher] Start watching: ["/Users/sherily/Desktop/Petcity/Repo/petcity-back/app","/Users/sherily/Desktop/Petcity/Repo/petcity-back/config","/Users/sherily/Desktop/Petcity/Repo/petcity-back/mocks","/Users/sherily/Desktop/Petcity/Repo/petcity-back/mocks_proxy","/Users/sherily/Desktop/Petcity/Repo/petcity-back/app.js"]
+2021-01-18 10:10:59,047 INFO 72955 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/app"
+2021-01-18 10:10:59,048 INFO 72955 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/config"
+2021-01-18 10:10:59,048 INFO 72955 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/mocks"
+2021-01-18 10:10:59,048 INFO 72955 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/mocks_proxy"
+2021-01-18 10:10:59,048 INFO 72955 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/app.js"
+2021-01-18 10:10:59,048 INFO 72955 [egg-watcher:agent] watcher start success
+2021-01-18 10:10:59,131 INFO 72955 [egg:core] dump config after ready, 4ms
+2021-01-18 10:54:26,223 INFO 76949 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-01-18 10:54:25,608 INFO 76949 [egg:logger] init all loggers with options: {"dir":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/logs/petcity-back","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"petcity-back-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-01-18 10:54:26,056 INFO 76949 [egg-alinode] alinode agentx started, node versions: {"node":"15.4.0","v8":"8.6.395.17-node.22","uv":"1.40.0","zlib":"1.2.11","brotli":"1.0.9","ares":"1.16.1","modules":"88","nghttp2":"1.41.0","napi":"7","llhttp":"2.1.3","openssl":"1.1.1g","cldr":"38.0","icu":"68.1","tz":"2020b","unicode":"13.0"}, update /Users/sherily/.nodepath with "/usr/local/bin", config: {"server":"wss://agentserver.node.aliyun.com:8080","appid":"87325"}
+2021-01-18 10:54:26,064 INFO 76949 [egg:core] dump config after load, 7ms
+2021-01-18 10:54:26,183 INFO 76949 [egg-watcher] Start watching: ["/Users/sherily/Desktop/Petcity/Repo/petcity-back/app","/Users/sherily/Desktop/Petcity/Repo/petcity-back/config","/Users/sherily/Desktop/Petcity/Repo/petcity-back/mocks","/Users/sherily/Desktop/Petcity/Repo/petcity-back/mocks_proxy","/Users/sherily/Desktop/Petcity/Repo/petcity-back/app.js"]
+2021-01-18 10:54:26,184 INFO 76949 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/app"
+2021-01-18 10:54:26,184 INFO 76949 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/config"
+2021-01-18 10:54:26,184 INFO 76949 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/mocks"
+2021-01-18 10:54:26,184 INFO 76949 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/mocks_proxy"
+2021-01-18 10:54:26,184 INFO 76949 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/app.js"
+2021-01-18 10:54:26,185 INFO 76949 [egg-watcher:agent] watcher start success
+2021-01-18 10:54:26,230 INFO 76949 [egg:core] dump config after ready, 6ms
+2021-01-18 10:54:41,286 WARN 76949 [agent:development] reload worker because /Users/sherily/Desktop/Petcity/Repo/petcity-back/app/service/user.js change
+2021-01-18 10:54:41,621 WARN 76949 [agent:development] reload worker because /Users/sherily/Desktop/Petcity/Repo/petcity-back/app/service/user.js change
+2021-01-18 10:54:41,081 INFO 76949 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/service/user.js","stat":{"dev":16777225,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":24397360,"size":7678,"blocks":16,"atimeMs":1610920420873.9011,"mtimeMs":1610920481019.7642,"ctimeMs":1610920481019.7642,"birthtimeMs":1609811515185.267,"atime":"2021-01-17T21:53:40.874Z","mtime":"2021-01-17T21:54:41.020Z","ctime":"2021-01-17T21:54:41.020Z","birthtime":"2021-01-05T01:51:55.185Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-01-18 10:54:41,370 INFO 76949 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/service/user.js","stat":{"dev":16777225,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":24397360,"size":7678,"blocks":16,"atimeMs":1610920420873.9011,"mtimeMs":1610920481355.1772,"ctimeMs":1610920481355.1772,"birthtimeMs":1609811515185.267,"atime":"2021-01-17T21:53:40.874Z","mtime":"2021-01-17T21:54:41.355Z","ctime":"2021-01-17T21:54:41.355Z","birthtime":"2021-01-05T01:51:55.185Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-01-18 10:54:41,416 INFO 76949 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/service/user.js","stat":{"dev":16777225,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":24397360,"size":7678,"blocks":16,"atimeMs":1610920420873.9011,"mtimeMs":1610920481355.1772,"ctimeMs":1610920481355.1772,"birthtimeMs":1609811515185.267,"atime":"2021-01-17T21:53:40.874Z","mtime":"2021-01-17T21:54:41.355Z","ctime":"2021-01-17T21:54:41.355Z","birthtime":"2021-01-05T01:51:55.185Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-01-18 10:54:42,492 WARN 76949 [agent:development] reload worker because /Users/sherily/Desktop/Petcity/Repo/petcity-back/config/config.default.js change
+2021-01-18 10:54:42,239 INFO 76949 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/config/config.default.js","stat":{"dev":16777225,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":23326796,"size":2935,"blocks":8,"atimeMs":1610436466822.2327,"mtimeMs":1610920482228.9458,"ctimeMs":1610920482228.9458,"birthtimeMs":1608449805534.0703,"atime":"2021-01-12T07:27:46.822Z","mtime":"2021-01-17T21:54:42.229Z","ctime":"2021-01-17T21:54:42.229Z","birthtime":"2020-12-20T07:36:45.534Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-01-18 10:54:42,289 INFO 76949 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/config/config.default.js","stat":{"dev":16777225,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":23326796,"size":2935,"blocks":8,"atimeMs":1610436466822.2327,"mtimeMs":1610920482228.9458,"ctimeMs":1610920482228.9458,"birthtimeMs":1608449805534.0703,"atime":"2021-01-12T07:27:46.822Z","mtime":"2021-01-17T21:54:42.229Z","ctime":"2021-01-17T21:54:42.229Z","birthtime":"2020-12-20T07:36:45.534Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-01-18 10:54:42,598 INFO 76949 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/config/config.default.js","stat":{"dev":16777225,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":23326796,"size":2935,"blocks":8,"atimeMs":1610436466822.2327,"mtimeMs":1610920482587.2812,"ctimeMs":1610920482587.2812,"birthtimeMs":1608449805534.0703,"atime":"2021-01-12T07:27:46.822Z","mtime":"2021-01-17T21:54:42.587Z","ctime":"2021-01-17T21:54:42.587Z","birthtime":"2020-12-20T07:36:45.534Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-01-18 10:54:42,649 INFO 76949 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/config/config.default.js","stat":{"dev":16777225,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":23326796,"size":2935,"blocks":8,"atimeMs":1610436466822.2327,"mtimeMs":1610920482587.2812,"ctimeMs":1610920482587.2812,"birthtimeMs":1608449805534.0703,"atime":"2021-01-12T07:27:46.822Z","mtime":"2021-01-17T21:54:42.587Z","ctime":"2021-01-17T21:54:42.587Z","birthtime":"2020-12-20T07:36:45.534Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-01-18 10:54:42,855 WARN 76949 [agent:development] reload worker because /Users/sherily/Desktop/Petcity/Repo/petcity-back/config/config.default.js change
+2021-01-18 10:54:48,355 WARN 76949 [agent:development] reload worker because /Users/sherily/Desktop/Petcity/Repo/petcity-back/app/contract/request/User.js change
+2021-01-18 10:54:48,628 WARN 76949 [agent:development] reload worker because /Users/sherily/Desktop/Petcity/Repo/petcity-back/app/contract/request/User.js change
+2021-01-18 10:54:48,102 INFO 76949 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/contract/request/User.js","stat":{"dev":16777225,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":24565278,"size":1555,"blocks":8,"atimeMs":1610864644844.0308,"mtimeMs":1610920488090.315,"ctimeMs":1610920488090.315,"birthtimeMs":1610077624709.5415,"atime":"2021-01-17T06:24:04.844Z","mtime":"2021-01-17T21:54:48.090Z","ctime":"2021-01-17T21:54:48.090Z","birthtime":"2021-01-08T03:47:04.710Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-01-18 10:54:48,152 INFO 76949 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/contract/request/User.js","stat":{"dev":16777225,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":24565278,"size":1555,"blocks":8,"atimeMs":1610864644844.0308,"mtimeMs":1610920488090.315,"ctimeMs":1610920488090.315,"birthtimeMs":1610077624709.5415,"atime":"2021-01-17T06:24:04.844Z","mtime":"2021-01-17T21:54:48.090Z","ctime":"2021-01-17T21:54:48.090Z","birthtime":"2021-01-08T03:47:04.710Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-01-18 10:54:48,373 INFO 76949 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/contract/request/User.js","stat":{"dev":16777225,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":24565278,"size":1555,"blocks":8,"atimeMs":1610864644844.0308,"mtimeMs":1610920488361.6543,"ctimeMs":1610920488361.6543,"birthtimeMs":1610077624709.5415,"atime":"2021-01-17T06:24:04.844Z","mtime":"2021-01-17T21:54:48.362Z","ctime":"2021-01-17T21:54:48.362Z","birthtime":"2021-01-08T03:47:04.710Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-01-18 10:54:48,423 INFO 76949 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/contract/request/User.js","stat":{"dev":16777225,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":24565278,"size":1555,"blocks":8,"atimeMs":1610864644844.0308,"mtimeMs":1610920488361.6543,"ctimeMs":1610920488361.6543,"birthtimeMs":1610077624709.5415,"atime":"2021-01-17T06:24:04.844Z","mtime":"2021-01-17T21:54:48.362Z","ctime":"2021-01-17T21:54:48.362Z","birthtime":"2021-01-08T03:47:04.710Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-01-18 10:54:49,526 WARN 76949 [agent:development] reload worker because /Users/sherily/Desktop/Petcity/Repo/petcity-back/app/controller/user.js change
+2021-01-18 10:54:49,276 INFO 76949 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/controller/user.js","stat":{"dev":16777225,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":24542021,"size":2818,"blocks":8,"atimeMs":1610920456705.6504,"mtimeMs":1610920489264.392,"ctimeMs":1610920489264.392,"birthtimeMs":1610060389652.9067,"atime":"2021-01-17T21:54:16.706Z","mtime":"2021-01-17T21:54:49.264Z","ctime":"2021-01-17T21:54:49.264Z","birthtime":"2021-01-07T22:59:49.653Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-01-18 10:54:49,326 INFO 76949 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/controller/user.js","stat":{"dev":16777225,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":24542021,"size":2818,"blocks":8,"atimeMs":1610920489325.5374,"mtimeMs":1610920489264.392,"ctimeMs":1610920489264.392,"birthtimeMs":1610060389652.9067,"atime":"2021-01-17T21:54:49.326Z","mtime":"2021-01-17T21:54:49.264Z","ctime":"2021-01-17T21:54:49.264Z","birthtime":"2021-01-07T22:59:49.653Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-01-18 10:54:49,620 INFO 76949 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/controller/user.js","stat":{"dev":16777225,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":24542021,"size":2818,"blocks":8,"atimeMs":1610920489325.5374,"mtimeMs":1610920489608.659,"ctimeMs":1610920489608.659,"birthtimeMs":1610060389652.9067,"atime":"2021-01-17T21:54:49.326Z","mtime":"2021-01-17T21:54:49.609Z","ctime":"2021-01-17T21:54:49.609Z","birthtime":"2021-01-07T22:59:49.653Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-01-18 10:54:49,670 INFO 76949 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/controller/user.js","stat":{"dev":16777225,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":24542021,"size":2818,"blocks":8,"atimeMs":1610920489325.5374,"mtimeMs":1610920489608.659,"ctimeMs":1610920489608.659,"birthtimeMs":1610060389652.9067,"atime":"2021-01-17T21:54:49.326Z","mtime":"2021-01-17T21:54:49.609Z","ctime":"2021-01-17T21:54:49.609Z","birthtime":"2021-01-07T22:59:49.653Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-01-18 10:54:49,873 WARN 76949 [agent:development] reload worker because /Users/sherily/Desktop/Petcity/Repo/petcity-back/app/controller/user.js change
+2021-01-18 10:57:19,033 WARN 76949 [agent:development] reload worker because /Users/sherily/Desktop/Petcity/Repo/petcity-back/app/service/user.js change
+2021-01-18 10:57:18,831 INFO 76949 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/service/user.js","stat":{"dev":16777225,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":24397360,"size":7678,"blocks":16,"atimeMs":1610920482454.2031,"mtimeMs":1610920638769.7366,"ctimeMs":1610920638769.7366,"birthtimeMs":1609811515185.267,"atime":"2021-01-17T21:54:42.454Z","mtime":"2021-01-17T21:57:18.770Z","ctime":"2021-01-17T21:57:18.770Z","birthtime":"2021-01-05T01:51:55.185Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-01-18 10:57:19,413 WARN 76949 [agent:development] reload worker because /Users/sherily/Desktop/Petcity/Repo/petcity-back/app/service/user.js change
+2021-01-18 10:57:19,801 WARN 76949 [agent:development] reload worker because /Users/sherily/Desktop/Petcity/Repo/petcity-back/app/service/user.js change
+2021-01-18 10:57:19,147 INFO 76949 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/service/user.js","stat":{"dev":16777225,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":24397360,"size":7678,"blocks":16,"atimeMs":1610920482454.2031,"mtimeMs":1610920639136.1265,"ctimeMs":1610920639136.1265,"birthtimeMs":1609811515185.267,"atime":"2021-01-17T21:54:42.454Z","mtime":"2021-01-17T21:57:19.136Z","ctime":"2021-01-17T21:57:19.136Z","birthtime":"2021-01-05T01:51:55.185Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-01-18 10:57:19,209 INFO 76949 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/service/user.js","stat":{"dev":16777225,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":24397360,"size":7678,"blocks":16,"atimeMs":1610920482454.2031,"mtimeMs":1610920639136.1265,"ctimeMs":1610920639136.1265,"birthtimeMs":1609811515185.267,"atime":"2021-01-17T21:54:42.454Z","mtime":"2021-01-17T21:57:19.136Z","ctime":"2021-01-17T21:57:19.136Z","birthtime":"2021-01-05T01:51:55.185Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-01-18 10:57:19,533 INFO 76949 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/service/user.js","stat":{"dev":16777225,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":24397360,"size":7678,"blocks":16,"atimeMs":1610920482454.2031,"mtimeMs":1610920639523.2861,"ctimeMs":1610920639523.2861,"birthtimeMs":1609811515185.267,"atime":"2021-01-17T21:54:42.454Z","mtime":"2021-01-17T21:57:19.523Z","ctime":"2021-01-17T21:57:19.523Z","birthtime":"2021-01-05T01:51:55.185Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-01-18 10:57:19,596 INFO 76949 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/service/user.js","stat":{"dev":16777225,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":24397360,"size":7678,"blocks":16,"atimeMs":1610920482454.2031,"mtimeMs":1610920639523.2861,"ctimeMs":1610920639523.2861,"birthtimeMs":1609811515185.267,"atime":"2021-01-17T21:54:42.454Z","mtime":"2021-01-17T21:57:19.523Z","ctime":"2021-01-17T21:57:19.523Z","birthtime":"2021-01-05T01:51:55.185Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-01-18 10:57:19,996 INFO 76949 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/service/user.js","stat":{"dev":16777225,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":24397360,"size":7678,"blocks":16,"atimeMs":1610920482454.2031,"mtimeMs":1610920639985.5098,"ctimeMs":1610920639985.5098,"birthtimeMs":1609811515185.267,"atime":"2021-01-17T21:54:42.454Z","mtime":"2021-01-17T21:57:19.986Z","ctime":"2021-01-17T21:57:19.986Z","birthtime":"2021-01-05T01:51:55.185Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-01-18 10:57:20,046 INFO 76949 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/service/user.js","stat":{"dev":16777225,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":24397360,"size":7678,"blocks":16,"atimeMs":1610920482454.2031,"mtimeMs":1610920639985.5098,"ctimeMs":1610920639985.5098,"birthtimeMs":1609811515185.267,"atime":"2021-01-17T21:54:42.454Z","mtime":"2021-01-17T21:57:19.986Z","ctime":"2021-01-17T21:57:19.986Z","birthtime":"2021-01-05T01:51:55.185Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-01-18 10:57:20,246 WARN 76949 [agent:development] reload worker because /Users/sherily/Desktop/Petcity/Repo/petcity-back/app/service/user.js change
+2021-01-18 10:57:20,600 WARN 76949 [agent:development] reload worker because /Users/sherily/Desktop/Petcity/Repo/petcity-back/app/service/user.js change
+2021-01-18 10:57:20,348 INFO 76949 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/service/user.js","stat":{"dev":16777225,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":24397360,"size":7678,"blocks":16,"atimeMs":1610920640263.1348,"mtimeMs":1610920640335.7046,"ctimeMs":1610920640335.7046,"birthtimeMs":1609811515185.267,"atime":"2021-01-17T21:57:20.263Z","mtime":"2021-01-17T21:57:20.336Z","ctime":"2021-01-17T21:57:20.336Z","birthtime":"2021-01-05T01:51:55.185Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-01-18 10:57:20,397 INFO 76949 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/service/user.js","stat":{"dev":16777225,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":24397360,"size":7678,"blocks":16,"atimeMs":1610920640263.1348,"mtimeMs":1610920640335.7046,"ctimeMs":1610920640335.7046,"birthtimeMs":1609811515185.267,"atime":"2021-01-17T21:57:20.263Z","mtime":"2021-01-17T21:57:20.336Z","ctime":"2021-01-17T21:57:20.336Z","birthtime":"2021-01-05T01:51:55.185Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-01-18 11:23:21,012 INFO 1298 [egg-sequelize](16ms) Executed (default): SELECT 1+1 AS result
+2021-01-18 11:23:20,081 INFO 1298 [egg:logger] init all loggers with options: {"dir":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/logs/petcity-back","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"petcity-back-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-01-18 11:23:20,709 INFO 1298 [egg-alinode] alinode agentx started, node versions: {"node":"15.4.0","v8":"8.6.395.17-node.22","uv":"1.40.0","zlib":"1.2.11","brotli":"1.0.9","ares":"1.16.1","modules":"88","nghttp2":"1.41.0","napi":"7","llhttp":"2.1.3","openssl":"1.1.1g","cldr":"38.0","icu":"68.1","tz":"2020b","unicode":"13.0"}, update /Users/sherily/.nodepath with "/usr/local/bin", config: {"server":"wss://agentserver.node.aliyun.com:8080","appid":"87325"}
+2021-01-18 11:23:20,715 INFO 1298 [egg:core] dump config after load, 6ms
+2021-01-18 11:23:20,870 INFO 1298 [egg-watcher] Start watching: ["/Users/sherily/Desktop/Petcity/Repo/petcity-back/app","/Users/sherily/Desktop/Petcity/Repo/petcity-back/config","/Users/sherily/Desktop/Petcity/Repo/petcity-back/mocks","/Users/sherily/Desktop/Petcity/Repo/petcity-back/mocks_proxy","/Users/sherily/Desktop/Petcity/Repo/petcity-back/app.js"]
+2021-01-18 11:23:20,870 INFO 1298 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/app"
+2021-01-18 11:23:20,871 INFO 1298 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/config"
+2021-01-18 11:23:20,871 INFO 1298 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/mocks"
+2021-01-18 11:23:20,871 INFO 1298 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/mocks_proxy"
+2021-01-18 11:23:20,872 INFO 1298 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/app.js"
+2021-01-18 11:23:20,872 INFO 1298 [egg-watcher:agent] watcher start success
+2021-01-18 11:23:21,082 INFO 1298 [egg:core] dump config after ready, 62ms
+2021-01-18 11:23:41,149 INFO 1393 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-01-18 11:23:40,334 INFO 1393 [egg:logger] init all loggers with options: {"dir":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/logs/petcity-back","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"petcity-back-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-01-18 11:23:40,937 INFO 1393 [egg-alinode] alinode agentx started, node versions: {"node":"15.4.0","v8":"8.6.395.17-node.22","uv":"1.40.0","zlib":"1.2.11","brotli":"1.0.9","ares":"1.16.1","modules":"88","nghttp2":"1.41.0","napi":"7","llhttp":"2.1.3","openssl":"1.1.1g","cldr":"38.0","icu":"68.1","tz":"2020b","unicode":"13.0"}, update /Users/sherily/.nodepath with "/usr/local/bin", config: {"server":"wss://agentserver.node.aliyun.com:8080","appid":"87325"}
+2021-01-18 11:23:40,942 INFO 1393 [egg:core] dump config after load, 4ms
+2021-01-18 11:23:41,068 INFO 1393 [egg-watcher] Start watching: ["/Users/sherily/Desktop/Petcity/Repo/petcity-back/app","/Users/sherily/Desktop/Petcity/Repo/petcity-back/config","/Users/sherily/Desktop/Petcity/Repo/petcity-back/mocks","/Users/sherily/Desktop/Petcity/Repo/petcity-back/mocks_proxy","/Users/sherily/Desktop/Petcity/Repo/petcity-back/app.js"]
+2021-01-18 11:23:41,068 INFO 1393 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/app"
+2021-01-18 11:23:41,068 INFO 1393 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/config"
+2021-01-18 11:23:41,068 INFO 1393 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/mocks"
+2021-01-18 11:23:41,068 INFO 1393 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/mocks_proxy"
+2021-01-18 11:23:41,069 INFO 1393 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/app.js"
+2021-01-18 11:23:41,069 INFO 1393 [egg-watcher:agent] watcher start success
+2021-01-18 11:23:41,170 INFO 1393 [egg:core] dump config after ready, 7ms

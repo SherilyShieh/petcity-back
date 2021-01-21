@@ -52,7 +52,7 @@ class UserController extends Controller {
      * @summary Api getUser
      * @description getUser Api 
      * @router get /api/v1/getUser
-     * @request query string uid
+     * @request query string *uid
      * @response 200 JsonResponse
      */
     async getUser() {
@@ -68,7 +68,7 @@ class UserController extends Controller {
      * @summary Api verifyEmail
      * @description verifyEmail Api 
      * @router get /api/v1/verifyEmail
-     * @request query string email
+     * @request query string *email
      * @response 200 JsonResponse
      */
     async verifyEmail() {

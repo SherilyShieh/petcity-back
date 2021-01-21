@@ -62,6 +62,105 @@
   {
     "name": null,
     "methods": [
+      "PUT"
+    ],
+    "paramNames": [],
+    "path": "/api/v1/postAd",
+    "regexp": "/^\\/api\\/v1\\/postAd(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/v1/updateAd",
+    "regexp": "/^\\/api\\/v1\\/updateAd(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/api/v1/getAllAds",
+    "regexp": "/^\\/api\\/v1\\/getAllAds(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/api/v1/getMyAds",
+    "regexp": "/^\\/api\\/v1\\/getMyAds(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "PUT"
+    ],
+    "paramNames": [],
+    "path": "/api/v1/addContacted",
+    "regexp": "/^\\/api\\/v1\\/addContacted(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "DELETE"
+    ],
+    "paramNames": [],
+    "path": "/api/v1/deleteMyAds",
+    "regexp": "/^\\/api\\/v1\\/deleteMyAds(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/api/v1/getAllContacted",
+    "regexp": "/^\\/api\\/v1\\/getAllContacted(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "DELETE"
+    ],
+    "paramNames": [],
+    "path": "/api/v1/deleteContacted",
+    "regexp": "/^\\/api\\/v1\\/deleteContacted(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
       "HEAD",
       "GET"
     ],

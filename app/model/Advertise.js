@@ -20,41 +20,48 @@ module.exports = app => {
         },
         dog_breed: {
             type: DataTypes.TEXT,
-            allowNull: true
+            allowNull: false
         },
         price: {
             type: DataTypes.TEXT,
-            allowNull: true
+            allowNull: false
         },
         date: {
             type: DataTypes.TIME,
-            allowNull: true
+            allowNull: false
         },
         start_time: {
             type: DataTypes.TEXT,
-            allowNull: true
+            allowNull: false
         },
         duration: {
+            type: DataTypes.TEXT,
+            allowNull: false
+        },
+        description: {
             type: DataTypes.TEXT,
             allowNull: true
         },
         region: {
             type: DataTypes.TEXT,
-            allowNull: true
+            allowNull: false
         },
         district: {
             type: DataTypes.TEXT,
-            allowNull: true
+            allowNull: false
         },
         created_time: {
             type: DataTypes.TIME,
-            allowNull: true
+            allowNull: false
         },
         updated_time: {
             type: DataTypes.TIME,
-            allowNull: true
+            allowNull: false
         }
     }, {
+        timestamps: false,
+        underscored: false,
+        freezeTableName: true,
         tableName: 'Advertise'
     });
 

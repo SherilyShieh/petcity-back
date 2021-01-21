@@ -1,3 +1,9 @@
+/*
+ * @Author: Sherily Shieh 
+ * @Date: 2021-01-Mo 02:56:00 
+ * @Last Modified by:   Sherily Shieh 
+ * @Last Modified time: 2021-01-Mo 02:56:00 
+ */
 'use strict'
 const Service = require('egg').Service;
 
@@ -6,28 +12,6 @@ class UserService extends Service {
 
         const uid = dic.uid;
         const channel = dic.channel;
-        if (!uid) {
-            return {
-                success: false,
-                code: 500,
-                errorMsg: 'Missing required parameter: uid!',
-                data: {
-                    uid: '',
-                    msg: 'signUp failed!'
-                }
-            }
-        }
-        if (!channel) {
-            return {
-                success: false,
-                code: 500,
-                errorMsg: 'Missing required parameter: channel!',
-                data: {
-                    uid,
-                    msg: 'signUp failed!'
-                }
-            }
-        }
         if (await this.isUidExist(uid)) {
             // login
             return {
@@ -40,7 +24,6 @@ class UserService extends Service {
                 }
             }
         } else {
-
             const role = await this.app.model.User.create({
                 uid,
                 channel,
@@ -76,30 +59,6 @@ class UserService extends Service {
 
     async register(dic) {
 
-        const uid = dic.uid;
-        const channel = dic.channel;
-        if (!uid) {
-            return {
-                success: false,
-                code: 500,
-                errorMsg: 'Missing required parameter: uid!',
-                data: {
-                    uid: '',
-                    msg: 'signUp failed!'
-                }
-            }
-        }
-        if (!channel) {
-            return {
-                success: false,
-                code: 500,
-                errorMsg: 'Missing required parameter: channel!',
-                data: {
-                    uid,
-                    msg: 'signUp failed!'
-                }
-            }
-        }
         if (await this.isUidExist(uid)) {
             // login
             return {
@@ -148,14 +107,7 @@ class UserService extends Service {
     }
 
     async getUser(uid) {
-        if (!uid) {
-            return {
-                success: false,
-                code: 500,
-                errorMsg: 'Missing required parameter: uid!',
-                data: {}
-            }
-        }
+
         const exist = await this.app.model.User.findOne({ where: { uid } });
         if (!exist) {
             return {
@@ -249,6 +201,7 @@ class UserService extends Service {
             modify.district = user.district;
         }
         if (user.detail_address !== undefined) {
+
             modify.detail_address = user.detail_address;
         }
         if (user.password !== undefined) {

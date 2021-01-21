@@ -1,89 +1,366 @@
-2021-01-18 04:29:17,808 ERROR 13711 nodejs.ClusterClientNoResponseError: client no response in 7204972ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+2021-01-21 00:52:03,592 ERROR 49009 nodejs.ClusterClientNoResponseError: client no response in 2475246ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
     at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
     at listOnTimeout (node:internal/timers:556:17)
     at processTimers (node:internal/timers:499:7)
 name: "ClusterClientNoResponseError"
-pid: 13711
+pid: 49009
 hostname: xiejialis-MacBook-Pro.local
 
-2021-01-18 05:25:11,182 ERROR 13711 nodejs.ClusterClientNoResponseError: client no response in 3311995ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+2021-01-21 01:14:45,638 ERROR 49009 nodejs.ClusterClientNoResponseError: client no response in 1321248ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
     at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
     at listOnTimeout (node:internal/timers:556:17)
     at processTimers (node:internal/timers:499:7)
 name: "ClusterClientNoResponseError"
-pid: 13711
+pid: 49009
 hostname: xiejialis-MacBook-Pro.local
 
-2021-01-18 07:26:01,672 ERROR 13711 nodejs.ClusterClientNoResponseError: client no response in 7208667ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+2021-01-21 03:15:33,685 ERROR 49009 nodejs.ClusterClientNoResponseError: client no response in 7207968ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
     at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
     at listOnTimeout (node:internal/timers:556:17)
     at processTimers (node:internal/timers:499:7)
 name: "ClusterClientNoResponseError"
-pid: 13711
+pid: 49009
 hostname: xiejialis-MacBook-Pro.local
 
-2021-01-18 08:35:55,927 ERROR 13711 nodejs.ClusterClientNoResponseError: client no response in 4152128ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+2021-01-21 05:16:21,798 ERROR 49009 nodejs.ClusterClientNoResponseError: client no response in 7207263ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
     at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
     at listOnTimeout (node:internal/timers:556:17)
     at processTimers (node:internal/timers:499:7)
 name: "ClusterClientNoResponseError"
-pid: 13711
+pid: 49009
 hostname: xiejialis-MacBook-Pro.local
 
-2021-01-18 08:49:25,409 ERROR 13711 nodejs.ClusterClientNoResponseError: client no response in 768066ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+2021-01-21 07:14:32,883 ERROR 49009 nodejs.ClusterClientNoResponseError: client no response in 7050244ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
     at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
     at listOnTimeout (node:internal/timers:556:17)
     at processTimers (node:internal/timers:499:7)
 name: "ClusterClientNoResponseError"
-pid: 13711
+pid: 49009
 hostname: xiejialis-MacBook-Pro.local
 
-2021-01-18 11:23:22,699 ERROR 1307 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
-    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1138:16) {
-  errno: -61,
-  code: 'ECONNREFUSED',
-  syscall: 'connect',
-  address: '127.0.0.1',
-  port: 6379
-}
-2021-01-18 11:23:22,700 ERROR 1307 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
-    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1138:16)
-errno: -61
-code: "ECONNREFUSED"
-syscall: "connect"
-address: "127.0.0.1"
-port: 6379
-name: "ECONNREFUSEDError"
-pid: 1307
+2021-01-21 09:15:19,839 ERROR 49009 nodejs.ClusterClientNoResponseError: client no response in 7205949ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 49009
 hostname: xiejialis-MacBook-Pro.local
 
-2021-01-18 11:23:22,710 ERROR 1307 [-/127.0.0.1/-/0ms GET /] nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
-    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1138:16)
-errno: -61
-code: "ECONNREFUSED"
-syscall: "connect"
-address: "127.0.0.1"
-port: 6379
-name: "ECONNREFUSEDError"
-pid: 1307
+2021-01-21 09:34:11,566 ERROR 49009 nodejs.ClusterClientNoResponseError: client no response in 1071806ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 49009
 hostname: xiejialis-MacBook-Pro.local
 
-2021-01-18 11:23:22,784 ERROR 1307 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
-    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1138:16) {
-  errno: -61,
-  code: 'ECONNREFUSED',
-  syscall: 'connect',
-  address: '127.0.0.1',
-  port: 6379
-}
-2021-01-18 11:23:22,784 ERROR 1307 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
-    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1138:16)
-errno: -61
-code: "ECONNREFUSED"
-syscall: "connect"
-address: "127.0.0.1"
-port: 6379
-name: "ECONNREFUSEDError"
-pid: 1307
+2021-01-21 09:58:01,219 ERROR 49009 nodejs.ClusterClientNoResponseError: client no response in 129191ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 49009
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-21 10:13:40,904 ERROR 49009 nodejs.ClusterClientNoResponseError: client no response in 278761ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 49009
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-21 10:37:37,531 ERROR 49009 nodejs.ClusterClientNoResponseError: client no response in 155269ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 49009
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-21 10:40:10,201 ERROR 49009 nodejs.ClusterClientNoResponseError: client no response in 112657ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 49009
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-21 11:44:49,950 ERROR 58947 nodejs.SequelizeDatabaseError: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''10'' at line 1
+    at Query.formatError (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/node_modules/sequelize/lib/dialects/mysql/query.js:239:16)
+    at Query.run (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/node_modules/sequelize/lib/sequelize.js:619:16
+    at async MySQLQueryInterface.select (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/node_modules/sequelize/lib/dialects/abstract/query-interface.js:938:12)
+    at async Function.findAll (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/node_modules/sequelize/lib/model.js:1753:21)
+    at async Promise.all (index 1)
+    at async Function.findAndCountAll (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/node_modules/sequelize/lib/model.js:2085:27)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_PARSE_ERROR","errno":1064,"sqlState":"42000","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''10'' at line 1","sql":"SELECT `ad_id`, `user_id`, `type`, `dog_breed`, `price`, `date`, `start_time`, `duration`, `description`, `region`, `district`, `created_time`, `updated_time` FROM `Advertise` AS `Advertise` LIMIT 0, '10';"}
+original: {"code":"ER_PARSE_ERROR","errno":1064,"sqlState":"42000","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''10'' at line 1","sql":"SELECT `ad_id`, `user_id`, `type`, `dog_breed`, `price`, `date`, `start_time`, `duration`, `description`, `region`, `district`, `created_time`, `updated_time` FROM `Advertise` AS `Advertise` LIMIT 0, '10';"}
+sql: "SELECT `ad_id`, `user_id`, `type`, `dog_breed`, `price`, `date`, `start_time`, `duration`, `description`, `region`, `district`, `created_time`, `updated_time` FROM `Advertise` AS `Advertise` LIMIT 0, '10';"
+parameters: undefined
+pid: 58947
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-21 11:45:54,193 ERROR 59109 nodejs.SequelizeDatabaseError: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''10'' at line 1
+    at Query.formatError (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/node_modules/sequelize/lib/dialects/mysql/query.js:239:16)
+    at Query.run (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/node_modules/sequelize/lib/sequelize.js:619:16
+    at async MySQLQueryInterface.select (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/node_modules/sequelize/lib/dialects/abstract/query-interface.js:938:12)
+    at async Function.findAll (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/node_modules/sequelize/lib/model.js:1753:21)
+    at async Promise.all (index 1)
+    at async Function.findAndCountAll (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/node_modules/sequelize/lib/model.js:2085:27)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_PARSE_ERROR","errno":1064,"sqlState":"42000","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''10'' at line 1","sql":"SELECT `ad_id`, `user_id`, `type`, `dog_breed`, `price`, `date`, `start_time`, `duration`, `description`, `region`, `district`, `created_time`, `updated_time` FROM `Advertise` AS `Advertise` LIMIT 0, '10';"}
+original: {"code":"ER_PARSE_ERROR","errno":1064,"sqlState":"42000","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''10'' at line 1","sql":"SELECT `ad_id`, `user_id`, `type`, `dog_breed`, `price`, `date`, `start_time`, `duration`, `description`, `region`, `district`, `created_time`, `updated_time` FROM `Advertise` AS `Advertise` LIMIT 0, '10';"}
+sql: "SELECT `ad_id`, `user_id`, `type`, `dog_breed`, `price`, `date`, `start_time`, `duration`, `description`, `region`, `district`, `created_time`, `updated_time` FROM `Advertise` AS `Advertise` LIMIT 0, '10';"
+parameters: undefined
+pid: 59109
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-21 11:46:03,985 ERROR 59109 nodejs.SequelizeDatabaseError: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10, '10'' at line 1
+    at Query.formatError (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/node_modules/sequelize/lib/dialects/mysql/query.js:239:16)
+    at Query.run (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/node_modules/sequelize/lib/sequelize.js:619:16
+    at async MySQLQueryInterface.select (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/node_modules/sequelize/lib/dialects/abstract/query-interface.js:938:12)
+    at async Function.findAll (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/node_modules/sequelize/lib/model.js:1753:21)
+    at async Promise.all (index 1)
+    at async Function.findAndCountAll (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/node_modules/sequelize/lib/model.js:2085:27)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_PARSE_ERROR","errno":1064,"sqlState":"42000","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10, '10'' at line 1","sql":"SELECT `ad_id`, `user_id`, `type`, `dog_breed`, `price`, `date`, `start_time`, `duration`, `description`, `region`, `district`, `created_time`, `updated_time` FROM `Advertise` AS `Advertise` LIMIT -10, '10';"}
+original: {"code":"ER_PARSE_ERROR","errno":1064,"sqlState":"42000","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10, '10'' at line 1","sql":"SELECT `ad_id`, `user_id`, `type`, `dog_breed`, `price`, `date`, `start_time`, `duration`, `description`, `region`, `district`, `created_time`, `updated_time` FROM `Advertise` AS `Advertise` LIMIT -10, '10';"}
+sql: "SELECT `ad_id`, `user_id`, `type`, `dog_breed`, `price`, `date`, `start_time`, `duration`, `description`, `region`, `district`, `created_time`, `updated_time` FROM `Advertise` AS `Advertise` LIMIT -10, '10';"
+parameters: undefined
+pid: 59109
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-21 11:46:19,158 ERROR 59109 nodejs.SequelizeDatabaseError: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''10'' at line 1
+    at Query.formatError (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/node_modules/sequelize/lib/dialects/mysql/query.js:239:16)
+    at Query.run (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/node_modules/sequelize/lib/sequelize.js:619:16
+    at async MySQLQueryInterface.select (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/node_modules/sequelize/lib/dialects/abstract/query-interface.js:938:12)
+    at async Function.findAll (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/node_modules/sequelize/lib/model.js:1753:21)
+    at async Promise.all (index 1)
+    at async Function.findAndCountAll (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/node_modules/sequelize/lib/model.js:2085:27)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_PARSE_ERROR","errno":1064,"sqlState":"42000","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''10'' at line 1","sql":"SELECT `ad_id`, `user_id`, `type`, `dog_breed`, `price`, `date`, `start_time`, `duration`, `description`, `region`, `district`, `created_time`, `updated_time` FROM `Advertise` AS `Advertise` LIMIT 0, '10';"}
+original: {"code":"ER_PARSE_ERROR","errno":1064,"sqlState":"42000","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''10'' at line 1","sql":"SELECT `ad_id`, `user_id`, `type`, `dog_breed`, `price`, `date`, `start_time`, `duration`, `description`, `region`, `district`, `created_time`, `updated_time` FROM `Advertise` AS `Advertise` LIMIT 0, '10';"}
+sql: "SELECT `ad_id`, `user_id`, `type`, `dog_breed`, `price`, `date`, `start_time`, `duration`, `description`, `region`, `district`, `created_time`, `updated_time` FROM `Advertise` AS `Advertise` LIMIT 0, '10';"
+parameters: undefined
+pid: 59109
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-21 11:47:03,911 ERROR 59175 nodejs.SequelizeDatabaseError: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''10'' at line 1
+    at Query.formatError (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/node_modules/sequelize/lib/dialects/mysql/query.js:239:16)
+    at Query.run (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/node_modules/sequelize/lib/sequelize.js:619:16
+    at async MySQLQueryInterface.select (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/node_modules/sequelize/lib/dialects/abstract/query-interface.js:938:12)
+    at async Function.findAll (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/node_modules/sequelize/lib/model.js:1753:21)
+    at async Promise.all (index 1)
+    at async Function.findAndCountAll (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/node_modules/sequelize/lib/model.js:2085:27)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_PARSE_ERROR","errno":1064,"sqlState":"42000","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''10'' at line 1","sql":"SELECT `ad_id`, `user_id`, `type`, `dog_breed`, `price`, `date`, `start_time`, `duration`, `description`, `region`, `district`, `created_time`, `updated_time` FROM `Advertise` AS `Advertise` LIMIT 0, '10';"}
+original: {"code":"ER_PARSE_ERROR","errno":1064,"sqlState":"42000","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''10'' at line 1","sql":"SELECT `ad_id`, `user_id`, `type`, `dog_breed`, `price`, `date`, `start_time`, `duration`, `description`, `region`, `district`, `created_time`, `updated_time` FROM `Advertise` AS `Advertise` LIMIT 0, '10';"}
+sql: "SELECT `ad_id`, `user_id`, `type`, `dog_breed`, `price`, `date`, `start_time`, `duration`, `description`, `region`, `district`, `created_time`, `updated_time` FROM `Advertise` AS `Advertise` LIMIT 0, '10';"
+parameters: undefined
+pid: 59175
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-21 12:02:39,082 ERROR 60097 [-/127.0.0.1/-/9ms GET /api/v1/getAllAds?index=1&page_size=10] nodejs.TypeError: rows.map is not a function
+    at AdvertiseService.getAllAds (/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/service/advertise.js:110:14)
+    at AdvertiseController.getAllAds (/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/controller/advertise.js:63:52)
+    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:45:18)
+    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:44:32)
+
+pid: 60097
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-21 12:04:08,923 ERROR 60158 [-/127.0.0.1/-/7ms GET /api/v1/getAllAds?index=1&page_size=10] nodejs.TypeError: this.app.model.Advertise.findAll(...).map is not a function
+    at AdvertiseService.getAllAds (/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/service/advertise.js:109:12)
+    at AdvertiseController.getAllAds (/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/controller/advertise.js:63:52)
+    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:45:18)
+    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:44:32)
+
+pid: 60158
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-21 12:29:59,743 ERROR 58359 nodejs.ClusterClientNoResponseError: client no response in 256784ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 58359
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-21 13:17:35,127 ERROR 58359 nodejs.ClusterClientNoResponseError: client no response in 1758964ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 58359
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-21 13:33:44,082 ERROR 58359 nodejs.ClusterClientNoResponseError: client no response in 928234ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 58359
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-21 13:51:53,817 ERROR 58359 nodejs.ClusterClientNoResponseError: client no response in 1048738ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 58359
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-21 14:46:17,324 ERROR 58359 nodejs.ClusterClientNoResponseError: client no response in 1739848ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 58359
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-21 15:04:55,412 ERROR 58359 nodejs.ClusterClientNoResponseError: client no response in 1077214ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 58359
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-21 16:29:50,423 ERROR 58359 nodejs.ClusterClientNoResponseError: client no response in 5054230ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 58359
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-21 16:42:31,862 ERROR 58359 nodejs.ClusterClientNoResponseError: client no response in 720733ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 58359
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-21 16:48:27,310 ERROR 58359 nodejs.ClusterClientNoResponseError: client no response in 173255ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 58359
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-21 19:44:03,604 ERROR 72592 [-/127.0.0.1/-/0ms GET /] nodejs.Error: controller not exists
+    at resolveController (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/egg_router.js:298:26)
+    at spliteAndResolveRouterParams (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/egg_router.js:277:20)
+    at EggRouter.<computed> [as put] (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/egg_router.js:72:25)
+    at RouterRegister (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/router/index.js:62:29)
+    at module.exports.swaggerInit (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/index.js:22:5)
+    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/app.js:8:5
+    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (node:internal/process/task_queues:75:11)
+
+pid: 72592
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-21 19:45:26,822 ERROR 72679 [-/127.0.0.1/-/21ms PUT /api/v1/addContacted] nodejs.ReferenceError: index is not defined
+    at AdvertiseService.addContacted (/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/service/advertise.js:291:33)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async AdvertiseController.addContacted (/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/controller/advertise.js:101:24)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 72679
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-21 20:24:32,793 ERROR 58359 nodejs.ClusterClientNoResponseError: client no response in 1761018ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 58359
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-21 20:40:41,501 ERROR 58359 nodejs.ClusterClientNoResponseError: client no response in 927250ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 58359
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-21 20:58:55,197 ERROR 58359 nodejs.ClusterClientNoResponseError: client no response in 1053668ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 58359
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-21 21:48:36,166 ERROR 75843 [-/127.0.0.1/-/0ms GET /] nodejs.Error: [egg-swagger-doc] error at delete:/api/v1/deleteContacted ,the type of request parameter does not exit
+    at generateParameters (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:408:15)
+    at generateRequest (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:331:23)
+    at getTag_Path (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:137:36)
+    at buildDocument (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:50:14)
+    at documentInit (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:497:7)
+    at module.exports.swaggerInit (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/index.js:10:3)
+    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/app.js:8:5
+    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (node:internal/process/task_queues:75:11)
+
+pid: 75843
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-21 21:48:36,993 ERROR 75845 [-/127.0.0.1/-/0ms GET /] nodejs.Error: [egg-swagger-doc] error at delete:/api/v1/deleteContacted ,the type of request parameter does not exit
+    at generateParameters (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:408:15)
+    at generateRequest (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:331:23)
+    at getTag_Path (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:137:36)
+    at buildDocument (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:50:14)
+    at documentInit (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:497:7)
+    at module.exports.swaggerInit (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/index.js:10:3)
+    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/app.js:8:5
+    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (node:internal/process/task_queues:75:11)
+
+pid: 75845
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-21 21:48:48,383 ERROR 75879 [-/127.0.0.1/-/0ms GET /] nodejs.Error: [egg-swagger-doc] error at delete:/api/v1/deleteContacted ,the type of request parameter does not exit
+    at generateParameters (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:408:15)
+    at generateRequest (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:331:23)
+    at getTag_Path (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:137:36)
+    at buildDocument (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:50:14)
+    at documentInit (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:497:7)
+    at module.exports.swaggerInit (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/index.js:10:3)
+    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/app.js:8:5
+    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (node:internal/process/task_queues:75:11)
+
+pid: 75879
 hostname: xiejialis-MacBook-Pro.local
 

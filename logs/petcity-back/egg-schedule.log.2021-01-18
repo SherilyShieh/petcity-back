@@ -1,0 +1,144 @@
+2021-01-18 04:30:02,296 INFO 34295 [Job#16108974021681433154773192432] /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-multipart/app/schedule/clean_tmpdir.js executing by app
+2021-01-18 04:30:02,297 INFO 13711 [Timer] /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 86397794ms at 2021-01-19 04:30:00.091
+2021-01-18 04:30:02,497 INFO 34295 [Job#16108974021681433154773192432] /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-multipart/app/schedule/clean_tmpdir.js execute succeed, used 173ms. 
+2021-01-18 10:10:59,620 INFO 72958 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-01-18 10:10:59,620 INFO 72958 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-01-18 10:10:59,620 INFO 72958 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-01-18 10:10:59,620 INFO 72958 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-alinode/app/schedule/removeLogs.js
+2021-01-18 10:11:00,020 INFO 72955 [Timer] /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 65939982ms at 2021-01-19 04:30:00.002
+2021-01-18 10:11:00,020 INFO 72955 [Timer] /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 49739980ms at 2021-01-19 00:00:00.000
+2021-01-18 10:11:00,021 INFO 72955 [Timer] /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 49740980ms at 2021-01-19 00:00:01.001
+2021-01-18 10:11:00,021 INFO 72955 [Timer] /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-alinode/app/schedule/removeLogs.js next time will execute after 49739979ms at 2021-01-19 00:00:00.000
+2021-01-18 10:54:27,302 INFO 76949 [Timer] /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 63332701ms at 2021-01-19 04:30:00.003
+2021-01-18 10:54:27,302 INFO 76949 [Timer] /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 47132698ms at 2021-01-19 00:00:00.000
+2021-01-18 10:54:27,303 INFO 76949 [Timer] /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 47133698ms at 2021-01-19 00:00:01.001
+2021-01-18 10:54:27,303 INFO 76949 [Timer] /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-alinode/app/schedule/removeLogs.js next time will execute after 47132697ms at 2021-01-19 00:00:00.000
+2021-01-18 10:54:26,814 INFO 76952 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-01-18 10:54:26,814 INFO 76952 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-01-18 10:54:26,814 INFO 76952 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-01-18 10:54:26,814 INFO 76952 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-alinode/app/schedule/removeLogs.js
+2021-01-18 10:54:41,854 INFO 76989 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-01-18 10:54:41,854 INFO 76989 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-01-18 10:54:41,854 INFO 76989 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-01-18 10:54:41,854 INFO 76989 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-alinode/app/schedule/removeLogs.js
+2021-01-18 10:54:43,029 INFO 76995 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-01-18 10:54:43,029 INFO 76995 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-01-18 10:54:43,029 INFO 76995 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-01-18 10:54:43,029 INFO 76995 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-alinode/app/schedule/removeLogs.js
+2021-01-18 10:54:44,083 INFO 77009 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-01-18 10:54:44,083 INFO 77009 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-01-18 10:54:44,083 INFO 77009 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-01-18 10:54:44,083 INFO 77009 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-alinode/app/schedule/removeLogs.js
+2021-01-18 10:54:49,045 INFO 77037 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-01-18 10:54:49,045 INFO 77037 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-01-18 10:54:49,045 INFO 77037 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-01-18 10:54:49,045 INFO 77037 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-alinode/app/schedule/removeLogs.js
+2021-01-18 10:54:49,850 INFO 77041 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-01-18 10:54:49,850 INFO 77041 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-01-18 10:54:49,850 INFO 77041 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-01-18 10:54:49,850 INFO 77041 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-alinode/app/schedule/removeLogs.js
+2021-01-18 10:54:50,003 INFO 77042 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-01-18 10:54:50,003 INFO 77042 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-01-18 10:54:50,003 INFO 77042 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-01-18 10:54:50,003 INFO 77042 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-alinode/app/schedule/removeLogs.js
+2021-01-18 10:54:50,682 INFO 77043 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-01-18 10:54:50,682 INFO 77043 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-01-18 10:54:50,682 INFO 77043 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-01-18 10:54:50,682 INFO 77043 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-alinode/app/schedule/removeLogs.js
+2021-01-18 10:57:19,900 INFO 77254 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-01-18 10:57:19,900 INFO 77254 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-01-18 10:57:19,900 INFO 77254 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-01-18 10:57:19,900 INFO 77254 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-alinode/app/schedule/removeLogs.js
+2021-01-18 10:57:20,860 INFO 77255 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-01-18 10:57:20,860 INFO 77255 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-01-18 10:57:20,860 INFO 77255 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-01-18 10:57:20,860 INFO 77255 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-alinode/app/schedule/removeLogs.js
+2021-01-18 10:57:21,079 INFO 77256 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-01-18 10:57:21,079 INFO 77256 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-01-18 10:57:21,079 INFO 77256 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-01-18 10:57:21,079 INFO 77256 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-alinode/app/schedule/removeLogs.js
+2021-01-18 11:23:21,933 INFO 1307 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-01-18 11:23:21,933 INFO 1307 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-01-18 11:23:21,934 INFO 1307 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-01-18 11:23:21,934 INFO 1307 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-alinode/app/schedule/removeLogs.js
+2021-01-18 11:23:42,054 INFO 1400 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-01-18 11:23:42,054 INFO 1400 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-01-18 11:23:42,054 INFO 1400 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-01-18 11:23:42,054 INFO 1400 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-alinode/app/schedule/removeLogs.js
+2021-01-18 11:23:42,722 INFO 1393 [Timer] /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 61577281ms at 2021-01-19 04:30:00.003
+2021-01-18 11:23:42,723 INFO 1393 [Timer] /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 45377278ms at 2021-01-19 00:00:00.001
+2021-01-18 11:23:42,723 INFO 1393 [Timer] /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 45378277ms at 2021-01-19 00:00:01.000
+2021-01-18 11:23:42,723 INFO 1393 [Timer] /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-alinode/app/schedule/removeLogs.js next time will execute after 45377277ms at 2021-01-19 00:00:00.000
+2021-01-18 14:50:30,536 INFO 18143 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-01-18 14:50:30,536 INFO 18143 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-01-18 14:50:30,536 INFO 18143 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-01-18 14:50:30,536 INFO 18143 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-alinode/app/schedule/removeLogs.js
+2021-01-18 14:50:57,718 INFO 18194 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-01-18 14:50:57,718 INFO 18194 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-01-18 14:50:57,718 INFO 18194 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-01-18 14:50:57,718 INFO 18194 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-alinode/app/schedule/removeLogs.js
+2021-01-18 14:51:02,035 INFO 18214 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-01-18 14:51:02,035 INFO 18214 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-01-18 14:51:02,035 INFO 18214 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-01-18 14:51:02,035 INFO 18214 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-alinode/app/schedule/removeLogs.js
+2021-01-18 14:51:11,438 INFO 18246 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-01-18 14:51:11,438 INFO 18246 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-01-18 14:51:11,438 INFO 18246 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-01-18 14:51:11,438 INFO 18246 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-alinode/app/schedule/removeLogs.js
+2021-01-18 14:51:27,803 INFO 18274 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-01-18 14:51:27,803 INFO 18274 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-01-18 14:51:27,803 INFO 18274 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-01-18 14:51:27,803 INFO 18274 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-alinode/app/schedule/removeLogs.js
+2021-01-18 14:51:55,923 INFO 18389 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-01-18 14:51:55,923 INFO 18389 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-01-18 14:51:55,923 INFO 18389 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-01-18 14:51:55,923 INFO 18389 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-alinode/app/schedule/removeLogs.js
+2021-01-18 14:51:59,454 INFO 18437 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-01-18 14:51:59,454 INFO 18437 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-01-18 14:51:59,454 INFO 18437 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-01-18 14:51:59,454 INFO 18437 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-alinode/app/schedule/removeLogs.js
+2021-01-18 14:55:43,093 INFO 18699 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-01-18 14:55:43,093 INFO 18699 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-01-18 14:55:43,093 INFO 18699 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-01-18 14:55:43,093 INFO 18699 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-alinode/app/schedule/removeLogs.js
+2021-01-18 14:55:44,150 INFO 18708 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-01-18 14:55:44,150 INFO 18708 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-01-18 14:55:44,150 INFO 18708 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-01-18 14:55:44,150 INFO 18708 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-alinode/app/schedule/removeLogs.js
+2021-01-18 14:56:38,409 INFO 18783 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-01-18 14:56:38,409 INFO 18783 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-01-18 14:56:38,409 INFO 18783 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-01-18 14:56:38,409 INFO 18783 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-alinode/app/schedule/removeLogs.js
+2021-01-18 14:56:39,393 INFO 18785 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-01-18 14:56:39,394 INFO 18785 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-01-18 14:56:39,394 INFO 18785 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-01-18 14:56:39,394 INFO 18785 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-alinode/app/schedule/removeLogs.js
+2021-01-18 23:50:00,353 INFO 21312 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-01-18 23:50:00,353 INFO 21312 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-01-18 23:50:00,353 INFO 21312 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-01-18 23:50:00,353 INFO 21312 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-alinode/app/schedule/removeLogs.js
+2021-01-18 23:50:01,419 INFO 21317 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-01-18 23:50:01,419 INFO 21317 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-01-18 23:50:01,419 INFO 21317 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-01-18 23:50:01,419 INFO 21317 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-alinode/app/schedule/removeLogs.js
+2021-01-18 23:50:01,657 INFO 21318 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-01-18 23:50:01,657 INFO 21318 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-01-18 23:50:01,657 INFO 21318 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-01-18 23:50:01,657 INFO 21318 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-alinode/app/schedule/removeLogs.js
+2021-01-18 23:50:49,985 INFO 21379 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-01-18 23:50:49,985 INFO 21379 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-01-18 23:50:49,985 INFO 21379 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-01-18 23:50:49,985 INFO 21379 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-alinode/app/schedule/removeLogs.js
+2021-01-18 23:57:20,719 INFO 21766 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-01-18 23:57:20,719 INFO 21766 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-01-18 23:57:20,719 INFO 21766 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-01-18 23:57:20,719 INFO 21766 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-alinode/app/schedule/removeLogs.js
+2021-01-19 00:00:01,171 INFO 1393 [Timer] /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-alinode/app/schedule/removeLogs.js next time will execute after 86398834ms at 2021-01-20 00:00:00.005
+2021-01-19 00:00:01,173 INFO 1393 [Timer] /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 86398829ms at 2021-01-20 00:00:00.002
+2021-01-19 00:00:01,167 INFO 21766 [Job#1610967601163456537617031371] /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-alinode/app/schedule/removeLogs.js executing by app
+2021-01-19 00:00:01,170 INFO 21766 [Job#1610967601163456537617031371] /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-alinode/app/schedule/removeLogs.js execute succeed, used 2ms. 
+2021-01-19 00:00:01,172 INFO 21766 [Job#1610967601171456537698124971] /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-logrotator/app/schedule/clean_log.js executing by app
+2021-01-19 00:00:01,176 INFO 21766 [Job#1610967601171456537698124971] /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-logrotator/app/schedule/clean_log.js execute succeed, used 4ms. 
+2021-01-19 00:00:02,160 INFO 21766 [Job#1610967602159456547575044201] /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-logrotator/app/schedule/rotate_by_file.js executing by app
+2021-01-19 00:00:02,166 INFO 21766 [Job#1610967602159456547575044201] /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-logrotator/app/schedule/rotate_by_file.js execute succeed, used 6ms. 
+2021-01-19 00:00:02,163 INFO 1393 [Timer] /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 86398841ms at 2021-01-20 00:00:01.004

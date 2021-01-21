@@ -1,0 +1,415 @@
+2021-01-20 03:46:52,562 ERROR 1393 nodejs.ClusterClientNoResponseError: client no response in 7209581ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 1393
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-20 05:47:44,563 ERROR 1393 nodejs.ClusterClientNoResponseError: client no response in 7211030ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 1393
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-20 06:09:01,992 ERROR 1393 nodejs.ClusterClientNoResponseError: client no response in 1237217ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 1393
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-20 09:15:05,759 ERROR 1393 nodejs.ClusterClientNoResponseError: client no response in 11103576ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 1393
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-20 15:49:39,091 ERROR 1393 nodejs.ClusterClientNoResponseError: client no response in 23672154ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 1393
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-20 18:34:05,917 ERROR 1393 nodejs.ClusterClientNoResponseError: client no response in 5562239ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 1393
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-20 19:14:23,165 ERROR 1393 nodejs.ClusterClientNoResponseError: client no response in 1738523ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 1393
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-20 19:24:10,151 ERROR 1393 nodejs.ClusterClientNoResponseError: client no response in 546953ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 1393
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-20 19:30:15,309 ERROR 1393 nodejs.ClusterClientNoResponseError: client no response in 304964ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 1393
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-20 19:40:23,514 ERROR 1393 nodejs.ClusterClientNoResponseError: client no response in 568153ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 1393
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-20 19:42:58,753 ERROR 42928 [-/127.0.0.1/-/0ms GET /] nodejs.ReferenceError: int is not defined
+    at Object.<anonymous> (/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/contract/request/Advertise.js:11:25)
+    at Module._compile (node:internal/modules/cjs/loader:1108:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)
+    at Module.load (node:internal/modules/cjs/loader:973:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:813:14)
+    at Module.require (node:internal/modules/cjs/loader:997:19)
+    at require (node:internal/modules/cjs/helpers:92:18)
+    at contractLoader (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/contract/index.js:51:17)
+    at contractLoader (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/contract/index.js:46:7)
+    at generateContract (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/contract/index.js:25:3)
+
+pid: 42928
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-20 19:54:31,740 ERROR 43686 [-/127.0.0.1/-/0ms GET /] nodejs.ReferenceError: int is not defined
+    at Object.<anonymous> (/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/contract/request/Advertise.js:11:26)
+    at Module._compile (node:internal/modules/cjs/loader:1108:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)
+    at Module.load (node:internal/modules/cjs/loader:973:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:813:14)
+    at Module.require (node:internal/modules/cjs/loader:997:19)
+    at require (node:internal/modules/cjs/helpers:92:18)
+    at contractLoader (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/contract/index.js:51:17)
+    at contractLoader (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/contract/index.js:46:7)
+    at generateContract (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/contract/index.js:25:3)
+
+pid: 43686
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-20 19:56:39,531 ERROR 43836 [-/127.0.0.1/-/1ms GET /] nodejs.ReferenceError: int is not defined
+    at Object.<anonymous> (/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/contract/request/Advertise.js:11:26)
+    at Module._compile (node:internal/modules/cjs/loader:1108:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)
+    at Module.load (node:internal/modules/cjs/loader:973:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:813:14)
+    at Module.require (node:internal/modules/cjs/loader:997:19)
+    at require (node:internal/modules/cjs/helpers:92:18)
+    at contractLoader (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/contract/index.js:51:17)
+    at contractLoader (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/contract/index.js:46:7)
+    at generateContract (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/contract/index.js:25:3)
+
+pid: 43836
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-20 19:57:14,168 ERROR 43881 [-/127.0.0.1/-/0ms GET /] nodejs.ReferenceError: int is not defined
+    at Object.<anonymous> (/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/contract/request/Advertise.js:11:26)
+    at Module._compile (node:internal/modules/cjs/loader:1108:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)
+    at Module.load (node:internal/modules/cjs/loader:973:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:813:14)
+    at Module.require (node:internal/modules/cjs/loader:997:19)
+    at require (node:internal/modules/cjs/helpers:92:18)
+    at contractLoader (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/contract/index.js:51:17)
+    at contractLoader (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/contract/index.js:46:7)
+    at generateContract (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/contract/index.js:25:3)
+
+pid: 43881
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-20 20:29:44,956 ERROR 46091 [-/127.0.0.1/-/0ms GET /] nodejs.Error: [egg-swagger-doc] error at put:/api/v1/postAd ,the type of request parameter does not exit
+    at generateParameters (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:408:15)
+    at generateRequest (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:331:23)
+    at getTag_Path (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:137:36)
+    at buildDocument (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:50:14)
+    at documentInit (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:497:7)
+    at module.exports.swaggerInit (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/index.js:10:3)
+    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/app.js:8:5
+    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (node:internal/process/task_queues:75:11)
+
+pid: 46091
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-20 20:30:16,063 ERROR 46149 [-/127.0.0.1/-/1ms GET /] nodejs.Error: [egg-swagger-doc] error at put:/api/v1/postAd ,the type of request parameter does not exit
+    at generateParameters (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:408:15)
+    at generateRequest (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:331:23)
+    at getTag_Path (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:137:36)
+    at buildDocument (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:50:14)
+    at documentInit (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:497:7)
+    at module.exports.swaggerInit (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/index.js:10:3)
+    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/app.js:8:5
+    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (node:internal/process/task_queues:75:11)
+
+pid: 46149
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-20 20:30:16,783 ERROR 46154 [-/127.0.0.1/-/0ms GET /] nodejs.Error: [egg-swagger-doc] error at put:/api/v1/postAd ,the type of request parameter does not exit
+    at generateParameters (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:408:15)
+    at generateRequest (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:331:23)
+    at getTag_Path (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:137:36)
+    at buildDocument (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:50:14)
+    at documentInit (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:497:7)
+    at module.exports.swaggerInit (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/index.js:10:3)
+    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/app.js:8:5
+    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (node:internal/process/task_queues:75:11)
+
+pid: 46154
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-20 20:30:17,450 ERROR 46155 [-/127.0.0.1/-/0ms GET /] nodejs.Error: [egg-swagger-doc] error at put:/api/v1/postAd ,the type of request parameter does not exit
+    at generateParameters (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:408:15)
+    at generateRequest (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:331:23)
+    at getTag_Path (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:137:36)
+    at buildDocument (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:50:14)
+    at documentInit (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:497:7)
+    at module.exports.swaggerInit (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/index.js:10:3)
+    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/app.js:8:5
+    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (node:internal/process/task_queues:75:11)
+
+pid: 46155
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-20 20:30:18,091 ERROR 46156 [-/127.0.0.1/-/1ms GET /] nodejs.Error: [egg-swagger-doc] error at put:/api/v1/postAd ,the type of request parameter does not exit
+    at generateParameters (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:408:15)
+    at generateRequest (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:331:23)
+    at getTag_Path (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:137:36)
+    at buildDocument (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:50:14)
+    at documentInit (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:497:7)
+    at module.exports.swaggerInit (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/index.js:10:3)
+    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/app.js:8:5
+    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (node:internal/process/task_queues:75:11)
+
+pid: 46156
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-20 20:30:18,756 ERROR 46157 [-/127.0.0.1/-/0ms GET /] nodejs.Error: [egg-swagger-doc] error at put:/api/v1/postAd ,the type of request parameter does not exit
+    at generateParameters (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:408:15)
+    at generateRequest (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:331:23)
+    at getTag_Path (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:137:36)
+    at buildDocument (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:50:14)
+    at documentInit (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:497:7)
+    at module.exports.swaggerInit (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/index.js:10:3)
+    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/app.js:8:5
+    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (node:internal/process/task_queues:75:11)
+
+pid: 46157
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-20 20:44:39,190 ERROR 46920 [-/127.0.0.1/-/0ms GET /] nodejs.Error: [egg-swagger-doc] error at put:/api/v1/postAd ,the type of request parameter does not exit
+    at generateParameters (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:408:15)
+    at generateRequest (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:331:23)
+    at getTag_Path (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:137:36)
+    at buildDocument (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:50:14)
+    at documentInit (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:497:7)
+    at module.exports.swaggerInit (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/index.js:10:3)
+    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/app.js:8:5
+    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (node:internal/process/task_queues:75:11)
+
+pid: 46920
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-20 20:44:39,915 ERROR 46922 [-/127.0.0.1/-/0ms GET /] nodejs.Error: [egg-swagger-doc] error at put:/api/v1/postAd ,the type of request parameter does not exit
+    at generateParameters (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:408:15)
+    at generateRequest (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:331:23)
+    at getTag_Path (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:137:36)
+    at buildDocument (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:50:14)
+    at documentInit (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:497:7)
+    at module.exports.swaggerInit (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/index.js:10:3)
+    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/app.js:8:5
+    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (node:internal/process/task_queues:75:11)
+
+pid: 46922
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-20 20:45:06,450 ERROR 46987 [-/127.0.0.1/-/0ms GET /] nodejs.Error: [egg-swagger-doc] error at put:/api/v1/postAd ,the type of request parameter does not exit
+    at generateParameters (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:408:15)
+    at generateRequest (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:331:23)
+    at getTag_Path (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:137:36)
+    at buildDocument (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:50:14)
+    at documentInit (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/document/index.js:497:7)
+    at module.exports.swaggerInit (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/lib/index.js:10:3)
+    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/app.js:8:5
+    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (node:internal/process/task_queues:75:11)
+
+pid: 46987
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-20 21:03:57,129 ERROR 48599 [-/127.0.0.1/-/40ms PUT /api/v1/postAd] nodejs.SequelizeDatabaseError: Field 'description' doesn't have a default value
+    at Query.formatError (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/node_modules/sequelize/lib/dialects/mysql/query.js:239:16)
+    at Query.run (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/node_modules/sequelize/lib/sequelize.js:619:16
+    at async MySQLQueryInterface.insert (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/node_modules/sequelize/lib/dialects/abstract/query-interface.js:734:21)
+    at async model.save (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/node_modules/sequelize/lib/model.js:3954:35)
+    at async Function.create (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/node_modules/sequelize/lib/model.js:2207:12)
+    at async AdvertiseService.postAd (/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/service/advertise.js:12:22)
+    at async AdvertiseController.postAd (/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/controller/advertise.js:28:24)
+    at async /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-static-cache/index.js:39:63
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_NO_DEFAULT_FOR_FIELD","errno":1364,"sqlState":"HY000","sqlMessage":"Field 'description' doesn't have a default value","sql":"INSERT INTO `Advertise` (`ad_id`,`user_id`,`type`,`dog_breed`,`price`,`date`,`start_time`,`duration`,`region`,`district`,`created_time`,`updated_time`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?,?);","parameters":[11,"dog_walking","Afador","60","2021-01-03","14:00","2","Wellington","Tawa","2021-01-20T08:03:57.107Z","2021-01-20T08:03:57.107Z"]}
+original: {"code":"ER_NO_DEFAULT_FOR_FIELD","errno":1364,"sqlState":"HY000","sqlMessage":"Field 'description' doesn't have a default value","sql":"INSERT INTO `Advertise` (`ad_id`,`user_id`,`type`,`dog_breed`,`price`,`date`,`start_time`,`duration`,`region`,`district`,`created_time`,`updated_time`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?,?);","parameters":[11,"dog_walking","Afador","60","2021-01-03","14:00","2","Wellington","Tawa","2021-01-20T08:03:57.107Z","2021-01-20T08:03:57.107Z"]}
+sql: "INSERT INTO `Advertise` (`ad_id`,`user_id`,`type`,`dog_breed`,`price`,`date`,`start_time`,`duration`,`region`,`district`,`created_time`,`updated_time`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?,?);"
+parameters: [11,"dog_walking","Afador","60","2021-01-03","14:00","2","Wellington","Tawa","2021-01-20T08:03:57.107Z","2021-01-20T08:03:57.107Z"]
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 48599
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-20 21:05:35,476 ERROR 48731 [-/127.0.0.1/-/33ms PUT /api/v1/postAd] nodejs.SequelizeDatabaseError: Field 'description' doesn't have a default value
+    at Query.formatError (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/node_modules/sequelize/lib/dialects/mysql/query.js:239:16)
+    at Query.run (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/node_modules/sequelize/lib/sequelize.js:619:16
+    at async MySQLQueryInterface.insert (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/node_modules/sequelize/lib/dialects/abstract/query-interface.js:734:21)
+    at async model.save (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/node_modules/sequelize/lib/model.js:3954:35)
+    at async Function.create (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/node_modules/sequelize/lib/model.js:2207:12)
+    at async AdvertiseService.postAd (/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/service/advertise.js:12:22)
+    at async AdvertiseController.postAd (/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/controller/advertise.js:28:24)
+    at async /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-static-cache/index.js:39:63
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_NO_DEFAULT_FOR_FIELD","errno":1364,"sqlState":"HY000","sqlMessage":"Field 'description' doesn't have a default value","sql":"INSERT INTO `Advertise` (`ad_id`,`user_id`,`type`,`dog_breed`,`price`,`date`,`start_time`,`duration`,`region`,`district`,`created_time`,`updated_time`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?,?);","parameters":[11,"dog_walking","Afador","60","2021-01-03","14:00","2","Wellington","Tawa","2021-01-20T08:05:35.461Z","2021-01-20T08:05:35.461Z"]}
+original: {"code":"ER_NO_DEFAULT_FOR_FIELD","errno":1364,"sqlState":"HY000","sqlMessage":"Field 'description' doesn't have a default value","sql":"INSERT INTO `Advertise` (`ad_id`,`user_id`,`type`,`dog_breed`,`price`,`date`,`start_time`,`duration`,`region`,`district`,`created_time`,`updated_time`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?,?);","parameters":[11,"dog_walking","Afador","60","2021-01-03","14:00","2","Wellington","Tawa","2021-01-20T08:05:35.461Z","2021-01-20T08:05:35.461Z"]}
+sql: "INSERT INTO `Advertise` (`ad_id`,`user_id`,`type`,`dog_breed`,`price`,`date`,`start_time`,`duration`,`region`,`district`,`created_time`,`updated_time`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?,?);"
+parameters: [11,"dog_walking","Afador","60","2021-01-03","14:00","2","Wellington","Tawa","2021-01-20T08:05:35.461Z","2021-01-20T08:05:35.461Z"]
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 48731
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-20 21:07:00,944 ERROR 48870 [-/127.0.0.1/-/19ms PUT /api/v1/postAd] nodejs.SequelizeDatabaseError: Field 'description' doesn't have a default value
+    at Query.formatError (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/node_modules/sequelize/lib/dialects/mysql/query.js:239:16)
+    at Query.run (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/node_modules/sequelize/lib/sequelize.js:619:16
+    at async MySQLQueryInterface.insert (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/node_modules/sequelize/lib/dialects/abstract/query-interface.js:734:21)
+    at async model.save (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/node_modules/sequelize/lib/model.js:3954:35)
+    at async Function.create (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/node_modules/sequelize/lib/model.js:2207:12)
+    at async AdvertiseService.postAd (/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/service/advertise.js:13:22)
+    at async AdvertiseController.postAd (/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/controller/advertise.js:28:24)
+    at async /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-static-cache/index.js:39:63
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_NO_DEFAULT_FOR_FIELD","errno":1364,"sqlState":"HY000","sqlMessage":"Field 'description' doesn't have a default value","sql":"INSERT INTO `Advertise` (`ad_id`,`user_id`,`type`,`dog_breed`,`price`,`date`,`start_time`,`duration`,`region`,`district`,`created_time`,`updated_time`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?,?);","parameters":[11,"dog_walking","Afador","60","2021-01-03","14:00","2","Wellington","Tawa","2021-01-20T08:07:00.934Z","2021-01-20T08:07:00.934Z"]}
+original: {"code":"ER_NO_DEFAULT_FOR_FIELD","errno":1364,"sqlState":"HY000","sqlMessage":"Field 'description' doesn't have a default value","sql":"INSERT INTO `Advertise` (`ad_id`,`user_id`,`type`,`dog_breed`,`price`,`date`,`start_time`,`duration`,`region`,`district`,`created_time`,`updated_time`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?,?);","parameters":[11,"dog_walking","Afador","60","2021-01-03","14:00","2","Wellington","Tawa","2021-01-20T08:07:00.934Z","2021-01-20T08:07:00.934Z"]}
+sql: "INSERT INTO `Advertise` (`ad_id`,`user_id`,`type`,`dog_breed`,`price`,`date`,`start_time`,`duration`,`region`,`district`,`created_time`,`updated_time`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?,?);"
+parameters: [11,"dog_walking","Afador","60","2021-01-03","14:00","2","Wellington","Tawa","2021-01-20T08:07:00.934Z","2021-01-20T08:07:00.934Z"]
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 48870
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-20 21:09:05,349 ERROR 49011 [-/127.0.0.1/-/23ms PUT /api/v1/postAd] nodejs.SequelizeDatabaseError: Field 'description' doesn't have a default value
+    at Query.formatError (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/node_modules/sequelize/lib/dialects/mysql/query.js:239:16)
+    at Query.run (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/node_modules/sequelize/lib/sequelize.js:619:16
+    at async MySQLQueryInterface.insert (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/node_modules/sequelize/lib/dialects/abstract/query-interface.js:734:21)
+    at async model.save (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/node_modules/sequelize/lib/model.js:3954:35)
+    at async Function.create (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/node_modules/sequelize/lib/model.js:2207:12)
+    at async AdvertiseService.postAd (/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/service/advertise.js:13:22)
+    at async AdvertiseController.postAd (/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/controller/advertise.js:28:24)
+    at async /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-static-cache/index.js:39:63
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_NO_DEFAULT_FOR_FIELD","errno":1364,"sqlState":"HY000","sqlMessage":"Field 'description' doesn't have a default value","sql":"INSERT INTO `Advertise` (`ad_id`,`user_id`,`type`,`dog_breed`,`price`,`date`,`start_time`,`duration`,`region`,`district`,`created_time`,`updated_time`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?,?);","parameters":[11,"dog_walking","Afador","60","2021-01-03","14:00","2","Wellington","Tawa","2021-01-20T08:09:05.336Z","2021-01-20T08:09:05.336Z"]}
+original: {"code":"ER_NO_DEFAULT_FOR_FIELD","errno":1364,"sqlState":"HY000","sqlMessage":"Field 'description' doesn't have a default value","sql":"INSERT INTO `Advertise` (`ad_id`,`user_id`,`type`,`dog_breed`,`price`,`date`,`start_time`,`duration`,`region`,`district`,`created_time`,`updated_time`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?,?);","parameters":[11,"dog_walking","Afador","60","2021-01-03","14:00","2","Wellington","Tawa","2021-01-20T08:09:05.336Z","2021-01-20T08:09:05.336Z"]}
+sql: "INSERT INTO `Advertise` (`ad_id`,`user_id`,`type`,`dog_breed`,`price`,`date`,`start_time`,`duration`,`region`,`district`,`created_time`,`updated_time`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?,?);"
+parameters: [11,"dog_walking","Afador","60","2021-01-03","14:00","2","Wellington","Tawa","2021-01-20T08:09:05.336Z","2021-01-20T08:09:05.336Z"]
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 49011
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-20 21:15:18,326 ERROR 49320 [-/127.0.0.1/-/34ms PUT /api/v1/postAd] nodejs.SequelizeDatabaseError: Field 'description' doesn't have a default value
+    at Query.formatError (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/node_modules/sequelize/lib/dialects/mysql/query.js:239:16)
+    at Query.run (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/node_modules/sequelize/lib/sequelize.js:619:16
+    at async MySQLQueryInterface.insert (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/node_modules/sequelize/lib/dialects/abstract/query-interface.js:734:21)
+    at async model.save (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/node_modules/sequelize/lib/model.js:3954:35)
+    at async Function.create (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/node_modules/sequelize/lib/model.js:2207:12)
+    at async AdvertiseService.postAd (/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/service/advertise.js:13:22)
+    at async AdvertiseController.postAd (/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/controller/advertise.js:28:24)
+    at async /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-static-cache/index.js:39:63
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_NO_DEFAULT_FOR_FIELD","errno":1364,"sqlState":"HY000","sqlMessage":"Field 'description' doesn't have a default value","sql":"INSERT INTO `Advertise` (`ad_id`,`user_id`,`type`,`dog_breed`,`price`,`date`,`start_time`,`duration`,`region`,`district`,`created_time`,`updated_time`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?,?);","parameters":[11,"dog_walking","Afador","60","2021-01-03","14:00","2","Wellington","Tawa","2021-01-20T08:15:18.307Z","2021-01-20T08:15:18.307Z"]}
+original: {"code":"ER_NO_DEFAULT_FOR_FIELD","errno":1364,"sqlState":"HY000","sqlMessage":"Field 'description' doesn't have a default value","sql":"INSERT INTO `Advertise` (`ad_id`,`user_id`,`type`,`dog_breed`,`price`,`date`,`start_time`,`duration`,`region`,`district`,`created_time`,`updated_time`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?,?);","parameters":[11,"dog_walking","Afador","60","2021-01-03","14:00","2","Wellington","Tawa","2021-01-20T08:15:18.307Z","2021-01-20T08:15:18.307Z"]}
+sql: "INSERT INTO `Advertise` (`ad_id`,`user_id`,`type`,`dog_breed`,`price`,`date`,`start_time`,`duration`,`region`,`district`,`created_time`,`updated_time`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?,?);"
+parameters: [11,"dog_walking","Afador","60","2021-01-03","14:00","2","Wellington","Tawa","2021-01-20T08:15:18.307Z","2021-01-20T08:15:18.307Z"]
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 49320
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-20 21:42:56,520 ERROR 49009 nodejs.ClusterClientNoResponseError: client no response in 591733ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 49009
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-20 22:03:02,506 ERROR 49009 nodejs.ClusterClientNoResponseError: client no response in 1165186ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 49009
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-20 22:15:39,539 ERROR 49009 nodejs.ClusterClientNoResponseError: client no response in 696983ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 49009
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-20 23:37:35,718 ERROR 49009 nodejs.ClusterClientNoResponseError: client no response in 1140144ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 49009
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-21 00:10:08,295 ERROR 49009 nodejs.ClusterClientNoResponseError: client no response in 1836411ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 49009
+hostname: xiejialis-MacBook-Pro.local
+

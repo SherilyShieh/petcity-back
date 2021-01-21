@@ -38,7 +38,10 @@ module.exports = appInfo => {
         username: 'root',
         password: 'root123456',
         define: {
-            timestamps: false
+            timestamps: false,
+            paranoid: true,
+            freezeTableName: true,
+            underscored: false
         },
         timezone: '+08:00'
     };

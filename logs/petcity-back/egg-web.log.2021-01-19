@@ -1,0 +1,69 @@
+2021-01-19 00:00:02,167 INFO 21766 [egg-logrotator] app logger reload: got log-reload message
+2021-01-19 00:10:15,370 WARN 21766 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-19 00:10:15,371 WARN 21766 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-19 00:43:48,915 WARN 21766 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-19 00:43:48,916 WARN 21766 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-19 00:51:17,788 WARN 21766 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-19 00:51:17,790 WARN 21766 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-19 00:56:03,447 WARN 21766 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-19 00:56:03,447 WARN 21766 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-19 00:58:09,900 WARN 21766 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-19 00:58:09,900 WARN 21766 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-19 01:00:13,457 WARN 21766 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-19 01:00:13,457 WARN 21766 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-19 01:03:58,238 WARN 21766 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-19 01:03:58,238 WARN 21766 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-19 01:07:13,749 WARN 21766 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-19 01:07:13,750 WARN 21766 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-19 01:13:25,311 WARN 21766 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-19 01:13:25,311 WARN 21766 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-19 01:20:38,238 WARN 21766 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-19 01:20:38,238 WARN 21766 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-19 01:26:05,849 WARN 21766 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-19 01:26:05,849 WARN 21766 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-19 01:43:17,930 WARN 21766 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-19 01:43:17,930 WARN 21766 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-19 03:44:04,939 WARN 21766 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-19 03:44:04,939 WARN 21766 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-19 03:51:00,723 WARN 21766 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-19 03:51:00,723 WARN 21766 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-19 05:51:48,098 WARN 21766 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-19 05:51:48,098 WARN 21766 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-19 05:51:48,104 INFO 21766 [-/127.0.0.1/-/0ms SCHEDULE /__schedule?path=/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "/var/folders/b2/9fqg4v5124qbm7_2jdzd7_rm0000gn/T/egg-multipart-tmp/petcity-back"
+2021-01-19 05:51:48,915 INFO 21766 [-/127.0.0.1/-/811ms SCHEDULE /__schedule?path=/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] end
+2021-01-19 05:54:28,022 WARN 21766 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-19 05:54:28,022 WARN 21766 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-19 06:20:21,342 WARN 21766 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-19 06:20:21,342 WARN 21766 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-19 07:39:10,791 WARN 21766 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-19 07:39:10,791 WARN 21766 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-19 07:45:54,097 WARN 21766 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-19 07:45:54,097 WARN 21766 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-19 08:42:17,280 WARN 21766 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-19 08:42:17,280 WARN 21766 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-19 08:59:28,313 WARN 21766 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-19 08:59:28,313 WARN 21766 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-19 09:22:40,332 WARN 21766 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-19 09:22:40,332 WARN 21766 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-19 09:54:28,329 WARN 21766 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-19 09:54:28,329 WARN 21766 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-19 10:15:01,286 WARN 21766 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-19 10:15:01,286 WARN 21766 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-19 12:33:29,387 WARN 21766 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-19 12:33:29,387 WARN 21766 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-19 14:34:16,451 WARN 21766 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-19 14:34:16,452 WARN 21766 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-19 16:25:48,942 WARN 21766 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-19 16:25:48,942 WARN 21766 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-19 16:55:50,500 WARN 21766 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-19 20:07:57,822 WARN 21766 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-19 20:07:57,823 WARN 21766 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-19 21:45:02,723 WARN 21766 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-19 21:45:02,723 WARN 21766 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-19 23:45:13,221 WARN 21766 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-19 23:45:13,224 WARN 21766 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-20 01:46:02,391 WARN 21766 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-20 01:46:02,440 WARN 21766 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-20 01:46:03,541 INFO 21766 [egg-logrotator] clean all log before 31 days
+2021-01-20 01:46:03,630 INFO 21766 [egg-logrotator] broadcast log-reload
+2021-01-20 01:46:03,631 INFO 21766 [egg-logrotator] rotate files success by DayRotator, files ["/Users/sherily/Desktop/Petcity/Repo/petcity-back/logs/petcity-back/common-error.log -> /Users/sherily/Desktop/Petcity/Repo/petcity-back/logs/petcity-back/common-error.log.2021-01-19","/Users/sherily/Desktop/Petcity/Repo/petcity-back/logs/petcity-back/petcity-back-web.log -> /Users/sherily/Desktop/Petcity/Repo/petcity-back/logs/petcity-back/petcity-back-web.log.2021-01-19","/Users/sherily/Desktop/Petcity/Repo/petcity-back/logs/petcity-back/egg-web.log -> /Users/sherily/Desktop/Petcity/Repo/petcity-back/logs/petcity-back/egg-web.log.2021-01-19","/Users/sherily/Desktop/Petcity/Repo/petcity-back/logs/petcity-back/egg-schedule.log -> /Users/sherily/Desktop/Petcity/Repo/petcity-back/logs/petcity-back/egg-schedule.log.2021-01-19","/Users/sherily/Desktop/Petcity/Repo/petcity-back/logs/petcity-back/egg-agent.log -> /Users/sherily/Desktop/Petcity/Repo/petcity-back/logs/petcity-back/egg-agent.log.2021-01-19"]

@@ -28,7 +28,10 @@
     "username": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/config/config.default.js",
     "password": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/config/config.default.js",
     "define": {
-      "timestamps": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/config/config.default.js"
+      "timestamps": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/config/config.default.js",
+      "paranoid": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/config/config.default.js",
+      "freezeTableName": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/config/config.default.js",
+      "underscored": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/config/config.default.js"
     },
     "timezone": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/config/config.default.js"
   },

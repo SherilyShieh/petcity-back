@@ -1957,3 +1957,11 @@
 2021-01-21 22:30:09,424 INFO 77894 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-logrotator/app/schedule/clean_log.js
 2021-01-21 22:30:09,424 INFO 77894 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
 2021-01-21 22:30:09,424 INFO 77894 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-alinode/app/schedule/removeLogs.js
+2021-01-21 22:34:21,789 INFO 78350 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-01-21 22:34:21,789 INFO 78350 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-01-21 22:34:21,789 INFO 78350 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-01-21 22:34:21,789 INFO 78350 [egg-schedule]: register schedule /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-alinode/app/schedule/removeLogs.js
+2021-01-21 22:34:22,614 INFO 78347 [Timer] /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 21337388ms at 2021-01-22 04:30:00.002
+2021-01-21 22:34:22,614 INFO 78347 [Timer] /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 5137386ms at 2021-01-22 00:00:00.000
+2021-01-21 22:34:22,614 INFO 78347 [Timer] /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 5138386ms at 2021-01-22 00:00:01.000
+2021-01-21 22:34:22,615 INFO 78347 [Timer] /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-alinode/app/schedule/removeLogs.js next time will execute after 5137386ms at 2021-01-22 00:00:00.001

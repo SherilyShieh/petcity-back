@@ -161,19 +161,6 @@
   {
     "name": null,
     "methods": [
-      "HEAD",
-      "GET"
-    ],
-    "paramNames": [],
-    "path": "/api/v1/test",
-    "regexp": "/^\\/api\\/v1\\/test(?:\\/(?=$))?$/",
-    "stack": [
-      "wrappedController"
-    ]
-  },
-  {
-    "name": null,
-    "methods": [
       "PUT"
     ],
     "paramNames": [],

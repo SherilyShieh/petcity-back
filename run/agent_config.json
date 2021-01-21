@@ -171,7 +171,10 @@
         "charset": "utf8"
       },
       "define": {
-        "timestamps": false
+        "timestamps": false,
+        "paranoid": true,
+        "freezeTableName": true,
+        "underscored": false
       },
       "timezone": "+08:00"
     },

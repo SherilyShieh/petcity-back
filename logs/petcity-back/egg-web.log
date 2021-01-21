@@ -7834,3 +7834,19 @@ hostname: xiejialis-MacBook-Pro.local
 2021-01-21 22:30:09,707 INFO 77894 [egg-redis] instance[0] status OK, client ready
 2021-01-21 22:30:09,716 INFO 77894 [egg-watcher:application] watcher start success
 2021-01-21 22:30:09,730 INFO 77894 [egg:core] dump config after ready, 5ms
+2021-01-21 22:34:21,771 INFO 78350 [egg:logger] init all loggers with options: {"dir":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/logs/petcity-back","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"petcity-back-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-21 22:34:21,789 INFO 78350 [egg-multipart] stream mode enable
+2021-01-21 22:34:21,949 INFO 78350 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2021-01-21 22:34:22,007 INFO 78350 [egg-static] starting static serve /public/ -> /Users/sherily/Desktop/Petcity/Repo/petcity-back/app/public
+2021-01-21 22:34:22,008 INFO 78350 [egg-security] use methodnoallow middleware
+2021-01-21 22:34:22,008 INFO 78350 [egg-security] use noopen middleware
+2021-01-21 22:34:22,008 INFO 78350 [egg-security] use nosniff middleware
+2021-01-21 22:34:22,009 INFO 78350 [egg-security] use xssProtection middleware
+2021-01-21 22:34:22,009 INFO 78350 [egg-security] use xframe middleware
+2021-01-21 22:34:22,010 INFO 78350 [egg-security] use dta middleware
+2021-01-21 22:34:22,010 INFO 78350 [egg-security] compose 6 middlewares into one security middleware
+2021-01-21 22:34:22,017 INFO 78350 [egg:core] dump config after load, 4ms
+2021-01-21 22:34:22,581 INFO 78350 [egg-redis] client connect success
+2021-01-21 22:34:22,584 INFO 78350 [egg-redis] instance[0] status OK, client ready
+2021-01-21 22:34:22,593 INFO 78350 [egg-watcher:application] watcher start success
+2021-01-21 22:34:22,610 INFO 78350 [egg:core] dump config after ready, 4ms

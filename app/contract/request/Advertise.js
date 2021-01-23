@@ -16,9 +16,9 @@ module.exports = {
         date: { type: 'string', required: true },
         start_time: { type: 'string', required: true },
         duration: { type: 'string', required: true },
-        description: { type: 'string', required: true },
+        description: { type: 'string', required: false },
         region: { type: 'string', required: true },
-        district: { type: 'string', required: true },
+        district: { type: 'string', required: false },
     },
 
     UpdateAd: {
@@ -26,10 +26,10 @@ module.exports = {
         user_id: { type: 'integer', required: true },
         dog_breed: { type: 'string', required: false },
         price: { type: 'string', required: false },
-        date: { type: 'date', required: false },
+        date: { type: 'string', required: false },
         start_time: { type: 'string', required: false },
         duration: { type: 'string', required: false },
-        description: { type: 'String', required: false },
+        description: { type: 'string', required: false },
         region: { type: 'string', required: false },
         district: { type: 'string', required: false }
     },

@@ -19,10 +19,6 @@ module.exports = app => {
             allowNull: true
         }
     }, {
-        timestamps: false,
-        paranoid: true,
-        freezeTableName: true,
-        underscored: false,
         tableName: 'contacted'
     });
 

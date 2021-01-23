@@ -110,7 +110,6 @@
         "/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/config/locales",
         "/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-swagger-doc/config/locales",
         "/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-validate/config/locales",
-        "/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-redis/config/locales",
         "/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-cors/config/locales",
         "/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-alinode/config/locales",
         "/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg/config/locales",
@@ -229,11 +228,13 @@
       ],
       "consumes": [
         "application/json",
-        "multipart/form-data"
+        "multipart/form-data",
+        "multipart/*"
       ],
       "produces": [
         "application/json",
-        "multipart/form-data"
+        "multipart/form-data",
+        "multipart/*"
       ],
       "securityDefinitions": {},
       "enableSecurity": false,
@@ -241,18 +242,6 @@
       "enable": true
     },
     "validate": {},
-    "redis": {
-      "default": {},
-      "app": true,
-      "agent": false,
-      "supportTimeCommand": true,
-      "client": {
-        "port": 6379,
-        "host": "127.0.0.1",
-        "password": "<String len: 0>",
-        "db": 0
-      }
-    },
     "cors": {
       "origin": "*",
       "allowMethods": "GET,HEAD,PUT,POST,DELETE,PATCH,OPTIONS"
@@ -314,14 +303,16 @@
         "egg-cors": "^2.2.3",
         "egg-joi": "^2.0.1",
         "egg-redis": "^2.4.0",
-        "egg-scripts": "^2.13.0",
+        "egg-scripts": "^1.2.0",
         "egg-sequelize": "^6.0.0",
         "egg-sequelize-auto": "^0.1.1",
         "egg-swagger-doc": "^2.3.2",
         "egg-validate": "^2.0.2",
         "egg-view-nunjucks": "^2.2.0",
         "moment": "^2.29.1",
-        "mysql2": "^2.2.5"
+        "mysql2": "^2.2.5",
+        "pump": "^3.0.0",
+        "silly-datetime": "^0.1.2"
       },
       "devDependencies": {
         "egg-bin": "^4.2.0"
@@ -442,6 +433,15 @@
         {},
         {}
       ]
+    },
+    "uploadDir": "app/public/upload",
+    "redis": {
+      "client": {
+        "port": 6379,
+        "host": "127.0.0.1",
+        "password": "<String len: 0>",
+        "db": 0
+      }
     },
     "coreMiddlewares": "~config~coreMiddleware",
     "appMiddlewares": "~config~middleware",
@@ -652,17 +652,6 @@
       "from": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/config/plugin.js",
       "path": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-validate",
       "version": "2.0.2"
-    },
-    "redis": {
-      "enable": true,
-      "package": "egg-redis",
-      "name": "redis",
-      "dependencies": [],
-      "optionalDependencies": [],
-      "env": [],
-      "from": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/config/plugin.js",
-      "path": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-redis",
-      "version": "2.4.0"
     },
     "cors": {
       "enable": true,

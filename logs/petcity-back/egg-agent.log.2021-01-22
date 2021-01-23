@@ -1,0 +1,313 @@
+2021-01-22 00:00:01,521 INFO 78347 [egg-logrotator] agent logger reload: got log-reload message
+2021-01-22 00:22:54,096 ERROR 78347 nodejs.ClusterClientNoResponseError: client no response in 862113ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 78347
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-22 00:46:05,102 ERROR 78347 nodejs.ClusterClientNoResponseError: client no response in 862190ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 78347
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-22 01:09:17,116 ERROR 78347 nodejs.ClusterClientNoResponseError: client no response in 862773ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 78347
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-22 01:32:31,122 ERROR 78347 nodejs.ClusterClientNoResponseError: client no response in 862428ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 78347
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-22 01:55:46,135 ERROR 78347 nodejs.ClusterClientNoResponseError: client no response in 862815ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 78347
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-22 04:55:47,139 ERROR 78347 nodejs.ClusterClientNoResponseError: client no response in 10268834ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 78347
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-22 07:01:28,417 ERROR 78347 nodejs.ClusterClientNoResponseError: client no response in 7206438ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 78347
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-22 08:28:26,119 ERROR 78347 nodejs.ClusterClientNoResponseError: client no response in 5178028ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 78347
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-22 08:34:00,249 ERROR 78347 nodejs.ClusterClientNoResponseError: client no response in 293774ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 78347
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-22 08:36:13,352 ERROR 78347 nodejs.ClusterClientNoResponseError: client no response in 73064ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 78347
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-22 08:51:14,397 ERROR 78347 nodejs.ClusterClientNoResponseError: client no response in 841004ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 78347
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-22 09:06:16,398 ERROR 78347 nodejs.ClusterClientNoResponseError: client no response in 861984ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 78347
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-22 09:09:19,922 ERROR 78347 nodejs.ClusterClientNoResponseError: client no response in 142726ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 78347
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-22 09:28:18,632 ERROR 78347 nodejs.ClusterClientNoResponseError: client no response in 60479ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 78347
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-22 09:52:30,165 ERROR 78347 nodejs.ClusterClientNoResponseError: client no response in 70530ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 78347
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-22 10:07:32,457 ERROR 78347 nodejs.ClusterClientNoResponseError: client no response in 861534ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 78347
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-22 10:22:34,466 ERROR 78347 nodejs.ClusterClientNoResponseError: client no response in 861986ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 78347
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-22 10:27:10,814 ERROR 78347 nodejs.ClusterClientNoResponseError: client no response in 236319ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 78347
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-22 10:39:46,866 ERROR 78347 nodejs.ClusterClientNoResponseError: client no response in 715972ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 78347
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-22 11:34:27,803 ERROR 78347 nodejs.ClusterClientNoResponseError: client no response in 60098ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 78347
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-22 13:08:43,135 ERROR 78347 nodejs.ClusterClientNoResponseError: client no response in 259309ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 78347
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-22 14:41:25,256 ERROR 78347 nodejs.ClusterClientNoResponseError: client no response in 75928ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 78347
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-22 14:43:38,551 ERROR 78347 nodejs.ClusterClientNoResponseError: client no response in 92531ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 78347
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-22 14:51:00,696 ERROR 78347 nodejs.ClusterClientNoResponseError: client no response in 401371ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 78347
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-22 17:05:21,020 ERROR 78347 nodejs.ClusterClientNoResponseError: client no response in 8019290ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 78347
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-22 17:32:19,211 INFO 78347 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/model/Advertise.js","remove":true,"isDirectory":false,"isFile":false}
+2021-01-22 17:32:19,425 WARN 78347 [agent:development] reload worker because /Users/sherily/Desktop/Petcity/Repo/petcity-back/app/model/Advertise.js rename
+2021-01-22 17:32:27,576 WARN 78347 [agent:development] reload worker because /Users/sherily/Desktop/Petcity/Repo/petcity-back/app/model/contacted.js change
+2021-01-22 17:32:27,368 INFO 78347 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/model/Advertise.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":26036530,"size":1236,"blocks":8,"atimeMs":1611289947353.215,"mtimeMs":1611289947355.1064,"ctimeMs":1611289947355.1064,"birthtimeMs":1611289947353.215,"atime":"2021-01-22T04:32:27.353Z","mtime":"2021-01-22T04:32:27.355Z","ctime":"2021-01-22T04:32:27.355Z","birthtime":"2021-01-22T04:32:27.353Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-01-22 17:32:27,372 INFO 78347 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/model/User.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":24897990,"size":1282,"blocks":8,"atimeMs":1611130878802.254,"mtimeMs":1611289947355.2932,"ctimeMs":1611289947355.2932,"birthtimeMs":1610436383084.2764,"atime":"2021-01-20T08:21:18.802Z","mtime":"2021-01-22T04:32:27.355Z","ctime":"2021-01-22T04:32:27.355Z","birthtime":"2021-01-12T07:26:23.084Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-01-22 17:32:27,374 INFO 78347 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/model/contacted.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":24568938,"size":510,"blocks":8,"atimeMs":1611218299562.9006,"mtimeMs":1611289947355.194,"ctimeMs":1611289947355.194,"birthtimeMs":1610080521895.062,"atime":"2021-01-21T08:38:19.563Z","mtime":"2021-01-22T04:32:27.355Z","ctime":"2021-01-22T04:32:27.355Z","birthtime":"2021-01-08T04:35:21.895Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-01-22 17:33:02,289 INFO 78347 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/model/User.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":24897990,"size":1618,"blocks":8,"atimeMs":1611289948010.232,"mtimeMs":1611289982225.4429,"ctimeMs":1611289982225.4429,"birthtimeMs":1610436383084.2764,"atime":"2021-01-22T04:32:28.010Z","mtime":"2021-01-22T04:33:02.225Z","ctime":"2021-01-22T04:33:02.225Z","birthtime":"2021-01-12T07:26:23.084Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-01-22 17:33:02,492 WARN 78347 [agent:development] reload worker because /Users/sherily/Desktop/Petcity/Repo/petcity-back/app/model/User.js change
+2021-01-22 17:33:41,148 WARN 78347 [agent:development] reload worker because /Users/sherily/Desktop/Petcity/Repo/petcity-back/app/contract/request/Advertise.js change
+2021-01-22 17:33:40,946 INFO 78347 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/contract/request/Advertise.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":25903822,"size":1583,"blocks":8,"atimeMs":1611221408760.5833,"mtimeMs":1611290020882.5747,"ctimeMs":1611290020882.5747,"birthtimeMs":1610934718789.2788,"atime":"2021-01-21T09:30:08.761Z","mtime":"2021-01-22T04:33:40.883Z","ctime":"2021-01-22T04:33:40.883Z","birthtime":"2021-01-18T01:51:58.789Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-01-22 17:33:41,259 INFO 78347 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/contract/request/Advertise.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":25903822,"size":1583,"blocks":8,"atimeMs":1611221408760.5833,"mtimeMs":1611290021247.9985,"ctimeMs":1611290021247.9985,"birthtimeMs":1610934718789.2788,"atime":"2021-01-21T09:30:08.761Z","mtime":"2021-01-22T04:33:41.248Z","ctime":"2021-01-22T04:33:41.248Z","birthtime":"2021-01-18T01:51:58.789Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-01-22 17:33:41,309 INFO 78347 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/contract/request/Advertise.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":25903822,"size":1583,"blocks":8,"atimeMs":1611221408760.5833,"mtimeMs":1611290021247.9985,"ctimeMs":1611290021247.9985,"birthtimeMs":1610934718789.2788,"atime":"2021-01-21T09:30:08.761Z","mtime":"2021-01-22T04:33:41.248Z","ctime":"2021-01-22T04:33:41.248Z","birthtime":"2021-01-18T01:51:58.789Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-01-22 17:33:41,514 WARN 78347 [agent:development] reload worker because /Users/sherily/Desktop/Petcity/Repo/petcity-back/app/contract/request/Advertise.js change
+2021-01-22 17:33:41,940 WARN 78347 [agent:development] reload worker because /Users/sherily/Desktop/Petcity/Repo/petcity-back/app/contract/request/Advertise.js change
+2021-01-22 17:33:42,238 WARN 78347 [agent:development] reload worker because /Users/sherily/Desktop/Petcity/Repo/petcity-back/app/contract/request/Advertise.js change
+2021-01-22 17:33:41,604 INFO 78347 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/contract/request/Advertise.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":25903822,"size":1583,"blocks":8,"atimeMs":1611221408760.5833,"mtimeMs":1611290021593.6436,"ctimeMs":1611290021593.6436,"birthtimeMs":1610934718789.2788,"atime":"2021-01-21T09:30:08.761Z","mtime":"2021-01-22T04:33:41.594Z","ctime":"2021-01-22T04:33:41.594Z","birthtime":"2021-01-18T01:51:58.789Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-01-22 17:33:41,735 INFO 78347 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/contract/request/Advertise.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":25903822,"size":1583,"blocks":8,"atimeMs":1611221408760.5833,"mtimeMs":1611290021593.6436,"ctimeMs":1611290021593.6436,"birthtimeMs":1610934718789.2788,"atime":"2021-01-21T09:30:08.761Z","mtime":"2021-01-22T04:33:41.594Z","ctime":"2021-01-22T04:33:41.594Z","birthtime":"2021-01-18T01:51:58.789Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-01-22 17:33:41,968 INFO 78347 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/contract/request/Advertise.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":25903822,"size":1583,"blocks":8,"atimeMs":1611221408760.5833,"mtimeMs":1611290021953.8682,"ctimeMs":1611290021953.8682,"birthtimeMs":1610934718789.2788,"atime":"2021-01-21T09:30:08.761Z","mtime":"2021-01-22T04:33:41.954Z","ctime":"2021-01-22T04:33:41.954Z","birthtime":"2021-01-18T01:51:58.789Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-01-22 17:33:42,033 INFO 78347 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/contract/request/Advertise.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":25903822,"size":1583,"blocks":8,"atimeMs":1611221408760.5833,"mtimeMs":1611290021953.8682,"ctimeMs":1611290021953.8682,"birthtimeMs":1610934718789.2788,"atime":"2021-01-21T09:30:08.761Z","mtime":"2021-01-22T04:33:41.954Z","ctime":"2021-01-22T04:33:41.954Z","birthtime":"2021-01-18T01:51:58.789Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-01-22 17:33:42,259 INFO 78347 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/contract/request/Advertise.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":25903822,"size":1583,"blocks":8,"atimeMs":1611221408760.5833,"mtimeMs":1611290022249.2385,"ctimeMs":1611290022249.2385,"birthtimeMs":1610934718789.2788,"atime":"2021-01-21T09:30:08.761Z","mtime":"2021-01-22T04:33:42.249Z","ctime":"2021-01-22T04:33:42.249Z","birthtime":"2021-01-18T01:51:58.789Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-01-22 17:33:42,311 INFO 78347 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/contract/request/Advertise.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":25903822,"size":1583,"blocks":8,"atimeMs":1611221408760.5833,"mtimeMs":1611290022249.2385,"ctimeMs":1611290022249.2385,"birthtimeMs":1610934718789.2788,"atime":"2021-01-21T09:30:08.761Z","mtime":"2021-01-22T04:33:42.249Z","ctime":"2021-01-22T04:33:42.249Z","birthtime":"2021-01-18T01:51:58.789Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-01-22 17:33:42,522 WARN 78347 [agent:development] reload worker because /Users/sherily/Desktop/Petcity/Repo/petcity-back/app/contract/request/Advertise.js change
+2021-01-22 17:34:09,396 WARN 78347 [agent:development] reload worker because /Users/sherily/Desktop/Petcity/Repo/petcity-back/app/contract/request/Advertise.js change
+2021-01-22 17:34:09,190 INFO 78347 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/contract/request/Advertise.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":25903822,"size":1583,"blocks":8,"atimeMs":1611290022814.5815,"mtimeMs":1611290049126.7676,"ctimeMs":1611290049126.7676,"birthtimeMs":1610934718789.2788,"atime":"2021-01-22T04:33:42.815Z","mtime":"2021-01-22T04:34:09.127Z","ctime":"2021-01-22T04:34:09.127Z","birthtime":"2021-01-18T01:51:58.789Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-01-22 17:34:09,507 INFO 78347 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/contract/request/Advertise.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":25903822,"size":1583,"blocks":8,"atimeMs":1611290022814.5815,"mtimeMs":1611290049496.5415,"ctimeMs":1611290049496.5415,"birthtimeMs":1610934718789.2788,"atime":"2021-01-22T04:33:42.815Z","mtime":"2021-01-22T04:34:09.497Z","ctime":"2021-01-22T04:34:09.497Z","birthtime":"2021-01-18T01:51:58.789Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-01-22 17:34:09,775 WARN 78347 [agent:development] reload worker because /Users/sherily/Desktop/Petcity/Repo/petcity-back/app/contract/request/Advertise.js change
+2021-01-22 17:34:10,148 WARN 78347 [agent:development] reload worker because /Users/sherily/Desktop/Petcity/Repo/petcity-back/app/contract/request/Advertise.js change
+2021-01-22 17:34:10,478 WARN 78347 [agent:development] reload worker because /Users/sherily/Desktop/Petcity/Repo/petcity-back/app/contract/request/Advertise.js change
+2021-01-22 17:34:09,572 INFO 78347 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/contract/request/Advertise.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":25903822,"size":1583,"blocks":8,"atimeMs":1611290022814.5815,"mtimeMs":1611290049496.5415,"ctimeMs":1611290049496.5415,"birthtimeMs":1610934718789.2788,"atime":"2021-01-22T04:33:42.815Z","mtime":"2021-01-22T04:34:09.497Z","ctime":"2021-01-22T04:34:09.497Z","birthtime":"2021-01-18T01:51:58.789Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-01-22 17:34:09,852 INFO 78347 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/contract/request/Advertise.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":25903822,"size":1583,"blocks":8,"atimeMs":1611290022814.5815,"mtimeMs":1611290049840.621,"ctimeMs":1611290049840.621,"birthtimeMs":1610934718789.2788,"atime":"2021-01-22T04:33:42.815Z","mtime":"2021-01-22T04:34:09.841Z","ctime":"2021-01-22T04:34:09.841Z","birthtime":"2021-01-18T01:51:58.789Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-01-22 17:34:09,947 INFO 78347 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/contract/request/Advertise.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":25903822,"size":1583,"blocks":8,"atimeMs":1611290022814.5815,"mtimeMs":1611290049840.621,"ctimeMs":1611290049840.621,"birthtimeMs":1610934718789.2788,"atime":"2021-01-22T04:33:42.815Z","mtime":"2021-01-22T04:34:09.841Z","ctime":"2021-01-22T04:34:09.841Z","birthtime":"2021-01-18T01:51:58.789Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-01-22 17:34:10,180 INFO 78347 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/contract/request/Advertise.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":25903822,"size":1583,"blocks":8,"atimeMs":1611290022814.5815,"mtimeMs":1611290050169.6094,"ctimeMs":1611290050169.6094,"birthtimeMs":1610934718789.2788,"atime":"2021-01-22T04:33:42.815Z","mtime":"2021-01-22T04:34:10.170Z","ctime":"2021-01-22T04:34:10.170Z","birthtime":"2021-01-18T01:51:58.789Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-01-22 17:34:10,277 INFO 78347 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/contract/request/Advertise.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":25903822,"size":1583,"blocks":8,"atimeMs":1611290022814.5815,"mtimeMs":1611290050169.6094,"ctimeMs":1611290050169.6094,"birthtimeMs":1610934718789.2788,"atime":"2021-01-22T04:33:42.815Z","mtime":"2021-01-22T04:34:10.170Z","ctime":"2021-01-22T04:34:10.170Z","birthtime":"2021-01-18T01:51:58.789Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-01-22 17:34:15,364 INFO 78347 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/model/contacted.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":24568938,"size":626,"blocks":8,"atimeMs":1611289948009.4753,"mtimeMs":1611290055350.1084,"ctimeMs":1611290055350.1084,"birthtimeMs":1610080521895.062,"atime":"2021-01-22T04:32:28.009Z","mtime":"2021-01-22T04:34:15.350Z","ctime":"2021-01-22T04:34:15.350Z","birthtime":"2021-01-08T04:35:21.895Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-01-22 17:34:15,411 INFO 78347 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/model/contacted.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":24568938,"size":626,"blocks":8,"atimeMs":1611289948009.4753,"mtimeMs":1611290055350.1084,"ctimeMs":1611290055350.1084,"birthtimeMs":1610080521895.062,"atime":"2021-01-22T04:32:28.009Z","mtime":"2021-01-22T04:34:15.350Z","ctime":"2021-01-22T04:34:15.350Z","birthtime":"2021-01-08T04:35:21.895Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-01-22 17:34:15,613 WARN 78347 [agent:development] reload worker because /Users/sherily/Desktop/Petcity/Repo/petcity-back/app/model/contacted.js change
+2021-01-22 17:34:16,993 WARN 78347 [agent:development] reload worker because /Users/sherily/Desktop/Petcity/Repo/petcity-back/app/model/Advertise.js change
+2021-01-22 17:34:16,742 INFO 78347 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/model/Advertise.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":26036530,"size":1552,"blocks":8,"atimeMs":1611289948009.9468,"mtimeMs":1611290056731.7737,"ctimeMs":1611290056731.7737,"birthtimeMs":1611289947353.215,"atime":"2021-01-22T04:32:28.010Z","mtime":"2021-01-22T04:34:16.732Z","ctime":"2021-01-22T04:34:16.732Z","birthtime":"2021-01-22T04:32:27.353Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-01-22 17:34:16,792 INFO 78347 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/model/Advertise.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":26036530,"size":1552,"blocks":8,"atimeMs":1611289948009.9468,"mtimeMs":1611290056731.7737,"ctimeMs":1611290056731.7737,"birthtimeMs":1611289947353.215,"atime":"2021-01-22T04:32:28.010Z","mtime":"2021-01-22T04:34:16.732Z","ctime":"2021-01-22T04:34:16.732Z","birthtime":"2021-01-22T04:32:27.353Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-01-22 17:55:49,282 INFO 96603 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-01-22 17:55:48,763 INFO 96603 [egg:logger] init all loggers with options: {"dir":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/logs/petcity-back","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"petcity-back-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-01-22 17:55:49,170 INFO 96603 [egg-alinode] alinode agentx started, node versions: {"node":"15.4.0","v8":"8.6.395.17-node.22","uv":"1.40.0","zlib":"1.2.11","brotli":"1.0.9","ares":"1.16.1","modules":"88","nghttp2":"1.41.0","napi":"7","llhttp":"2.1.3","openssl":"1.1.1g","cldr":"38.0","icu":"68.1","tz":"2020b","unicode":"13.0"}, update /Users/sherily/.nodepath with "/usr/local/bin", config: {"server":"wss://agentserver.node.aliyun.com:8080","appid":"87325"}
+2021-01-22 17:55:49,173 INFO 96603 [egg:core] dump config after load, 3ms
+2021-01-22 17:55:49,254 INFO 96603 [egg-watcher] Start watching: ["/Users/sherily/Desktop/Petcity/Repo/petcity-back/app","/Users/sherily/Desktop/Petcity/Repo/petcity-back/config","/Users/sherily/Desktop/Petcity/Repo/petcity-back/mocks","/Users/sherily/Desktop/Petcity/Repo/petcity-back/mocks_proxy","/Users/sherily/Desktop/Petcity/Repo/petcity-back/app.js"]
+2021-01-22 17:55:49,254 INFO 96603 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/app"
+2021-01-22 17:55:49,255 INFO 96603 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/config"
+2021-01-22 17:55:49,255 INFO 96603 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/mocks"
+2021-01-22 17:55:49,255 INFO 96603 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/mocks_proxy"
+2021-01-22 17:55:49,255 INFO 96603 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/app.js"
+2021-01-22 17:55:49,255 INFO 96603 [egg-watcher:agent] watcher start success
+2021-01-22 17:55:49,293 INFO 96603 [egg:core] dump config after ready, 4ms
+2021-01-22 17:56:14,726 INFO 96603 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/controller/advertise.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":25903769,"size":5430,"blocks":16,"atimeMs":1611222579054.6255,"mtimeMs":1611291374661.9487,"ctimeMs":1611291374661.9487,"birthtimeMs":1610934670755.1091,"atime":"2021-01-21T09:49:39.055Z","mtime":"2021-01-22T04:56:14.662Z","ctime":"2021-01-22T04:56:14.662Z","birthtime":"2021-01-18T01:51:10.755Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-01-22 17:56:14,934 WARN 96603 [agent:development] reload worker because /Users/sherily/Desktop/Petcity/Repo/petcity-back/app/controller/advertise.js change
+2021-01-22 17:56:21,429 WARN 96603 [agent:development] reload worker because /Users/sherily/Desktop/Petcity/Repo/petcity-back/app/controller/advertise.js change
+2021-01-22 17:56:21,176 INFO 96603 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/controller/advertise.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":25903769,"size":5430,"blocks":16,"atimeMs":1611291375094.7078,"mtimeMs":1611291381163.821,"ctimeMs":1611291381163.821,"birthtimeMs":1610934670755.1091,"atime":"2021-01-22T04:56:15.095Z","mtime":"2021-01-22T04:56:21.164Z","ctime":"2021-01-22T04:56:21.164Z","birthtime":"2021-01-18T01:51:10.755Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-01-22 17:56:21,227 INFO 96603 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/controller/advertise.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":25903769,"size":5430,"blocks":16,"atimeMs":1611291375094.7078,"mtimeMs":1611291381163.821,"ctimeMs":1611291381163.821,"birthtimeMs":1610934670755.1091,"atime":"2021-01-22T04:56:15.095Z","mtime":"2021-01-22T04:56:21.164Z","ctime":"2021-01-22T04:56:21.164Z","birthtime":"2021-01-18T01:51:10.755Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-01-22 17:57:04,368 WARN 96603 [agent:development] reload worker because /Users/sherily/Desktop/Petcity/Repo/petcity-back/app/contract/request/Advertise.js change
+2021-01-22 17:57:04,733 WARN 96603 [agent:development] reload worker because /Users/sherily/Desktop/Petcity/Repo/petcity-back/app/contract/request/Advertise.js change
+2021-01-22 17:57:04,162 INFO 96603 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/contract/request/Advertise.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":25903822,"size":1585,"blocks":8,"atimeMs":1611290050967.1357,"mtimeMs":1611291424101.6912,"ctimeMs":1611291424101.6912,"birthtimeMs":1610934718789.2788,"atime":"2021-01-22T04:34:10.967Z","mtime":"2021-01-22T04:57:04.102Z","ctime":"2021-01-22T04:57:04.102Z","birthtime":"2021-01-18T01:51:58.789Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-01-22 17:57:04,479 INFO 96603 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/contract/request/Advertise.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":25903822,"size":1585,"blocks":8,"atimeMs":1611290050967.1357,"mtimeMs":1611291424468.6028,"ctimeMs":1611291424468.6028,"birthtimeMs":1610934718789.2788,"atime":"2021-01-22T04:34:10.967Z","mtime":"2021-01-22T04:57:04.469Z","ctime":"2021-01-22T04:57:04.469Z","birthtime":"2021-01-18T01:51:58.789Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-01-22 17:57:04,531 INFO 96603 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/contract/request/Advertise.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":25903822,"size":1585,"blocks":8,"atimeMs":1611290050967.1357,"mtimeMs":1611291424468.6028,"ctimeMs":1611291424468.6028,"birthtimeMs":1610934718789.2788,"atime":"2021-01-22T04:34:10.967Z","mtime":"2021-01-22T04:57:04.469Z","ctime":"2021-01-22T04:57:04.469Z","birthtime":"2021-01-18T01:51:58.789Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-01-22 17:57:04,801 INFO 96603 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/contract/request/Advertise.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":25903822,"size":1585,"blocks":8,"atimeMs":1611290050967.1357,"mtimeMs":1611291424790.153,"ctimeMs":1611291424790.153,"birthtimeMs":1610934718789.2788,"atime":"2021-01-22T04:34:10.967Z","mtime":"2021-01-22T04:57:04.790Z","ctime":"2021-01-22T04:57:04.790Z","birthtime":"2021-01-18T01:51:58.789Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-01-22 17:57:04,852 INFO 96603 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/contract/request/Advertise.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":25903822,"size":1585,"blocks":8,"atimeMs":1611290050967.1357,"mtimeMs":1611291424790.153,"ctimeMs":1611291424790.153,"birthtimeMs":1610934718789.2788,"atime":"2021-01-22T04:34:10.967Z","mtime":"2021-01-22T04:57:04.790Z","ctime":"2021-01-22T04:57:04.790Z","birthtime":"2021-01-18T01:51:58.789Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-01-22 17:57:05,052 WARN 96603 [agent:development] reload worker because /Users/sherily/Desktop/Petcity/Repo/petcity-back/app/contract/request/Advertise.js change
+2021-01-22 17:57:37,867 WARN 96603 [agent:development] reload worker because /Users/sherily/Desktop/Petcity/Repo/petcity-back/app/contract/request/Advertise.js change
+2021-01-22 17:57:37,664 INFO 96603 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/contract/request/Advertise.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":25903822,"size":1585,"blocks":8,"atimeMs":1611291425201.133,"mtimeMs":1611291457602.5334,"ctimeMs":1611291457602.5334,"birthtimeMs":1610934718789.2788,"atime":"2021-01-22T04:57:05.201Z","mtime":"2021-01-22T04:57:37.603Z","ctime":"2021-01-22T04:57:37.603Z","birthtime":"2021-01-18T01:51:58.789Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-01-22 17:57:37,974 INFO 96603 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/contract/request/Advertise.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":25903822,"size":1585,"blocks":8,"atimeMs":1611291425201.133,"mtimeMs":1611291457962.0305,"ctimeMs":1611291457962.0305,"birthtimeMs":1610934718789.2788,"atime":"2021-01-22T04:57:05.201Z","mtime":"2021-01-22T04:57:37.962Z","ctime":"2021-01-22T04:57:37.962Z","birthtime":"2021-01-18T01:51:58.789Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-01-22 17:57:38,023 INFO 96603 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/contract/request/Advertise.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":25903822,"size":1585,"blocks":8,"atimeMs":1611291425201.133,"mtimeMs":1611291457962.0305,"ctimeMs":1611291457962.0305,"birthtimeMs":1610934718789.2788,"atime":"2021-01-22T04:57:05.201Z","mtime":"2021-01-22T04:57:37.962Z","ctime":"2021-01-22T04:57:37.962Z","birthtime":"2021-01-18T01:51:58.789Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-01-22 17:57:38,223 WARN 96603 [agent:development] reload worker because /Users/sherily/Desktop/Petcity/Repo/petcity-back/app/contract/request/Advertise.js change
+2021-01-22 17:57:38,562 WARN 96603 [agent:development] reload worker because /Users/sherily/Desktop/Petcity/Repo/petcity-back/app/contract/request/Advertise.js change
+2021-01-22 17:57:38,294 INFO 96603 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/contract/request/Advertise.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":25903822,"size":1585,"blocks":8,"atimeMs":1611291425201.133,"mtimeMs":1611291458283.3486,"ctimeMs":1611291458283.3486,"birthtimeMs":1610934718789.2788,"atime":"2021-01-22T04:57:05.201Z","mtime":"2021-01-22T04:57:38.283Z","ctime":"2021-01-22T04:57:38.283Z","birthtime":"2021-01-18T01:51:58.789Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-01-22 17:57:38,357 INFO 96603 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/contract/request/Advertise.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":25903822,"size":1585,"blocks":8,"atimeMs":1611291425201.133,"mtimeMs":1611291458283.3486,"ctimeMs":1611291458283.3486,"birthtimeMs":1610934718789.2788,"atime":"2021-01-22T04:57:05.201Z","mtime":"2021-01-22T04:57:38.283Z","ctime":"2021-01-22T04:57:38.283Z","birthtime":"2021-01-18T01:51:58.789Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-01-22 18:10:03,735 ERROR 96603 nodejs.ClusterClientNoResponseError: client no response in 478949ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 96603
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-22 21:44:07,412 INFO 96603 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/service/advertise.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":25903792,"size":14221,"blocks":32,"atimeMs":1611291331984.7734,"mtimeMs":1611305047339.5476,"ctimeMs":1611305047339.5476,"birthtimeMs":1610934686782.8257,"atime":"2021-01-22T04:55:31.985Z","mtime":"2021-01-22T08:44:07.340Z","ctime":"2021-01-22T08:44:07.340Z","birthtime":"2021-01-18T01:51:26.783Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-01-22 21:44:07,621 WARN 96603 [agent:development] reload worker because /Users/sherily/Desktop/Petcity/Repo/petcity-back/app/service/advertise.js change
+2021-01-22 21:44:21,951 WARN 96603 [agent:development] reload worker because /Users/sherily/Desktop/Petcity/Repo/petcity-back/app/service/advertise.js change
+2021-01-22 21:44:22,405 WARN 96603 [agent:development] reload worker because /Users/sherily/Desktop/Petcity/Repo/petcity-back/app/service/advertise.js change
+2021-01-22 21:44:21,697 INFO 96603 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/service/advertise.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":25903792,"size":14221,"blocks":32,"atimeMs":1611305048179.7864,"mtimeMs":1611305061685.569,"ctimeMs":1611305061685.569,"birthtimeMs":1610934686782.8257,"atime":"2021-01-22T08:44:08.180Z","mtime":"2021-01-22T08:44:21.686Z","ctime":"2021-01-22T08:44:21.686Z","birthtime":"2021-01-18T01:51:26.783Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-01-22 21:44:21,747 INFO 96603 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/service/advertise.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":25903792,"size":14221,"blocks":32,"atimeMs":1611305048179.7864,"mtimeMs":1611305061685.569,"ctimeMs":1611305061685.569,"birthtimeMs":1610934686782.8257,"atime":"2021-01-22T08:44:08.180Z","mtime":"2021-01-22T08:44:21.686Z","ctime":"2021-01-22T08:44:21.686Z","birthtime":"2021-01-18T01:51:26.783Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-01-22 21:44:22,139 INFO 96603 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/service/advertise.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":25903792,"size":14221,"blocks":32,"atimeMs":1611305048179.7864,"mtimeMs":1611305062127.9697,"ctimeMs":1611305062127.9697,"birthtimeMs":1610934686782.8257,"atime":"2021-01-22T08:44:08.180Z","mtime":"2021-01-22T08:44:22.128Z","ctime":"2021-01-22T08:44:22.128Z","birthtime":"2021-01-18T01:51:26.783Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-01-22 21:44:22,205 INFO 96603 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/service/advertise.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":25903792,"size":14221,"blocks":32,"atimeMs":1611305048179.7864,"mtimeMs":1611305062127.9697,"ctimeMs":1611305062127.9697,"birthtimeMs":1610934686782.8257,"atime":"2021-01-22T08:44:08.180Z","mtime":"2021-01-22T08:44:22.128Z","ctime":"2021-01-22T08:44:22.128Z","birthtime":"2021-01-18T01:51:26.783Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-01-22 23:36:16,802 ERROR 96603 nodejs.ClusterClientNoResponseError: client no response in 1739570ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 96603
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-22 23:54:38,766 ERROR 96603 nodejs.ClusterClientNoResponseError: client no response in 1061198ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 96603
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-22 23:59:38,261 ERROR 96603 nodejs.ClusterClientNoResponseError: client no response in 258757ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 96603
+hostname: xiejialis-MacBook-Pro.local
+

@@ -5,7 +5,8 @@
  * @Last Modified time: 2021-01-Fr 05:26:48 
  */
 'use strict';
-
+const fs = require('fs');
+const pump = require('pump');
 const Controller = require('egg').Controller;
 
 /**
@@ -97,6 +98,49 @@ class UserController extends Controller {
         ctx.body = result;
     }
 
+
+    /**
+     * @summary Api saveAvatar
+     * @description saveAvatar Api 
+     * @router post /api/v1/saveAvatar
+     */
+    async saveAvatar() {
+        const { ctx } = this;
+        const parts = ctx.multipart({ autoFields: true });
+        let files = {};
+        let stream;
+        while ((stream = await parts()) != null) {
+            if (!stream.filename) {
+                break;
+            }
+            const fieldname = stream.fieldname;
+            const dir = await this.service.tools.getUploadFile(stream.filename);
+            const target = dir.uploadDir;
+            const writeStream = fs.createWriteStream(target);
+
+            await pump(stream, writeStream);
+
+            files = Object.assign(files, {
+                [fieldname]: dir.saveDir
+            });
+        }
+
+        if (Object.keys(files).length > 0) {
+            ctx.body = {
+                success: true,
+                code: 200,
+                errorMsg: 'Save avatar successful!',
+                data: files
+            }
+        } else {
+            ctx.body = {
+                success: false,
+                code: 500,
+                message: 'Save avatar failed!',
+                data: {}
+            }
+        }
+    }
 }
 
 module.exports = UserController;

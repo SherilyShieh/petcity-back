@@ -23,10 +23,10 @@ exports.validate = {
     package: 'egg-validate',
 };
 
-exports.redis = {
-    enable: true,
-    package: 'egg-redis',
-};
+// exports.redis = {
+//     enable: true,
+//     package: 'egg-redis',
+// };
 
 exports.cors = {
     enable: true,

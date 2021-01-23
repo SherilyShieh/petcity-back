@@ -192,11 +192,13 @@
       ],
       "consumes": [
         "application/json",
-        "multipart/form-data"
+        "multipart/form-data",
+        "multipart/*"
       ],
       "produces": [
         "application/json",
-        "multipart/form-data"
+        "multipart/form-data",
+        "multipart/*"
       ],
       "securityDefinitions": {},
       "enableSecurity": false,
@@ -279,14 +281,16 @@
         "egg-cors": "^2.2.3",
         "egg-joi": "^2.0.1",
         "egg-redis": "^2.4.0",
-        "egg-scripts": "^2.13.0",
+        "egg-scripts": "^1.2.0",
         "egg-sequelize": "^6.0.0",
         "egg-sequelize-auto": "^0.1.1",
         "egg-swagger-doc": "^2.3.2",
         "egg-validate": "^2.0.2",
         "egg-view-nunjucks": "^2.2.0",
         "moment": "^2.29.1",
-        "mysql2": "^2.2.5"
+        "mysql2": "^2.2.5",
+        "pump": "^3.0.0",
+        "silly-datetime": "^0.1.2"
       },
       "devDependencies": {
         "egg-bin": "^4.2.0"
@@ -402,6 +406,7 @@
         {}
       ]
     },
+    "uploadDir": "app/static",
     "coreMiddlewares": "~config~coreMiddleware",
     "appMiddlewares": "~config~middleware",
     "appMiddleware": "~config~middleware"

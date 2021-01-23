@@ -59,9 +59,6 @@ module.exports = app => {
             allowNull: false
         }
     }, {
-        timestamps: false,
-        underscored: false,
-        freezeTableName: true,
         tableName: 'Advertise'
     });
 

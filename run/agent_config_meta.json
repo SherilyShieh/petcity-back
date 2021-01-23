@@ -17,6 +17,7 @@
   "robot": {
     "ua": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/config/config.default.js"
   },
+  "uploadDir": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/config/config.default.js",
   "sequelize": {
     "dialect": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/config/config.default.js",
     "dialectOptions": {
@@ -276,7 +277,9 @@
       "egg-validate": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg/config/config.default.js",
       "egg-view-nunjucks": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg/config/config.default.js",
       "moment": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg/config/config.default.js",
-      "mysql2": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg/config/config.default.js"
+      "mysql2": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg/config/config.default.js",
+      "pump": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg/config/config.default.js",
+      "silly-datetime": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg/config/config.default.js"
     },
     "devDependencies": {
       "egg-bin": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg/config/config.default.js"

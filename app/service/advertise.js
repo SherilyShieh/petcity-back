@@ -131,7 +131,9 @@ class AdvertiseService extends Service {
         try {
             let whereContent = {}
             if (region !== undefined) {
-                whereContent.region = region;
+                whereContent.region = {
+                    [Op.like]: '%' + region + '%'
+                };
             }
             if (district !== undefined) {
                 whereContent.district = district;
@@ -376,6 +378,7 @@ class AdvertiseService extends Service {
                         var user = await this.app.model.User.findOne({ where: { user_id: ad.user_id }, raw: true });
                     }
                     ad.user = user;
+                    row.advertise = ad;
                     console.log('user---------', user);
                     console.log('row---------', row);
                     ll.push(row);

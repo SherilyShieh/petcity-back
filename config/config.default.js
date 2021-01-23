@@ -25,7 +25,7 @@ module.exports = appInfo => {
             /Baiduspider/i,
         ],
     };
-
+    config.uploadDir = 'app/public/upload';
     // database 
     config.sequelize = {
         dialect: 'mysql',
@@ -81,8 +81,8 @@ module.exports = appInfo => {
             version: '1.0.0',
         },
         schemes: ['http', 'https'],
-        consumes: ['application/json', 'multipart/form-data'],
-        produces: ['application/json', 'multipart/form-data'],
+        consumes: ['application/json', 'multipart/form-data', 'multipart/*'],
+        produces: ['application/json', 'multipart/form-data', 'multipart/*'],
         securityDefinitions: {
             // apikey: {
             //   type: 'apiKey',

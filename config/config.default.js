@@ -26,17 +26,37 @@ module.exports = appInfo => {
         ],
     };
     config.uploadDir = 'app/public/upload';
-    // database 
+    // database local
+    // config.sequelize = {
+    //     dialect: 'mysql',
+    //     dialectOptions: {
+    //         charset: 'utf8',
+    //     },
+    //     host: '127.0.0.1',
+    //     port: 3306,
+    //     database: 'petcity',
+    //     username: 'root',
+    //     password: 'root123456',
+    //     define: {
+    //         timestamps: false,
+    //         paranoid: true,
+    //         freezeTableName: true,
+    //         underscored: false
+    //     },
+    //     timezone: '+08:00'
+    // };
+
+    // database aliyun
     config.sequelize = {
         dialect: 'mysql',
         dialectOptions: {
             charset: 'utf8',
         },
-        host: '127.0.0.1',
+        host: '47.100.136.30',
         port: 3306,
         database: 'petcity',
         username: 'root',
-        password: 'root123456',
+        password: 'Petcity@2021',
         define: {
             timestamps: false,
             paranoid: true,
@@ -64,14 +84,14 @@ module.exports = appInfo => {
         },
     };
 
-    config.redis = {
-        client: {
-            port: 6379, // Redis port
-            host: '127.0.0.1', // Redis host
-            password: '',
-            db: 0,
-        },
-    };
+    // config.redis = {
+    //     client: {
+    //         port: 6379, // Redis port
+    //         host: '127.0.0.1', // Redis host
+    //         password: '',
+    //         db: 0,
+    //     },
+    // };
 
     config.swaggerdoc = {
         dirScanner: './app/controller',

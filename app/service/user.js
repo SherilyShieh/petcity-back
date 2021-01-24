@@ -59,22 +59,22 @@ class UserService extends Service {
 
     async register(dic) {
 
-        if (await this.isUidExist(uid)) {
+        if (await this.isUidExist(dic.uid)) {
             // login
             return {
                 success: true,
                 code: 500,
                 errorMsg: 'This email has been registered, please get a new one!',
                 data: {
-                    uid,
+                    uid: dic.uid,
                     msg: 'This email has been registered, please get a new one!'
                 }
             }
         } else {
 
             const role = await this.app.model.User.create({
-                uid,
-                channel,
+                uid: dic.uid,
+                channel: dic.channel,
                 first_name: dic.first_name,
                 last_name: dic.last_name,
                 email: dic.email,
@@ -88,7 +88,7 @@ class UserService extends Service {
                     code: 200,
                     errorMsg: ' ',
                     data: {
-                        uid,
+                        uid: dic.uid,
                         msg: 'SignUp  successful!'
                     }
                 }

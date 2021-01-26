@@ -1,0 +1,200 @@
+2021-01-26 00:18:47,323 ERROR 834 nodejs.ClusterClientNoResponseError: client no response in 501749ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 834
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-26 01:05:40,217 ERROR 834 nodejs.ClusterClientNoResponseError: client no response in 1751029ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 834
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-26 01:11:48,517 ERROR 834 nodejs.ClusterClientNoResponseError: client no response in 327483ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 834
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-26 01:29:19,266 ERROR 834 nodejs.ClusterClientNoResponseError: client no response in 1010716ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 834
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-26 03:30:06,276 ERROR 834 nodejs.ClusterClientNoResponseError: client no response in 7206959ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 834
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-26 05:30:54,430 ERROR 834 nodejs.ClusterClientNoResponseError: client no response in 7187213ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 834
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-26 07:31:41,531 ERROR 834 nodejs.ClusterClientNoResponseError: client no response in 7206248ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 834
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-26 07:47:04,098 ERROR 834 nodejs.ClusterClientNoResponseError: client no response in 861737ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 834
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-26 09:02:46,223 ERROR 834 nodejs.ClusterClientNoResponseError: client no response in 100805ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 834
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-26 09:05:05,987 ERROR 834 nodejs.ClusterClientNoResponseError: client no response in 99669ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 834
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-26 09:07:10,551 ERROR 834 nodejs.ClusterClientNoResponseError: client no response in 83817ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 834
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-26 11:57:36,056 ERROR 1174 nodejs.ClusterClientNoResponseError: client no response in 76738ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 1174
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-26 11:59:25,295 ERROR 1174 nodejs.ClusterClientNoResponseError: client no response in 69180ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 1174
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-26 12:01:32,872 ERROR 1174 nodejs.ClusterClientNoResponseError: client no response in 87534ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 1174
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-26 12:06:14,212 ERROR 1174 nodejs.ClusterClientNoResponseError: client no response in 79270ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 1174
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-26 12:12:35,578 ERROR 1174 nodejs.ClusterClientNoResponseError: client no response in 195158ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 1174
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-26 14:51:09,129 ERROR 8052 nodejs.ClusterClientNoResponseError: client no response in 71313ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 8052
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-26 14:59:35,541 ERROR 8052 nodejs.ClusterClientNoResponseError: client no response in 465594ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 8052
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-26 18:41:25,820 ERROR 8052 nodejs.ClusterClientNoResponseError: client no response in 3167913ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 8052
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-26 23:05:03,576 ERROR 8052 nodejs.ClusterClientNoResponseError: client no response in 567476ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 8052
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-26 23:15:34,557 ERROR 8052 nodejs.ClusterClientNoResponseError: client no response in 589418ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 8052
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-26 23:21:44,141 ERROR 8052 nodejs.ClusterClientNoResponseError: client no response in 329535ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 8052
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-26 23:25:59,925 ERROR 8052 nodejs.ClusterClientNoResponseError: client no response in 215726ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 8052
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-26 23:36:46,072 ERROR 8052 nodejs.ClusterClientNoResponseError: client no response in 606109ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 8052
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-26 23:40:47,726 ERROR 8052 nodejs.ClusterClientNoResponseError: client no response in 141594ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 8052
+hostname: xiejialis-MacBook-Pro.local
+

@@ -20,7 +20,6 @@ class UserController extends Controller {
      * @description signUp Api 
      * @router put /api/v1/signUp
      * @request body Third model
-     * @response 200 JsonResponse
      */
     async signUp() {
         const { ctx } = this;
@@ -37,7 +36,6 @@ class UserController extends Controller {
      * @description register Api 
      * @router put /api/v1/register
      * @request body Account model
-     * @response 200 JsonResponse
      */
     async register() {
         const { ctx } = this;
@@ -54,7 +52,6 @@ class UserController extends Controller {
      * @description getUser Api 
      * @router get /api/v1/getUser
      * @request query string *uid
-     * @response 200 JsonResponse
      */
     async getUser() {
         const { ctx } = this;
@@ -70,7 +67,6 @@ class UserController extends Controller {
      * @description verifyEmail Api 
      * @router get /api/v1/verifyEmail
      * @request query string *email
-     * @response 200 JsonResponse
      */
     async verifyEmail() {
         const { ctx } = this;
@@ -86,7 +82,6 @@ class UserController extends Controller {
      * @description updateProfile Api 
      * @router post /api/v1/updateProfile
      * @request body Update model
-     * @response 200 JsonResponse
      */
     async updateProfile() {
         const { ctx } = this;

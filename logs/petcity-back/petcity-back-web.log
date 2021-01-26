@@ -1,7 +1,28 @@
-2021-01-26 09:25:27,470 WARN 9635 [-/192.168.31.178/-/11ms PUT /api/v1/create] nodejs.UnprocessableEntityError: Validation Failed
+2021-01-27 00:13:40,839 INFO 8186 [egg-sequelize](2ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test`;
+2021-01-27 00:32:11,253 INFO 8186 [egg-sequelize](3ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = 'AWSI41mrXUNIuS6BIawzrcyJ4gg2' LIMIT 1;
+2021-01-27 00:32:11,271 INFO 8186 [egg-sequelize](15ms) Executed (default): INSERT INTO `User` (`user_id`,`uid`,`first_name`,`last_name`,`email`,`password`,`channel`,`created_time`,`updated_time`) VALUES (DEFAULT,?,?,?,?,?,?,?,?);
+2021-01-27 00:32:13,543 INFO 8186 [egg-sequelize](3ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = 'AWSI41mrXUNIuS6BIawzrcyJ4gg2' LIMIT 1;
+2021-01-27 00:32:13,555 INFO 8186 [egg-sequelize](3ms) Executed (default): SELECT `ad_id`, `user_id`, `type`, `dog_breed`, `price`, `date`, `start_time`, `duration`, `description`, `region`, `district`, `created_time`, `updated_time` FROM `Advertise` AS `Advertise` ORDER BY `Advertise`.`updated_time` DESC LIMIT 0, 10;
+2021-01-27 00:32:13,556 INFO 8186 [egg-sequelize](7ms) Executed (default): SELECT count(DISTINCT(`ad_id`)) AS `count` FROM `Advertise` AS `Advertise`;
+2021-01-27 00:35:27,014 INFO 8186 [egg-sequelize](1ms) Executed (default): SELECT `ad_id`, `user_id`, `type`, `dog_breed`, `price`, `date`, `start_time`, `duration`, `description`, `region`, `district`, `created_time`, `updated_time` FROM `Advertise` AS `Advertise` ORDER BY `Advertise`.`updated_time` DESC LIMIT 0, 10;
+2021-01-27 00:35:27,015 INFO 8186 [egg-sequelize](3ms) Executed (default): SELECT count(DISTINCT(`ad_id`)) AS `count` FROM `Advertise` AS `Advertise`;
+2021-01-27 00:35:27,018 INFO 8186 [egg-sequelize](5ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = 'AWSI41mrXUNIuS6BIawzrcyJ4gg2' LIMIT 1;
+2021-01-27 00:37:54,478 INFO 8186 [egg-sequelize](1ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = 'fTDH01evR2QaRktLHayAF4uDe0C3' LIMIT 1;
+2021-01-27 00:37:54,481 INFO 8186 [egg-sequelize](2ms) Executed (default): INSERT INTO `User` (`user_id`,`uid`,`first_name`,`last_name`,`email`,`password`,`channel`,`created_time`,`updated_time`) VALUES (DEFAULT,?,?,?,?,?,?,?,?);
+2021-01-27 00:38:19,688 INFO 8186 [egg-sequelize](1ms) Executed (default): UPDATE `User` SET `password`=? WHERE `uid` = ?
+2021-01-27 00:38:19,689 INFO 8186 [egg-sequelize](0ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = 'fTDH01evR2QaRktLHayAF4uDe0C3' LIMIT 1;
+2021-01-27 00:42:50,618 INFO 8186 [egg-sequelize](1ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = '2XmQk8Zvk2eGKu8vXqInbTKkGNr2' LIMIT 1;
+2021-01-27 00:42:50,647 INFO 8186 [egg-sequelize](28ms) Executed (default): INSERT INTO `User` (`user_id`,`uid`,`first_name`,`last_name`,`email`,`password`,`channel`,`created_time`,`updated_time`) VALUES (DEFAULT,?,?,?,?,?,?,?,?);
+2021-01-27 00:43:34,639 INFO 8186 [egg-sequelize](1ms) Executed (default): UPDATE `User` SET `password`=? WHERE `uid` = ?
+2021-01-27 00:43:34,642 INFO 8186 [egg-sequelize](2ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = '2XmQk8Zvk2eGKu8vXqInbTKkGNr2' LIMIT 1;
+2021-01-27 00:45:45,315 INFO 8186 [egg-sequelize](1ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = 'Any5sbaJlzSKFAmfJX3D3OOCNJ52' LIMIT 1;
+2021-01-27 00:45:45,319 INFO 8186 [egg-sequelize](2ms) Executed (default): INSERT INTO `User` (`user_id`,`uid`,`first_name`,`last_name`,`email`,`password`,`channel`,`created_time`,`updated_time`) VALUES (DEFAULT,?,?,?,?,?,?,?,?);
+2021-01-27 00:46:05,586 INFO 8186 [egg-sequelize](1ms) Executed (default): UPDATE `User` SET `password`=? WHERE `uid` = ?
+2021-01-27 00:46:05,588 INFO 8186 [egg-sequelize](1ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = 'Any5sbaJlzSKFAmfJX3D3OOCNJ52' LIMIT 1;
+2021-01-27 01:03:05,690 WARN 8186 [-/127.0.0.1/-/7ms PUT /api/v1/signUp] nodejs.UnprocessableEntityError: Validation Failed
     at Object.throw (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa/lib/context.js:97:11)
     at Object.validate (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-validate/app/extend/context.js:14:17)
-    at TestController.create (/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/controller/test.js:18:13)
+    at UserController.signUp (/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/controller/user.js:28:13)
     at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/utils/index.js:44:21)
     at Object.classControllerMiddleware (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
     at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/utils.js:12:21)
@@ -11,273 +32,15 @@
     at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/router.js:190:18
 message: "Validation Failed"
 code: "invalid_param"
-errors: [{"message":"required","field":"info","code":"missing_field"}]
-pid: 9635
-hostname: xiejialis-MacBook-Pro.local
-
-2021-01-26 09:25:58,023 INFO 18640 [egg-swagger-doc] register router: get /swagger-doc
-2021-01-26 09:25:58,052 INFO 18640 [egg-swagger-doc] register router: get /swagger-ui.html
-2021-01-26 09:25:58,053 INFO 18640 [egg-swagger-doc] register router: put /api/v1/postAd for controller-advertise-postAd 
-2021-01-26 09:25:58,053 INFO 18640 [egg-swagger-doc] register router: post /api/v1/updateAd for controller-advertise-updateAd 
-2021-01-26 09:25:58,053 INFO 18640 [egg-swagger-doc] register router: get /api/v1/getAllAds for controller-advertise-getAllAds 
-2021-01-26 09:25:58,053 INFO 18640 [egg-swagger-doc] register router: get /api/v1/getMyAds for controller-advertise-getMyAds 
-2021-01-26 09:25:58,380 INFO 18640 [egg-swagger-doc] register router: put /api/v1/addContacted for controller-advertise-addContacted 
-2021-01-26 09:25:58,380 INFO 18640 [egg-swagger-doc] register router: delete /api/v1/deleteMyAds for controller-advertise-deleteMyAds 
-2021-01-26 09:25:58,380 INFO 18640 [egg-swagger-doc] register router: get /api/v1/getAllContacted for controller-advertise-getAllContacted 
-2021-01-26 09:25:58,380 INFO 18640 [egg-swagger-doc] register router: delete /api/v1/deleteContacted for controller-advertise-deleteContacted 
-2021-01-26 09:25:58,380 INFO 18640 [egg-swagger-doc] register router: put /api/v1/create for controller-test-create 
-2021-01-26 09:25:58,380 INFO 18640 [egg-swagger-doc] register router: post /api/v1/update for controller-test-update 
-2021-01-26 09:25:58,380 INFO 18640 [egg-swagger-doc] register router: delete /api/v1/delete for controller-test-delete 
-2021-01-26 09:25:58,392 INFO 18640 [egg-swagger-doc] register router: get /api/v1/getInfo for controller-test-getInfo 
-2021-01-26 09:25:58,392 INFO 18640 [egg-swagger-doc] register router: put /api/v1/signUp for controller-user-signUp 
-2021-01-26 09:25:58,392 INFO 18640 [egg-swagger-doc] register router: put /api/v1/register for controller-user-register 
-2021-01-26 09:25:58,392 INFO 18640 [egg-swagger-doc] register router: get /api/v1/getUser for controller-user-getUser 
-2021-01-26 09:25:58,392 INFO 18640 [egg-swagger-doc] register router: get /api/v1/verifyEmail for controller-user-verifyEmail 
-2021-01-26 09:25:58,392 INFO 18640 [egg-swagger-doc] register router: post /api/v1/updateProfile for controller-user-updateProfile 
-2021-01-26 09:25:58,392 INFO 18640 [egg-swagger-doc] register router: post /api/v1/saveAvatar for controller-user-saveAvatar 
-2021-01-26 09:25:58,417 INFO 18640 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
-2021-01-26 09:26:21,762 WARN 18640 [-/192.168.31.178/-/4ms PUT /api/v1/create] nodejs.UnprocessableEntityError: Validation Failed
-    at Object.throw (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa/lib/context.js:97:11)
-    at Object.validate (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-validate/app/extend/context.js:14:17)
-    at TestController.create (/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/controller/test.js:18:13)
-    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/utils/index.js:44:21)
-    at Object.classControllerMiddleware (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
-    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/utils.js:12:21)
-    at wrappedController (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/egg_router.js:322:18)
-    at dispatch (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:44:32)
-    at next (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:45:18)
-    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/router.js:190:18
-message: "Validation Failed"
-code: "invalid_param"
-errors: [{"message":"required","field":"info","code":"missing_field"}]
-pid: 18640
-hostname: xiejialis-MacBook-Pro.local
-
-2021-01-26 09:27:36,025 WARN 18640 [-/192.168.31.88/-/1ms PUT /api/v1/create] nodejs.UnprocessableEntityError: Validation Failed
-    at Object.throw (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa/lib/context.js:97:11)
-    at Object.validate (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-validate/app/extend/context.js:14:17)
-    at TestController.create (/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/controller/test.js:18:13)
-    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/utils/index.js:44:21)
-    at Object.classControllerMiddleware (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
-    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/utils.js:12:21)
-    at wrappedController (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/egg_router.js:322:18)
-    at dispatch (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:44:32)
-    at next (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:45:18)
-    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/router.js:190:18
-message: "Validation Failed"
-code: "invalid_param"
-errors: [{"message":"required","field":"info","code":"missing_field"}]
-pid: 18640
-hostname: xiejialis-MacBook-Pro.local
-
-2021-01-26 09:28:42,759 WARN 18640 [-/192.168.31.88/-/0ms PUT /api/v1/create] nodejs.UnprocessableEntityError: Validation Failed
-    at Object.throw (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa/lib/context.js:97:11)
-    at Object.validate (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-validate/app/extend/context.js:14:17)
-    at TestController.create (/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/controller/test.js:18:13)
-    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/utils/index.js:44:21)
-    at Object.classControllerMiddleware (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
-    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/utils.js:12:21)
-    at wrappedController (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/egg_router.js:322:18)
-    at dispatch (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:44:32)
-    at next (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:45:18)
-    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/router.js:190:18
-message: "Validation Failed"
-code: "invalid_param"
-errors: [{"message":"required","field":"info","code":"missing_field"}]
-pid: 18640
-hostname: xiejialis-MacBook-Pro.local
-
-2021-01-26 09:29:00,813 WARN 18640 [-/192.168.31.88/-/1ms PUT /api/v1/create] nodejs.UnprocessableEntityError: Validation Failed
-    at Object.throw (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa/lib/context.js:97:11)
-    at Object.validate (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-validate/app/extend/context.js:14:17)
-    at TestController.create (/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/controller/test.js:18:13)
-    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/utils/index.js:44:21)
-    at Object.classControllerMiddleware (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
-    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/utils.js:12:21)
-    at wrappedController (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/egg_router.js:322:18)
-    at dispatch (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:44:32)
-    at next (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:45:18)
-    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/router.js:190:18
-message: "Validation Failed"
-code: "invalid_param"
-errors: [{"message":"required","field":"info","code":"missing_field"}]
-pid: 18640
-hostname: xiejialis-MacBook-Pro.local
-
-2021-01-26 09:29:11,817 WARN 18640 [-/192.168.31.88/-/1ms PUT /api/v1/create] nodejs.UnprocessableEntityError: Validation Failed
-    at Object.throw (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa/lib/context.js:97:11)
-    at Object.validate (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-validate/app/extend/context.js:14:17)
-    at TestController.create (/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/controller/test.js:18:13)
-    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/utils/index.js:44:21)
-    at Object.classControllerMiddleware (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
-    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/utils.js:12:21)
-    at wrappedController (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/egg_router.js:322:18)
-    at dispatch (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:44:32)
-    at next (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:45:18)
-    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/router.js:190:18
-message: "Validation Failed"
-code: "invalid_param"
-errors: [{"message":"required","field":"info","code":"missing_field"}]
-pid: 18640
-hostname: xiejialis-MacBook-Pro.local
-
-2021-01-26 09:31:30,368 WARN 18640 [-/192.168.31.88/-/1ms PUT /api/v1/create] nodejs.UnprocessableEntityError: Validation Failed
-    at Object.throw (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa/lib/context.js:97:11)
-    at Object.validate (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-validate/app/extend/context.js:14:17)
-    at TestController.create (/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/controller/test.js:18:13)
-    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/utils/index.js:44:21)
-    at Object.classControllerMiddleware (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
-    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/utils.js:12:21)
-    at wrappedController (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/egg_router.js:322:18)
-    at dispatch (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:44:32)
-    at next (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:45:18)
-    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/router.js:190:18
-message: "Validation Failed"
-code: "invalid_param"
-errors: [{"message":"required","field":"info","code":"missing_field"}]
-pid: 18640
-hostname: xiejialis-MacBook-Pro.local
-
-2021-01-26 09:33:21,127 WARN 18640 [-/192.168.31.88/-/1ms PUT /api/v1/create] nodejs.UnprocessableEntityError: Validation Failed
-    at Object.throw (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa/lib/context.js:97:11)
-    at Object.validate (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-validate/app/extend/context.js:14:17)
-    at TestController.create (/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/controller/test.js:18:13)
-    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/utils/index.js:44:21)
-    at Object.classControllerMiddleware (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
-    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/utils.js:12:21)
-    at wrappedController (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/egg_router.js:322:18)
-    at dispatch (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:44:32)
-    at next (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:45:18)
-    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/router.js:190:18
-message: "Validation Failed"
-code: "invalid_param"
-errors: [{"message":"required","field":"info","code":"missing_field"}]
-pid: 18640
-hostname: xiejialis-MacBook-Pro.local
-
-2021-01-26 09:35:16,675 WARN 18640 [-/192.168.31.88/-/0ms PUT /api/v1/create] nodejs.UnprocessableEntityError: Validation Failed
-    at Object.throw (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa/lib/context.js:97:11)
-    at Object.validate (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-validate/app/extend/context.js:14:17)
-    at TestController.create (/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/controller/test.js:18:13)
-    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/utils/index.js:44:21)
-    at Object.classControllerMiddleware (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
-    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/utils.js:12:21)
-    at wrappedController (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/egg_router.js:322:18)
-    at dispatch (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:44:32)
-    at next (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:45:18)
-    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/router.js:190:18
-message: "Validation Failed"
-code: "invalid_param"
-errors: [{"message":"required","field":"info","code":"missing_field"}]
-pid: 18640
-hostname: xiejialis-MacBook-Pro.local
-
-2021-01-26 09:37:33,709 INFO 18640 [egg-sequelize](4ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test`;
-2021-01-26 09:39:10,339 INFO 18640 [egg-sequelize](2ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test`;
-2021-01-26 09:39:39,029 INFO 18640 [egg-sequelize](3ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test`;
-2021-01-26 09:43:13,352 INFO 18640 [egg-sequelize](3ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test`;
-2021-01-26 09:43:34,225 INFO 18640 [egg-sequelize](1ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test`;
-2021-01-26 09:45:16,932 INFO 18640 [egg-sequelize](3ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test`;
-2021-01-26 09:46:37,182 INFO 18640 [egg-sequelize](3ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test`;
-2021-01-26 09:47:31,211 INFO 18640 [egg-sequelize](3ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test`;
-2021-01-26 09:47:37,570 INFO 18640 [egg-sequelize](8ms) Executed (default): INSERT INTO `Test` (`id`,`info`) VALUES (DEFAULT,?);
-2021-01-26 09:47:37,602 INFO 18640 [egg-sequelize](0ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test`;
-2021-01-26 09:47:45,464 WARN 18640 [-/192.168.31.88/-/2ms DELETE /api/v1/delete] nodejs.UnprocessableEntityError: Validation Failed
-    at Object.throw (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa/lib/context.js:97:11)
-    at Object.validate (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-validate/app/extend/context.js:14:17)
-    at TestController.delete (/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/controller/test.js:50:13)
-    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/utils/index.js:44:21)
-    at Object.classControllerMiddleware (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
-    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/utils.js:12:21)
-    at wrappedController (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/egg_router.js:322:18)
-    at dispatch (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:44:32)
-    at next (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:45:18)
-    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/router.js:190:18
-message: "Validation Failed"
-code: "invalid_param"
-errors: [{"message":"should be an integer","code":"invalid","field":"id"}]
-pid: 18640
-hostname: xiejialis-MacBook-Pro.local
-
-2021-01-26 09:48:45,267 INFO 18640 [egg-sequelize](7ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test`;
-2021-01-26 09:48:47,680 INFO 18640 [egg-sequelize](4ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test` WHERE `Test`.`id` = 2;
-2021-01-26 09:48:47,688 INFO 18640 [egg-sequelize](5ms) Executed (default): DELETE FROM `Test` WHERE `id` = 2
-2021-01-26 09:48:47,711 INFO 18640 [egg-sequelize](2ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test`;
-2021-01-26 09:48:55,247 INFO 18640 [egg-sequelize](4ms) Executed (default): UPDATE `Test` SET `info`=? WHERE `id` = ?
-2021-01-26 09:48:55,272 INFO 18640 [egg-sequelize](1ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test`;
-2021-01-26 09:49:02,604 INFO 18640 [egg-sequelize](1ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test`;
-2021-01-26 09:49:21,053 INFO 18640 [egg-sequelize](1ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test`;
-2021-01-26 09:51:03,030 INFO 18640 [egg-sequelize](5ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test`;
-2021-01-26 09:51:11,983 INFO 18640 [egg-sequelize](1ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test`;
-2021-01-26 09:56:31,071 INFO 18640 [egg-sequelize](2ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test` WHERE `Test`.`id` = 3;
-2021-01-26 09:56:31,081 INFO 18640 [egg-sequelize](8ms) Executed (default): DELETE FROM `Test` WHERE `id` = 3
-2021-01-26 09:56:31,103 INFO 18640 [egg-sequelize](1ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test`;
-2021-01-26 10:16:09,772 INFO 18640 [egg-sequelize](2ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test`;
-2021-01-26 10:37:39,176 INFO 21772 [egg-swagger-doc] register router: get /swagger-doc
-2021-01-26 10:37:39,203 INFO 21772 [egg-swagger-doc] register router: get /swagger-ui.html
-2021-01-26 10:37:39,203 INFO 21772 [egg-swagger-doc] register router: put /api/v1/postAd for controller-advertise-postAd 
-2021-01-26 10:37:39,203 INFO 21772 [egg-swagger-doc] register router: post /api/v1/updateAd for controller-advertise-updateAd 
-2021-01-26 10:37:39,203 INFO 21772 [egg-swagger-doc] register router: get /api/v1/getAllAds for controller-advertise-getAllAds 
-2021-01-26 10:37:39,203 INFO 21772 [egg-swagger-doc] register router: get /api/v1/getMyAds for controller-advertise-getMyAds 
-2021-01-26 10:37:39,204 INFO 21772 [egg-swagger-doc] register router: put /api/v1/addContacted for controller-advertise-addContacted 
-2021-01-26 10:37:39,204 INFO 21772 [egg-swagger-doc] register router: delete /api/v1/deleteMyAds for controller-advertise-deleteMyAds 
-2021-01-26 10:37:39,204 INFO 21772 [egg-swagger-doc] register router: get /api/v1/getAllContacted for controller-advertise-getAllContacted 
-2021-01-26 10:37:39,208 INFO 21772 [egg-swagger-doc] register router: delete /api/v1/deleteContacted for controller-advertise-deleteContacted 
-2021-01-26 10:37:39,208 INFO 21772 [egg-swagger-doc] register router: put /api/v1/create for controller-test-create 
-2021-01-26 10:37:39,208 INFO 21772 [egg-swagger-doc] register router: post /api/v1/update for controller-test-update 
-2021-01-26 10:37:39,208 INFO 21772 [egg-swagger-doc] register router: delete /api/v1/delete for controller-test-delete 
-2021-01-26 10:37:39,209 INFO 21772 [egg-swagger-doc] register router: get /api/v1/getInfo for controller-test-getInfo 
-2021-01-26 10:37:39,209 INFO 21772 [egg-swagger-doc] register router: put /api/v1/signUp for controller-user-signUp 
-2021-01-26 10:37:39,209 INFO 21772 [egg-swagger-doc] register router: put /api/v1/register for controller-user-register 
-2021-01-26 10:37:39,209 INFO 21772 [egg-swagger-doc] register router: get /api/v1/getUser for controller-user-getUser 
-2021-01-26 10:37:39,209 INFO 21772 [egg-swagger-doc] register router: get /api/v1/verifyEmail for controller-user-verifyEmail 
-2021-01-26 10:37:39,209 INFO 21772 [egg-swagger-doc] register router: post /api/v1/updateProfile for controller-user-updateProfile 
-2021-01-26 10:37:39,209 INFO 21772 [egg-swagger-doc] register router: post /api/v1/saveAvatar for controller-user-saveAvatar 
-2021-01-26 10:37:39,233 INFO 21772 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
-2021-01-26 10:47:38,230 INFO 1177 [egg-swagger-doc] register router: get /swagger-doc
-2021-01-26 10:47:38,254 INFO 1177 [egg-swagger-doc] register router: get /swagger-ui.html
-2021-01-26 10:47:38,254 INFO 1177 [egg-swagger-doc] register router: put /api/v1/postAd for controller-advertise-postAd 
-2021-01-26 10:47:38,254 INFO 1177 [egg-swagger-doc] register router: post /api/v1/updateAd for controller-advertise-updateAd 
-2021-01-26 10:47:38,254 INFO 1177 [egg-swagger-doc] register router: get /api/v1/getAllAds for controller-advertise-getAllAds 
-2021-01-26 10:47:38,254 INFO 1177 [egg-swagger-doc] register router: get /api/v1/getMyAds for controller-advertise-getMyAds 
-2021-01-26 10:47:38,479 INFO 1177 [egg-swagger-doc] register router: put /api/v1/addContacted for controller-advertise-addContacted 
-2021-01-26 10:47:38,479 INFO 1177 [egg-swagger-doc] register router: delete /api/v1/deleteMyAds for controller-advertise-deleteMyAds 
-2021-01-26 10:47:38,479 INFO 1177 [egg-swagger-doc] register router: get /api/v1/getAllContacted for controller-advertise-getAllContacted 
-2021-01-26 10:47:38,479 INFO 1177 [egg-swagger-doc] register router: delete /api/v1/deleteContacted for controller-advertise-deleteContacted 
-2021-01-26 10:47:38,480 INFO 1177 [egg-swagger-doc] register router: put /api/v1/create for controller-test-create 
-2021-01-26 10:47:38,480 INFO 1177 [egg-swagger-doc] register router: post /api/v1/update for controller-test-update 
-2021-01-26 10:47:38,480 INFO 1177 [egg-swagger-doc] register router: delete /api/v1/delete for controller-test-delete 
-2021-01-26 10:47:38,491 INFO 1177 [egg-swagger-doc] register router: get /api/v1/getInfo for controller-test-getInfo 
-2021-01-26 10:47:38,491 INFO 1177 [egg-swagger-doc] register router: put /api/v1/signUp for controller-user-signUp 
-2021-01-26 10:47:38,491 INFO 1177 [egg-swagger-doc] register router: put /api/v1/register for controller-user-register 
-2021-01-26 10:47:38,491 INFO 1177 [egg-swagger-doc] register router: get /api/v1/getUser for controller-user-getUser 
-2021-01-26 10:47:38,491 INFO 1177 [egg-swagger-doc] register router: get /api/v1/verifyEmail for controller-user-verifyEmail 
-2021-01-26 10:47:38,492 INFO 1177 [egg-swagger-doc] register router: post /api/v1/updateProfile for controller-user-updateProfile 
-2021-01-26 10:47:38,492 INFO 1177 [egg-swagger-doc] register router: post /api/v1/saveAvatar for controller-user-saveAvatar 
-2021-01-26 10:47:38,516 INFO 1177 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
-2021-01-26 11:20:53,767 WARN 1177 [-/127.0.0.1/-/17ms PUT /api/v1/create] nodejs.UnprocessableEntityError: Validation Failed
-    at Object.throw (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa/lib/context.js:97:11)
-    at Object.validate (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-validate/app/extend/context.js:14:17)
-    at TestController.create (/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/controller/test.js:18:13)
-    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/utils/index.js:44:21)
-    at Object.classControllerMiddleware (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
-    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/utils.js:12:21)
-    at wrappedController (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/egg_router.js:322:18)
-    at dispatch (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:44:32)
-    at next (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:45:18)
-    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/router.js:190:18
-message: "Validation Failed"
-code: "invalid_param"
-errors: [{"message":"required","field":"info","code":"missing_field"}]
+errors: [{"message":"required","field":"uid","code":"missing_field"},{"message":"required","field":"channel","code":"missing_field"}]
 headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
-pid: 1177
+pid: 8186
 hostname: xiejialis-MacBook-Pro.local
 
-2021-01-26 11:28:01,539 INFO 1177 [egg-sequelize](10ms) Executed (default): INSERT INTO `Test` (`id`,`info`) VALUES (DEFAULT,?);
-2021-01-26 11:30:38,780 WARN 1177 [-/127.0.0.1/-/1ms PUT /api/v1/create] nodejs.UnprocessableEntityError: Validation Failed
+2021-01-27 01:12:28,026 WARN 8186 [-/127.0.0.1/-/0ms PUT /api/v1/signUp] nodejs.UnprocessableEntityError: Validation Failed
     at Object.throw (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa/lib/context.js:97:11)
     at Object.validate (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-validate/app/extend/context.js:14:17)
-    at TestController.create (/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/controller/test.js:18:13)
+    at UserController.signUp (/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/controller/user.js:28:13)
     at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/utils/index.js:44:21)
     at Object.classControllerMiddleware (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
     at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/utils.js:12:21)
@@ -287,87 +50,173 @@ hostname: xiejialis-MacBook-Pro.local
     at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/router.js:190:18
 message: "Validation Failed"
 code: "invalid_param"
-errors: [{"message":"required","field":"info","code":"missing_field"}]
+errors: [{"message":"required","field":"channel","code":"missing_field"}]
 headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
-pid: 1177
+pid: 8186
 hostname: xiejialis-MacBook-Pro.local
 
-2021-01-26 12:15:46,831 INFO 1177 [egg-sequelize](1ms) Executed (default): INSERT INTO `Test` (`id`,`info`) VALUES (DEFAULT,?);
-2021-01-26 12:36:11,346 WARN 1177 [-/127.0.0.1/-/2ms POST /api/v1/update] nodejs.SyntaxError: Unexpected token } in JSON at position 13, check bodyParser config
+2021-01-27 01:13:32,099 WARN 8186 [-/127.0.0.1/-/0ms PUT /api/v1/signUp] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa/lib/context.js:97:11)
+    at Object.validate (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-validate/app/extend/context.js:14:17)
+    at UserController.signUp (/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/controller/user.js:28:13)
+    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:45:18)
+    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/router.js:190:18
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":"required","field":"uid","code":"missing_field"}]
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 8186
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-27 01:14:09,857 WARN 8186 [-/127.0.0.1/-/1ms PUT /api/v1/signUp] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa/lib/context.js:97:11)
+    at Object.validate (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-validate/app/extend/context.js:14:17)
+    at UserController.signUp (/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/controller/user.js:28:13)
+    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:45:18)
+    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/router.js:190:18
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":"required","field":"uid","code":"missing_field"},{"message":"required","field":"channel","code":"missing_field"}]
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 8186
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-27 01:16:05,710 WARN 8186 [-/127.0.0.1/-/1ms PUT /api/v1/signUp] nodejs.SyntaxError: Unexpected token “ in JSON at position 11, check bodyParser config
     at JSON.parse (<anonymous>)
     at parse (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/co-body/lib/json.js:57:17)
     at AsyncFunction.module.exports [as json] (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/co-body/lib/json.js:41:20)
+    at runMicrotasks (<anonymous>)
     at processTicksAndRejections (node:internal/process/task_queues:93:5)
     at async parseBody (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-bodyparser/index.js:100:14)
     at async bodyParser (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-bodyparser/index.js:85:19)
     at async /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-static-cache/index.js:39:63
     at async notfound (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg/app/middleware/notfound.js:5:5)
     at async meta (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg/app/middleware/meta.js:17:5)
-    at async cors (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@koa/cors/index.js:98:16)
 status: 400
-body: "{\n  \"id\": 0,\n}"
+body: "{\n  \"uid\": “required”,\n  \"channel\": \"required\",\n  \"first_name\": “optional”,\n  \"last_name\": \"optional\",\n  \"email\": \"optional\"\n}"
 headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
-pid: 1177
+pid: 8186
 hostname: xiejialis-MacBook-Pro.local
 
-2021-01-26 12:36:16,528 WARN 1177 [-/127.0.0.1/-/1ms POST /api/v1/update] nodejs.UnprocessableEntityError: Validation Failed
-    at Object.throw (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa/lib/context.js:97:11)
-    at Object.validate (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-validate/app/extend/context.js:14:17)
-    at TestController.update (/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/controller/test.js:34:13)
-    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/utils/index.js:44:21)
-    at Object.classControllerMiddleware (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
-    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/utils.js:12:21)
-    at wrappedController (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/egg_router.js:322:18)
-    at dispatch (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:44:32)
-    at next (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:45:18)
-    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/router.js:190:18
-message: "Validation Failed"
-code: "invalid_param"
-errors: [{"message":"required","field":"info","code":"missing_field"}]
-headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
-pid: 1177
-hostname: xiejialis-MacBook-Pro.local
-
-2021-01-26 12:36:54,799 WARN 1177 [-/127.0.0.1/-/1ms POST /api/v1/update] nodejs.UnprocessableEntityError: Validation Failed
-    at Object.throw (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa/lib/context.js:97:11)
-    at Object.validate (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-validate/app/extend/context.js:14:17)
-    at TestController.update (/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/controller/test.js:34:13)
-    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/utils/index.js:44:21)
-    at Object.classControllerMiddleware (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
-    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/utils.js:12:21)
-    at wrappedController (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/egg_router.js:322:18)
-    at dispatch (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:44:32)
-    at next (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:45:18)
-    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/router.js:190:18
-message: "Validation Failed"
-code: "invalid_param"
-errors: [{"message":"required","field":"info","code":"missing_field"}]
-headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
-pid: 1177
-hostname: xiejialis-MacBook-Pro.local
-
-2021-01-26 12:39:51,151 WARN 1177 [-/127.0.0.1/-/0ms POST /api/v1/update] nodejs.SyntaxError: Unexpected string in JSON at position 11, check bodyParser config
+2021-01-27 01:16:20,961 WARN 8186 [-/127.0.0.1/-/0ms PUT /api/v1/signUp] nodejs.SyntaxError: Unexpected token “ in JSON at position 11, check bodyParser config
     at JSON.parse (<anonymous>)
     at parse (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/co-body/lib/json.js:57:17)
     at AsyncFunction.module.exports [as json] (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/co-body/lib/json.js:41:20)
+    at runMicrotasks (<anonymous>)
     at processTicksAndRejections (node:internal/process/task_queues:93:5)
     at async parseBody (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-bodyparser/index.js:100:14)
     at async bodyParser (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-bodyparser/index.js:85:19)
     at async /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-static-cache/index.js:39:63
     at async notfound (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg/app/middleware/notfound.js:5:5)
     at async meta (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg/app/middleware/meta.js:17:5)
-    at async cors (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@koa/cors/index.js:98:16)
 status: 400
-body: "{\n\"id\": 5 \n\"info\": \"test for update\"\n}"
+body: "{\n  \"uid\": “required”,\n  \"channel\": \"required\",\n  \"first_name\": “optional”,\n  \"last_name\": \"optional\",\n  \"email\": \"optional\"\n}"
 headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
-pid: 1177
+pid: 8186
 hostname: xiejialis-MacBook-Pro.local
 
-2021-01-26 12:41:06,866 INFO 1177 [egg-sequelize](4ms) Executed (default): UPDATE `Test` SET `info`=? WHERE `id` = ?
-2021-01-26 13:08:00,309 WARN 1177 [-/127.0.0.1/-/1ms DELETE /api/v1/delete] nodejs.UnprocessableEntityError: Validation Failed
+2021-01-27 01:16:57,650 INFO 8186 [egg-sequelize](1ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = 'required' LIMIT 1;
+2021-01-27 01:16:57,655 INFO 8186 [egg-sequelize](4ms) Executed (default): INSERT INTO `User` (`user_id`,`uid`,`first_name`,`last_name`,`email`,`channel`,`created_time`,`updated_time`) VALUES (DEFAULT,?,?,?,?,?,?,?);
+2021-01-27 01:19:03,560 INFO 8186 [egg-sequelize](1ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = 'required' LIMIT 1;
+2021-01-27 01:19:03,563 INFO 8186 [egg-sequelize](2ms) Executed (default): INSERT INTO `User` (`user_id`,`uid`,`channel`,`created_time`,`updated_time`) VALUES (DEFAULT,?,?,?,?);
+2021-01-27 01:24:13,834 INFO 33283 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-27 01:24:13,865 INFO 33283 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-27 01:24:13,865 INFO 33283 [egg-swagger-doc] register router: put /api/v1/postAd for controller-advertise-postAd 
+2021-01-27 01:24:13,865 INFO 33283 [egg-swagger-doc] register router: post /api/v1/updateAd for controller-advertise-updateAd 
+2021-01-27 01:24:13,866 INFO 33283 [egg-swagger-doc] register router: get /api/v1/getAllAds for controller-advertise-getAllAds 
+2021-01-27 01:24:13,866 INFO 33283 [egg-swagger-doc] register router: get /api/v1/getMyAds for controller-advertise-getMyAds 
+2021-01-27 01:24:13,866 INFO 33283 [egg-swagger-doc] register router: put /api/v1/addContacted for controller-advertise-addContacted 
+2021-01-27 01:24:13,866 INFO 33283 [egg-swagger-doc] register router: delete /api/v1/deleteMyAds for controller-advertise-deleteMyAds 
+2021-01-27 01:24:13,866 INFO 33283 [egg-swagger-doc] register router: get /api/v1/getAllContacted for controller-advertise-getAllContacted 
+2021-01-27 01:24:13,866 INFO 33283 [egg-swagger-doc] register router: delete /api/v1/deleteContacted for controller-advertise-deleteContacted 
+2021-01-27 01:24:13,866 INFO 33283 [egg-swagger-doc] register router: put /api/v1/create for controller-test-create 
+2021-01-27 01:24:13,866 INFO 33283 [egg-swagger-doc] register router: post /api/v1/update for controller-test-update 
+2021-01-27 01:24:13,867 INFO 33283 [egg-swagger-doc] register router: delete /api/v1/delete for controller-test-delete 
+2021-01-27 01:24:13,867 INFO 33283 [egg-swagger-doc] register router: get /api/v1/getInfo for controller-test-getInfo 
+2021-01-27 01:24:13,867 INFO 33283 [egg-swagger-doc] register router: put /api/v1/signUp for controller-user-signUp 
+2021-01-27 01:24:13,867 INFO 33283 [egg-swagger-doc] register router: put /api/v1/register for controller-user-register 
+2021-01-27 01:24:13,867 INFO 33283 [egg-swagger-doc] register router: get /api/v1/getUser for controller-user-getUser 
+2021-01-27 01:24:13,867 INFO 33283 [egg-swagger-doc] register router: get /api/v1/verifyEmail for controller-user-verifyEmail 
+2021-01-27 01:24:13,867 INFO 33283 [egg-swagger-doc] register router: post /api/v1/updateProfile for controller-user-updateProfile 
+2021-01-27 01:24:13,867 INFO 33283 [egg-swagger-doc] register router: post /api/v1/saveAvatar for controller-user-saveAvatar 
+2021-01-27 01:24:13,895 INFO 33283 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-01-27 01:24:14,560 INFO 33284 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-27 01:24:14,579 INFO 33284 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-27 01:24:14,579 INFO 33284 [egg-swagger-doc] register router: put /api/v1/postAd for controller-advertise-postAd 
+2021-01-27 01:24:14,580 INFO 33284 [egg-swagger-doc] register router: post /api/v1/updateAd for controller-advertise-updateAd 
+2021-01-27 01:24:14,580 INFO 33284 [egg-swagger-doc] register router: get /api/v1/getAllAds for controller-advertise-getAllAds 
+2021-01-27 01:24:14,580 INFO 33284 [egg-swagger-doc] register router: get /api/v1/getMyAds for controller-advertise-getMyAds 
+2021-01-27 01:24:14,580 INFO 33284 [egg-swagger-doc] register router: put /api/v1/addContacted for controller-advertise-addContacted 
+2021-01-27 01:24:14,580 INFO 33284 [egg-swagger-doc] register router: delete /api/v1/deleteMyAds for controller-advertise-deleteMyAds 
+2021-01-27 01:24:14,580 INFO 33284 [egg-swagger-doc] register router: get /api/v1/getAllContacted for controller-advertise-getAllContacted 
+2021-01-27 01:24:14,580 INFO 33284 [egg-swagger-doc] register router: delete /api/v1/deleteContacted for controller-advertise-deleteContacted 
+2021-01-27 01:24:14,580 INFO 33284 [egg-swagger-doc] register router: put /api/v1/create for controller-test-create 
+2021-01-27 01:24:14,581 INFO 33284 [egg-swagger-doc] register router: post /api/v1/update for controller-test-update 
+2021-01-27 01:24:14,581 INFO 33284 [egg-swagger-doc] register router: delete /api/v1/delete for controller-test-delete 
+2021-01-27 01:24:14,581 INFO 33284 [egg-swagger-doc] register router: get /api/v1/getInfo for controller-test-getInfo 
+2021-01-27 01:24:14,581 INFO 33284 [egg-swagger-doc] register router: put /api/v1/signUp for controller-user-signUp 
+2021-01-27 01:24:14,581 INFO 33284 [egg-swagger-doc] register router: put /api/v1/register for controller-user-register 
+2021-01-27 01:24:14,581 INFO 33284 [egg-swagger-doc] register router: get /api/v1/getUser for controller-user-getUser 
+2021-01-27 01:24:14,581 INFO 33284 [egg-swagger-doc] register router: get /api/v1/verifyEmail for controller-user-verifyEmail 
+2021-01-27 01:24:14,581 INFO 33284 [egg-swagger-doc] register router: post /api/v1/updateProfile for controller-user-updateProfile 
+2021-01-27 01:24:14,581 INFO 33284 [egg-swagger-doc] register router: post /api/v1/saveAvatar for controller-user-saveAvatar 
+2021-01-27 01:24:14,603 INFO 33284 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2021-01-27 01:26:38,095 INFO 33382 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-27 01:26:38,124 INFO 33382 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-27 01:26:38,125 INFO 33382 [egg-swagger-doc] register router: put /api/v1/postAd for controller-advertise-postAd 
+2021-01-27 01:26:38,125 INFO 33382 [egg-swagger-doc] register router: post /api/v1/updateAd for controller-advertise-updateAd 
+2021-01-27 01:26:38,125 INFO 33382 [egg-swagger-doc] register router: get /api/v1/getAllAds for controller-advertise-getAllAds 
+2021-01-27 01:26:38,125 INFO 33382 [egg-swagger-doc] register router: get /api/v1/getMyAds for controller-advertise-getMyAds 
+2021-01-27 01:26:38,125 INFO 33382 [egg-swagger-doc] register router: put /api/v1/addContacted for controller-advertise-addContacted 
+2021-01-27 01:26:38,125 INFO 33382 [egg-swagger-doc] register router: delete /api/v1/deleteMyAds for controller-advertise-deleteMyAds 
+2021-01-27 01:26:38,125 INFO 33382 [egg-swagger-doc] register router: get /api/v1/getAllContacted for controller-advertise-getAllContacted 
+2021-01-27 01:26:38,126 INFO 33382 [egg-swagger-doc] register router: delete /api/v1/deleteContacted for controller-advertise-deleteContacted 
+2021-01-27 01:26:38,126 INFO 33382 [egg-swagger-doc] register router: put /api/v1/create for controller-test-create 
+2021-01-27 01:26:38,126 INFO 33382 [egg-swagger-doc] register router: post /api/v1/update for controller-test-update 
+2021-01-27 01:26:38,126 INFO 33382 [egg-swagger-doc] register router: delete /api/v1/delete for controller-test-delete 
+2021-01-27 01:26:38,126 INFO 33382 [egg-swagger-doc] register router: get /api/v1/getInfo for controller-test-getInfo 
+2021-01-27 01:26:38,126 INFO 33382 [egg-swagger-doc] register router: put /api/v1/signUp for controller-user-signUp 
+2021-01-27 01:26:38,126 INFO 33382 [egg-swagger-doc] register router: put /api/v1/register for controller-user-register 
+2021-01-27 01:26:38,126 INFO 33382 [egg-swagger-doc] register router: get /api/v1/getUser for controller-user-getUser 
+2021-01-27 01:26:38,127 INFO 33382 [egg-swagger-doc] register router: get /api/v1/verifyEmail for controller-user-verifyEmail 
+2021-01-27 01:26:38,127 INFO 33382 [egg-swagger-doc] register router: post /api/v1/updateProfile for controller-user-updateProfile 
+2021-01-27 01:26:38,127 INFO 33382 [egg-swagger-doc] register router: post /api/v1/saveAvatar for controller-user-saveAvatar 
+2021-01-27 01:26:38,152 INFO 33382 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2021-01-27 01:26:38,963 INFO 33383 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-27 01:26:38,982 INFO 33383 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-27 01:26:38,983 INFO 33383 [egg-swagger-doc] register router: put /api/v1/postAd for controller-advertise-postAd 
+2021-01-27 01:26:38,983 INFO 33383 [egg-swagger-doc] register router: post /api/v1/updateAd for controller-advertise-updateAd 
+2021-01-27 01:26:38,983 INFO 33383 [egg-swagger-doc] register router: get /api/v1/getAllAds for controller-advertise-getAllAds 
+2021-01-27 01:26:38,983 INFO 33383 [egg-swagger-doc] register router: get /api/v1/getMyAds for controller-advertise-getMyAds 
+2021-01-27 01:26:38,983 INFO 33383 [egg-swagger-doc] register router: put /api/v1/addContacted for controller-advertise-addContacted 
+2021-01-27 01:26:38,984 INFO 33383 [egg-swagger-doc] register router: delete /api/v1/deleteMyAds for controller-advertise-deleteMyAds 
+2021-01-27 01:26:38,984 INFO 33383 [egg-swagger-doc] register router: get /api/v1/getAllContacted for controller-advertise-getAllContacted 
+2021-01-27 01:26:38,984 INFO 33383 [egg-swagger-doc] register router: delete /api/v1/deleteContacted for controller-advertise-deleteContacted 
+2021-01-27 01:26:38,984 INFO 33383 [egg-swagger-doc] register router: put /api/v1/create for controller-test-create 
+2021-01-27 01:26:38,984 INFO 33383 [egg-swagger-doc] register router: post /api/v1/update for controller-test-update 
+2021-01-27 01:26:38,984 INFO 33383 [egg-swagger-doc] register router: delete /api/v1/delete for controller-test-delete 
+2021-01-27 01:26:38,984 INFO 33383 [egg-swagger-doc] register router: get /api/v1/getInfo for controller-test-getInfo 
+2021-01-27 01:26:38,985 INFO 33383 [egg-swagger-doc] register router: put /api/v1/signUp for controller-user-signUp 
+2021-01-27 01:26:38,985 INFO 33383 [egg-swagger-doc] register router: put /api/v1/register for controller-user-register 
+2021-01-27 01:26:38,985 INFO 33383 [egg-swagger-doc] register router: get /api/v1/getUser for controller-user-getUser 
+2021-01-27 01:26:38,985 INFO 33383 [egg-swagger-doc] register router: get /api/v1/verifyEmail for controller-user-verifyEmail 
+2021-01-27 01:26:38,985 INFO 33383 [egg-swagger-doc] register router: post /api/v1/updateProfile for controller-user-updateProfile 
+2021-01-27 01:26:38,985 INFO 33383 [egg-swagger-doc] register router: post /api/v1/saveAvatar for controller-user-saveAvatar 
+2021-01-27 01:26:39,009 INFO 33383 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-01-27 02:00:44,341 WARN 33383 [-/127.0.0.1/-/24ms PUT /api/v1/register] nodejs.UnprocessableEntityError: Validation Failed
     at Object.throw (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa/lib/context.js:97:11)
     at Object.validate (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-validate/app/extend/context.js:14:17)
-    at TestController.delete (/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/controller/test.js:50:13)
+    at UserController.register (/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/controller/user.js:43:13)
     at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/utils/index.js:44:21)
     at Object.classControllerMiddleware (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
     at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/utils.js:12:21)
@@ -377,610 +226,98 @@ hostname: xiejialis-MacBook-Pro.local
     at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/router.js:190:18
 message: "Validation Failed"
 code: "invalid_param"
-errors: [{"message":"required","field":"id","code":"missing_field"}]
+errors: [{"message":"required","field":"last_name","code":"missing_field"}]
 headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
-pid: 1177
+pid: 33383
 hostname: xiejialis-MacBook-Pro.local
 
-2021-01-26 13:08:25,181 INFO 1177 [egg-sequelize](2ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test` WHERE `Test`.`id` = 5;
-2021-01-26 13:08:25,185 INFO 1177 [egg-sequelize](3ms) Executed (default): DELETE FROM `Test` WHERE `id` = 5
-2021-01-26 13:19:35,488 INFO 1177 [egg-sequelize](1ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test`;
-2021-01-26 13:21:12,211 INFO 1177 [egg-sequelize](3ms) Executed (default): INSERT INTO `Test` (`id`,`info`) VALUES (DEFAULT,?);
-2021-01-26 13:21:43,423 INFO 1177 [egg-sequelize](1ms) Executed (default): INSERT INTO `Test` (`id`,`info`) VALUES (DEFAULT,?);
-2021-01-26 13:22:20,416 INFO 1177 [egg-sequelize](1ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test`;
-2021-01-26 13:23:00,084 INFO 1177 [egg-sequelize](1ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test`;
-2021-01-26 13:23:04,128 INFO 1177 [egg-sequelize](1ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test`;
-2021-01-26 13:23:11,994 INFO 1177 [egg-sequelize](1ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test`;
-2021-01-26 13:23:25,386 INFO 1177 [egg-sequelize](1ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test`;
-2021-01-26 13:25:30,563 INFO 7454 [egg-swagger-doc] register router: get /swagger-doc
-2021-01-26 13:25:30,590 INFO 7454 [egg-swagger-doc] register router: get /swagger-ui.html
-2021-01-26 13:25:30,591 INFO 7454 [egg-swagger-doc] register router: put /api/v1/postAd for controller-advertise-postAd 
-2021-01-26 13:25:30,591 INFO 7454 [egg-swagger-doc] register router: post /api/v1/updateAd for controller-advertise-updateAd 
-2021-01-26 13:25:30,592 INFO 7454 [egg-swagger-doc] register router: get /api/v1/getAllAds for controller-advertise-getAllAds 
-2021-01-26 13:25:30,592 INFO 7454 [egg-swagger-doc] register router: get /api/v1/getMyAds for controller-advertise-getMyAds 
-2021-01-26 13:25:30,592 INFO 7454 [egg-swagger-doc] register router: put /api/v1/addContacted for controller-advertise-addContacted 
-2021-01-26 13:25:30,592 INFO 7454 [egg-swagger-doc] register router: delete /api/v1/deleteMyAds for controller-advertise-deleteMyAds 
-2021-01-26 13:25:30,592 INFO 7454 [egg-swagger-doc] register router: get /api/v1/getAllContacted for controller-advertise-getAllContacted 
-2021-01-26 13:25:30,592 INFO 7454 [egg-swagger-doc] register router: delete /api/v1/deleteContacted for controller-advertise-deleteContacted 
-2021-01-26 13:25:30,592 INFO 7454 [egg-swagger-doc] register router: put /api/v1/create for controller-test-create 
-2021-01-26 13:25:30,592 INFO 7454 [egg-swagger-doc] register router: post /api/v1/update for controller-test-update 
-2021-01-26 13:25:30,592 INFO 7454 [egg-swagger-doc] register router: delete /api/v1/delete for controller-test-delete 
-2021-01-26 13:25:30,593 INFO 7454 [egg-swagger-doc] register router: get /api/v1/getInfo for controller-test-getInfo 
-2021-01-26 13:25:30,593 INFO 7454 [egg-swagger-doc] register router: put /api/v1/signUp for controller-user-signUp 
-2021-01-26 13:25:30,593 INFO 7454 [egg-swagger-doc] register router: put /api/v1/register for controller-user-register 
-2021-01-26 13:25:30,593 INFO 7454 [egg-swagger-doc] register router: get /api/v1/getUser for controller-user-getUser 
-2021-01-26 13:25:30,593 INFO 7454 [egg-swagger-doc] register router: get /api/v1/verifyEmail for controller-user-verifyEmail 
-2021-01-26 13:25:30,593 INFO 7454 [egg-swagger-doc] register router: post /api/v1/updateProfile for controller-user-updateProfile 
-2021-01-26 13:25:30,593 INFO 7454 [egg-swagger-doc] register router: post /api/v1/saveAvatar for controller-user-saveAvatar 
-2021-01-26 13:25:30,622 INFO 7454 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
-2021-01-26 13:25:44,236 INFO 7454 [egg-sequelize](1ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test`;
-2021-01-26 13:26:46,302 INFO 7527 [egg-swagger-doc] register router: get /swagger-doc
-2021-01-26 13:26:46,323 INFO 7527 [egg-swagger-doc] register router: get /swagger-ui.html
-2021-01-26 13:26:46,323 INFO 7527 [egg-swagger-doc] register router: put /api/v1/postAd for controller-advertise-postAd 
-2021-01-26 13:26:46,323 INFO 7527 [egg-swagger-doc] register router: post /api/v1/updateAd for controller-advertise-updateAd 
-2021-01-26 13:26:46,323 INFO 7527 [egg-swagger-doc] register router: get /api/v1/getAllAds for controller-advertise-getAllAds 
-2021-01-26 13:26:46,324 INFO 7527 [egg-swagger-doc] register router: get /api/v1/getMyAds for controller-advertise-getMyAds 
-2021-01-26 13:26:46,324 INFO 7527 [egg-swagger-doc] register router: put /api/v1/addContacted for controller-advertise-addContacted 
-2021-01-26 13:26:46,324 INFO 7527 [egg-swagger-doc] register router: delete /api/v1/deleteMyAds for controller-advertise-deleteMyAds 
-2021-01-26 13:26:46,324 INFO 7527 [egg-swagger-doc] register router: get /api/v1/getAllContacted for controller-advertise-getAllContacted 
-2021-01-26 13:26:46,324 INFO 7527 [egg-swagger-doc] register router: delete /api/v1/deleteContacted for controller-advertise-deleteContacted 
-2021-01-26 13:26:46,324 INFO 7527 [egg-swagger-doc] register router: put /api/v1/create for controller-test-create 
-2021-01-26 13:26:46,324 INFO 7527 [egg-swagger-doc] register router: post /api/v1/update for controller-test-update 
-2021-01-26 13:26:46,324 INFO 7527 [egg-swagger-doc] register router: delete /api/v1/delete for controller-test-delete 
-2021-01-26 13:26:46,324 INFO 7527 [egg-swagger-doc] register router: get /api/v1/getInfo for controller-test-getInfo 
-2021-01-26 13:26:46,325 INFO 7527 [egg-swagger-doc] register router: put /api/v1/signUp for controller-user-signUp 
-2021-01-26 13:26:46,325 INFO 7527 [egg-swagger-doc] register router: put /api/v1/register for controller-user-register 
-2021-01-26 13:26:46,325 INFO 7527 [egg-swagger-doc] register router: get /api/v1/getUser for controller-user-getUser 
-2021-01-26 13:26:46,325 INFO 7527 [egg-swagger-doc] register router: get /api/v1/verifyEmail for controller-user-verifyEmail 
-2021-01-26 13:26:46,325 INFO 7527 [egg-swagger-doc] register router: post /api/v1/updateProfile for controller-user-updateProfile 
-2021-01-26 13:26:46,325 INFO 7527 [egg-swagger-doc] register router: post /api/v1/saveAvatar for controller-user-saveAvatar 
-2021-01-26 13:26:45,583 INFO 7525 [egg-swagger-doc] register router: get /swagger-doc
-2021-01-26 13:26:45,605 INFO 7525 [egg-swagger-doc] register router: get /swagger-ui.html
-2021-01-26 13:26:45,606 INFO 7525 [egg-swagger-doc] register router: put /api/v1/postAd for controller-advertise-postAd 
-2021-01-26 13:26:45,606 INFO 7525 [egg-swagger-doc] register router: post /api/v1/updateAd for controller-advertise-updateAd 
-2021-01-26 13:26:45,606 INFO 7525 [egg-swagger-doc] register router: get /api/v1/getAllAds for controller-advertise-getAllAds 
-2021-01-26 13:26:45,607 INFO 7525 [egg-swagger-doc] register router: get /api/v1/getMyAds for controller-advertise-getMyAds 
-2021-01-26 13:26:45,607 INFO 7525 [egg-swagger-doc] register router: put /api/v1/addContacted for controller-advertise-addContacted 
-2021-01-26 13:26:45,607 INFO 7525 [egg-swagger-doc] register router: delete /api/v1/deleteMyAds for controller-advertise-deleteMyAds 
-2021-01-26 13:26:45,607 INFO 7525 [egg-swagger-doc] register router: get /api/v1/getAllContacted for controller-advertise-getAllContacted 
-2021-01-26 13:26:45,607 INFO 7525 [egg-swagger-doc] register router: delete /api/v1/deleteContacted for controller-advertise-deleteContacted 
-2021-01-26 13:26:45,607 INFO 7525 [egg-swagger-doc] register router: put /api/v1/create for controller-test-create 
-2021-01-26 13:26:45,607 INFO 7525 [egg-swagger-doc] register router: post /api/v1/update for controller-test-update 
-2021-01-26 13:26:45,607 INFO 7525 [egg-swagger-doc] register router: delete /api/v1/delete for controller-test-delete 
-2021-01-26 13:26:45,608 INFO 7525 [egg-swagger-doc] register router: get /api/v1/getInfo for controller-test-getInfo 
-2021-01-26 13:26:45,608 INFO 7525 [egg-swagger-doc] register router: put /api/v1/signUp for controller-user-signUp 
-2021-01-26 13:26:45,608 INFO 7525 [egg-swagger-doc] register router: put /api/v1/register for controller-user-register 
-2021-01-26 13:26:45,608 INFO 7525 [egg-swagger-doc] register router: get /api/v1/getUser for controller-user-getUser 
-2021-01-26 13:26:45,608 INFO 7525 [egg-swagger-doc] register router: get /api/v1/verifyEmail for controller-user-verifyEmail 
-2021-01-26 13:26:45,608 INFO 7525 [egg-swagger-doc] register router: post /api/v1/updateProfile for controller-user-updateProfile 
-2021-01-26 13:26:45,608 INFO 7525 [egg-swagger-doc] register router: post /api/v1/saveAvatar for controller-user-saveAvatar 
-2021-01-26 13:26:45,634 INFO 7525 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
-2021-01-26 13:26:46,799 INFO 7528 [egg-swagger-doc] register router: get /swagger-doc
-2021-01-26 13:26:46,818 INFO 7528 [egg-swagger-doc] register router: get /swagger-ui.html
-2021-01-26 13:26:46,818 INFO 7528 [egg-swagger-doc] register router: put /api/v1/postAd for controller-advertise-postAd 
-2021-01-26 13:26:46,818 INFO 7528 [egg-swagger-doc] register router: post /api/v1/updateAd for controller-advertise-updateAd 
-2021-01-26 13:26:46,818 INFO 7528 [egg-swagger-doc] register router: get /api/v1/getAllAds for controller-advertise-getAllAds 
-2021-01-26 13:26:46,819 INFO 7528 [egg-swagger-doc] register router: get /api/v1/getMyAds for controller-advertise-getMyAds 
-2021-01-26 13:26:46,819 INFO 7528 [egg-swagger-doc] register router: put /api/v1/addContacted for controller-advertise-addContacted 
-2021-01-26 13:26:46,819 INFO 7528 [egg-swagger-doc] register router: delete /api/v1/deleteMyAds for controller-advertise-deleteMyAds 
-2021-01-26 13:26:46,819 INFO 7528 [egg-swagger-doc] register router: get /api/v1/getAllContacted for controller-advertise-getAllContacted 
-2021-01-26 13:26:46,819 INFO 7528 [egg-swagger-doc] register router: delete /api/v1/deleteContacted for controller-advertise-deleteContacted 
-2021-01-26 13:26:46,819 INFO 7528 [egg-swagger-doc] register router: put /api/v1/create for controller-test-create 
-2021-01-26 13:26:46,819 INFO 7528 [egg-swagger-doc] register router: post /api/v1/update for controller-test-update 
-2021-01-26 13:26:46,820 INFO 7528 [egg-swagger-doc] register router: delete /api/v1/delete for controller-test-delete 
-2021-01-26 13:26:46,820 INFO 7528 [egg-swagger-doc] register router: get /api/v1/getInfo for controller-test-getInfo 
-2021-01-26 13:26:46,820 INFO 7528 [egg-swagger-doc] register router: put /api/v1/signUp for controller-user-signUp 
-2021-01-26 13:26:46,820 INFO 7528 [egg-swagger-doc] register router: put /api/v1/register for controller-user-register 
-2021-01-26 13:26:46,820 INFO 7528 [egg-swagger-doc] register router: get /api/v1/getUser for controller-user-getUser 
-2021-01-26 13:26:46,820 INFO 7528 [egg-swagger-doc] register router: get /api/v1/verifyEmail for controller-user-verifyEmail 
-2021-01-26 13:26:46,820 INFO 7528 [egg-swagger-doc] register router: post /api/v1/updateProfile for controller-user-updateProfile 
-2021-01-26 13:26:46,820 INFO 7528 [egg-swagger-doc] register router: post /api/v1/saveAvatar for controller-user-saveAvatar 
-2021-01-26 13:26:46,845 INFO 7528 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
-2021-01-26 13:26:49,947 INFO 7528 [egg-sequelize](3ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test`;
-2021-01-26 13:27:02,521 INFO 7550 [egg-swagger-doc] register router: get /swagger-doc
-2021-01-26 13:27:02,542 INFO 7550 [egg-swagger-doc] register router: get /swagger-ui.html
-2021-01-26 13:27:02,542 INFO 7550 [egg-swagger-doc] register router: put /api/v1/postAd for controller-advertise-postAd 
-2021-01-26 13:27:02,542 INFO 7550 [egg-swagger-doc] register router: post /api/v1/updateAd for controller-advertise-updateAd 
-2021-01-26 13:27:02,543 INFO 7550 [egg-swagger-doc] register router: get /api/v1/getAllAds for controller-advertise-getAllAds 
-2021-01-26 13:27:02,543 INFO 7550 [egg-swagger-doc] register router: get /api/v1/getMyAds for controller-advertise-getMyAds 
-2021-01-26 13:27:02,543 INFO 7550 [egg-swagger-doc] register router: put /api/v1/addContacted for controller-advertise-addContacted 
-2021-01-26 13:27:02,543 INFO 7550 [egg-swagger-doc] register router: delete /api/v1/deleteMyAds for controller-advertise-deleteMyAds 
-2021-01-26 13:27:02,543 INFO 7550 [egg-swagger-doc] register router: get /api/v1/getAllContacted for controller-advertise-getAllContacted 
-2021-01-26 13:27:02,544 INFO 7550 [egg-swagger-doc] register router: delete /api/v1/deleteContacted for controller-advertise-deleteContacted 
-2021-01-26 13:27:02,544 INFO 7550 [egg-swagger-doc] register router: put /api/v1/create for controller-test-create 
-2021-01-26 13:27:02,544 INFO 7550 [egg-swagger-doc] register router: post /api/v1/update for controller-test-update 
-2021-01-26 13:27:02,544 INFO 7550 [egg-swagger-doc] register router: delete /api/v1/delete for controller-test-delete 
-2021-01-26 13:27:02,544 INFO 7550 [egg-swagger-doc] register router: get /api/v1/getInfo for controller-test-getInfo 
-2021-01-26 13:27:02,547 INFO 7550 [egg-swagger-doc] register router: put /api/v1/signUp for controller-user-signUp 
-2021-01-26 13:27:02,547 INFO 7550 [egg-swagger-doc] register router: put /api/v1/register for controller-user-register 
-2021-01-26 13:27:02,547 INFO 7550 [egg-swagger-doc] register router: get /api/v1/getUser for controller-user-getUser 
-2021-01-26 13:27:02,547 INFO 7550 [egg-swagger-doc] register router: get /api/v1/verifyEmail for controller-user-verifyEmail 
-2021-01-26 13:27:02,548 INFO 7550 [egg-swagger-doc] register router: post /api/v1/updateProfile for controller-user-updateProfile 
-2021-01-26 13:27:02,548 INFO 7550 [egg-swagger-doc] register router: post /api/v1/saveAvatar for controller-user-saveAvatar 
-2021-01-26 13:27:01,827 INFO 7549 [egg-swagger-doc] register router: get /swagger-doc
-2021-01-26 13:27:01,849 INFO 7549 [egg-swagger-doc] register router: get /swagger-ui.html
-2021-01-26 13:27:01,850 INFO 7549 [egg-swagger-doc] register router: put /api/v1/postAd for controller-advertise-postAd 
-2021-01-26 13:27:01,850 INFO 7549 [egg-swagger-doc] register router: post /api/v1/updateAd for controller-advertise-updateAd 
-2021-01-26 13:27:01,850 INFO 7549 [egg-swagger-doc] register router: get /api/v1/getAllAds for controller-advertise-getAllAds 
-2021-01-26 13:27:01,850 INFO 7549 [egg-swagger-doc] register router: get /api/v1/getMyAds for controller-advertise-getMyAds 
-2021-01-26 13:27:01,850 INFO 7549 [egg-swagger-doc] register router: put /api/v1/addContacted for controller-advertise-addContacted 
-2021-01-26 13:27:01,851 INFO 7549 [egg-swagger-doc] register router: delete /api/v1/deleteMyAds for controller-advertise-deleteMyAds 
-2021-01-26 13:27:01,851 INFO 7549 [egg-swagger-doc] register router: get /api/v1/getAllContacted for controller-advertise-getAllContacted 
-2021-01-26 13:27:01,851 INFO 7549 [egg-swagger-doc] register router: delete /api/v1/deleteContacted for controller-advertise-deleteContacted 
-2021-01-26 13:27:01,851 INFO 7549 [egg-swagger-doc] register router: put /api/v1/create for controller-test-create 
-2021-01-26 13:27:01,851 INFO 7549 [egg-swagger-doc] register router: post /api/v1/update for controller-test-update 
-2021-01-26 13:27:01,851 INFO 7549 [egg-swagger-doc] register router: delete /api/v1/delete for controller-test-delete 
-2021-01-26 13:27:01,851 INFO 7549 [egg-swagger-doc] register router: get /api/v1/getInfo for controller-test-getInfo 
-2021-01-26 13:27:01,851 INFO 7549 [egg-swagger-doc] register router: put /api/v1/signUp for controller-user-signUp 
-2021-01-26 13:27:01,852 INFO 7549 [egg-swagger-doc] register router: put /api/v1/register for controller-user-register 
-2021-01-26 13:27:01,852 INFO 7549 [egg-swagger-doc] register router: get /api/v1/getUser for controller-user-getUser 
-2021-01-26 13:27:01,852 INFO 7549 [egg-swagger-doc] register router: get /api/v1/verifyEmail for controller-user-verifyEmail 
-2021-01-26 13:27:01,852 INFO 7549 [egg-swagger-doc] register router: post /api/v1/updateProfile for controller-user-updateProfile 
-2021-01-26 13:27:01,852 INFO 7549 [egg-swagger-doc] register router: post /api/v1/saveAvatar for controller-user-saveAvatar 
-2021-01-26 13:27:01,876 INFO 7549 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
-2021-01-26 13:27:03,305 INFO 7552 [egg-swagger-doc] register router: get /swagger-doc
-2021-01-26 13:27:03,324 INFO 7552 [egg-swagger-doc] register router: get /swagger-ui.html
-2021-01-26 13:27:03,324 INFO 7552 [egg-swagger-doc] register router: put /api/v1/postAd for controller-advertise-postAd 
-2021-01-26 13:27:03,324 INFO 7552 [egg-swagger-doc] register router: post /api/v1/updateAd for controller-advertise-updateAd 
-2021-01-26 13:27:03,325 INFO 7552 [egg-swagger-doc] register router: get /api/v1/getAllAds for controller-advertise-getAllAds 
-2021-01-26 13:27:03,325 INFO 7552 [egg-swagger-doc] register router: get /api/v1/getMyAds for controller-advertise-getMyAds 
-2021-01-26 13:27:03,325 INFO 7552 [egg-swagger-doc] register router: put /api/v1/addContacted for controller-advertise-addContacted 
-2021-01-26 13:27:03,325 INFO 7552 [egg-swagger-doc] register router: delete /api/v1/deleteMyAds for controller-advertise-deleteMyAds 
-2021-01-26 13:27:03,325 INFO 7552 [egg-swagger-doc] register router: get /api/v1/getAllContacted for controller-advertise-getAllContacted 
-2021-01-26 13:27:03,325 INFO 7552 [egg-swagger-doc] register router: delete /api/v1/deleteContacted for controller-advertise-deleteContacted 
-2021-01-26 13:27:03,325 INFO 7552 [egg-swagger-doc] register router: put /api/v1/create for controller-test-create 
-2021-01-26 13:27:03,326 INFO 7552 [egg-swagger-doc] register router: post /api/v1/update for controller-test-update 
-2021-01-26 13:27:03,326 INFO 7552 [egg-swagger-doc] register router: delete /api/v1/delete for controller-test-delete 
-2021-01-26 13:27:03,326 INFO 7552 [egg-swagger-doc] register router: get /api/v1/getInfo for controller-test-getInfo 
-2021-01-26 13:27:03,326 INFO 7552 [egg-swagger-doc] register router: put /api/v1/signUp for controller-user-signUp 
-2021-01-26 13:27:03,326 INFO 7552 [egg-swagger-doc] register router: put /api/v1/register for controller-user-register 
-2021-01-26 13:27:03,326 INFO 7552 [egg-swagger-doc] register router: get /api/v1/getUser for controller-user-getUser 
-2021-01-26 13:27:03,326 INFO 7552 [egg-swagger-doc] register router: get /api/v1/verifyEmail for controller-user-verifyEmail 
-2021-01-26 13:27:03,326 INFO 7552 [egg-swagger-doc] register router: post /api/v1/updateProfile for controller-user-updateProfile 
-2021-01-26 13:27:03,326 INFO 7552 [egg-swagger-doc] register router: post /api/v1/saveAvatar for controller-user-saveAvatar 
-2021-01-26 13:27:02,890 INFO 7551 [egg-swagger-doc] register router: get /swagger-doc
-2021-01-26 13:27:02,910 INFO 7551 [egg-swagger-doc] register router: get /swagger-ui.html
-2021-01-26 13:27:02,911 INFO 7551 [egg-swagger-doc] register router: put /api/v1/postAd for controller-advertise-postAd 
-2021-01-26 13:27:02,911 INFO 7551 [egg-swagger-doc] register router: post /api/v1/updateAd for controller-advertise-updateAd 
-2021-01-26 13:27:02,912 INFO 7551 [egg-swagger-doc] register router: get /api/v1/getAllAds for controller-advertise-getAllAds 
-2021-01-26 13:27:02,912 INFO 7551 [egg-swagger-doc] register router: get /api/v1/getMyAds for controller-advertise-getMyAds 
-2021-01-26 13:27:02,912 INFO 7551 [egg-swagger-doc] register router: put /api/v1/addContacted for controller-advertise-addContacted 
-2021-01-26 13:27:02,913 INFO 7551 [egg-swagger-doc] register router: delete /api/v1/deleteMyAds for controller-advertise-deleteMyAds 
-2021-01-26 13:27:02,913 INFO 7551 [egg-swagger-doc] register router: get /api/v1/getAllContacted for controller-advertise-getAllContacted 
-2021-01-26 13:27:02,913 INFO 7551 [egg-swagger-doc] register router: delete /api/v1/deleteContacted for controller-advertise-deleteContacted 
-2021-01-26 13:27:02,913 INFO 7551 [egg-swagger-doc] register router: put /api/v1/create for controller-test-create 
-2021-01-26 13:27:02,913 INFO 7551 [egg-swagger-doc] register router: post /api/v1/update for controller-test-update 
-2021-01-26 13:27:02,914 INFO 7551 [egg-swagger-doc] register router: delete /api/v1/delete for controller-test-delete 
-2021-01-26 13:27:02,914 INFO 7551 [egg-swagger-doc] register router: get /api/v1/getInfo for controller-test-getInfo 
-2021-01-26 13:27:02,914 INFO 7551 [egg-swagger-doc] register router: put /api/v1/signUp for controller-user-signUp 
-2021-01-26 13:27:02,914 INFO 7551 [egg-swagger-doc] register router: put /api/v1/register for controller-user-register 
-2021-01-26 13:27:02,914 INFO 7551 [egg-swagger-doc] register router: get /api/v1/getUser for controller-user-getUser 
-2021-01-26 13:27:02,914 INFO 7551 [egg-swagger-doc] register router: get /api/v1/verifyEmail for controller-user-verifyEmail 
-2021-01-26 13:27:02,915 INFO 7551 [egg-swagger-doc] register router: post /api/v1/updateProfile for controller-user-updateProfile 
-2021-01-26 13:27:02,915 INFO 7551 [egg-swagger-doc] register router: post /api/v1/saveAvatar for controller-user-saveAvatar 
-2021-01-26 13:27:02,945 INFO 7551 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
-2021-01-26 13:27:04,031 INFO 7556 [egg-swagger-doc] register router: get /swagger-doc
-2021-01-26 13:27:04,053 INFO 7556 [egg-swagger-doc] register router: get /swagger-ui.html
-2021-01-26 13:27:04,053 INFO 7556 [egg-swagger-doc] register router: put /api/v1/postAd for controller-advertise-postAd 
-2021-01-26 13:27:04,053 INFO 7556 [egg-swagger-doc] register router: post /api/v1/updateAd for controller-advertise-updateAd 
-2021-01-26 13:27:04,053 INFO 7556 [egg-swagger-doc] register router: get /api/v1/getAllAds for controller-advertise-getAllAds 
-2021-01-26 13:27:04,053 INFO 7556 [egg-swagger-doc] register router: get /api/v1/getMyAds for controller-advertise-getMyAds 
-2021-01-26 13:27:04,054 INFO 7556 [egg-swagger-doc] register router: put /api/v1/addContacted for controller-advertise-addContacted 
-2021-01-26 13:27:04,054 INFO 7556 [egg-swagger-doc] register router: delete /api/v1/deleteMyAds for controller-advertise-deleteMyAds 
-2021-01-26 13:27:04,054 INFO 7556 [egg-swagger-doc] register router: get /api/v1/getAllContacted for controller-advertise-getAllContacted 
-2021-01-26 13:27:04,055 INFO 7556 [egg-swagger-doc] register router: delete /api/v1/deleteContacted for controller-advertise-deleteContacted 
-2021-01-26 13:27:04,055 INFO 7556 [egg-swagger-doc] register router: put /api/v1/create for controller-test-create 
-2021-01-26 13:27:04,055 INFO 7556 [egg-swagger-doc] register router: post /api/v1/update for controller-test-update 
-2021-01-26 13:27:04,055 INFO 7556 [egg-swagger-doc] register router: delete /api/v1/delete for controller-test-delete 
-2021-01-26 13:27:04,055 INFO 7556 [egg-swagger-doc] register router: get /api/v1/getInfo for controller-test-getInfo 
-2021-01-26 13:27:04,056 INFO 7556 [egg-swagger-doc] register router: put /api/v1/signUp for controller-user-signUp 
-2021-01-26 13:27:04,056 INFO 7556 [egg-swagger-doc] register router: put /api/v1/register for controller-user-register 
-2021-01-26 13:27:04,056 INFO 7556 [egg-swagger-doc] register router: get /api/v1/getUser for controller-user-getUser 
-2021-01-26 13:27:04,057 INFO 7556 [egg-swagger-doc] register router: get /api/v1/verifyEmail for controller-user-verifyEmail 
-2021-01-26 13:27:04,057 INFO 7556 [egg-swagger-doc] register router: post /api/v1/updateProfile for controller-user-updateProfile 
-2021-01-26 13:27:04,058 INFO 7556 [egg-swagger-doc] register router: post /api/v1/saveAvatar for controller-user-saveAvatar 
-2021-01-26 13:27:03,643 INFO 7555 [egg-swagger-doc] register router: get /swagger-doc
-2021-01-26 13:27:03,662 INFO 7555 [egg-swagger-doc] register router: get /swagger-ui.html
-2021-01-26 13:27:03,662 INFO 7555 [egg-swagger-doc] register router: put /api/v1/postAd for controller-advertise-postAd 
-2021-01-26 13:27:03,662 INFO 7555 [egg-swagger-doc] register router: post /api/v1/updateAd for controller-advertise-updateAd 
-2021-01-26 13:27:03,663 INFO 7555 [egg-swagger-doc] register router: get /api/v1/getAllAds for controller-advertise-getAllAds 
-2021-01-26 13:27:03,663 INFO 7555 [egg-swagger-doc] register router: get /api/v1/getMyAds for controller-advertise-getMyAds 
-2021-01-26 13:27:03,663 INFO 7555 [egg-swagger-doc] register router: put /api/v1/addContacted for controller-advertise-addContacted 
-2021-01-26 13:27:03,663 INFO 7555 [egg-swagger-doc] register router: delete /api/v1/deleteMyAds for controller-advertise-deleteMyAds 
-2021-01-26 13:27:03,663 INFO 7555 [egg-swagger-doc] register router: get /api/v1/getAllContacted for controller-advertise-getAllContacted 
-2021-01-26 13:27:03,670 INFO 7555 [egg-swagger-doc] register router: delete /api/v1/deleteContacted for controller-advertise-deleteContacted 
-2021-01-26 13:27:03,670 INFO 7555 [egg-swagger-doc] register router: put /api/v1/create for controller-test-create 
-2021-01-26 13:27:03,670 INFO 7555 [egg-swagger-doc] register router: post /api/v1/update for controller-test-update 
-2021-01-26 13:27:03,671 INFO 7555 [egg-swagger-doc] register router: delete /api/v1/delete for controller-test-delete 
-2021-01-26 13:27:03,671 INFO 7555 [egg-swagger-doc] register router: get /api/v1/getInfo for controller-test-getInfo 
-2021-01-26 13:27:03,671 INFO 7555 [egg-swagger-doc] register router: put /api/v1/signUp for controller-user-signUp 
-2021-01-26 13:27:03,671 INFO 7555 [egg-swagger-doc] register router: put /api/v1/register for controller-user-register 
-2021-01-26 13:27:03,671 INFO 7555 [egg-swagger-doc] register router: get /api/v1/getUser for controller-user-getUser 
-2021-01-26 13:27:03,671 INFO 7555 [egg-swagger-doc] register router: get /api/v1/verifyEmail for controller-user-verifyEmail 
-2021-01-26 13:27:03,671 INFO 7555 [egg-swagger-doc] register router: post /api/v1/updateProfile for controller-user-updateProfile 
-2021-01-26 13:27:03,671 INFO 7555 [egg-swagger-doc] register router: post /api/v1/saveAvatar for controller-user-saveAvatar 
-2021-01-26 13:27:03,700 INFO 7555 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
-2021-01-26 13:27:04,373 INFO 7557 [egg-swagger-doc] register router: get /swagger-doc
-2021-01-26 13:27:04,392 INFO 7557 [egg-swagger-doc] register router: get /swagger-ui.html
-2021-01-26 13:27:04,392 INFO 7557 [egg-swagger-doc] register router: put /api/v1/postAd for controller-advertise-postAd 
-2021-01-26 13:27:04,393 INFO 7557 [egg-swagger-doc] register router: post /api/v1/updateAd for controller-advertise-updateAd 
-2021-01-26 13:27:04,393 INFO 7557 [egg-swagger-doc] register router: get /api/v1/getAllAds for controller-advertise-getAllAds 
-2021-01-26 13:27:04,393 INFO 7557 [egg-swagger-doc] register router: get /api/v1/getMyAds for controller-advertise-getMyAds 
-2021-01-26 13:27:04,393 INFO 7557 [egg-swagger-doc] register router: put /api/v1/addContacted for controller-advertise-addContacted 
-2021-01-26 13:27:04,393 INFO 7557 [egg-swagger-doc] register router: delete /api/v1/deleteMyAds for controller-advertise-deleteMyAds 
-2021-01-26 13:27:04,393 INFO 7557 [egg-swagger-doc] register router: get /api/v1/getAllContacted for controller-advertise-getAllContacted 
-2021-01-26 13:27:04,393 INFO 7557 [egg-swagger-doc] register router: delete /api/v1/deleteContacted for controller-advertise-deleteContacted 
-2021-01-26 13:27:04,393 INFO 7557 [egg-swagger-doc] register router: put /api/v1/create for controller-test-create 
-2021-01-26 13:27:04,394 INFO 7557 [egg-swagger-doc] register router: post /api/v1/update for controller-test-update 
-2021-01-26 13:27:04,394 INFO 7557 [egg-swagger-doc] register router: delete /api/v1/delete for controller-test-delete 
-2021-01-26 13:27:04,395 INFO 7557 [egg-swagger-doc] register router: get /api/v1/getInfo for controller-test-getInfo 
-2021-01-26 13:27:04,395 INFO 7557 [egg-swagger-doc] register router: put /api/v1/signUp for controller-user-signUp 
-2021-01-26 13:27:04,395 INFO 7557 [egg-swagger-doc] register router: put /api/v1/register for controller-user-register 
-2021-01-26 13:27:04,395 INFO 7557 [egg-swagger-doc] register router: get /api/v1/getUser for controller-user-getUser 
-2021-01-26 13:27:04,395 INFO 7557 [egg-swagger-doc] register router: get /api/v1/verifyEmail for controller-user-verifyEmail 
-2021-01-26 13:27:04,395 INFO 7557 [egg-swagger-doc] register router: post /api/v1/updateProfile for controller-user-updateProfile 
-2021-01-26 13:27:04,395 INFO 7557 [egg-swagger-doc] register router: post /api/v1/saveAvatar for controller-user-saveAvatar 
-2021-01-26 13:27:04,691 INFO 7558 [egg-swagger-doc] register router: get /swagger-doc
-2021-01-26 13:27:04,711 INFO 7558 [egg-swagger-doc] register router: get /swagger-ui.html
-2021-01-26 13:27:04,712 INFO 7558 [egg-swagger-doc] register router: put /api/v1/postAd for controller-advertise-postAd 
-2021-01-26 13:27:04,712 INFO 7558 [egg-swagger-doc] register router: post /api/v1/updateAd for controller-advertise-updateAd 
-2021-01-26 13:27:04,712 INFO 7558 [egg-swagger-doc] register router: get /api/v1/getAllAds for controller-advertise-getAllAds 
-2021-01-26 13:27:04,712 INFO 7558 [egg-swagger-doc] register router: get /api/v1/getMyAds for controller-advertise-getMyAds 
-2021-01-26 13:27:04,712 INFO 7558 [egg-swagger-doc] register router: put /api/v1/addContacted for controller-advertise-addContacted 
-2021-01-26 13:27:04,712 INFO 7558 [egg-swagger-doc] register router: delete /api/v1/deleteMyAds for controller-advertise-deleteMyAds 
-2021-01-26 13:27:04,712 INFO 7558 [egg-swagger-doc] register router: get /api/v1/getAllContacted for controller-advertise-getAllContacted 
-2021-01-26 13:27:04,719 INFO 7558 [egg-swagger-doc] register router: delete /api/v1/deleteContacted for controller-advertise-deleteContacted 
-2021-01-26 13:27:04,719 INFO 7558 [egg-swagger-doc] register router: put /api/v1/create for controller-test-create 
-2021-01-26 13:27:04,719 INFO 7558 [egg-swagger-doc] register router: post /api/v1/update for controller-test-update 
-2021-01-26 13:27:04,720 INFO 7558 [egg-swagger-doc] register router: delete /api/v1/delete for controller-test-delete 
-2021-01-26 13:27:04,720 INFO 7558 [egg-swagger-doc] register router: get /api/v1/getInfo for controller-test-getInfo 
-2021-01-26 13:27:04,720 INFO 7558 [egg-swagger-doc] register router: put /api/v1/signUp for controller-user-signUp 
-2021-01-26 13:27:04,720 INFO 7558 [egg-swagger-doc] register router: put /api/v1/register for controller-user-register 
-2021-01-26 13:27:04,720 INFO 7558 [egg-swagger-doc] register router: get /api/v1/getUser for controller-user-getUser 
-2021-01-26 13:27:04,720 INFO 7558 [egg-swagger-doc] register router: get /api/v1/verifyEmail for controller-user-verifyEmail 
-2021-01-26 13:27:04,720 INFO 7558 [egg-swagger-doc] register router: post /api/v1/updateProfile for controller-user-updateProfile 
-2021-01-26 13:27:04,720 INFO 7558 [egg-swagger-doc] register router: post /api/v1/saveAvatar for controller-user-saveAvatar 
-2021-01-26 13:27:04,744 INFO 7558 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
-2021-01-26 13:27:05,030 INFO 7559 [egg-swagger-doc] register router: get /swagger-doc
-2021-01-26 13:27:05,050 INFO 7559 [egg-swagger-doc] register router: get /swagger-ui.html
-2021-01-26 13:27:05,050 INFO 7559 [egg-swagger-doc] register router: put /api/v1/postAd for controller-advertise-postAd 
-2021-01-26 13:27:05,050 INFO 7559 [egg-swagger-doc] register router: post /api/v1/updateAd for controller-advertise-updateAd 
-2021-01-26 13:27:05,050 INFO 7559 [egg-swagger-doc] register router: get /api/v1/getAllAds for controller-advertise-getAllAds 
-2021-01-26 13:27:05,051 INFO 7559 [egg-swagger-doc] register router: get /api/v1/getMyAds for controller-advertise-getMyAds 
-2021-01-26 13:27:05,051 INFO 7559 [egg-swagger-doc] register router: put /api/v1/addContacted for controller-advertise-addContacted 
-2021-01-26 13:27:05,051 INFO 7559 [egg-swagger-doc] register router: delete /api/v1/deleteMyAds for controller-advertise-deleteMyAds 
-2021-01-26 13:27:05,051 INFO 7559 [egg-swagger-doc] register router: get /api/v1/getAllContacted for controller-advertise-getAllContacted 
-2021-01-26 13:27:05,053 INFO 7559 [egg-swagger-doc] register router: delete /api/v1/deleteContacted for controller-advertise-deleteContacted 
-2021-01-26 13:27:05,053 INFO 7559 [egg-swagger-doc] register router: put /api/v1/create for controller-test-create 
-2021-01-26 13:27:05,053 INFO 7559 [egg-swagger-doc] register router: post /api/v1/update for controller-test-update 
-2021-01-26 13:27:05,053 INFO 7559 [egg-swagger-doc] register router: delete /api/v1/delete for controller-test-delete 
-2021-01-26 13:27:05,053 INFO 7559 [egg-swagger-doc] register router: get /api/v1/getInfo for controller-test-getInfo 
-2021-01-26 13:27:05,054 INFO 7559 [egg-swagger-doc] register router: put /api/v1/signUp for controller-user-signUp 
-2021-01-26 13:27:05,054 INFO 7559 [egg-swagger-doc] register router: put /api/v1/register for controller-user-register 
-2021-01-26 13:27:05,054 INFO 7559 [egg-swagger-doc] register router: get /api/v1/getUser for controller-user-getUser 
-2021-01-26 13:27:05,054 INFO 7559 [egg-swagger-doc] register router: get /api/v1/verifyEmail for controller-user-verifyEmail 
-2021-01-26 13:27:05,054 INFO 7559 [egg-swagger-doc] register router: post /api/v1/updateProfile for controller-user-updateProfile 
-2021-01-26 13:27:05,054 INFO 7559 [egg-swagger-doc] register router: post /api/v1/saveAvatar for controller-user-saveAvatar 
-2021-01-26 13:27:05,078 INFO 7559 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
-2021-01-26 13:27:18,730 INFO 7559 [egg-sequelize](1ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test` WHERE `Test`.`id` = '6';
-2021-01-26 13:27:54,603 INFO 7603 [egg-swagger-doc] register router: get /swagger-doc
-2021-01-26 13:27:54,624 INFO 7603 [egg-swagger-doc] register router: get /swagger-ui.html
-2021-01-26 13:27:54,625 INFO 7603 [egg-swagger-doc] register router: put /api/v1/postAd for controller-advertise-postAd 
-2021-01-26 13:27:54,625 INFO 7603 [egg-swagger-doc] register router: post /api/v1/updateAd for controller-advertise-updateAd 
-2021-01-26 13:27:54,626 INFO 7603 [egg-swagger-doc] register router: get /api/v1/getAllAds for controller-advertise-getAllAds 
-2021-01-26 13:27:54,626 INFO 7603 [egg-swagger-doc] register router: get /api/v1/getMyAds for controller-advertise-getMyAds 
-2021-01-26 13:27:54,626 INFO 7603 [egg-swagger-doc] register router: put /api/v1/addContacted for controller-advertise-addContacted 
-2021-01-26 13:27:54,626 INFO 7603 [egg-swagger-doc] register router: delete /api/v1/deleteMyAds for controller-advertise-deleteMyAds 
-2021-01-26 13:27:54,626 INFO 7603 [egg-swagger-doc] register router: get /api/v1/getAllContacted for controller-advertise-getAllContacted 
-2021-01-26 13:27:54,626 INFO 7603 [egg-swagger-doc] register router: delete /api/v1/deleteContacted for controller-advertise-deleteContacted 
-2021-01-26 13:27:54,626 INFO 7603 [egg-swagger-doc] register router: put /api/v1/create for controller-test-create 
-2021-01-26 13:27:54,626 INFO 7603 [egg-swagger-doc] register router: post /api/v1/update for controller-test-update 
-2021-01-26 13:27:54,627 INFO 7603 [egg-swagger-doc] register router: delete /api/v1/delete for controller-test-delete 
-2021-01-26 13:27:54,627 INFO 7603 [egg-swagger-doc] register router: get /api/v1/getInfo for controller-test-getInfo 
-2021-01-26 13:27:54,627 INFO 7603 [egg-swagger-doc] register router: put /api/v1/signUp for controller-user-signUp 
-2021-01-26 13:27:54,627 INFO 7603 [egg-swagger-doc] register router: put /api/v1/register for controller-user-register 
-2021-01-26 13:27:54,627 INFO 7603 [egg-swagger-doc] register router: get /api/v1/getUser for controller-user-getUser 
-2021-01-26 13:27:54,627 INFO 7603 [egg-swagger-doc] register router: get /api/v1/verifyEmail for controller-user-verifyEmail 
-2021-01-26 13:27:54,627 INFO 7603 [egg-swagger-doc] register router: post /api/v1/updateProfile for controller-user-updateProfile 
-2021-01-26 13:27:54,628 INFO 7603 [egg-swagger-doc] register router: post /api/v1/saveAvatar for controller-user-saveAvatar 
-2021-01-26 13:27:54,652 INFO 7603 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
-2021-01-26 13:27:55,357 INFO 7604 [egg-swagger-doc] register router: get /swagger-doc
-2021-01-26 13:27:55,379 INFO 7604 [egg-swagger-doc] register router: get /swagger-ui.html
-2021-01-26 13:27:55,379 INFO 7604 [egg-swagger-doc] register router: put /api/v1/postAd for controller-advertise-postAd 
-2021-01-26 13:27:55,379 INFO 7604 [egg-swagger-doc] register router: post /api/v1/updateAd for controller-advertise-updateAd 
-2021-01-26 13:27:55,379 INFO 7604 [egg-swagger-doc] register router: get /api/v1/getAllAds for controller-advertise-getAllAds 
-2021-01-26 13:27:55,380 INFO 7604 [egg-swagger-doc] register router: get /api/v1/getMyAds for controller-advertise-getMyAds 
-2021-01-26 13:27:55,380 INFO 7604 [egg-swagger-doc] register router: put /api/v1/addContacted for controller-advertise-addContacted 
-2021-01-26 13:27:55,380 INFO 7604 [egg-swagger-doc] register router: delete /api/v1/deleteMyAds for controller-advertise-deleteMyAds 
-2021-01-26 13:27:55,380 INFO 7604 [egg-swagger-doc] register router: get /api/v1/getAllContacted for controller-advertise-getAllContacted 
-2021-01-26 13:27:55,383 INFO 7604 [egg-swagger-doc] register router: delete /api/v1/deleteContacted for controller-advertise-deleteContacted 
-2021-01-26 13:27:55,383 INFO 7604 [egg-swagger-doc] register router: put /api/v1/create for controller-test-create 
-2021-01-26 13:27:55,383 INFO 7604 [egg-swagger-doc] register router: post /api/v1/update for controller-test-update 
-2021-01-26 13:27:55,384 INFO 7604 [egg-swagger-doc] register router: delete /api/v1/delete for controller-test-delete 
-2021-01-26 13:27:55,384 INFO 7604 [egg-swagger-doc] register router: get /api/v1/getInfo for controller-test-getInfo 
-2021-01-26 13:27:55,384 INFO 7604 [egg-swagger-doc] register router: put /api/v1/signUp for controller-user-signUp 
-2021-01-26 13:27:55,384 INFO 7604 [egg-swagger-doc] register router: put /api/v1/register for controller-user-register 
-2021-01-26 13:27:55,385 INFO 7604 [egg-swagger-doc] register router: get /api/v1/getUser for controller-user-getUser 
-2021-01-26 13:27:55,385 INFO 7604 [egg-swagger-doc] register router: get /api/v1/verifyEmail for controller-user-verifyEmail 
-2021-01-26 13:27:55,386 INFO 7604 [egg-swagger-doc] register router: post /api/v1/updateProfile for controller-user-updateProfile 
-2021-01-26 13:27:55,386 INFO 7604 [egg-swagger-doc] register router: post /api/v1/saveAvatar for controller-user-saveAvatar 
-2021-01-26 13:27:55,415 INFO 7604 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
-2021-01-26 13:27:56,138 INFO 7605 [egg-swagger-doc] register router: get /swagger-doc
-2021-01-26 13:27:56,161 INFO 7605 [egg-swagger-doc] register router: get /swagger-ui.html
-2021-01-26 13:27:56,161 INFO 7605 [egg-swagger-doc] register router: put /api/v1/postAd for controller-advertise-postAd 
-2021-01-26 13:27:56,161 INFO 7605 [egg-swagger-doc] register router: post /api/v1/updateAd for controller-advertise-updateAd 
-2021-01-26 13:27:56,162 INFO 7605 [egg-swagger-doc] register router: get /api/v1/getAllAds for controller-advertise-getAllAds 
-2021-01-26 13:27:56,162 INFO 7605 [egg-swagger-doc] register router: get /api/v1/getMyAds for controller-advertise-getMyAds 
-2021-01-26 13:27:56,162 INFO 7605 [egg-swagger-doc] register router: put /api/v1/addContacted for controller-advertise-addContacted 
-2021-01-26 13:27:56,162 INFO 7605 [egg-swagger-doc] register router: delete /api/v1/deleteMyAds for controller-advertise-deleteMyAds 
-2021-01-26 13:27:56,162 INFO 7605 [egg-swagger-doc] register router: get /api/v1/getAllContacted for controller-advertise-getAllContacted 
-2021-01-26 13:27:56,167 INFO 7605 [egg-swagger-doc] register router: delete /api/v1/deleteContacted for controller-advertise-deleteContacted 
-2021-01-26 13:27:56,167 INFO 7605 [egg-swagger-doc] register router: put /api/v1/create for controller-test-create 
-2021-01-26 13:27:56,168 INFO 7605 [egg-swagger-doc] register router: post /api/v1/update for controller-test-update 
-2021-01-26 13:27:56,168 INFO 7605 [egg-swagger-doc] register router: delete /api/v1/delete for controller-test-delete 
-2021-01-26 13:27:56,168 INFO 7605 [egg-swagger-doc] register router: get /api/v1/getInfo for controller-test-getInfo 
-2021-01-26 13:27:56,168 INFO 7605 [egg-swagger-doc] register router: put /api/v1/signUp for controller-user-signUp 
-2021-01-26 13:27:56,168 INFO 7605 [egg-swagger-doc] register router: put /api/v1/register for controller-user-register 
-2021-01-26 13:27:56,168 INFO 7605 [egg-swagger-doc] register router: get /api/v1/getUser for controller-user-getUser 
-2021-01-26 13:27:56,168 INFO 7605 [egg-swagger-doc] register router: get /api/v1/verifyEmail for controller-user-verifyEmail 
-2021-01-26 13:27:56,169 INFO 7605 [egg-swagger-doc] register router: post /api/v1/updateProfile for controller-user-updateProfile 
-2021-01-26 13:27:56,169 INFO 7605 [egg-swagger-doc] register router: post /api/v1/saveAvatar for controller-user-saveAvatar 
-2021-01-26 13:27:56,198 INFO 7605 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
-2021-01-26 13:27:59,292 INFO 7605 [egg-sequelize](1ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test` WHERE `Test`.`id` = 6;
-2021-01-26 13:28:00,594 INFO 7605 [egg-sequelize](0ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test` WHERE `Test`.`id` = 6;
-2021-01-26 13:28:11,576 INFO 7605 [egg-sequelize](0ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test` WHERE `Test`.`id` = 6;
-2021-01-26 13:28:32,925 INFO 7638 [egg-swagger-doc] register router: get /swagger-doc
-2021-01-26 13:28:32,948 INFO 7638 [egg-swagger-doc] register router: get /swagger-ui.html
-2021-01-26 13:28:32,948 INFO 7638 [egg-swagger-doc] register router: put /api/v1/postAd for controller-advertise-postAd 
-2021-01-26 13:28:32,948 INFO 7638 [egg-swagger-doc] register router: post /api/v1/updateAd for controller-advertise-updateAd 
-2021-01-26 13:28:32,948 INFO 7638 [egg-swagger-doc] register router: get /api/v1/getAllAds for controller-advertise-getAllAds 
-2021-01-26 13:28:32,949 INFO 7638 [egg-swagger-doc] register router: get /api/v1/getMyAds for controller-advertise-getMyAds 
-2021-01-26 13:28:32,949 INFO 7638 [egg-swagger-doc] register router: put /api/v1/addContacted for controller-advertise-addContacted 
-2021-01-26 13:28:32,949 INFO 7638 [egg-swagger-doc] register router: delete /api/v1/deleteMyAds for controller-advertise-deleteMyAds 
-2021-01-26 13:28:32,949 INFO 7638 [egg-swagger-doc] register router: get /api/v1/getAllContacted for controller-advertise-getAllContacted 
-2021-01-26 13:28:32,957 INFO 7638 [egg-swagger-doc] register router: delete /api/v1/deleteContacted for controller-advertise-deleteContacted 
-2021-01-26 13:28:32,957 INFO 7638 [egg-swagger-doc] register router: put /api/v1/create for controller-test-create 
-2021-01-26 13:28:32,957 INFO 7638 [egg-swagger-doc] register router: post /api/v1/update for controller-test-update 
-2021-01-26 13:28:32,957 INFO 7638 [egg-swagger-doc] register router: delete /api/v1/delete for controller-test-delete 
-2021-01-26 13:28:32,957 INFO 7638 [egg-swagger-doc] register router: get /api/v1/getInfo for controller-test-getInfo 
-2021-01-26 13:28:32,958 INFO 7638 [egg-swagger-doc] register router: put /api/v1/signUp for controller-user-signUp 
-2021-01-26 13:28:32,958 INFO 7638 [egg-swagger-doc] register router: put /api/v1/register for controller-user-register 
-2021-01-26 13:28:32,958 INFO 7638 [egg-swagger-doc] register router: get /api/v1/getUser for controller-user-getUser 
-2021-01-26 13:28:32,958 INFO 7638 [egg-swagger-doc] register router: get /api/v1/verifyEmail for controller-user-verifyEmail 
-2021-01-26 13:28:32,958 INFO 7638 [egg-swagger-doc] register router: post /api/v1/updateProfile for controller-user-updateProfile 
-2021-01-26 13:28:32,958 INFO 7638 [egg-swagger-doc] register router: post /api/v1/saveAvatar for controller-user-saveAvatar 
-2021-01-26 13:28:32,985 INFO 7638 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
-2021-01-26 13:28:33,694 INFO 7641 [egg-swagger-doc] register router: get /swagger-doc
-2021-01-26 13:28:33,714 INFO 7641 [egg-swagger-doc] register router: get /swagger-ui.html
-2021-01-26 13:28:33,714 INFO 7641 [egg-swagger-doc] register router: put /api/v1/postAd for controller-advertise-postAd 
-2021-01-26 13:28:33,714 INFO 7641 [egg-swagger-doc] register router: post /api/v1/updateAd for controller-advertise-updateAd 
-2021-01-26 13:28:33,714 INFO 7641 [egg-swagger-doc] register router: get /api/v1/getAllAds for controller-advertise-getAllAds 
-2021-01-26 13:28:33,715 INFO 7641 [egg-swagger-doc] register router: get /api/v1/getMyAds for controller-advertise-getMyAds 
-2021-01-26 13:28:33,715 INFO 7641 [egg-swagger-doc] register router: put /api/v1/addContacted for controller-advertise-addContacted 
-2021-01-26 13:28:33,715 INFO 7641 [egg-swagger-doc] register router: delete /api/v1/deleteMyAds for controller-advertise-deleteMyAds 
-2021-01-26 13:28:33,715 INFO 7641 [egg-swagger-doc] register router: get /api/v1/getAllContacted for controller-advertise-getAllContacted 
-2021-01-26 13:28:33,721 INFO 7641 [egg-swagger-doc] register router: delete /api/v1/deleteContacted for controller-advertise-deleteContacted 
-2021-01-26 13:28:33,721 INFO 7641 [egg-swagger-doc] register router: put /api/v1/create for controller-test-create 
-2021-01-26 13:28:33,721 INFO 7641 [egg-swagger-doc] register router: post /api/v1/update for controller-test-update 
-2021-01-26 13:28:33,721 INFO 7641 [egg-swagger-doc] register router: delete /api/v1/delete for controller-test-delete 
-2021-01-26 13:28:33,721 INFO 7641 [egg-swagger-doc] register router: get /api/v1/getInfo for controller-test-getInfo 
-2021-01-26 13:28:33,721 INFO 7641 [egg-swagger-doc] register router: put /api/v1/signUp for controller-user-signUp 
-2021-01-26 13:28:33,722 INFO 7641 [egg-swagger-doc] register router: put /api/v1/register for controller-user-register 
-2021-01-26 13:28:33,722 INFO 7641 [egg-swagger-doc] register router: get /api/v1/getUser for controller-user-getUser 
-2021-01-26 13:28:33,722 INFO 7641 [egg-swagger-doc] register router: get /api/v1/verifyEmail for controller-user-verifyEmail 
-2021-01-26 13:28:33,722 INFO 7641 [egg-swagger-doc] register router: post /api/v1/updateProfile for controller-user-updateProfile 
-2021-01-26 13:28:33,722 INFO 7641 [egg-swagger-doc] register router: post /api/v1/saveAvatar for controller-user-saveAvatar 
-2021-01-26 13:28:33,748 INFO 7641 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
-2021-01-26 13:28:46,271 INFO 7641 [egg-sequelize](1ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test` WHERE `Test`.`id` = 6;
-2021-01-26 13:38:04,720 INFO 8054 [egg-swagger-doc] register router: get /swagger-doc
-2021-01-26 13:38:04,743 INFO 8054 [egg-swagger-doc] register router: get /swagger-ui.html
-2021-01-26 13:38:04,744 INFO 8054 [egg-swagger-doc] register router: put /api/v1/postAd for controller-advertise-postAd 
-2021-01-26 13:38:04,744 INFO 8054 [egg-swagger-doc] register router: post /api/v1/updateAd for controller-advertise-updateAd 
-2021-01-26 13:38:04,744 INFO 8054 [egg-swagger-doc] register router: get /api/v1/getAllAds for controller-advertise-getAllAds 
-2021-01-26 13:38:04,744 INFO 8054 [egg-swagger-doc] register router: get /api/v1/getMyAds for controller-advertise-getMyAds 
-2021-01-26 13:38:04,744 INFO 8054 [egg-swagger-doc] register router: put /api/v1/addContacted for controller-advertise-addContacted 
-2021-01-26 13:38:04,744 INFO 8054 [egg-swagger-doc] register router: delete /api/v1/deleteMyAds for controller-advertise-deleteMyAds 
-2021-01-26 13:38:05,415 INFO 8054 [egg-swagger-doc] register router: get /api/v1/getAllContacted for controller-advertise-getAllContacted 
-2021-01-26 13:38:05,415 INFO 8054 [egg-swagger-doc] register router: delete /api/v1/deleteContacted for controller-advertise-deleteContacted 
-2021-01-26 13:38:05,415 INFO 8054 [egg-swagger-doc] register router: put /api/v1/create for controller-test-create 
-2021-01-26 13:38:05,416 INFO 8054 [egg-swagger-doc] register router: post /api/v1/update for controller-test-update 
-2021-01-26 13:38:05,416 INFO 8054 [egg-swagger-doc] register router: delete /api/v1/delete for controller-test-delete 
-2021-01-26 13:38:05,416 INFO 8054 [egg-swagger-doc] register router: get /api/v1/getInfo for controller-test-getInfo 
-2021-01-26 13:38:05,416 INFO 8054 [egg-swagger-doc] register router: put /api/v1/signUp for controller-user-signUp 
-2021-01-26 13:38:05,416 INFO 8054 [egg-swagger-doc] register router: put /api/v1/register for controller-user-register 
-2021-01-26 13:38:05,416 INFO 8054 [egg-swagger-doc] register router: get /api/v1/getUser for controller-user-getUser 
-2021-01-26 13:38:05,416 INFO 8054 [egg-swagger-doc] register router: get /api/v1/verifyEmail for controller-user-verifyEmail 
-2021-01-26 13:38:05,416 INFO 8054 [egg-swagger-doc] register router: post /api/v1/updateProfile for controller-user-updateProfile 
-2021-01-26 13:38:05,416 INFO 8054 [egg-swagger-doc] register router: post /api/v1/saveAvatar for controller-user-saveAvatar 
-2021-01-26 13:38:05,439 INFO 8054 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
-2021-01-26 13:38:50,652 INFO 8107 [egg-swagger-doc] register router: get /swagger-doc
-2021-01-26 13:38:50,676 INFO 8107 [egg-swagger-doc] register router: get /swagger-ui.html
-2021-01-26 13:38:50,676 INFO 8107 [egg-swagger-doc] register router: put /api/v1/postAd for controller-advertise-postAd 
-2021-01-26 13:38:50,677 INFO 8107 [egg-swagger-doc] register router: post /api/v1/updateAd for controller-advertise-updateAd 
-2021-01-26 13:38:50,677 INFO 8107 [egg-swagger-doc] register router: get /api/v1/getAllAds for controller-advertise-getAllAds 
-2021-01-26 13:38:50,677 INFO 8107 [egg-swagger-doc] register router: get /api/v1/getMyAds for controller-advertise-getMyAds 
-2021-01-26 13:38:50,677 INFO 8107 [egg-swagger-doc] register router: put /api/v1/addContacted for controller-advertise-addContacted 
-2021-01-26 13:38:50,677 INFO 8107 [egg-swagger-doc] register router: delete /api/v1/deleteMyAds for controller-advertise-deleteMyAds 
-2021-01-26 13:38:50,677 INFO 8107 [egg-swagger-doc] register router: get /api/v1/getAllContacted for controller-advertise-getAllContacted 
-2021-01-26 13:38:50,677 INFO 8107 [egg-swagger-doc] register router: delete /api/v1/deleteContacted for controller-advertise-deleteContacted 
-2021-01-26 13:38:50,677 INFO 8107 [egg-swagger-doc] register router: put /api/v1/create for controller-test-create 
-2021-01-26 13:38:50,678 INFO 8107 [egg-swagger-doc] register router: post /api/v1/update for controller-test-update 
-2021-01-26 13:38:50,678 INFO 8107 [egg-swagger-doc] register router: delete /api/v1/delete for controller-test-delete 
-2021-01-26 13:38:50,678 INFO 8107 [egg-swagger-doc] register router: get /api/v1/getInfo for controller-test-getInfo 
-2021-01-26 13:38:50,678 INFO 8107 [egg-swagger-doc] register router: put /api/v1/signUp for controller-user-signUp 
-2021-01-26 13:38:50,678 INFO 8107 [egg-swagger-doc] register router: put /api/v1/register for controller-user-register 
-2021-01-26 13:38:50,678 INFO 8107 [egg-swagger-doc] register router: get /api/v1/getUser for controller-user-getUser 
-2021-01-26 13:38:50,678 INFO 8107 [egg-swagger-doc] register router: get /api/v1/verifyEmail for controller-user-verifyEmail 
-2021-01-26 13:38:50,678 INFO 8107 [egg-swagger-doc] register router: post /api/v1/updateProfile for controller-user-updateProfile 
-2021-01-26 13:38:50,678 INFO 8107 [egg-swagger-doc] register router: post /api/v1/saveAvatar for controller-user-saveAvatar 
-2021-01-26 13:38:50,703 INFO 8107 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
-2021-01-26 13:39:39,142 INFO 8159 [egg-swagger-doc] register router: get /swagger-doc
-2021-01-26 13:39:39,162 INFO 8159 [egg-swagger-doc] register router: get /swagger-ui.html
-2021-01-26 13:39:39,163 INFO 8159 [egg-swagger-doc] register router: put /api/v1/postAd for controller-advertise-postAd 
-2021-01-26 13:39:39,163 INFO 8159 [egg-swagger-doc] register router: post /api/v1/updateAd for controller-advertise-updateAd 
-2021-01-26 13:39:39,163 INFO 8159 [egg-swagger-doc] register router: get /api/v1/getAllAds for controller-advertise-getAllAds 
-2021-01-26 13:39:39,163 INFO 8159 [egg-swagger-doc] register router: get /api/v1/getMyAds for controller-advertise-getMyAds 
-2021-01-26 13:39:39,163 INFO 8159 [egg-swagger-doc] register router: put /api/v1/addContacted for controller-advertise-addContacted 
-2021-01-26 13:39:39,163 INFO 8159 [egg-swagger-doc] register router: delete /api/v1/deleteMyAds for controller-advertise-deleteMyAds 
-2021-01-26 13:39:39,164 INFO 8159 [egg-swagger-doc] register router: get /api/v1/getAllContacted for controller-advertise-getAllContacted 
-2021-01-26 13:39:39,164 INFO 8159 [egg-swagger-doc] register router: delete /api/v1/deleteContacted for controller-advertise-deleteContacted 
-2021-01-26 13:39:39,164 INFO 8159 [egg-swagger-doc] register router: put /api/v1/create for controller-test-create 
-2021-01-26 13:39:39,164 INFO 8159 [egg-swagger-doc] register router: post /api/v1/update for controller-test-update 
-2021-01-26 13:39:39,164 INFO 8159 [egg-swagger-doc] register router: delete /api/v1/delete for controller-test-delete 
-2021-01-26 13:39:39,164 INFO 8159 [egg-swagger-doc] register router: get /api/v1/getInfo for controller-test-getInfo 
-2021-01-26 13:39:39,164 INFO 8159 [egg-swagger-doc] register router: put /api/v1/signUp for controller-user-signUp 
-2021-01-26 13:39:39,164 INFO 8159 [egg-swagger-doc] register router: put /api/v1/register for controller-user-register 
-2021-01-26 13:39:39,164 INFO 8159 [egg-swagger-doc] register router: get /api/v1/getUser for controller-user-getUser 
-2021-01-26 13:39:39,165 INFO 8159 [egg-swagger-doc] register router: get /api/v1/verifyEmail for controller-user-verifyEmail 
-2021-01-26 13:39:39,165 INFO 8159 [egg-swagger-doc] register router: post /api/v1/updateProfile for controller-user-updateProfile 
-2021-01-26 13:39:39,165 INFO 8159 [egg-swagger-doc] register router: post /api/v1/saveAvatar for controller-user-saveAvatar 
-2021-01-26 13:39:39,192 INFO 8159 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
-2021-01-26 13:39:40,003 INFO 8161 [egg-swagger-doc] register router: get /swagger-doc
-2021-01-26 13:39:40,027 INFO 8161 [egg-swagger-doc] register router: get /swagger-ui.html
-2021-01-26 13:39:40,027 INFO 8161 [egg-swagger-doc] register router: put /api/v1/postAd for controller-advertise-postAd 
-2021-01-26 13:39:40,028 INFO 8161 [egg-swagger-doc] register router: post /api/v1/updateAd for controller-advertise-updateAd 
-2021-01-26 13:39:40,028 INFO 8161 [egg-swagger-doc] register router: get /api/v1/getAllAds for controller-advertise-getAllAds 
-2021-01-26 13:39:40,028 INFO 8161 [egg-swagger-doc] register router: get /api/v1/getMyAds for controller-advertise-getMyAds 
-2021-01-26 13:39:40,028 INFO 8161 [egg-swagger-doc] register router: put /api/v1/addContacted for controller-advertise-addContacted 
-2021-01-26 13:39:40,028 INFO 8161 [egg-swagger-doc] register router: delete /api/v1/deleteMyAds for controller-advertise-deleteMyAds 
-2021-01-26 13:39:40,028 INFO 8161 [egg-swagger-doc] register router: get /api/v1/getAllContacted for controller-advertise-getAllContacted 
-2021-01-26 13:39:40,028 INFO 8161 [egg-swagger-doc] register router: delete /api/v1/deleteContacted for controller-advertise-deleteContacted 
-2021-01-26 13:39:40,029 INFO 8161 [egg-swagger-doc] register router: put /api/v1/create for controller-test-create 
-2021-01-26 13:39:40,029 INFO 8161 [egg-swagger-doc] register router: post /api/v1/update for controller-test-update 
-2021-01-26 13:39:40,029 INFO 8161 [egg-swagger-doc] register router: delete /api/v1/delete for controller-test-delete 
-2021-01-26 13:39:40,029 INFO 8161 [egg-swagger-doc] register router: get /api/v1/getInfo for controller-test-getInfo 
-2021-01-26 13:39:40,029 INFO 8161 [egg-swagger-doc] register router: put /api/v1/signUp for controller-user-signUp 
-2021-01-26 13:39:40,029 INFO 8161 [egg-swagger-doc] register router: put /api/v1/register for controller-user-register 
-2021-01-26 13:39:40,029 INFO 8161 [egg-swagger-doc] register router: get /api/v1/getUser for controller-user-getUser 
-2021-01-26 13:39:40,029 INFO 8161 [egg-swagger-doc] register router: get /api/v1/verifyEmail for controller-user-verifyEmail 
-2021-01-26 13:39:40,030 INFO 8161 [egg-swagger-doc] register router: post /api/v1/updateProfile for controller-user-updateProfile 
-2021-01-26 13:39:40,030 INFO 8161 [egg-swagger-doc] register router: post /api/v1/saveAvatar for controller-user-saveAvatar 
-2021-01-26 13:39:40,066 INFO 8161 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
-2021-01-26 13:39:55,421 INFO 8185 [egg-swagger-doc] register router: get /swagger-doc
-2021-01-26 13:39:55,440 INFO 8185 [egg-swagger-doc] register router: get /swagger-ui.html
-2021-01-26 13:39:55,440 INFO 8185 [egg-swagger-doc] register router: put /api/v1/postAd for controller-advertise-postAd 
-2021-01-26 13:39:55,440 INFO 8185 [egg-swagger-doc] register router: post /api/v1/updateAd for controller-advertise-updateAd 
-2021-01-26 13:39:55,440 INFO 8185 [egg-swagger-doc] register router: get /api/v1/getAllAds for controller-advertise-getAllAds 
-2021-01-26 13:39:55,441 INFO 8185 [egg-swagger-doc] register router: get /api/v1/getMyAds for controller-advertise-getMyAds 
-2021-01-26 13:39:55,441 INFO 8185 [egg-swagger-doc] register router: put /api/v1/addContacted for controller-advertise-addContacted 
-2021-01-26 13:39:55,441 INFO 8185 [egg-swagger-doc] register router: delete /api/v1/deleteMyAds for controller-advertise-deleteMyAds 
-2021-01-26 13:39:55,441 INFO 8185 [egg-swagger-doc] register router: get /api/v1/getAllContacted for controller-advertise-getAllContacted 
-2021-01-26 13:39:55,441 INFO 8185 [egg-swagger-doc] register router: delete /api/v1/deleteContacted for controller-advertise-deleteContacted 
-2021-01-26 13:39:55,441 INFO 8185 [egg-swagger-doc] register router: put /api/v1/create for controller-test-create 
-2021-01-26 13:39:55,441 INFO 8185 [egg-swagger-doc] register router: post /api/v1/update for controller-test-update 
-2021-01-26 13:39:55,441 INFO 8185 [egg-swagger-doc] register router: delete /api/v1/delete for controller-test-delete 
-2021-01-26 13:39:55,441 INFO 8185 [egg-swagger-doc] register router: get /api/v1/getInfo for controller-test-getInfo 
-2021-01-26 13:39:55,441 INFO 8185 [egg-swagger-doc] register router: put /api/v1/signUp for controller-user-signUp 
-2021-01-26 13:39:55,441 INFO 8185 [egg-swagger-doc] register router: put /api/v1/register for controller-user-register 
-2021-01-26 13:39:55,442 INFO 8185 [egg-swagger-doc] register router: get /api/v1/getUser for controller-user-getUser 
-2021-01-26 13:39:55,442 INFO 8185 [egg-swagger-doc] register router: get /api/v1/verifyEmail for controller-user-verifyEmail 
-2021-01-26 13:39:55,442 INFO 8185 [egg-swagger-doc] register router: post /api/v1/updateProfile for controller-user-updateProfile 
-2021-01-26 13:39:55,442 INFO 8185 [egg-swagger-doc] register router: post /api/v1/saveAvatar for controller-user-saveAvatar 
-2021-01-26 13:39:55,466 INFO 8185 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
-2021-01-26 13:39:56,200 INFO 8186 [egg-swagger-doc] register router: get /swagger-doc
-2021-01-26 13:39:56,223 INFO 8186 [egg-swagger-doc] register router: get /swagger-ui.html
-2021-01-26 13:39:56,224 INFO 8186 [egg-swagger-doc] register router: put /api/v1/postAd for controller-advertise-postAd 
-2021-01-26 13:39:56,225 INFO 8186 [egg-swagger-doc] register router: post /api/v1/updateAd for controller-advertise-updateAd 
-2021-01-26 13:39:56,225 INFO 8186 [egg-swagger-doc] register router: get /api/v1/getAllAds for controller-advertise-getAllAds 
-2021-01-26 13:39:56,225 INFO 8186 [egg-swagger-doc] register router: get /api/v1/getMyAds for controller-advertise-getMyAds 
-2021-01-26 13:39:56,225 INFO 8186 [egg-swagger-doc] register router: put /api/v1/addContacted for controller-advertise-addContacted 
-2021-01-26 13:39:56,225 INFO 8186 [egg-swagger-doc] register router: delete /api/v1/deleteMyAds for controller-advertise-deleteMyAds 
-2021-01-26 13:39:56,225 INFO 8186 [egg-swagger-doc] register router: get /api/v1/getAllContacted for controller-advertise-getAllContacted 
-2021-01-26 13:39:56,225 INFO 8186 [egg-swagger-doc] register router: delete /api/v1/deleteContacted for controller-advertise-deleteContacted 
-2021-01-26 13:39:56,226 INFO 8186 [egg-swagger-doc] register router: put /api/v1/create for controller-test-create 
-2021-01-26 13:39:56,226 INFO 8186 [egg-swagger-doc] register router: post /api/v1/update for controller-test-update 
-2021-01-26 13:39:56,226 INFO 8186 [egg-swagger-doc] register router: delete /api/v1/delete for controller-test-delete 
-2021-01-26 13:39:56,226 INFO 8186 [egg-swagger-doc] register router: get /api/v1/getInfo for controller-test-getInfo 
-2021-01-26 13:39:56,226 INFO 8186 [egg-swagger-doc] register router: put /api/v1/signUp for controller-user-signUp 
-2021-01-26 13:39:56,227 INFO 8186 [egg-swagger-doc] register router: put /api/v1/register for controller-user-register 
-2021-01-26 13:39:56,227 INFO 8186 [egg-swagger-doc] register router: get /api/v1/getUser for controller-user-getUser 
-2021-01-26 13:39:56,227 INFO 8186 [egg-swagger-doc] register router: get /api/v1/verifyEmail for controller-user-verifyEmail 
-2021-01-26 13:39:56,228 INFO 8186 [egg-swagger-doc] register router: post /api/v1/updateProfile for controller-user-updateProfile 
-2021-01-26 13:39:56,228 INFO 8186 [egg-swagger-doc] register router: post /api/v1/saveAvatar for controller-user-saveAvatar 
-2021-01-26 13:39:56,265 INFO 8186 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
-2021-01-26 13:40:02,144 INFO 8186 [egg-sequelize](1ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test`;
-2021-01-26 14:05:40,576 INFO 8186 [egg-sequelize](1ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test`;
-2021-01-26 14:06:26,184 INFO 8186 [egg-sequelize](1ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test`;
-2021-01-26 14:07:42,796 INFO 8186 [egg-sequelize](1ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test`;
-2021-01-26 14:09:05,111 INFO 8186 [egg-sequelize](1ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test`;
-2021-01-26 14:09:14,584 INFO 8186 [egg-sequelize](1ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test`;
-2021-01-26 14:10:55,943 INFO 8186 [egg-sequelize](1ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test`;
-2021-01-26 14:11:29,474 INFO 8186 [egg-sequelize](1ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test`;
-2021-01-26 14:12:09,856 INFO 8186 [egg-sequelize](1ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test`;
-2021-01-26 14:12:13,372 INFO 8186 [egg-sequelize](1ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test`;
-2021-01-26 14:14:41,274 INFO 8186 [egg-sequelize](1ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test`;
-2021-01-26 14:14:42,177 INFO 8186 [egg-sequelize](1ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test`;
-2021-01-26 14:15:12,923 INFO 8186 [egg-sequelize](0ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test`;
-2021-01-26 14:15:56,391 INFO 8186 [egg-sequelize](0ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test`;
-2021-01-26 14:18:06,063 INFO 8186 [egg-sequelize](1ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test`;
-2021-01-26 14:18:49,050 INFO 8186 [egg-sequelize](0ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test`;
-2021-01-26 14:19:02,995 INFO 8186 [egg-sequelize](0ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test`;
-2021-01-26 14:19:12,084 INFO 8186 [egg-sequelize](1ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test`;
-2021-01-26 14:20:26,476 INFO 8186 [egg-sequelize](1ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test`;
-2021-01-26 14:21:08,905 INFO 8186 [egg-sequelize](1ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test`;
-2021-01-26 14:21:21,377 INFO 8186 [egg-sequelize](0ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test`;
-2021-01-26 14:21:53,373 INFO 8186 [egg-sequelize](1ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test`;
-2021-01-26 14:24:04,249 INFO 8186 [egg-sequelize](0ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test`;
-2021-01-26 14:26:48,599 INFO 8186 [egg-sequelize](1ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test`;
-2021-01-26 15:44:51,347 INFO 8186 [egg-sequelize](1ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test`;
-2021-01-26 15:45:00,380 INFO 8186 [egg-sequelize](1ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test`;
-2021-01-26 15:45:38,587 INFO 8186 [egg-sequelize](0ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test`;
-2021-01-26 15:46:09,957 INFO 8186 [egg-sequelize](0ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test`;
-2021-01-26 15:46:22,301 INFO 8186 [egg-sequelize](1ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test`;
-2021-01-26 15:46:33,121 INFO 8186 [egg-sequelize](1ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test`;
-2021-01-26 15:46:42,932 INFO 8186 [egg-sequelize](1ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test`;
-2021-01-26 15:47:08,379 INFO 8186 [egg-sequelize](0ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test`;
-2021-01-26 15:50:16,778 INFO 8186 [egg-sequelize](1ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test`;
-2021-01-26 15:51:07,023 INFO 8186 [egg-sequelize](1ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test`;
-2021-01-26 16:03:50,214 INFO 8186 [egg-sequelize](0ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test`;
-2021-01-26 16:04:13,052 INFO 8186 [egg-sequelize](0ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test`;
-2021-01-26 16:04:34,342 INFO 8186 [egg-sequelize](1ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test`;
-2021-01-26 16:05:13,151 INFO 8186 [egg-sequelize](0ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test`;
-2021-01-26 16:12:43,763 INFO 8186 [egg-sequelize](1ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test`;
-2021-01-26 16:13:24,899 INFO 8186 [egg-sequelize](1ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test`;
-2021-01-26 16:13:41,939 INFO 8186 [egg-sequelize](2ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test`;
-2021-01-26 16:13:51,621 INFO 8186 [egg-sequelize](2ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test`;
-2021-01-26 16:14:11,053 INFO 8186 [egg-sequelize](1ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test`;
-2021-01-26 16:15:12,848 INFO 8186 [egg-sequelize](1ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test`;
-2021-01-26 16:15:28,432 INFO 8186 [egg-sequelize](1ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test`;
-2021-01-26 16:15:32,400 INFO 8186 [egg-sequelize](1ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test`;
-2021-01-26 18:52:07,194 INFO 8186 [egg-sequelize](1ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test`;
-2021-01-26 18:52:57,608 INFO 8186 [egg-sequelize](0ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test`;
-2021-01-26 18:53:11,058 INFO 8186 [egg-sequelize](0ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test`;
-2021-01-26 18:53:38,288 INFO 8186 [egg-sequelize](0ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test`;
-2021-01-26 19:24:48,364 INFO 8186 [egg-sequelize](1ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test`;
-2021-01-26 19:24:51,368 INFO 8186 [egg-sequelize](1ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test`;
-2021-01-26 19:27:08,823 INFO 8186 [egg-sequelize](1ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test`;
-2021-01-26 19:27:14,396 INFO 8186 [egg-sequelize](1ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test`;
-2021-01-26 19:27:22,652 INFO 8186 [egg-sequelize](1ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test`;
-2021-01-26 19:27:27,516 INFO 8186 [egg-sequelize](1ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test`;
-2021-01-26 19:27:54,362 INFO 8186 [egg-sequelize](1ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test`;
-2021-01-26 19:28:05,326 INFO 8186 [egg-sequelize](0ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test`;
-2021-01-26 19:52:25,426 INFO 8186 [egg-sequelize](1ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test`;
-2021-01-26 20:15:17,288 INFO 8186 [egg-sequelize](0ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test`;
-2021-01-26 20:15:48,001 INFO 8186 [egg-sequelize](1ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test`;
-2021-01-26 20:16:52,210 INFO 8186 [egg-sequelize](1ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test`;
-2021-01-26 20:38:38,338 INFO 8186 [egg-sequelize](1ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test`;
-2021-01-26 20:40:13,436 INFO 8186 [egg-sequelize](1ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test`;
-2021-01-26 20:41:15,844 INFO 8186 [egg-sequelize](1ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test`;
-2021-01-26 20:49:53,742 INFO 8186 [egg-sequelize](1ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test`;
-2021-01-26 20:51:56,514 INFO 8186 [egg-sequelize](1ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test`;
-2021-01-26 20:52:18,010 INFO 8186 [egg-sequelize](1ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test`;
-2021-01-26 21:22:57,904 INFO 8186 [egg-sequelize](0ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test`;
-2021-01-26 21:23:09,055 INFO 8186 [egg-sequelize](1ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test`;
-2021-01-26 21:27:18,844 INFO 8186 [egg-sequelize](1ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test`;
-2021-01-26 21:37:59,083 INFO 8186 [egg-sequelize](1ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test`;
-2021-01-26 21:38:16,586 INFO 8186 [egg-sequelize](0ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test`;
-2021-01-26 21:44:32,751 INFO 8186 [egg-sequelize](1ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test`;
-2021-01-26 21:55:47,121 INFO 8186 [egg-sequelize](1ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test`;
-2021-01-26 21:56:26,971 INFO 8186 [egg-sequelize](6ms) Executed (default): INSERT INTO `Test` (`id`,`info`) VALUES (DEFAULT,?);
-2021-01-26 21:56:27,066 INFO 8186 [egg-sequelize](2ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test`;
-2021-01-26 21:57:49,409 INFO 8186 [egg-sequelize](1ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test`;
-2021-01-26 21:58:33,826 INFO 8186 [egg-sequelize](1ms) Executed (default): INSERT INTO `Test` (`id`,`info`) VALUES (DEFAULT,?);
-2021-01-26 21:58:33,853 INFO 8186 [egg-sequelize](2ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test`;
-2021-01-26 22:00:23,336 INFO 8186 [egg-sequelize](1ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test`;
-2021-01-26 22:01:04,058 INFO 8186 [egg-sequelize](5ms) Executed (default): UPDATE `Test` SET `info`=? WHERE `id` = ?
-2021-01-26 22:01:04,077 INFO 8186 [egg-sequelize](1ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test`;
-2021-01-26 22:02:23,640 INFO 8186 [egg-sequelize](1ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test` WHERE `Test`.`id` = 7;
-2021-01-26 22:02:23,643 INFO 8186 [egg-sequelize](2ms) Executed (default): DELETE FROM `Test` WHERE `id` = 7
-2021-01-26 22:02:23,666 INFO 8186 [egg-sequelize](2ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test`;
+2021-01-27 02:01:13,817 INFO 33383 [egg-sequelize](2ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = 'required' LIMIT 1;
+2021-01-27 02:01:13,829 INFO 33383 [egg-sequelize](7ms) Executed (default): INSERT INTO `User` (`user_id`,`uid`,`first_name`,`last_name`,`email`,`password`,`channel`,`created_time`,`updated_time`) VALUES (DEFAULT,?,?,?,?,?,?,?,?);
+2021-01-27 02:02:36,754 WARN 33383 [-/127.0.0.1/-/1ms PUT /api/v1/register] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa/lib/context.js:97:11)
+    at Object.validate (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-validate/app/extend/context.js:14:17)
+    at UserController.register (/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/controller/user.js:43:13)
+    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:45:18)
+    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/router.js:190:18
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":"required","field":"uid","code":"missing_field"}]
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 33383
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-27 02:02:52,891 WARN 33383 [-/127.0.0.1/-/0ms PUT /api/v1/register] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa/lib/context.js:97:11)
+    at Object.validate (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-validate/app/extend/context.js:14:17)
+    at UserController.register (/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/controller/user.js:43:13)
+    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:45:18)
+    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/router.js:190:18
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":"required","field":"uid","code":"missing_field"},{"message":"required","field":"channel","code":"missing_field"},{"message":"required","field":"first_name","code":"missing_field"},{"message":"required","field":"last_name","code":"missing_field"},{"message":"required","field":"email","code":"missing_field"},{"message":"required","field":"password","code":"missing_field"}]
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 33383
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-27 02:19:26,986 INFO 33383 [egg-sequelize](1ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = 'test1' LIMIT 1;
+2021-01-27 02:19:26,992 INFO 33383 [egg-sequelize](4ms) Executed (default): INSERT INTO `User` (`user_id`,`uid`,`first_name`,`last_name`,`email`,`channel`,`created_time`,`updated_time`) VALUES (DEFAULT,?,?,?,?,?,?,?);
+2021-01-27 02:20:14,369 INFO 33383 [egg-sequelize](2ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = 'test1' LIMIT 1;
+2021-01-27 02:38:11,142 INFO 33383 [egg-sequelize](1ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`email` = '123@gg.com' LIMIT 1;
+2021-01-27 02:39:39,364 INFO 33383 [egg-sequelize](1ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`email` = '12@gmail.com' LIMIT 1;
+2021-01-27 02:48:14,239 INFO 33383 [egg-sequelize](0ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = '0zCZbz2gV4MOLGQMVaSXrfWjxw03' LIMIT 1;
+2021-01-27 02:48:14,246 INFO 33383 [egg-sequelize](5ms) Executed (default): INSERT INTO `User` (`user_id`,`uid`,`first_name`,`last_name`,`channel`,`created_time`,`updated_time`) VALUES (DEFAULT,?,?,?,?,?,?);
+2021-01-27 02:48:14,701 INFO 33383 [egg-sequelize](1ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = '0zCZbz2gV4MOLGQMVaSXrfWjxw03' LIMIT 1;
+2021-01-27 02:48:14,712 INFO 33383 [egg-sequelize](2ms) Executed (default): SELECT count(DISTINCT(`ad_id`)) AS `count` FROM `Advertise` AS `Advertise`;
+2021-01-27 02:48:14,713 INFO 33383 [egg-sequelize](1ms) Executed (default): SELECT `ad_id`, `user_id`, `type`, `dog_breed`, `price`, `date`, `start_time`, `duration`, `description`, `region`, `district`, `created_time`, `updated_time` FROM `Advertise` AS `Advertise` ORDER BY `Advertise`.`updated_time` DESC LIMIT 0, 10;
+2021-01-27 03:01:52,052 INFO 33383 [egg-sequelize](1ms) Executed (default): UPDATE `User` SET `avatar`=?,`first_name`=?,`last_name`=?,`email`=?,`region`=?,`district`=?,`detail_address`=?,`password`=?,`gender`=? WHERE `uid` = ?
+2021-01-27 03:01:52,054 INFO 33383 [egg-sequelize](1ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = 'string' LIMIT 1;
+2021-01-27 03:03:01,102 INFO 33383 [egg-sequelize](4ms) Executed (default): UPDATE `User` SET `avatar`=?,`first_name`=?,`last_name`=?,`email`=?,`region`=?,`district`=?,`detail_address`=?,`password`=?,`gender`=? WHERE `uid` = ?
+2021-01-27 03:03:01,105 INFO 33383 [egg-sequelize](2ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = 'test1' LIMIT 1;
+2021-01-27 03:03:57,259 INFO 33383 [egg-sequelize](1ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = 'test1' LIMIT 1;
+2021-01-27 03:04:45,353 INFO 33383 [egg-sequelize](1ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = '0zCZbz2gV4MOLGQMVaSXrfWjxw03' LIMIT 1;
+2021-01-27 03:04:45,356 INFO 33383 [egg-sequelize](3ms) Executed (default): SELECT count(DISTINCT(`ad_id`)) AS `count` FROM `Advertise` AS `Advertise`;
+2021-01-27 03:04:45,357 INFO 33383 [egg-sequelize](3ms) Executed (default): SELECT `ad_id`, `user_id`, `type`, `dog_breed`, `price`, `date`, `start_time`, `duration`, `description`, `region`, `district`, `created_time`, `updated_time` FROM `Advertise` AS `Advertise` ORDER BY `Advertise`.`updated_time` DESC LIMIT 0, 10;
+2021-01-27 03:06:49,936 WARN 33383 [-/127.0.0.1/-/0ms POST /api/v1/updateProfile] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa/lib/context.js:97:11)
+    at Object.validate (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-validate/app/extend/context.js:14:17)
+    at UserController.updateProfile (/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/controller/user.js:89:13)
+    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:45:18)
+    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/router.js:190:18
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":"required","field":"uid","code":"missing_field"}]
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 33383
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-27 03:26:51,272 INFO 33383 [egg-sequelize](2ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = 'TOGwUn9CtbU3TZEeRf5w9M4TMkf1' LIMIT 1;
+2021-01-27 03:26:51,278 INFO 33383 [egg-sequelize](4ms) Executed (default): INSERT INTO `User` (`user_id`,`uid`,`first_name`,`last_name`,`channel`,`created_time`,`updated_time`) VALUES (DEFAULT,?,?,?,?,?,?);
+2021-01-27 03:26:51,696 INFO 33383 [egg-sequelize](3ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = 'TOGwUn9CtbU3TZEeRf5w9M4TMkf1' LIMIT 1;
+2021-01-27 03:26:51,725 INFO 33383 [egg-sequelize](3ms) Executed (default): SELECT count(DISTINCT(`ad_id`)) AS `count` FROM `Advertise` AS `Advertise`;
+2021-01-27 03:26:51,726 INFO 33383 [egg-sequelize](1ms) Executed (default): SELECT `ad_id`, `user_id`, `type`, `dog_breed`, `price`, `date`, `start_time`, `duration`, `description`, `region`, `district`, `created_time`, `updated_time` FROM `Advertise` AS `Advertise` ORDER BY `Advertise`.`updated_time` DESC LIMIT 0, 10;
+2021-01-27 03:49:58,165 INFO 33383 [egg-sequelize](2ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = 'TOGwUn9CtbU3TZEeRf5w9M4TMkf1' LIMIT 1;
+2021-01-27 03:49:58,189 INFO 33383 [egg-sequelize](1ms) Executed (default): SELECT count(DISTINCT(`ad_id`)) AS `count` FROM `Advertise` AS `Advertise`;
+2021-01-27 03:49:58,190 INFO 33383 [egg-sequelize](1ms) Executed (default): SELECT `ad_id`, `user_id`, `type`, `dog_breed`, `price`, `date`, `start_time`, `duration`, `description`, `region`, `district`, `created_time`, `updated_time` FROM `Advertise` AS `Advertise` ORDER BY `Advertise`.`updated_time` DESC LIMIT 0, 10;
+2021-01-27 03:50:20,623 INFO 33383 [egg-sequelize](1ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = 'TXz5L1CA9aX0mnSOV268mfXpDtG2' LIMIT 1;
+2021-01-27 03:50:20,627 INFO 33383 [egg-sequelize](4ms) Executed (default): INSERT INTO `User` (`user_id`,`uid`,`first_name`,`last_name`,`email`,`channel`,`created_time`,`updated_time`) VALUES (DEFAULT,?,?,?,?,?,?,?);
+2021-01-27 03:50:20,982 INFO 33383 [egg-sequelize](3ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = 'TXz5L1CA9aX0mnSOV268mfXpDtG2' LIMIT 1;
+2021-01-27 03:50:20,983 INFO 33383 [egg-sequelize](1ms) Executed (default): SELECT count(DISTINCT(`ad_id`)) AS `count` FROM `Advertise` AS `Advertise`;
+2021-01-27 03:50:20,984 INFO 33383 [egg-sequelize](1ms) Executed (default): SELECT `ad_id`, `user_id`, `type`, `dog_breed`, `price`, `date`, `start_time`, `duration`, `description`, `region`, `district`, `created_time`, `updated_time` FROM `Advertise` AS `Advertise` ORDER BY `Advertise`.`updated_time` DESC LIMIT 0, 10;
+2021-01-27 04:44:49,291 INFO 33383 [egg-sequelize](3ms) Executed (default): SELECT count(DISTINCT(`ad_id`)) AS `count` FROM `Advertise` AS `Advertise`;
+2021-01-27 04:44:49,293 INFO 33383 [egg-sequelize](4ms) Executed (default): SELECT `ad_id`, `user_id`, `type`, `dog_breed`, `price`, `date`, `start_time`, `duration`, `description`, `region`, `district`, `created_time`, `updated_time` FROM `Advertise` AS `Advertise` ORDER BY `Advertise`.`updated_time` DESC LIMIT 0, 10;
+2021-01-27 04:44:49,297 INFO 33383 [egg-sequelize](5ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = 'TXz5L1CA9aX0mnSOV268mfXpDtG2' LIMIT 1;

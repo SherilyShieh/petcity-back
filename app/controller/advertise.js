@@ -154,43 +154,6 @@ class AdvertiseController extends Controller {
         ctx.body = result;
     }
 
-    async saveAvatar() {
-        const { ctx } = this;
-        const parts = ctx.multipart({ autoFields: true });
-        let files = {};
-        let stream;
-        while ((stream = await parts()) != null) {
-            if (!stream.filename) {
-                break;
-            }
-            const fieldname = stream.fieldname; // file表单的名字
-            const dir = await this.service.tools.getUploadFile(stream.filename);
-            const target = dir.uploadDir;
-            const writeStream = fs.createWriteStream(target);
-
-            await pump(stream, writeStream);
-
-            files = Object.assign(files, {
-                [fieldname]: dir.saveDir
-            });
-        }
-
-        if (Object.keys(files).length > 0) {
-            ctx.body = {
-                success: true,
-                code: 200,
-                errorMsg: 'Save avatar successful!',
-                data: files
-            }
-        } else {
-            ctx.body = {
-                success: false,
-                code: 500,
-                message: 'Save avatar failed!',
-                data: {}
-            }
-        }
-    }
 }
 
 module.exports = AdvertiseController;

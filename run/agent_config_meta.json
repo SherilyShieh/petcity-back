@@ -101,18 +101,6 @@
       "hostname": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg/config/config.default.js"
     }
   },
-  "redis": {
-    "client": {
-      "port": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/config/config.default.js",
-      "host": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/config/config.default.js",
-      "password": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/config/config.default.js",
-      "db": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/config/config.default.js"
-    },
-    "default": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-redis/config/config.default.js",
-    "app": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-redis/config/config.default.js",
-    "agent": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-redis/config/config.default.js",
-    "supportTimeCommand": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-redis/config/config.default.js"
-  },
   "swaggerdoc": {
     "dirScanner": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/config/config.default.js",
     "apiInfo": {

@@ -1,0 +1,34 @@
+2021-01-24 00:13:31,646 ERROR 47404 [-/127.0.0.1/-/0ms GET /] nodejs.SequelizeConnectionError: connect ETIMEDOUT
+    at ConnectionManager.connect (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:126:17)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async ConnectionManager._connect (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:318:24)
+    at async /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:250:32
+    at async ConnectionManager.getConnection (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:280:7)
+    at async /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/node_modules/sequelize/lib/sequelize.js:613:26
+    at async Sequelize.authenticate (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/node_modules/sequelize/lib/sequelize.js:867:5)
+    at async authenticate (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/lib/loader.js:134:7)
+    at async authenticate (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/lib/loader.js:142:7)
+    at async authenticate (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/lib/loader.js:142:7)
+name: "SequelizeConnectionError"
+parent: {"errorno":"ETIMEDOUT","code":"ETIMEDOUT","syscall":"connect","fatal":true}
+original: {"errorno":"ETIMEDOUT","code":"ETIMEDOUT","syscall":"connect","fatal":true}
+pid: 47404
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-24 00:14:15,889 ERROR 47450 [-/127.0.0.1/-/1ms GET /] nodejs.SequelizeConnectionError: connect ETIMEDOUT
+    at ConnectionManager.connect (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:126:17)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async ConnectionManager._connect (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:318:24)
+    at async /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:250:32
+    at async ConnectionManager.getConnection (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:280:7)
+    at async /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/node_modules/sequelize/lib/sequelize.js:613:26
+    at async Sequelize.authenticate (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/node_modules/sequelize/lib/sequelize.js:867:5)
+    at async authenticate (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/lib/loader.js:134:7)
+    at async authenticate (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/lib/loader.js:142:7)
+    at async authenticate (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-sequelize/lib/loader.js:142:7)
+name: "SequelizeConnectionError"
+parent: {"errorno":"ETIMEDOUT","code":"ETIMEDOUT","syscall":"connect","fatal":true}
+original: {"errorno":"ETIMEDOUT","code":"ETIMEDOUT","syscall":"connect","fatal":true}
+pid: 47450
+hostname: xiejialis-MacBook-Pro.local
+

@@ -116,10 +116,7 @@ class AdvertiseService extends Service {
                 code: 500,
                 errorMsg: `Query error: ${err}`,
                 data: {
-                    total_count: 0,
-                    page_index: index,
-                    page_size: pageSize,
-                    list: []
+                    msg: 'Update failed!'
                 }
             }
         }
@@ -302,13 +299,13 @@ class AdvertiseService extends Service {
                         data: {}
                     }
                 }
-                return {
-                    success: true,
-                    code: 200,
-                    errorMsg: 'No this data in database.',
-                    data: {}
-                }
 
+            }
+            return {
+                success: true,
+                code: 200,
+                errorMsg: 'No this data in database.',
+                data: {}
             }
         } catch (err) {
             return {

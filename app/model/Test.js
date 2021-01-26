@@ -3,23 +3,19 @@
 module.exports = app => {
     const DataTypes = app.Sequelize;
 
-    const Model = app.model.define('contacted', {
-        contacted_id: {
+    const Model = app.model.define('Test', {
+        id: {
             type: DataTypes.INTEGER.UNSIGNED,
             allowNull: false,
             primaryKey: true,
             autoIncrement: true
         },
-        user_id: {
-            type: DataTypes.INTEGER.UNSIGNED,
-            allowNull: true
-        },
-        ad_id: {
-            type: DataTypes.INTEGER.UNSIGNED,
+        info: {
+            type: DataTypes.TEXT,
             allowNull: true
         }
     }, {
-        tableName: 'contacted',
+        tableName: 'Test',
         timestamps: false,
         paranoid: true,
         freezeTableName: true,

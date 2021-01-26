@@ -27,36 +27,16 @@ module.exports = appInfo => {
     };
     config.uploadDir = 'app/public/upload';
     // database local
-    // config.sequelize = {
-    //     dialect: 'mysql',
-    //     dialectOptions: {
-    //         charset: 'utf8',
-    //     },
-    //     host: '127.0.0.1',
-    //     port: 3306,
-    //     database: 'petcity',
-    //     username: 'root',
-    //     password: 'root123456',
-    //     define: {
-    //         timestamps: false,
-    //         paranoid: true,
-    //         freezeTableName: true,
-    //         underscored: false
-    //     },
-    //     timezone: '+08:00'
-    // };
-
-    // database aliyun
     config.sequelize = {
         dialect: 'mysql',
         dialectOptions: {
             charset: 'utf8',
         },
-        host: '47.100.136.30',
+        host: '127.0.0.1',
         port: 3306,
         database: 'petcity',
         username: 'root',
-        password: 'Petcity@2021',
+        password: 'root123456',
         define: {
             timestamps: false,
             paranoid: true,
@@ -65,6 +45,26 @@ module.exports = appInfo => {
         },
         timezone: '+08:00'
     };
+
+    // database aliyun
+    // config.sequelize = {
+    //     dialect: 'mysql',
+    //     dialectOptions: {
+    //         charset: 'utf8',
+    //     },
+    //     host: '47.100.136.30',
+    //     port: 3306,
+    //     database: 'petcity',
+    //     username: 'root',
+    //     password: 'Petcity@2021',
+    //     define: {
+    //         timestamps: false,
+    //         paranoid: true,
+    //         freezeTableName: true,
+    //         underscored: false
+    //     },
+    //     timezone: '+08:00'
+    // };
 
     config.security = {
         csrf: {

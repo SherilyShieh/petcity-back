@@ -206,18 +206,6 @@
       "enable": true
     },
     "validate": {},
-    "redis": {
-      "default": {},
-      "app": true,
-      "agent": false,
-      "supportTimeCommand": true,
-      "client": {
-        "port": 6379,
-        "host": "127.0.0.1",
-        "password": "<String len: 0>",
-        "db": 0
-      }
-    },
     "cors": {
       "origin": "*",
       "allowMethods": "GET,HEAD,PUT,POST,DELETE,PATCH,OPTIONS"
@@ -406,7 +394,7 @@
         {}
       ]
     },
-    "uploadDir": "app/static",
+    "uploadDir": "app/public/upload",
     "coreMiddlewares": "~config~coreMiddleware",
     "appMiddlewares": "~config~middleware",
     "appMiddleware": "~config~middleware"
@@ -604,17 +592,6 @@
       "from": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/config/plugin.js",
       "path": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-validate",
       "version": "2.0.2"
-    },
-    "redis": {
-      "enable": true,
-      "package": "egg-redis",
-      "name": "redis",
-      "dependencies": [],
-      "optionalDependencies": [],
-      "env": [],
-      "from": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/config/plugin.js",
-      "path": "/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-redis",
-      "version": "2.4.0"
     },
     "cors": {
       "enable": true,

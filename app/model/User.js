@@ -63,7 +63,11 @@ module.exports = app => {
             allowNull: true
         }
     }, {
-        tableName: 'User'
+        tableName: 'User',
+        timestamps: false,
+        paranoid: true,
+        freezeTableName: true,
+        underscored: false
     });
 
     Model.associate = function() {

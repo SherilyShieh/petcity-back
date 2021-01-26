@@ -48,7 +48,7 @@ module.exports = app => {
         },
         district: {
             type: DataTypes.TEXT,
-            allowNull: false
+            allowNull: true
         },
         created_time: {
             type: DataTypes.TIME,
@@ -59,7 +59,11 @@ module.exports = app => {
             allowNull: false
         }
     }, {
-        tableName: 'Advertise'
+        tableName: 'Advertise',
+        timestamps: false,
+        paranoid: true,
+        freezeTableName: true,
+        underscored: false
     });
 
     Model.associate = function() {

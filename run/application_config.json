@@ -199,10 +199,10 @@
     "sequelize": {
       "dialect": "mysql",
       "database": "petcity",
-      "host": "47.100.136.30",
+      "host": "127.0.0.1",
       "port": 3306,
       "username": "root",
-      "password": "<String len: 12>",
+      "password": "<String len: 10>",
       "dialectOptions": {
         "charset": "utf8"
       },

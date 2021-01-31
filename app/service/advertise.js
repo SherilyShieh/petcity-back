@@ -58,6 +58,7 @@ class AdvertiseService extends Service {
 
     async updateAd(dic) {
         const modify = {};
+
         if (dic.dog_breed !== undefined) {
             modify.dog_breed = dic.dog_breed;
         }
@@ -82,11 +83,14 @@ class AdvertiseService extends Service {
         if (dic.district !== undefined) {
             modify.district = dic.district;
         }
+
         const Op = this.app.Sequelize.Op;
         try {
             const res = await this.app.model.Advertise.update(modify, {
                 where: {
-
+                    ad_id: dic.ad_id,
+                    user_id: dic.user_id,
+                    type: dic.type
                 }
             });
             if (res[0] >= 0) {

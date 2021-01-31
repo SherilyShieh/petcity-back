@@ -1,323 +1,136 @@
-2021-01-27 00:13:40,839 INFO 8186 [egg-sequelize](2ms) Executed (default): SELECT `id`, `info` FROM `Test` AS `Test`;
-2021-01-27 00:32:11,253 INFO 8186 [egg-sequelize](3ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = 'AWSI41mrXUNIuS6BIawzrcyJ4gg2' LIMIT 1;
-2021-01-27 00:32:11,271 INFO 8186 [egg-sequelize](15ms) Executed (default): INSERT INTO `User` (`user_id`,`uid`,`first_name`,`last_name`,`email`,`password`,`channel`,`created_time`,`updated_time`) VALUES (DEFAULT,?,?,?,?,?,?,?,?);
-2021-01-27 00:32:13,543 INFO 8186 [egg-sequelize](3ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = 'AWSI41mrXUNIuS6BIawzrcyJ4gg2' LIMIT 1;
-2021-01-27 00:32:13,555 INFO 8186 [egg-sequelize](3ms) Executed (default): SELECT `ad_id`, `user_id`, `type`, `dog_breed`, `price`, `date`, `start_time`, `duration`, `description`, `region`, `district`, `created_time`, `updated_time` FROM `Advertise` AS `Advertise` ORDER BY `Advertise`.`updated_time` DESC LIMIT 0, 10;
-2021-01-27 00:32:13,556 INFO 8186 [egg-sequelize](7ms) Executed (default): SELECT count(DISTINCT(`ad_id`)) AS `count` FROM `Advertise` AS `Advertise`;
-2021-01-27 00:35:27,014 INFO 8186 [egg-sequelize](1ms) Executed (default): SELECT `ad_id`, `user_id`, `type`, `dog_breed`, `price`, `date`, `start_time`, `duration`, `description`, `region`, `district`, `created_time`, `updated_time` FROM `Advertise` AS `Advertise` ORDER BY `Advertise`.`updated_time` DESC LIMIT 0, 10;
-2021-01-27 00:35:27,015 INFO 8186 [egg-sequelize](3ms) Executed (default): SELECT count(DISTINCT(`ad_id`)) AS `count` FROM `Advertise` AS `Advertise`;
-2021-01-27 00:35:27,018 INFO 8186 [egg-sequelize](5ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = 'AWSI41mrXUNIuS6BIawzrcyJ4gg2' LIMIT 1;
-2021-01-27 00:37:54,478 INFO 8186 [egg-sequelize](1ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = 'fTDH01evR2QaRktLHayAF4uDe0C3' LIMIT 1;
-2021-01-27 00:37:54,481 INFO 8186 [egg-sequelize](2ms) Executed (default): INSERT INTO `User` (`user_id`,`uid`,`first_name`,`last_name`,`email`,`password`,`channel`,`created_time`,`updated_time`) VALUES (DEFAULT,?,?,?,?,?,?,?,?);
-2021-01-27 00:38:19,688 INFO 8186 [egg-sequelize](1ms) Executed (default): UPDATE `User` SET `password`=? WHERE `uid` = ?
-2021-01-27 00:38:19,689 INFO 8186 [egg-sequelize](0ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = 'fTDH01evR2QaRktLHayAF4uDe0C3' LIMIT 1;
-2021-01-27 00:42:50,618 INFO 8186 [egg-sequelize](1ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = '2XmQk8Zvk2eGKu8vXqInbTKkGNr2' LIMIT 1;
-2021-01-27 00:42:50,647 INFO 8186 [egg-sequelize](28ms) Executed (default): INSERT INTO `User` (`user_id`,`uid`,`first_name`,`last_name`,`email`,`password`,`channel`,`created_time`,`updated_time`) VALUES (DEFAULT,?,?,?,?,?,?,?,?);
-2021-01-27 00:43:34,639 INFO 8186 [egg-sequelize](1ms) Executed (default): UPDATE `User` SET `password`=? WHERE `uid` = ?
-2021-01-27 00:43:34,642 INFO 8186 [egg-sequelize](2ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = '2XmQk8Zvk2eGKu8vXqInbTKkGNr2' LIMIT 1;
-2021-01-27 00:45:45,315 INFO 8186 [egg-sequelize](1ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = 'Any5sbaJlzSKFAmfJX3D3OOCNJ52' LIMIT 1;
-2021-01-27 00:45:45,319 INFO 8186 [egg-sequelize](2ms) Executed (default): INSERT INTO `User` (`user_id`,`uid`,`first_name`,`last_name`,`email`,`password`,`channel`,`created_time`,`updated_time`) VALUES (DEFAULT,?,?,?,?,?,?,?,?);
-2021-01-27 00:46:05,586 INFO 8186 [egg-sequelize](1ms) Executed (default): UPDATE `User` SET `password`=? WHERE `uid` = ?
-2021-01-27 00:46:05,588 INFO 8186 [egg-sequelize](1ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = 'Any5sbaJlzSKFAmfJX3D3OOCNJ52' LIMIT 1;
-2021-01-27 01:03:05,690 WARN 8186 [-/127.0.0.1/-/7ms PUT /api/v1/signUp] nodejs.UnprocessableEntityError: Validation Failed
-    at Object.throw (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa/lib/context.js:97:11)
-    at Object.validate (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-validate/app/extend/context.js:14:17)
-    at UserController.signUp (/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/controller/user.js:28:13)
-    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/utils/index.js:44:21)
-    at Object.classControllerMiddleware (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
-    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/utils.js:12:21)
-    at wrappedController (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/egg_router.js:322:18)
-    at dispatch (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:44:32)
-    at next (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:45:18)
-    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/router.js:190:18
-message: "Validation Failed"
-code: "invalid_param"
-errors: [{"message":"required","field":"uid","code":"missing_field"},{"message":"required","field":"channel","code":"missing_field"}]
-headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
-pid: 8186
-hostname: xiejialis-MacBook-Pro.local
-
-2021-01-27 01:12:28,026 WARN 8186 [-/127.0.0.1/-/0ms PUT /api/v1/signUp] nodejs.UnprocessableEntityError: Validation Failed
-    at Object.throw (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa/lib/context.js:97:11)
-    at Object.validate (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-validate/app/extend/context.js:14:17)
-    at UserController.signUp (/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/controller/user.js:28:13)
-    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/utils/index.js:44:21)
-    at Object.classControllerMiddleware (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
-    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/utils.js:12:21)
-    at wrappedController (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/egg_router.js:322:18)
-    at dispatch (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:44:32)
-    at next (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:45:18)
-    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/router.js:190:18
-message: "Validation Failed"
-code: "invalid_param"
-errors: [{"message":"required","field":"channel","code":"missing_field"}]
-headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
-pid: 8186
-hostname: xiejialis-MacBook-Pro.local
-
-2021-01-27 01:13:32,099 WARN 8186 [-/127.0.0.1/-/0ms PUT /api/v1/signUp] nodejs.UnprocessableEntityError: Validation Failed
-    at Object.throw (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa/lib/context.js:97:11)
-    at Object.validate (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-validate/app/extend/context.js:14:17)
-    at UserController.signUp (/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/controller/user.js:28:13)
-    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/utils/index.js:44:21)
-    at Object.classControllerMiddleware (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
-    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/utils.js:12:21)
-    at wrappedController (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/egg_router.js:322:18)
-    at dispatch (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:44:32)
-    at next (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:45:18)
-    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/router.js:190:18
-message: "Validation Failed"
-code: "invalid_param"
-errors: [{"message":"required","field":"uid","code":"missing_field"}]
-headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
-pid: 8186
-hostname: xiejialis-MacBook-Pro.local
-
-2021-01-27 01:14:09,857 WARN 8186 [-/127.0.0.1/-/1ms PUT /api/v1/signUp] nodejs.UnprocessableEntityError: Validation Failed
-    at Object.throw (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa/lib/context.js:97:11)
-    at Object.validate (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-validate/app/extend/context.js:14:17)
-    at UserController.signUp (/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/controller/user.js:28:13)
-    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/utils/index.js:44:21)
-    at Object.classControllerMiddleware (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
-    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/utils.js:12:21)
-    at wrappedController (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/egg_router.js:322:18)
-    at dispatch (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:44:32)
-    at next (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:45:18)
-    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/router.js:190:18
-message: "Validation Failed"
-code: "invalid_param"
-errors: [{"message":"required","field":"uid","code":"missing_field"},{"message":"required","field":"channel","code":"missing_field"}]
-headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
-pid: 8186
-hostname: xiejialis-MacBook-Pro.local
-
-2021-01-27 01:16:05,710 WARN 8186 [-/127.0.0.1/-/1ms PUT /api/v1/signUp] nodejs.SyntaxError: Unexpected token “ in JSON at position 11, check bodyParser config
-    at JSON.parse (<anonymous>)
-    at parse (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/co-body/lib/json.js:57:17)
-    at AsyncFunction.module.exports [as json] (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/co-body/lib/json.js:41:20)
-    at runMicrotasks (<anonymous>)
-    at processTicksAndRejections (node:internal/process/task_queues:93:5)
-    at async parseBody (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-bodyparser/index.js:100:14)
-    at async bodyParser (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-bodyparser/index.js:85:19)
-    at async /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-static-cache/index.js:39:63
-    at async notfound (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg/app/middleware/notfound.js:5:5)
-    at async meta (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg/app/middleware/meta.js:17:5)
-status: 400
-body: "{\n  \"uid\": “required”,\n  \"channel\": \"required\",\n  \"first_name\": “optional”,\n  \"last_name\": \"optional\",\n  \"email\": \"optional\"\n}"
-headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
-pid: 8186
-hostname: xiejialis-MacBook-Pro.local
-
-2021-01-27 01:16:20,961 WARN 8186 [-/127.0.0.1/-/0ms PUT /api/v1/signUp] nodejs.SyntaxError: Unexpected token “ in JSON at position 11, check bodyParser config
-    at JSON.parse (<anonymous>)
-    at parse (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/co-body/lib/json.js:57:17)
-    at AsyncFunction.module.exports [as json] (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/co-body/lib/json.js:41:20)
-    at runMicrotasks (<anonymous>)
-    at processTicksAndRejections (node:internal/process/task_queues:93:5)
-    at async parseBody (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-bodyparser/index.js:100:14)
-    at async bodyParser (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-bodyparser/index.js:85:19)
-    at async /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-static-cache/index.js:39:63
-    at async notfound (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg/app/middleware/notfound.js:5:5)
-    at async meta (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg/app/middleware/meta.js:17:5)
-status: 400
-body: "{\n  \"uid\": “required”,\n  \"channel\": \"required\",\n  \"first_name\": “optional”,\n  \"last_name\": \"optional\",\n  \"email\": \"optional\"\n}"
-headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
-pid: 8186
-hostname: xiejialis-MacBook-Pro.local
-
-2021-01-27 01:16:57,650 INFO 8186 [egg-sequelize](1ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = 'required' LIMIT 1;
-2021-01-27 01:16:57,655 INFO 8186 [egg-sequelize](4ms) Executed (default): INSERT INTO `User` (`user_id`,`uid`,`first_name`,`last_name`,`email`,`channel`,`created_time`,`updated_time`) VALUES (DEFAULT,?,?,?,?,?,?,?);
-2021-01-27 01:19:03,560 INFO 8186 [egg-sequelize](1ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = 'required' LIMIT 1;
-2021-01-27 01:19:03,563 INFO 8186 [egg-sequelize](2ms) Executed (default): INSERT INTO `User` (`user_id`,`uid`,`channel`,`created_time`,`updated_time`) VALUES (DEFAULT,?,?,?,?);
-2021-01-27 01:24:13,834 INFO 33283 [egg-swagger-doc] register router: get /swagger-doc
-2021-01-27 01:24:13,865 INFO 33283 [egg-swagger-doc] register router: get /swagger-ui.html
-2021-01-27 01:24:13,865 INFO 33283 [egg-swagger-doc] register router: put /api/v1/postAd for controller-advertise-postAd 
-2021-01-27 01:24:13,865 INFO 33283 [egg-swagger-doc] register router: post /api/v1/updateAd for controller-advertise-updateAd 
-2021-01-27 01:24:13,866 INFO 33283 [egg-swagger-doc] register router: get /api/v1/getAllAds for controller-advertise-getAllAds 
-2021-01-27 01:24:13,866 INFO 33283 [egg-swagger-doc] register router: get /api/v1/getMyAds for controller-advertise-getMyAds 
-2021-01-27 01:24:13,866 INFO 33283 [egg-swagger-doc] register router: put /api/v1/addContacted for controller-advertise-addContacted 
-2021-01-27 01:24:13,866 INFO 33283 [egg-swagger-doc] register router: delete /api/v1/deleteMyAds for controller-advertise-deleteMyAds 
-2021-01-27 01:24:13,866 INFO 33283 [egg-swagger-doc] register router: get /api/v1/getAllContacted for controller-advertise-getAllContacted 
-2021-01-27 01:24:13,866 INFO 33283 [egg-swagger-doc] register router: delete /api/v1/deleteContacted for controller-advertise-deleteContacted 
-2021-01-27 01:24:13,866 INFO 33283 [egg-swagger-doc] register router: put /api/v1/create for controller-test-create 
-2021-01-27 01:24:13,866 INFO 33283 [egg-swagger-doc] register router: post /api/v1/update for controller-test-update 
-2021-01-27 01:24:13,867 INFO 33283 [egg-swagger-doc] register router: delete /api/v1/delete for controller-test-delete 
-2021-01-27 01:24:13,867 INFO 33283 [egg-swagger-doc] register router: get /api/v1/getInfo for controller-test-getInfo 
-2021-01-27 01:24:13,867 INFO 33283 [egg-swagger-doc] register router: put /api/v1/signUp for controller-user-signUp 
-2021-01-27 01:24:13,867 INFO 33283 [egg-swagger-doc] register router: put /api/v1/register for controller-user-register 
-2021-01-27 01:24:13,867 INFO 33283 [egg-swagger-doc] register router: get /api/v1/getUser for controller-user-getUser 
-2021-01-27 01:24:13,867 INFO 33283 [egg-swagger-doc] register router: get /api/v1/verifyEmail for controller-user-verifyEmail 
-2021-01-27 01:24:13,867 INFO 33283 [egg-swagger-doc] register router: post /api/v1/updateProfile for controller-user-updateProfile 
-2021-01-27 01:24:13,867 INFO 33283 [egg-swagger-doc] register router: post /api/v1/saveAvatar for controller-user-saveAvatar 
-2021-01-27 01:24:13,895 INFO 33283 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
-2021-01-27 01:24:14,560 INFO 33284 [egg-swagger-doc] register router: get /swagger-doc
-2021-01-27 01:24:14,579 INFO 33284 [egg-swagger-doc] register router: get /swagger-ui.html
-2021-01-27 01:24:14,579 INFO 33284 [egg-swagger-doc] register router: put /api/v1/postAd for controller-advertise-postAd 
-2021-01-27 01:24:14,580 INFO 33284 [egg-swagger-doc] register router: post /api/v1/updateAd for controller-advertise-updateAd 
-2021-01-27 01:24:14,580 INFO 33284 [egg-swagger-doc] register router: get /api/v1/getAllAds for controller-advertise-getAllAds 
-2021-01-27 01:24:14,580 INFO 33284 [egg-swagger-doc] register router: get /api/v1/getMyAds for controller-advertise-getMyAds 
-2021-01-27 01:24:14,580 INFO 33284 [egg-swagger-doc] register router: put /api/v1/addContacted for controller-advertise-addContacted 
-2021-01-27 01:24:14,580 INFO 33284 [egg-swagger-doc] register router: delete /api/v1/deleteMyAds for controller-advertise-deleteMyAds 
-2021-01-27 01:24:14,580 INFO 33284 [egg-swagger-doc] register router: get /api/v1/getAllContacted for controller-advertise-getAllContacted 
-2021-01-27 01:24:14,580 INFO 33284 [egg-swagger-doc] register router: delete /api/v1/deleteContacted for controller-advertise-deleteContacted 
-2021-01-27 01:24:14,580 INFO 33284 [egg-swagger-doc] register router: put /api/v1/create for controller-test-create 
-2021-01-27 01:24:14,581 INFO 33284 [egg-swagger-doc] register router: post /api/v1/update for controller-test-update 
-2021-01-27 01:24:14,581 INFO 33284 [egg-swagger-doc] register router: delete /api/v1/delete for controller-test-delete 
-2021-01-27 01:24:14,581 INFO 33284 [egg-swagger-doc] register router: get /api/v1/getInfo for controller-test-getInfo 
-2021-01-27 01:24:14,581 INFO 33284 [egg-swagger-doc] register router: put /api/v1/signUp for controller-user-signUp 
-2021-01-27 01:24:14,581 INFO 33284 [egg-swagger-doc] register router: put /api/v1/register for controller-user-register 
-2021-01-27 01:24:14,581 INFO 33284 [egg-swagger-doc] register router: get /api/v1/getUser for controller-user-getUser 
-2021-01-27 01:24:14,581 INFO 33284 [egg-swagger-doc] register router: get /api/v1/verifyEmail for controller-user-verifyEmail 
-2021-01-27 01:24:14,581 INFO 33284 [egg-swagger-doc] register router: post /api/v1/updateProfile for controller-user-updateProfile 
-2021-01-27 01:24:14,581 INFO 33284 [egg-swagger-doc] register router: post /api/v1/saveAvatar for controller-user-saveAvatar 
-2021-01-27 01:24:14,603 INFO 33284 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
-2021-01-27 01:26:38,095 INFO 33382 [egg-swagger-doc] register router: get /swagger-doc
-2021-01-27 01:26:38,124 INFO 33382 [egg-swagger-doc] register router: get /swagger-ui.html
-2021-01-27 01:26:38,125 INFO 33382 [egg-swagger-doc] register router: put /api/v1/postAd for controller-advertise-postAd 
-2021-01-27 01:26:38,125 INFO 33382 [egg-swagger-doc] register router: post /api/v1/updateAd for controller-advertise-updateAd 
-2021-01-27 01:26:38,125 INFO 33382 [egg-swagger-doc] register router: get /api/v1/getAllAds for controller-advertise-getAllAds 
-2021-01-27 01:26:38,125 INFO 33382 [egg-swagger-doc] register router: get /api/v1/getMyAds for controller-advertise-getMyAds 
-2021-01-27 01:26:38,125 INFO 33382 [egg-swagger-doc] register router: put /api/v1/addContacted for controller-advertise-addContacted 
-2021-01-27 01:26:38,125 INFO 33382 [egg-swagger-doc] register router: delete /api/v1/deleteMyAds for controller-advertise-deleteMyAds 
-2021-01-27 01:26:38,125 INFO 33382 [egg-swagger-doc] register router: get /api/v1/getAllContacted for controller-advertise-getAllContacted 
-2021-01-27 01:26:38,126 INFO 33382 [egg-swagger-doc] register router: delete /api/v1/deleteContacted for controller-advertise-deleteContacted 
-2021-01-27 01:26:38,126 INFO 33382 [egg-swagger-doc] register router: put /api/v1/create for controller-test-create 
-2021-01-27 01:26:38,126 INFO 33382 [egg-swagger-doc] register router: post /api/v1/update for controller-test-update 
-2021-01-27 01:26:38,126 INFO 33382 [egg-swagger-doc] register router: delete /api/v1/delete for controller-test-delete 
-2021-01-27 01:26:38,126 INFO 33382 [egg-swagger-doc] register router: get /api/v1/getInfo for controller-test-getInfo 
-2021-01-27 01:26:38,126 INFO 33382 [egg-swagger-doc] register router: put /api/v1/signUp for controller-user-signUp 
-2021-01-27 01:26:38,126 INFO 33382 [egg-swagger-doc] register router: put /api/v1/register for controller-user-register 
-2021-01-27 01:26:38,126 INFO 33382 [egg-swagger-doc] register router: get /api/v1/getUser for controller-user-getUser 
-2021-01-27 01:26:38,127 INFO 33382 [egg-swagger-doc] register router: get /api/v1/verifyEmail for controller-user-verifyEmail 
-2021-01-27 01:26:38,127 INFO 33382 [egg-swagger-doc] register router: post /api/v1/updateProfile for controller-user-updateProfile 
-2021-01-27 01:26:38,127 INFO 33382 [egg-swagger-doc] register router: post /api/v1/saveAvatar for controller-user-saveAvatar 
-2021-01-27 01:26:38,152 INFO 33382 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
-2021-01-27 01:26:38,963 INFO 33383 [egg-swagger-doc] register router: get /swagger-doc
-2021-01-27 01:26:38,982 INFO 33383 [egg-swagger-doc] register router: get /swagger-ui.html
-2021-01-27 01:26:38,983 INFO 33383 [egg-swagger-doc] register router: put /api/v1/postAd for controller-advertise-postAd 
-2021-01-27 01:26:38,983 INFO 33383 [egg-swagger-doc] register router: post /api/v1/updateAd for controller-advertise-updateAd 
-2021-01-27 01:26:38,983 INFO 33383 [egg-swagger-doc] register router: get /api/v1/getAllAds for controller-advertise-getAllAds 
-2021-01-27 01:26:38,983 INFO 33383 [egg-swagger-doc] register router: get /api/v1/getMyAds for controller-advertise-getMyAds 
-2021-01-27 01:26:38,983 INFO 33383 [egg-swagger-doc] register router: put /api/v1/addContacted for controller-advertise-addContacted 
-2021-01-27 01:26:38,984 INFO 33383 [egg-swagger-doc] register router: delete /api/v1/deleteMyAds for controller-advertise-deleteMyAds 
-2021-01-27 01:26:38,984 INFO 33383 [egg-swagger-doc] register router: get /api/v1/getAllContacted for controller-advertise-getAllContacted 
-2021-01-27 01:26:38,984 INFO 33383 [egg-swagger-doc] register router: delete /api/v1/deleteContacted for controller-advertise-deleteContacted 
-2021-01-27 01:26:38,984 INFO 33383 [egg-swagger-doc] register router: put /api/v1/create for controller-test-create 
-2021-01-27 01:26:38,984 INFO 33383 [egg-swagger-doc] register router: post /api/v1/update for controller-test-update 
-2021-01-27 01:26:38,984 INFO 33383 [egg-swagger-doc] register router: delete /api/v1/delete for controller-test-delete 
-2021-01-27 01:26:38,984 INFO 33383 [egg-swagger-doc] register router: get /api/v1/getInfo for controller-test-getInfo 
-2021-01-27 01:26:38,985 INFO 33383 [egg-swagger-doc] register router: put /api/v1/signUp for controller-user-signUp 
-2021-01-27 01:26:38,985 INFO 33383 [egg-swagger-doc] register router: put /api/v1/register for controller-user-register 
-2021-01-27 01:26:38,985 INFO 33383 [egg-swagger-doc] register router: get /api/v1/getUser for controller-user-getUser 
-2021-01-27 01:26:38,985 INFO 33383 [egg-swagger-doc] register router: get /api/v1/verifyEmail for controller-user-verifyEmail 
-2021-01-27 01:26:38,985 INFO 33383 [egg-swagger-doc] register router: post /api/v1/updateProfile for controller-user-updateProfile 
-2021-01-27 01:26:38,985 INFO 33383 [egg-swagger-doc] register router: post /api/v1/saveAvatar for controller-user-saveAvatar 
-2021-01-27 01:26:39,009 INFO 33383 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
-2021-01-27 02:00:44,341 WARN 33383 [-/127.0.0.1/-/24ms PUT /api/v1/register] nodejs.UnprocessableEntityError: Validation Failed
-    at Object.throw (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa/lib/context.js:97:11)
-    at Object.validate (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-validate/app/extend/context.js:14:17)
-    at UserController.register (/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/controller/user.js:43:13)
-    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/utils/index.js:44:21)
-    at Object.classControllerMiddleware (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
-    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/utils.js:12:21)
-    at wrappedController (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/egg_router.js:322:18)
-    at dispatch (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:44:32)
-    at next (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:45:18)
-    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/router.js:190:18
-message: "Validation Failed"
-code: "invalid_param"
-errors: [{"message":"required","field":"last_name","code":"missing_field"}]
-headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
-pid: 33383
-hostname: xiejialis-MacBook-Pro.local
-
-2021-01-27 02:01:13,817 INFO 33383 [egg-sequelize](2ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = 'required' LIMIT 1;
-2021-01-27 02:01:13,829 INFO 33383 [egg-sequelize](7ms) Executed (default): INSERT INTO `User` (`user_id`,`uid`,`first_name`,`last_name`,`email`,`password`,`channel`,`created_time`,`updated_time`) VALUES (DEFAULT,?,?,?,?,?,?,?,?);
-2021-01-27 02:02:36,754 WARN 33383 [-/127.0.0.1/-/1ms PUT /api/v1/register] nodejs.UnprocessableEntityError: Validation Failed
-    at Object.throw (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa/lib/context.js:97:11)
-    at Object.validate (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-validate/app/extend/context.js:14:17)
-    at UserController.register (/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/controller/user.js:43:13)
-    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/utils/index.js:44:21)
-    at Object.classControllerMiddleware (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
-    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/utils.js:12:21)
-    at wrappedController (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/egg_router.js:322:18)
-    at dispatch (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:44:32)
-    at next (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:45:18)
-    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/router.js:190:18
-message: "Validation Failed"
-code: "invalid_param"
-errors: [{"message":"required","field":"uid","code":"missing_field"}]
-headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
-pid: 33383
-hostname: xiejialis-MacBook-Pro.local
-
-2021-01-27 02:02:52,891 WARN 33383 [-/127.0.0.1/-/0ms PUT /api/v1/register] nodejs.UnprocessableEntityError: Validation Failed
-    at Object.throw (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa/lib/context.js:97:11)
-    at Object.validate (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-validate/app/extend/context.js:14:17)
-    at UserController.register (/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/controller/user.js:43:13)
-    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/utils/index.js:44:21)
-    at Object.classControllerMiddleware (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
-    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/utils.js:12:21)
-    at wrappedController (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/egg_router.js:322:18)
-    at dispatch (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:44:32)
-    at next (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:45:18)
-    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/router.js:190:18
-message: "Validation Failed"
-code: "invalid_param"
-errors: [{"message":"required","field":"uid","code":"missing_field"},{"message":"required","field":"channel","code":"missing_field"},{"message":"required","field":"first_name","code":"missing_field"},{"message":"required","field":"last_name","code":"missing_field"},{"message":"required","field":"email","code":"missing_field"},{"message":"required","field":"password","code":"missing_field"}]
-headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
-pid: 33383
-hostname: xiejialis-MacBook-Pro.local
-
-2021-01-27 02:19:26,986 INFO 33383 [egg-sequelize](1ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = 'test1' LIMIT 1;
-2021-01-27 02:19:26,992 INFO 33383 [egg-sequelize](4ms) Executed (default): INSERT INTO `User` (`user_id`,`uid`,`first_name`,`last_name`,`email`,`channel`,`created_time`,`updated_time`) VALUES (DEFAULT,?,?,?,?,?,?,?);
-2021-01-27 02:20:14,369 INFO 33383 [egg-sequelize](2ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = 'test1' LIMIT 1;
-2021-01-27 02:38:11,142 INFO 33383 [egg-sequelize](1ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`email` = '123@gg.com' LIMIT 1;
-2021-01-27 02:39:39,364 INFO 33383 [egg-sequelize](1ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`email` = '12@gmail.com' LIMIT 1;
-2021-01-27 02:48:14,239 INFO 33383 [egg-sequelize](0ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = '0zCZbz2gV4MOLGQMVaSXrfWjxw03' LIMIT 1;
-2021-01-27 02:48:14,246 INFO 33383 [egg-sequelize](5ms) Executed (default): INSERT INTO `User` (`user_id`,`uid`,`first_name`,`last_name`,`channel`,`created_time`,`updated_time`) VALUES (DEFAULT,?,?,?,?,?,?);
-2021-01-27 02:48:14,701 INFO 33383 [egg-sequelize](1ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = '0zCZbz2gV4MOLGQMVaSXrfWjxw03' LIMIT 1;
-2021-01-27 02:48:14,712 INFO 33383 [egg-sequelize](2ms) Executed (default): SELECT count(DISTINCT(`ad_id`)) AS `count` FROM `Advertise` AS `Advertise`;
-2021-01-27 02:48:14,713 INFO 33383 [egg-sequelize](1ms) Executed (default): SELECT `ad_id`, `user_id`, `type`, `dog_breed`, `price`, `date`, `start_time`, `duration`, `description`, `region`, `district`, `created_time`, `updated_time` FROM `Advertise` AS `Advertise` ORDER BY `Advertise`.`updated_time` DESC LIMIT 0, 10;
-2021-01-27 03:01:52,052 INFO 33383 [egg-sequelize](1ms) Executed (default): UPDATE `User` SET `avatar`=?,`first_name`=?,`last_name`=?,`email`=?,`region`=?,`district`=?,`detail_address`=?,`password`=?,`gender`=? WHERE `uid` = ?
-2021-01-27 03:01:52,054 INFO 33383 [egg-sequelize](1ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = 'string' LIMIT 1;
-2021-01-27 03:03:01,102 INFO 33383 [egg-sequelize](4ms) Executed (default): UPDATE `User` SET `avatar`=?,`first_name`=?,`last_name`=?,`email`=?,`region`=?,`district`=?,`detail_address`=?,`password`=?,`gender`=? WHERE `uid` = ?
-2021-01-27 03:03:01,105 INFO 33383 [egg-sequelize](2ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = 'test1' LIMIT 1;
-2021-01-27 03:03:57,259 INFO 33383 [egg-sequelize](1ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = 'test1' LIMIT 1;
-2021-01-27 03:04:45,353 INFO 33383 [egg-sequelize](1ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = '0zCZbz2gV4MOLGQMVaSXrfWjxw03' LIMIT 1;
-2021-01-27 03:04:45,356 INFO 33383 [egg-sequelize](3ms) Executed (default): SELECT count(DISTINCT(`ad_id`)) AS `count` FROM `Advertise` AS `Advertise`;
-2021-01-27 03:04:45,357 INFO 33383 [egg-sequelize](3ms) Executed (default): SELECT `ad_id`, `user_id`, `type`, `dog_breed`, `price`, `date`, `start_time`, `duration`, `description`, `region`, `district`, `created_time`, `updated_time` FROM `Advertise` AS `Advertise` ORDER BY `Advertise`.`updated_time` DESC LIMIT 0, 10;
-2021-01-27 03:06:49,936 WARN 33383 [-/127.0.0.1/-/0ms POST /api/v1/updateProfile] nodejs.UnprocessableEntityError: Validation Failed
-    at Object.throw (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa/lib/context.js:97:11)
-    at Object.validate (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-validate/app/extend/context.js:14:17)
-    at UserController.updateProfile (/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/controller/user.js:89:13)
-    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/utils/index.js:44:21)
-    at Object.classControllerMiddleware (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
-    at Object.callFn (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/utils.js:12:21)
-    at wrappedController (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/egg_router.js:322:18)
-    at dispatch (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:44:32)
-    at next (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/koa-compose/index.js:45:18)
-    at /Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/@eggjs/router/lib/router.js:190:18
-message: "Validation Failed"
-code: "invalid_param"
-errors: [{"message":"required","field":"uid","code":"missing_field"}]
-headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
-pid: 33383
-hostname: xiejialis-MacBook-Pro.local
-
-2021-01-27 03:26:51,272 INFO 33383 [egg-sequelize](2ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = 'TOGwUn9CtbU3TZEeRf5w9M4TMkf1' LIMIT 1;
-2021-01-27 03:26:51,278 INFO 33383 [egg-sequelize](4ms) Executed (default): INSERT INTO `User` (`user_id`,`uid`,`first_name`,`last_name`,`channel`,`created_time`,`updated_time`) VALUES (DEFAULT,?,?,?,?,?,?);
-2021-01-27 03:26:51,696 INFO 33383 [egg-sequelize](3ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = 'TOGwUn9CtbU3TZEeRf5w9M4TMkf1' LIMIT 1;
-2021-01-27 03:26:51,725 INFO 33383 [egg-sequelize](3ms) Executed (default): SELECT count(DISTINCT(`ad_id`)) AS `count` FROM `Advertise` AS `Advertise`;
-2021-01-27 03:26:51,726 INFO 33383 [egg-sequelize](1ms) Executed (default): SELECT `ad_id`, `user_id`, `type`, `dog_breed`, `price`, `date`, `start_time`, `duration`, `description`, `region`, `district`, `created_time`, `updated_time` FROM `Advertise` AS `Advertise` ORDER BY `Advertise`.`updated_time` DESC LIMIT 0, 10;
-2021-01-27 03:49:58,165 INFO 33383 [egg-sequelize](2ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = 'TOGwUn9CtbU3TZEeRf5w9M4TMkf1' LIMIT 1;
-2021-01-27 03:49:58,189 INFO 33383 [egg-sequelize](1ms) Executed (default): SELECT count(DISTINCT(`ad_id`)) AS `count` FROM `Advertise` AS `Advertise`;
-2021-01-27 03:49:58,190 INFO 33383 [egg-sequelize](1ms) Executed (default): SELECT `ad_id`, `user_id`, `type`, `dog_breed`, `price`, `date`, `start_time`, `duration`, `description`, `region`, `district`, `created_time`, `updated_time` FROM `Advertise` AS `Advertise` ORDER BY `Advertise`.`updated_time` DESC LIMIT 0, 10;
-2021-01-27 03:50:20,623 INFO 33383 [egg-sequelize](1ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = 'TXz5L1CA9aX0mnSOV268mfXpDtG2' LIMIT 1;
-2021-01-27 03:50:20,627 INFO 33383 [egg-sequelize](4ms) Executed (default): INSERT INTO `User` (`user_id`,`uid`,`first_name`,`last_name`,`email`,`channel`,`created_time`,`updated_time`) VALUES (DEFAULT,?,?,?,?,?,?,?);
-2021-01-27 03:50:20,982 INFO 33383 [egg-sequelize](3ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = 'TXz5L1CA9aX0mnSOV268mfXpDtG2' LIMIT 1;
-2021-01-27 03:50:20,983 INFO 33383 [egg-sequelize](1ms) Executed (default): SELECT count(DISTINCT(`ad_id`)) AS `count` FROM `Advertise` AS `Advertise`;
-2021-01-27 03:50:20,984 INFO 33383 [egg-sequelize](1ms) Executed (default): SELECT `ad_id`, `user_id`, `type`, `dog_breed`, `price`, `date`, `start_time`, `duration`, `description`, `region`, `district`, `created_time`, `updated_time` FROM `Advertise` AS `Advertise` ORDER BY `Advertise`.`updated_time` DESC LIMIT 0, 10;
-2021-01-27 04:44:49,291 INFO 33383 [egg-sequelize](3ms) Executed (default): SELECT count(DISTINCT(`ad_id`)) AS `count` FROM `Advertise` AS `Advertise`;
-2021-01-27 04:44:49,293 INFO 33383 [egg-sequelize](4ms) Executed (default): SELECT `ad_id`, `user_id`, `type`, `dog_breed`, `price`, `date`, `start_time`, `duration`, `description`, `region`, `district`, `created_time`, `updated_time` FROM `Advertise` AS `Advertise` ORDER BY `Advertise`.`updated_time` DESC LIMIT 0, 10;
-2021-01-27 04:44:49,297 INFO 33383 [egg-sequelize](5ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = 'TXz5L1CA9aX0mnSOV268mfXpDtG2' LIMIT 1;
+2021-01-31 11:46:51,506 INFO 14055 [egg-sequelize](1ms) Executed (default): SELECT `ad_id`, `user_id`, `type`, `dog_breed`, `price`, `date`, `start_time`, `duration`, `description`, `region`, `district`, `created_time`, `updated_time` FROM `Advertise` AS `Advertise` ORDER BY `Advertise`.`updated_time` DESC LIMIT 0, 10;
+2021-01-31 11:46:51,507 INFO 14055 [egg-sequelize](3ms) Executed (default): SELECT count(DISTINCT(`ad_id`)) AS `count` FROM `Advertise` AS `Advertise`;
+2021-01-31 11:46:51,508 INFO 14055 [egg-sequelize](1ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = 'MvB9icKtEsc2ObiD9oJazHMuPmI3' LIMIT 1;
+2021-01-31 11:46:51,511 INFO 14055 [egg-sequelize](3ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`user_id` = 37;
+2021-01-31 11:47:12,173 INFO 14055 [egg-sequelize](0ms) Executed (6408f426-bbd9-4586-9157-451599383648): START TRANSACTION;
+2021-01-31 11:47:12,182 INFO 14055 [egg-sequelize](6ms) Executed (6408f426-bbd9-4586-9157-451599383648): SELECT `contacted_id`, `user_id`, `ad_id` FROM `contacted` AS `contacted` WHERE `contacted`.`user_id` = 37 AND `contacted`.`ad_id` = 13 LIMIT 1;
+2021-01-31 11:47:12,187 INFO 14055 [egg-sequelize](3ms) Executed (6408f426-bbd9-4586-9157-451599383648): INSERT INTO `contacted` (`contacted_id`,`user_id`,`ad_id`) VALUES (DEFAULT,?,?);
+2021-01-31 11:47:12,190 INFO 14055 [egg-sequelize](2ms) Executed (6408f426-bbd9-4586-9157-451599383648): COMMIT;
+2021-01-31 11:47:12,317 INFO 14055 [egg-sequelize](1ms) Executed (default): SELECT count(DISTINCT(`ad_id`)) AS `count` FROM `Advertise` AS `Advertise`;
+2021-01-31 11:47:12,318 INFO 14055 [egg-sequelize](1ms) Executed (default): SELECT `ad_id`, `user_id`, `type`, `dog_breed`, `price`, `date`, `start_time`, `duration`, `description`, `region`, `district`, `created_time`, `updated_time` FROM `Advertise` AS `Advertise` ORDER BY `Advertise`.`updated_time` DESC LIMIT 0, 10;
+2021-01-31 11:47:12,321 INFO 14055 [egg-sequelize](2ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`user_id` = 37;
+2021-01-31 12:00:35,228 INFO 14055 [egg-sequelize](3ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = 'MvB9icKtEsc2ObiD9oJazHMuPmI3' LIMIT 1;
+2021-01-31 12:00:35,230 INFO 14055 [egg-sequelize](6ms) Executed (default): SELECT count(DISTINCT(`ad_id`)) AS `count` FROM `Advertise` AS `Advertise`;
+2021-01-31 12:00:35,233 INFO 14055 [egg-sequelize](7ms) Executed (default): SELECT `ad_id`, `user_id`, `type`, `dog_breed`, `price`, `date`, `start_time`, `duration`, `description`, `region`, `district`, `created_time`, `updated_time` FROM `Advertise` AS `Advertise` ORDER BY `Advertise`.`updated_time` DESC LIMIT 0, 10;
+2021-01-31 12:00:35,235 INFO 14055 [egg-sequelize](1ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`user_id` = 37;
+2021-01-31 12:01:01,273 INFO 14055 [egg-sequelize](1ms) Executed (default): SELECT count(DISTINCT(`ad_id`)) AS `count` FROM `Advertise` AS `Advertise` WHERE `Advertise`.`user_id` = 37;
+2021-01-31 12:01:01,274 INFO 14055 [egg-sequelize](1ms) Executed (default): SELECT `ad_id`, `user_id`, `type`, `dog_breed`, `price`, `date`, `start_time`, `duration`, `description`, `region`, `district`, `created_time`, `updated_time` FROM `Advertise` AS `Advertise` WHERE `Advertise`.`user_id` = 37 ORDER BY `Advertise`.`updated_time` DESC LIMIT 0, 10;
+2021-01-31 12:01:01,275 INFO 14055 [egg-sequelize](1ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`user_id` = 37;
+2021-01-31 12:05:15,971 INFO 14055 [egg-sequelize](2ms) Executed (default): SELECT count(DISTINCT(`ad_id`)) AS `count` FROM `Advertise` AS `Advertise` WHERE `Advertise`.`user_id` = 37;
+2021-01-31 12:05:15,973 INFO 14055 [egg-sequelize](3ms) Executed (default): SELECT `ad_id`, `user_id`, `type`, `dog_breed`, `price`, `date`, `start_time`, `duration`, `description`, `region`, `district`, `created_time`, `updated_time` FROM `Advertise` AS `Advertise` WHERE `Advertise`.`user_id` = 37 ORDER BY `Advertise`.`updated_time` DESC LIMIT 0, 10;
+2021-01-31 12:05:15,981 INFO 14055 [egg-sequelize](2ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`user_id` = 37;
+2021-01-31 12:25:34,349 INFO 14055 [egg-sequelize](1ms) Executed (default): SELECT `ad_id`, `user_id`, `type`, `dog_breed`, `price`, `date`, `start_time`, `duration`, `description`, `region`, `district`, `created_time`, `updated_time` FROM `Advertise` AS `Advertise` WHERE `Advertise`.`user_id` = 37 ORDER BY `Advertise`.`updated_time` DESC LIMIT 0, 10;
+2021-01-31 12:25:34,350 INFO 14055 [egg-sequelize](2ms) Executed (default): SELECT count(DISTINCT(`ad_id`)) AS `count` FROM `Advertise` AS `Advertise` WHERE `Advertise`.`user_id` = 37;
+2021-01-31 12:25:34,351 INFO 14055 [egg-sequelize](0ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`user_id` = 37;
+2021-01-31 12:25:59,485 INFO 14055 [egg-sequelize](1ms) Executed (default): SELECT `ad_id`, `user_id`, `type`, `dog_breed`, `price`, `date`, `start_time`, `duration`, `description`, `region`, `district`, `created_time`, `updated_time` FROM `Advertise` AS `Advertise` WHERE (`Advertise`.`ad_id` = 13 AND `Advertise`.`user_id` = 37) LIMIT 1;
+2021-01-31 12:25:59,494 INFO 14055 [egg-sequelize](7ms) Executed (default): DELETE FROM `Advertise` WHERE (`ad_id` = 13 AND `user_id` = 37)
+2021-01-31 12:25:59,496 INFO 14055 [egg-sequelize](1ms) Executed (29ddf3fd-c17d-4039-aad4-4063103f1609): START TRANSACTION;
+2021-01-31 12:25:59,501 INFO 14055 [egg-sequelize](3ms) Executed (29ddf3fd-c17d-4039-aad4-4063103f1609): SELECT `contacted_id`, `user_id`, `ad_id` FROM `contacted` AS `contacted` WHERE `contacted`.`ad_id` = 13 LIMIT 1;
+2021-01-31 12:25:59,502 INFO 14055 [egg-sequelize](0ms) Executed (29ddf3fd-c17d-4039-aad4-4063103f1609): COMMIT;
+2021-01-31 12:25:59,506 INFO 14055 [egg-sequelize](4ms) Executed (default): DELETE FROM `contacted` WHERE `ad_id` = 13
+2021-01-31 12:25:59,632 INFO 14055 [egg-sequelize](1ms) Executed (default): SELECT count(DISTINCT(`ad_id`)) AS `count` FROM `Advertise` AS `Advertise` WHERE `Advertise`.`user_id` = 37;
+2021-01-31 12:25:59,634 INFO 14055 [egg-sequelize](0ms) Executed (default): SELECT `ad_id`, `user_id`, `type`, `dog_breed`, `price`, `date`, `start_time`, `duration`, `description`, `region`, `district`, `created_time`, `updated_time` FROM `Advertise` AS `Advertise` WHERE `Advertise`.`user_id` = 37 ORDER BY `Advertise`.`updated_time` DESC LIMIT 0, 10;
+2021-01-31 12:56:49,567 INFO 14055 [egg-sequelize](1ms) Executed (default): SELECT count(DISTINCT(`ad_id`)) AS `count` FROM `Advertise` AS `Advertise` WHERE `Advertise`.`user_id` = 37;
+2021-01-31 12:56:49,568 INFO 14055 [egg-sequelize](1ms) Executed (default): SELECT `ad_id`, `user_id`, `type`, `dog_breed`, `price`, `date`, `start_time`, `duration`, `description`, `region`, `district`, `created_time`, `updated_time` FROM `Advertise` AS `Advertise` WHERE `Advertise`.`user_id` = 37 ORDER BY `Advertise`.`updated_time` DESC LIMIT 0, 10;
+2021-01-31 12:56:50,418 INFO 14055 [egg-sequelize](1ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = 'MvB9icKtEsc2ObiD9oJazHMuPmI3' LIMIT 1;
+2021-01-31 12:56:50,425 INFO 14055 [egg-sequelize](1ms) Executed (default): SELECT count(DISTINCT(`ad_id`)) AS `count` FROM `Advertise` AS `Advertise`;
+2021-01-31 12:56:50,425 INFO 14055 [egg-sequelize](1ms) Executed (default): SELECT `ad_id`, `user_id`, `type`, `dog_breed`, `price`, `date`, `start_time`, `duration`, `description`, `region`, `district`, `created_time`, `updated_time` FROM `Advertise` AS `Advertise` ORDER BY `Advertise`.`updated_time` DESC LIMIT 0, 10;
+2021-01-31 12:57:39,748 INFO 14055 [egg-sequelize](6ms) Executed (default): INSERT INTO `Advertise` (`ad_id`,`user_id`,`type`,`dog_breed`,`price`,`date`,`start_time`,`duration`,`description`,`region`,`district`,`created_time`,`updated_time`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?,?,?);
+2021-01-31 12:57:39,900 INFO 14055 [egg-sequelize](1ms) Executed (default): SELECT count(DISTINCT(`ad_id`)) AS `count` FROM `Advertise` AS `Advertise`;
+2021-01-31 12:57:39,902 INFO 14055 [egg-sequelize](1ms) Executed (default): SELECT `ad_id`, `user_id`, `type`, `dog_breed`, `price`, `date`, `start_time`, `duration`, `description`, `region`, `district`, `created_time`, `updated_time` FROM `Advertise` AS `Advertise` ORDER BY `Advertise`.`updated_time` DESC LIMIT 0, 10;
+2021-01-31 12:57:39,904 INFO 14055 [egg-sequelize](1ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`user_id` = 37;
+2021-01-31 12:57:39,915 INFO 14055 [egg-sequelize](1ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = 'MvB9icKtEsc2ObiD9oJazHMuPmI3' LIMIT 1;
+2021-01-31 12:57:39,927 INFO 14055 [egg-sequelize](2ms) Executed (default): SELECT count(DISTINCT(`ad_id`)) AS `count` FROM `Advertise` AS `Advertise`;
+2021-01-31 12:57:39,928 INFO 14055 [egg-sequelize](3ms) Executed (default): SELECT `ad_id`, `user_id`, `type`, `dog_breed`, `price`, `date`, `start_time`, `duration`, `description`, `region`, `district`, `created_time`, `updated_time` FROM `Advertise` AS `Advertise` ORDER BY `Advertise`.`updated_time` DESC LIMIT 0, 10;
+2021-01-31 12:57:39,929 INFO 14055 [egg-sequelize](1ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`user_id` = 37;
+2021-01-31 12:57:47,103 INFO 14055 [egg-sequelize](0ms) Executed (default): SELECT `ad_id`, `user_id`, `type`, `dog_breed`, `price`, `date`, `start_time`, `duration`, `description`, `region`, `district`, `created_time`, `updated_time` FROM `Advertise` AS `Advertise` WHERE `Advertise`.`user_id` = 37 ORDER BY `Advertise`.`updated_time` DESC LIMIT 0, 10;
+2021-01-31 12:57:47,104 INFO 14055 [egg-sequelize](1ms) Executed (default): SELECT count(DISTINCT(`ad_id`)) AS `count` FROM `Advertise` AS `Advertise` WHERE `Advertise`.`user_id` = 37;
+2021-01-31 12:57:47,105 INFO 14055 [egg-sequelize](1ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`user_id` = 37;
+2021-01-31 12:58:35,724 INFO 14055 [egg-sequelize](4ms) Executed (default): UPDATE `Advertise` SET `date`=? WHERE `ad_id` = ? AND `user_id` = ? AND `type` = ?
+2021-01-31 12:58:35,961 INFO 14055 [egg-sequelize](3ms) Executed (default): SELECT count(DISTINCT(`ad_id`)) AS `count` FROM `Advertise` AS `Advertise` WHERE `Advertise`.`user_id` = 37;
+2021-01-31 12:58:35,963 INFO 14055 [egg-sequelize](1ms) Executed (default): SELECT `ad_id`, `user_id`, `type`, `dog_breed`, `price`, `date`, `start_time`, `duration`, `description`, `region`, `district`, `created_time`, `updated_time` FROM `Advertise` AS `Advertise` WHERE `Advertise`.`user_id` = 37 ORDER BY `Advertise`.`updated_time` DESC LIMIT 0, 10;
+2021-01-31 12:58:35,968 INFO 14055 [egg-sequelize](2ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`user_id` = 37;
+2021-01-31 12:58:35,981 INFO 14055 [egg-sequelize](3ms) Executed (default): SELECT count(DISTINCT(`ad_id`)) AS `count` FROM `Advertise` AS `Advertise` WHERE `Advertise`.`user_id` = 37;
+2021-01-31 12:58:35,982 INFO 14055 [egg-sequelize](3ms) Executed (default): SELECT `ad_id`, `user_id`, `type`, `dog_breed`, `price`, `date`, `start_time`, `duration`, `description`, `region`, `district`, `created_time`, `updated_time` FROM `Advertise` AS `Advertise` WHERE `Advertise`.`user_id` = 37 ORDER BY `Advertise`.`updated_time` DESC LIMIT 0, 10;
+2021-01-31 12:58:35,984 INFO 14055 [egg-sequelize](1ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`user_id` = 37;
+2021-01-31 13:01:54,508 INFO 14055 [egg-sequelize](1ms) Executed (default): SELECT count(DISTINCT(`ad_id`)) AS `count` FROM `Advertise` AS `Advertise` WHERE `Advertise`.`user_id` = 37;
+2021-01-31 13:01:54,509 INFO 14055 [egg-sequelize](1ms) Executed (default): SELECT `ad_id`, `user_id`, `type`, `dog_breed`, `price`, `date`, `start_time`, `duration`, `description`, `region`, `district`, `created_time`, `updated_time` FROM `Advertise` AS `Advertise` WHERE `Advertise`.`user_id` = 37 ORDER BY `Advertise`.`updated_time` DESC LIMIT 0, 10;
+2021-01-31 13:01:54,513 INFO 14055 [egg-sequelize](3ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`user_id` = 37;
+2021-01-31 13:10:08,477 INFO 14055 [egg-sequelize](1ms) Executed (default): SELECT count(DISTINCT(`ad_id`)) AS `count` FROM `Advertise` AS `Advertise` WHERE `Advertise`.`user_id` = 37;
+2021-01-31 13:10:08,478 INFO 14055 [egg-sequelize](1ms) Executed (default): SELECT `ad_id`, `user_id`, `type`, `dog_breed`, `price`, `date`, `start_time`, `duration`, `description`, `region`, `district`, `created_time`, `updated_time` FROM `Advertise` AS `Advertise` WHERE `Advertise`.`user_id` = 37 ORDER BY `Advertise`.`updated_time` DESC LIMIT 0, 10;
+2021-01-31 13:10:08,481 INFO 14055 [egg-sequelize](2ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`user_id` = 37;
+2021-01-31 13:10:30,193 INFO 14055 [egg-sequelize](4ms) Executed (default): UPDATE `Advertise` SET `dog_breed`=? WHERE `ad_id` = ? AND `user_id` = ? AND `type` = ?
+2021-01-31 13:10:30,334 INFO 14055 [egg-sequelize](2ms) Executed (default): SELECT count(DISTINCT(`ad_id`)) AS `count` FROM `Advertise` AS `Advertise` WHERE `Advertise`.`user_id` = 37;
+2021-01-31 13:10:30,336 INFO 14055 [egg-sequelize](1ms) Executed (default): SELECT `ad_id`, `user_id`, `type`, `dog_breed`, `price`, `date`, `start_time`, `duration`, `description`, `region`, `district`, `created_time`, `updated_time` FROM `Advertise` AS `Advertise` WHERE `Advertise`.`user_id` = 37 ORDER BY `Advertise`.`updated_time` DESC LIMIT 0, 10;
+2021-01-31 13:10:30,341 INFO 14055 [egg-sequelize](2ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`user_id` = 37;
+2021-01-31 13:10:30,371 INFO 14055 [egg-sequelize](4ms) Executed (default): SELECT count(DISTINCT(`ad_id`)) AS `count` FROM `Advertise` AS `Advertise` WHERE `Advertise`.`user_id` = 37;
+2021-01-31 13:10:30,372 INFO 14055 [egg-sequelize](5ms) Executed (default): SELECT `ad_id`, `user_id`, `type`, `dog_breed`, `price`, `date`, `start_time`, `duration`, `description`, `region`, `district`, `created_time`, `updated_time` FROM `Advertise` AS `Advertise` WHERE `Advertise`.`user_id` = 37 ORDER BY `Advertise`.`updated_time` DESC LIMIT 0, 10;
+2021-01-31 13:10:30,374 INFO 14055 [egg-sequelize](2ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`user_id` = 37;
+2021-01-31 13:18:30,540 INFO 14055 [egg-sequelize](1ms) Executed (default): SELECT count(DISTINCT(`ad_id`)) AS `count` FROM `Advertise` AS `Advertise` WHERE `Advertise`.`user_id` = 37;
+2021-01-31 13:18:30,541 INFO 14055 [egg-sequelize](2ms) Executed (default): SELECT `ad_id`, `user_id`, `type`, `dog_breed`, `price`, `date`, `start_time`, `duration`, `description`, `region`, `district`, `created_time`, `updated_time` FROM `Advertise` AS `Advertise` WHERE `Advertise`.`user_id` = 37 ORDER BY `Advertise`.`updated_time` DESC LIMIT 0, 10;
+2021-01-31 13:18:30,542 INFO 14055 [egg-sequelize](1ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`user_id` = 37;
+2021-01-31 13:18:32,171 INFO 14055 [egg-sequelize](5ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = 'MvB9icKtEsc2ObiD9oJazHMuPmI3' LIMIT 1;
+2021-01-31 13:18:32,173 INFO 14055 [egg-sequelize](1ms) Executed (default): SELECT count(DISTINCT(`ad_id`)) AS `count` FROM `Advertise` AS `Advertise`;
+2021-01-31 13:18:32,174 INFO 14055 [egg-sequelize](1ms) Executed (default): SELECT `ad_id`, `user_id`, `type`, `dog_breed`, `price`, `date`, `start_time`, `duration`, `description`, `region`, `district`, `created_time`, `updated_time` FROM `Advertise` AS `Advertise` ORDER BY `Advertise`.`updated_time` DESC LIMIT 0, 10;
+2021-01-31 13:18:32,177 INFO 14055 [egg-sequelize](3ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`user_id` = 37;
+2021-01-31 13:18:34,324 INFO 14055 [egg-sequelize](2ms) Executed (default): SELECT count(DISTINCT(`ad_id`)) AS `count` FROM `Advertise` AS `Advertise` WHERE `Advertise`.`user_id` = 37;
+2021-01-31 13:18:34,325 INFO 14055 [egg-sequelize](2ms) Executed (default): SELECT `ad_id`, `user_id`, `type`, `dog_breed`, `price`, `date`, `start_time`, `duration`, `description`, `region`, `district`, `created_time`, `updated_time` FROM `Advertise` AS `Advertise` WHERE `Advertise`.`user_id` = 37 ORDER BY `Advertise`.`updated_time` DESC LIMIT 0, 10;
+2021-01-31 13:18:34,327 INFO 14055 [egg-sequelize](1ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`user_id` = 37;
+2021-01-31 13:18:35,056 INFO 14055 [egg-sequelize](5ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = 'MvB9icKtEsc2ObiD9oJazHMuPmI3' LIMIT 1;
+2021-01-31 13:18:35,058 INFO 14055 [egg-sequelize](1ms) Executed (default): SELECT `ad_id`, `user_id`, `type`, `dog_breed`, `price`, `date`, `start_time`, `duration`, `description`, `region`, `district`, `created_time`, `updated_time` FROM `Advertise` AS `Advertise` ORDER BY `Advertise`.`updated_time` DESC LIMIT 0, 10;
+2021-01-31 13:18:35,058 INFO 14055 [egg-sequelize](4ms) Executed (default): SELECT count(DISTINCT(`ad_id`)) AS `count` FROM `Advertise` AS `Advertise`;
+2021-01-31 13:18:35,062 INFO 14055 [egg-sequelize](2ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`user_id` = 37;
+2021-01-31 13:18:37,092 INFO 14055 [egg-sequelize](1ms) Executed (default): SELECT count(DISTINCT(`contacted_id`)) AS `count` FROM `contacted` AS `contacted` WHERE `contacted`.`user_id` = 37;
+2021-01-31 13:18:37,092 INFO 14055 [egg-sequelize](1ms) Executed (default): SELECT `contacted_id`, `user_id`, `ad_id` FROM `contacted` AS `contacted` WHERE `contacted`.`user_id` = 37 LIMIT 0, 10;
+2021-01-31 13:18:37,908 INFO 14055 [egg-sequelize](1ms) Executed (default): SELECT count(DISTINCT(`ad_id`)) AS `count` FROM `Advertise` AS `Advertise`;
+2021-01-31 13:18:37,910 INFO 14055 [egg-sequelize](2ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = 'MvB9icKtEsc2ObiD9oJazHMuPmI3' LIMIT 1;
+2021-01-31 13:18:37,911 INFO 14055 [egg-sequelize](4ms) Executed (default): SELECT `ad_id`, `user_id`, `type`, `dog_breed`, `price`, `date`, `start_time`, `duration`, `description`, `region`, `district`, `created_time`, `updated_time` FROM `Advertise` AS `Advertise` ORDER BY `Advertise`.`updated_time` DESC LIMIT 0, 10;
+2021-01-31 13:18:37,912 INFO 14055 [egg-sequelize](1ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`user_id` = 37;
+2021-01-31 13:18:40,263 INFO 14055 [egg-sequelize](1ms) Executed (c4dcac2b-1913-44f0-810d-198c993e5434): START TRANSACTION;
+2021-01-31 13:18:40,266 INFO 14055 [egg-sequelize](2ms) Executed (c4dcac2b-1913-44f0-810d-198c993e5434): SELECT `contacted_id`, `user_id`, `ad_id` FROM `contacted` AS `contacted` WHERE `contacted`.`user_id` = 37 AND `contacted`.`ad_id` = 14 LIMIT 1;
+2021-01-31 13:18:40,270 INFO 14055 [egg-sequelize](3ms) Executed (c4dcac2b-1913-44f0-810d-198c993e5434): INSERT INTO `contacted` (`contacted_id`,`user_id`,`ad_id`) VALUES (DEFAULT,?,?);
+2021-01-31 13:18:40,275 INFO 14055 [egg-sequelize](4ms) Executed (c4dcac2b-1913-44f0-810d-198c993e5434): COMMIT;
+2021-01-31 13:18:40,399 INFO 14055 [egg-sequelize](1ms) Executed (default): SELECT count(DISTINCT(`ad_id`)) AS `count` FROM `Advertise` AS `Advertise`;
+2021-01-31 13:18:40,400 INFO 14055 [egg-sequelize](2ms) Executed (default): SELECT `ad_id`, `user_id`, `type`, `dog_breed`, `price`, `date`, `start_time`, `duration`, `description`, `region`, `district`, `created_time`, `updated_time` FROM `Advertise` AS `Advertise` ORDER BY `Advertise`.`updated_time` DESC LIMIT 0, 10;
+2021-01-31 13:18:40,402 INFO 14055 [egg-sequelize](1ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`user_id` = 37;
+2021-01-31 13:18:42,207 INFO 14055 [egg-sequelize](1ms) Executed (default): SELECT `contacted_id`, `user_id`, `ad_id` FROM `contacted` AS `contacted` WHERE `contacted`.`user_id` = 37 LIMIT 0, 10;
+2021-01-31 13:18:42,209 INFO 14055 [egg-sequelize](3ms) Executed (default): SELECT count(DISTINCT(`contacted_id`)) AS `count` FROM `contacted` AS `contacted` WHERE `contacted`.`user_id` = 37;
+2021-01-31 13:18:42,212 INFO 14055 [egg-sequelize](2ms) Executed (default): SELECT `ad_id`, `user_id`, `type`, `dog_breed`, `price`, `date`, `start_time`, `duration`, `description`, `region`, `district`, `created_time`, `updated_time` FROM `Advertise` AS `Advertise` WHERE `Advertise`.`ad_id` = 14;
+2021-01-31 13:18:42,214 INFO 14055 [egg-sequelize](1ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`user_id` = 37;
+2021-01-31 13:18:58,885 INFO 14055 [egg-sequelize](1ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = 'MvB9icKtEsc2ObiD9oJazHMuPmI3' LIMIT 1;
+2021-01-31 13:18:58,888 INFO 14055 [egg-sequelize](3ms) Executed (default): SELECT count(DISTINCT(`ad_id`)) AS `count` FROM `Advertise` AS `Advertise`;
+2021-01-31 13:18:58,889 INFO 14055 [egg-sequelize](4ms) Executed (default): SELECT `ad_id`, `user_id`, `type`, `dog_breed`, `price`, `date`, `start_time`, `duration`, `description`, `region`, `district`, `created_time`, `updated_time` FROM `Advertise` AS `Advertise` ORDER BY `Advertise`.`updated_time` DESC LIMIT 0, 10;
+2021-01-31 13:18:58,891 INFO 14055 [egg-sequelize](1ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`user_id` = 37;
+2021-01-31 13:19:01,881 INFO 14055 [egg-sequelize](2ms) Executed (default): SELECT count(DISTINCT(`contacted_id`)) AS `count` FROM `contacted` AS `contacted` WHERE `contacted`.`user_id` = 37;
+2021-01-31 13:19:01,882 INFO 14055 [egg-sequelize](3ms) Executed (default): SELECT `contacted_id`, `user_id`, `ad_id` FROM `contacted` AS `contacted` WHERE `contacted`.`user_id` = 37 LIMIT 0, 10;
+2021-01-31 13:19:01,884 INFO 14055 [egg-sequelize](1ms) Executed (default): SELECT `ad_id`, `user_id`, `type`, `dog_breed`, `price`, `date`, `start_time`, `duration`, `description`, `region`, `district`, `created_time`, `updated_time` FROM `Advertise` AS `Advertise` WHERE `Advertise`.`ad_id` = 14;
+2021-01-31 13:19:01,886 INFO 14055 [egg-sequelize](1ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`user_id` = 37;
+2021-01-31 13:19:25,555 INFO 14055 [egg-sequelize](1ms) Executed (default): SELECT `contacted_id`, `user_id`, `ad_id` FROM `contacted` AS `contacted` WHERE (`contacted`.`contacted_id` = 14 AND `contacted`.`user_id` = 37) LIMIT 1;
+2021-01-31 13:19:25,564 INFO 14055 [egg-sequelize](5ms) Executed (default): DELETE FROM `contacted` WHERE (`contacted_id` = 14 AND `user_id` = 37)
+2021-01-31 13:19:25,648 INFO 14055 [egg-sequelize](2ms) Executed (default): SELECT count(DISTINCT(`contacted_id`)) AS `count` FROM `contacted` AS `contacted` WHERE `contacted`.`user_id` = 37;
+2021-01-31 13:19:25,649 INFO 14055 [egg-sequelize](1ms) Executed (default): SELECT `contacted_id`, `user_id`, `ad_id` FROM `contacted` AS `contacted` WHERE `contacted`.`user_id` = 37 LIMIT 0, 10;
+2021-01-31 13:20:51,545 INFO 14055 [egg-sequelize](1ms) Executed (default): SELECT `contacted_id`, `user_id`, `ad_id` FROM `contacted` AS `contacted` WHERE `contacted`.`user_id` = 37 LIMIT 0, 10;
+2021-01-31 13:20:51,546 INFO 14055 [egg-sequelize](2ms) Executed (default): SELECT count(DISTINCT(`contacted_id`)) AS `count` FROM `contacted` AS `contacted` WHERE `contacted`.`user_id` = 37;
+2021-01-31 13:20:54,647 INFO 14055 [egg-sequelize](1ms) Executed (default): SELECT count(DISTINCT(`ad_id`)) AS `count` FROM `Advertise` AS `Advertise`;
+2021-01-31 13:20:54,648 INFO 14055 [egg-sequelize](1ms) Executed (default): SELECT `ad_id`, `user_id`, `type`, `dog_breed`, `price`, `date`, `start_time`, `duration`, `description`, `region`, `district`, `created_time`, `updated_time` FROM `Advertise` AS `Advertise` ORDER BY `Advertise`.`updated_time` DESC LIMIT 0, 10;
+2021-01-31 13:20:54,650 INFO 14055 [egg-sequelize](1ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`user_id` = 37;
+2021-01-31 13:20:54,703 INFO 14055 [egg-sequelize](0ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = 'MvB9icKtEsc2ObiD9oJazHMuPmI3' LIMIT 1;
+2021-01-31 13:20:58,817 INFO 14055 [egg-sequelize](0ms) Executed (869c7d9e-e2fa-43c9-a093-399397eb98ec): START TRANSACTION;
+2021-01-31 13:20:58,819 INFO 14055 [egg-sequelize](1ms) Executed (869c7d9e-e2fa-43c9-a093-399397eb98ec): SELECT `contacted_id`, `user_id`, `ad_id` FROM `contacted` AS `contacted` WHERE `contacted`.`user_id` = 37 AND `contacted`.`ad_id` = 14 LIMIT 1;
+2021-01-31 13:20:58,822 INFO 14055 [egg-sequelize](1ms) Executed (869c7d9e-e2fa-43c9-a093-399397eb98ec): INSERT INTO `contacted` (`contacted_id`,`user_id`,`ad_id`) VALUES (DEFAULT,?,?);
+2021-01-31 13:20:58,823 INFO 14055 [egg-sequelize](1ms) Executed (869c7d9e-e2fa-43c9-a093-399397eb98ec): COMMIT;
+2021-01-31 13:20:58,911 INFO 14055 [egg-sequelize](1ms) Executed (default): SELECT count(DISTINCT(`ad_id`)) AS `count` FROM `Advertise` AS `Advertise`;
+2021-01-31 13:20:58,911 INFO 14055 [egg-sequelize](1ms) Executed (default): SELECT `ad_id`, `user_id`, `type`, `dog_breed`, `price`, `date`, `start_time`, `duration`, `description`, `region`, `district`, `created_time`, `updated_time` FROM `Advertise` AS `Advertise` ORDER BY `Advertise`.`updated_time` DESC LIMIT 0, 10;
+2021-01-31 13:20:58,912 INFO 14055 [egg-sequelize](0ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`user_id` = 37;
+2021-01-31 13:21:01,080 INFO 14055 [egg-sequelize](0ms) Executed (default): SELECT `contacted_id`, `user_id`, `ad_id` FROM `contacted` AS `contacted` WHERE `contacted`.`user_id` = 37 LIMIT 0, 10;
+2021-01-31 13:21:01,080 INFO 14055 [egg-sequelize](1ms) Executed (default): SELECT count(DISTINCT(`contacted_id`)) AS `count` FROM `contacted` AS `contacted` WHERE `contacted`.`user_id` = 37;
+2021-01-31 13:21:01,083 INFO 14055 [egg-sequelize](2ms) Executed (default): SELECT `ad_id`, `user_id`, `type`, `dog_breed`, `price`, `date`, `start_time`, `duration`, `description`, `region`, `district`, `created_time`, `updated_time` FROM `Advertise` AS `Advertise` WHERE `Advertise`.`ad_id` = 14;
+2021-01-31 13:21:01,085 INFO 14055 [egg-sequelize](1ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`user_id` = 37;
+2021-01-31 13:21:34,057 INFO 14055 [egg-sequelize](0ms) Executed (default): SELECT `contacted_id`, `user_id`, `ad_id` FROM `contacted` AS `contacted` WHERE (`contacted`.`contacted_id` = 15 AND `contacted`.`user_id` = 37) LIMIT 1;
+2021-01-31 13:21:34,065 INFO 14055 [egg-sequelize](7ms) Executed (default): DELETE FROM `contacted` WHERE (`contacted_id` = 15 AND `user_id` = 37)
+2021-01-31 13:21:34,150 INFO 14055 [egg-sequelize](2ms) Executed (default): SELECT count(DISTINCT(`contacted_id`)) AS `count` FROM `contacted` AS `contacted` WHERE `contacted`.`user_id` = 37;
+2021-01-31 13:21:34,151 INFO 14055 [egg-sequelize](1ms) Executed (default): SELECT `contacted_id`, `user_id`, `ad_id` FROM `contacted` AS `contacted` WHERE `contacted`.`user_id` = 37 LIMIT 0, 10;
+2021-01-31 13:25:48,333 INFO 14055 [egg-sequelize](0ms) Executed (default): SELECT count(DISTINCT(`ad_id`)) AS `count` FROM `Advertise` AS `Advertise`;
+2021-01-31 13:25:48,334 INFO 14055 [egg-sequelize](0ms) Executed (default): SELECT `ad_id`, `user_id`, `type`, `dog_breed`, `price`, `date`, `start_time`, `duration`, `description`, `region`, `district`, `created_time`, `updated_time` FROM `Advertise` AS `Advertise` ORDER BY `Advertise`.`updated_time` DESC LIMIT 0, 10;
+2021-01-31 13:25:48,341 INFO 14055 [egg-sequelize](6ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`uid` = 'MvB9icKtEsc2ObiD9oJazHMuPmI3' LIMIT 1;
+2021-01-31 13:25:48,343 INFO 14055 [egg-sequelize](6ms) Executed (default): SELECT `user_id`, `uid`, `first_name`, `last_name`, `email`, `password`, `channel`, `region`, `district`, `detail_address`, `gender`, `avatar`, `created_time`, `updated_time` FROM `User` AS `User` WHERE `User`.`user_id` = 37;

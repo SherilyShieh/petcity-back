@@ -62,6 +62,7 @@ class AdvertiseController extends Controller {
         if (Number(index) <= 0 || Number(pageSize) < 0) ctx.throw(500, 'Invalid parameter!');
         const result = await ctx.service.advertise.getAllAds(Number(index), Number(pageSize), ctx.query.dog_breed, ctx.query.region, ctx.query.district);
         ctx.body = result;
+        ctx.set("Transfer-Encoding", "chunked");
 
     }
 
@@ -82,6 +83,7 @@ class AdvertiseController extends Controller {
         if (Number(index) <= 0 || Number(pageSize) < 0 || Number(userId) < 0) ctx.throw(500, 'Invalid parameter!');
         const result = await ctx.service.advertise.getMyAds(Number(index), Number(pageSize), Number(userId));
         ctx.body = result;
+        ctx.set("Transfer-Encoding", "chunked");
 
     }
 
@@ -135,6 +137,7 @@ class AdvertiseController extends Controller {
         if (Number(index) <= 0 || Number(pageSize) < 0 || Number(userId) < 0) ctx.throw(500, 'Invalid parameter!');
         const result = await ctx.service.advertise.getAllContacted(Number(index), Number(pageSize), Number(userId));
         ctx.body = result;
+        ctx.set("Transfer-Encoding", "chunked");
 
     }
 

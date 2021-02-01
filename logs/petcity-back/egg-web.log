@@ -107,3 +107,16 @@
 2021-02-01 15:44:34,871 INFO 69945 [egg:core] dump config after load, 8ms
 2021-02-01 15:44:34,952 INFO 69945 [egg-watcher:application] watcher start success
 2021-02-01 15:44:34,976 INFO 69945 [egg:core] dump config after ready, 6ms
+2021-02-01 16:04:08,646 INFO 70844 [egg:logger] init all loggers with options: {"dir":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/logs/petcity-back","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"petcity-back-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-01 16:04:08,678 INFO 70844 [egg-multipart] stream mode enable
+2021-02-01 16:04:09,085 INFO 70844 [egg-static] starting static serve /public/ -> /Users/sherily/Desktop/Petcity/Repo/petcity-back/app/public
+2021-02-01 16:04:09,087 INFO 70844 [egg-security] use methodnoallow middleware
+2021-02-01 16:04:09,088 INFO 70844 [egg-security] use noopen middleware
+2021-02-01 16:04:09,088 INFO 70844 [egg-security] use nosniff middleware
+2021-02-01 16:04:09,089 INFO 70844 [egg-security] use xssProtection middleware
+2021-02-01 16:04:09,091 INFO 70844 [egg-security] use xframe middleware
+2021-02-01 16:04:09,091 INFO 70844 [egg-security] use dta middleware
+2021-02-01 16:04:09,091 INFO 70844 [egg-security] compose 6 middlewares into one security middleware
+2021-02-01 16:04:09,103 INFO 70844 [egg:core] dump config after load, 5ms
+2021-02-01 16:04:09,208 INFO 70844 [egg-watcher:application] watcher start success
+2021-02-01 16:04:12,849 INFO 70844 [egg:core] dump config after ready, 5ms

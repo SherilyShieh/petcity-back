@@ -123,3 +123,24 @@
 2021-02-01 15:44:34,931 INFO 69945 [egg-swagger-doc] register router: post /api/v1/updateProfile for controller-user-updateProfile 
 2021-02-01 15:44:34,931 INFO 69945 [egg-swagger-doc] register router: post /api/v1/saveAvatar for controller-user-saveAvatar 
 2021-02-01 15:44:34,967 INFO 69945 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-02-01 16:04:09,145 INFO 70844 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-01 16:04:09,177 INFO 70844 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-01 16:04:09,178 INFO 70844 [egg-swagger-doc] register router: put /api/v1/postAd for controller-advertise-postAd 
+2021-02-01 16:04:09,178 INFO 70844 [egg-swagger-doc] register router: post /api/v1/updateAd for controller-advertise-updateAd 
+2021-02-01 16:04:09,179 INFO 70844 [egg-swagger-doc] register router: get /api/v1/getAllAds for controller-advertise-getAllAds 
+2021-02-01 16:04:09,179 INFO 70844 [egg-swagger-doc] register router: get /api/v1/getMyAds for controller-advertise-getMyAds 
+2021-02-01 16:04:09,179 INFO 70844 [egg-swagger-doc] register router: put /api/v1/addContacted for controller-advertise-addContacted 
+2021-02-01 16:04:09,179 INFO 70844 [egg-swagger-doc] register router: delete /api/v1/deleteMyAds for controller-advertise-deleteMyAds 
+2021-02-01 16:04:09,180 INFO 70844 [egg-swagger-doc] register router: get /api/v1/getAllContacted for controller-advertise-getAllContacted 
+2021-02-01 16:04:09,180 INFO 70844 [egg-swagger-doc] register router: delete /api/v1/deleteContacted for controller-advertise-deleteContacted 
+2021-02-01 16:04:09,182 INFO 70844 [egg-swagger-doc] register router: put /api/v1/create for controller-test-create 
+2021-02-01 16:04:09,182 INFO 70844 [egg-swagger-doc] register router: post /api/v1/update for controller-test-update 
+2021-02-01 16:04:09,182 INFO 70844 [egg-swagger-doc] register router: delete /api/v1/delete for controller-test-delete 
+2021-02-01 16:04:09,182 INFO 70844 [egg-swagger-doc] register router: get /api/v1/getInfo for controller-test-getInfo 
+2021-02-01 16:04:09,183 INFO 70844 [egg-swagger-doc] register router: put /api/v1/signUp for controller-user-signUp 
+2021-02-01 16:04:09,183 INFO 70844 [egg-swagger-doc] register router: put /api/v1/register for controller-user-register 
+2021-02-01 16:04:09,183 INFO 70844 [egg-swagger-doc] register router: get /api/v1/getUser for controller-user-getUser 
+2021-02-01 16:04:09,190 INFO 70844 [egg-swagger-doc] register router: get /api/v1/verifyEmail for controller-user-verifyEmail 
+2021-02-01 16:04:09,190 INFO 70844 [egg-swagger-doc] register router: post /api/v1/updateProfile for controller-user-updateProfile 
+2021-02-01 16:04:09,190 INFO 70844 [egg-swagger-doc] register router: post /api/v1/saveAvatar for controller-user-saveAvatar 
+2021-02-01 16:04:12,842 INFO 70844 [egg-sequelize](330ms) Executed (default): SELECT 1+1 AS result

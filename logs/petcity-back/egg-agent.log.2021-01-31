@@ -1,0 +1,135 @@
+2021-01-31 00:00:02,191 INFO 86438 [egg-logrotator] agent logger reload: got log-reload message
+2021-01-31 00:25:52,795 ERROR 86438 nodejs.ClusterClientNoResponseError: client no response in 251480ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 86438
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-31 00:31:00,041 ERROR 86438 nodejs.ClusterClientNoResponseError: client no response in 267209ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 86438
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-31 00:47:56,941 ERROR 86438 nodejs.ClusterClientNoResponseError: client no response in 976130ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 86438
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-31 01:04:06,704 ERROR 86438 nodejs.ClusterClientNoResponseError: client no response in 928951ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 86438
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-31 01:17:53,793 ERROR 86438 nodejs.ClusterClientNoResponseError: client no response in 787060ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 86438
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-31 01:44:26,952 ERROR 86438 nodejs.ClusterClientNoResponseError: client no response in 1552409ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 86438
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-31 03:45:14,001 ERROR 86438 nodejs.ClusterClientNoResponseError: client no response in 7206978ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 86438
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-31 05:46:02,755 ERROR 86438 nodejs.ClusterClientNoResponseError: client no response in 7207240ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 86438
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-31 07:47:08,092 ERROR 86438 nodejs.ClusterClientNoResponseError: client no response in 7205227ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 86438
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-31 08:25:44,472 ERROR 86438 nodejs.ClusterClientNoResponseError: client no response in 2275554ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 86438
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-31 08:39:07,675 ERROR 86438 nodejs.ClusterClientNoResponseError: client no response in 761663ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 86438
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-31 10:18:30,626 ERROR 86438 nodejs.ClusterClientNoResponseError: client no response in 5922900ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 86438
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-31 10:49:38,784 ERROR 86438 nodejs.ClusterClientNoResponseError: client no response in 306846ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 86438
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-31 10:52:35,813 ERROR 86438 nodejs.ClusterClientNoResponseError: client no response in 135504ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 86438
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-31 11:39:13,399 ERROR 86438 nodejs.ClusterClientNoResponseError: client no response in 456344ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 86438
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-31 13:55:34,809 INFO 86438 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/public/upload/20210123","remove":true,"isDirectory":true,"isFile":false}
+2021-01-31 13:55:34,810 INFO 86438 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/app/public/upload/20210124","remove":true,"isDirectory":true,"isFile":false}
+2021-01-31 22:43:43,953 INFO 43274 [egg-sequelize](8ms) Executed (default): SELECT 1+1 AS result
+2021-01-31 22:43:43,412 INFO 43274 [egg:logger] init all loggers with options: {"dir":"/Users/sherily/Desktop/Petcity/Repo/petcity-back/logs/petcity-back","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"petcity-back-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-01-31 22:43:43,763 INFO 43274 [egg-alinode] alinode agentx started, node versions: {"node":"15.4.0","v8":"8.6.395.17-node.22","uv":"1.40.0","zlib":"1.2.11","brotli":"1.0.9","ares":"1.16.1","modules":"88","nghttp2":"1.41.0","napi":"7","llhttp":"2.1.3","openssl":"1.1.1g","cldr":"38.0","icu":"68.1","tz":"2020b","unicode":"13.0"}, update /Users/sherily/.nodepath with "/usr/local/bin", config: {"server":"wss://agentserver.node.aliyun.com:8080","appid":"87325"}
+2021-01-31 22:43:43,767 INFO 43274 [egg:core] dump config after load, 4ms
+2021-01-31 22:43:43,857 INFO 43274 [egg-watcher] Start watching: ["/Users/sherily/Desktop/Petcity/Repo/petcity-back/app","/Users/sherily/Desktop/Petcity/Repo/petcity-back/config","/Users/sherily/Desktop/Petcity/Repo/petcity-back/mocks","/Users/sherily/Desktop/Petcity/Repo/petcity-back/mocks_proxy","/Users/sherily/Desktop/Petcity/Repo/petcity-back/app.js"]
+2021-01-31 22:43:43,857 INFO 43274 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/app"
+2021-01-31 22:43:43,858 INFO 43274 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/config"
+2021-01-31 22:43:43,858 INFO 43274 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/mocks"
+2021-01-31 22:43:43,858 INFO 43274 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/mocks_proxy"
+2021-01-31 22:43:43,858 INFO 43274 [egg-watcher] Start watching: "/Users/sherily/Desktop/Petcity/Repo/petcity-back/app.js"
+2021-01-31 22:43:43,858 INFO 43274 [egg-watcher:agent] watcher start success
+2021-01-31 22:43:44,014 INFO 43274 [egg:core] dump config after ready, 58ms

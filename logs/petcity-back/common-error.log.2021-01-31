@@ -1,0 +1,120 @@
+2021-01-31 00:25:52,788 ERROR 86438 nodejs.ClusterClientNoResponseError: client no response in 251480ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 86438
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-31 00:31:00,041 ERROR 86438 nodejs.ClusterClientNoResponseError: client no response in 267209ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 86438
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-31 00:47:56,941 ERROR 86438 nodejs.ClusterClientNoResponseError: client no response in 976130ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 86438
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-31 01:04:06,703 ERROR 86438 nodejs.ClusterClientNoResponseError: client no response in 928951ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 86438
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-31 01:17:53,792 ERROR 86438 nodejs.ClusterClientNoResponseError: client no response in 787060ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 86438
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-31 01:44:26,952 ERROR 86438 nodejs.ClusterClientNoResponseError: client no response in 1552409ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 86438
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-31 03:45:14,001 ERROR 86438 nodejs.ClusterClientNoResponseError: client no response in 7206978ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 86438
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-31 05:46:02,755 ERROR 86438 nodejs.ClusterClientNoResponseError: client no response in 7207240ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 86438
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-31 07:47:08,092 ERROR 86438 nodejs.ClusterClientNoResponseError: client no response in 7205227ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 86438
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-31 08:25:44,472 ERROR 86438 nodejs.ClusterClientNoResponseError: client no response in 2275554ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 86438
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-31 08:39:07,674 ERROR 86438 nodejs.ClusterClientNoResponseError: client no response in 761663ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 86438
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-31 10:18:30,626 ERROR 86438 nodejs.ClusterClientNoResponseError: client no response in 5922900ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 86438
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-31 10:49:38,782 ERROR 86438 nodejs.ClusterClientNoResponseError: client no response in 306846ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 86438
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-31 10:52:35,813 ERROR 86438 nodejs.ClusterClientNoResponseError: client no response in 135504ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 86438
+hostname: xiejialis-MacBook-Pro.local
+
+2021-01-31 11:39:13,399 ERROR 86438 nodejs.ClusterClientNoResponseError: client no response in 456344ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/sherily/Desktop/Petcity/Repo/petcity-back/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 86438
+hostname: xiejialis-MacBook-Pro.local
+
